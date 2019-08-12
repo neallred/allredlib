@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
   git \
   && \
   curl https://get.haskellstack.org/ | sh && \
-  apt-get remove curl \
+  apt-get remove curl && \
   rm -rf /var/lib/apt/lists/*
 RUN git clone https://github.com/neallred/allredlib.git
 WORKDIR allredlib

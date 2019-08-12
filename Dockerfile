@@ -7,7 +7,6 @@ RUN apt-get update && apt-get install -y \
   nodejs \
   && \
   curl https://get.haskellstack.org/ | sh && \
-  apt-get remove -y curl && \
   rm -rf /var/lib/apt/lists/*
 RUN git clone https://github.com/neallred/allredlib.git
 WORKDIR allredlib
@@ -16,7 +15,11 @@ RUN git pull && apt-get remove -y git
 RUN stack build --copy-bins --local-bin-path ./ && rm -rf ~/.stack && rm -rf .stack-work
 
 # STATIC FILE BUILD
-RUN npx pulp build --main Main --include client --to static/index.js && cp client/index.html static/index.html && apt-get remove -y nodejs
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash && \
+  [ -s "~/.nvm/nvm.sh" ] && \. "~/.nvm/nvm.sh" && \
+  nvm install 10 && \
+  npm i && \
+  npm run build
 
 # ASSEMBLE FINAL IMAGE
 FROM debian:buster
@@ -24,6 +27,7 @@ RUN mkdir /server-mount
 COPY --from=build /build-mount/allredlib/server /server-mount/server
 COPY --from=build /build-mount/allredlib/static /server-mount/static
 WORKDIR server-mount/
+
 
 # RUN STATIC SERVER
 CMD ["./server"]

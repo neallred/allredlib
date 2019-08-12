@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  allredlib:
+    build: ./
+    restart: "no"
+    expose:
+      - 80
+    environment:
+      VIRTUAL_HOST: library.allthings.red
+    container_name: allredlib
+
+networks:
+  default:
+    external:
+      name: nginx-proxy

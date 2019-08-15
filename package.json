@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx pulp build --main Main --include client --to static/index.js && cp client/index.html static/index.html"
+    "install-ps": "npx psc-package install",
+    "build": "npx pulp --psc-package build --main Main --include client --to static/js/index.js"
   },
   "author": "",
   "license": "ISC",

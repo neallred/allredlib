@@ -27,9 +27,9 @@ initialState _ = { enabled : false }
 
 render :: forall m. State -> H.ComponentHTML Action () m
 render state =
-   HH.ul
-   []
-   (map (\x -> HH.li [] [HH.text (x.title <> ": " <> x.author)]) books)
+  HH.div []
+    [ HH.ul [] (map (\x -> HH.li [] [HH.text (x.title <> ": " <> x.author)]) books)
+    ]
 
 handleAction :: forall o m. Action -> H.HalogenM State Action () o m Unit
 handleAction = case _ of

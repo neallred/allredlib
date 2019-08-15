@@ -7,10 +7,29 @@ services:
     expose:
       - 80
     environment:
-      VIRTUAL_HOST: library.allthings.red
+      VIRTUAL_HOST: ${ALLREDLIB_VIRTUAL_HOST}
+      ALLREDLIB_PGUSER: ${ALLREDLIB_PGUSER}
+      ALLREDLIB_PGPASS: ${ALLREDLIB_PGPASS}
     container_name: allredlib
+
+  allredlib_db:
+    image: "postgres:11"
+    container_name: "allredlib_db"
+    expose:
+      - 5432
+    environment:
+      ALLREDLIB_PGUSER: ${ALLREDLIB_PGUSER}
+      ALLREDLIB_PGPASS: ${ALLREDLIB_PGPASS}
+    volumes:
+      - allredlib_dbdata:/var/lib/postgresql/data_allredlib
+    networks:
+      allredlib_network:
+
+volumes:
+  allredlib_dbdata:
 
 networks:
   default:
     external:
       name: nginx-proxy
+  allredlib_network:

@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y \
   curl \
   git \
   libncurses5 \
+  libpq-dev \
   nodejs \
   && \
   curl https://get.haskellstack.org/ | sh && \

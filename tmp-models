@@ -1,0 +1,115 @@
+-- WIP model for library data
+
+Creator json
+  lastName Text
+  firstName Text Maybe
+  birth Day Maybe
+  death Day Maybe
+  bio Text Maybe
+  site Text Maybe
+
+AuthorTitle json
+  titleId TitleId 
+  authorId CreatorId 
+  UniqueAuthorTitle titleId authorId 
+
+EditionIllustrator json
+  editionId EditionId
+  illustratorId CreatorId
+  UniqueEditionIllustrator titleId illustratorId
+
+Genre json
+  genre String
+
+GenreTitle json
+  titleId TitleId
+  genreId GenreId
+  UniqueGenreTitle titleId genreId
+
+Publisher
+  name Text
+
+Imprint
+  imprint Text
+
+ImprintPublisher
+  publisherId PublisherId
+  imprintId ImprintId
+  UniqueImprintPublisher publisherId imprintId
+
+Title
+  title Text
+  subtitle Text Maybe
+  synopsis Text Maybe
+  seriesId SeriesId Maybe
+  seriesNumber Int Maybe
+  subseriesId SubseriesId Maybe
+  subseriesNumber Int Maybe -- which number is this work in the series.
+  genreId Genre
+  year Int Maybe -- typically, the copyright year of the true first edition. Possibly earlier if the book was known to have been completed earlier but was not published for several years.
+
+Series json
+  title Text
+  synopsis Text Maybe
+  totalBookMembers Int
+  totalSubseries Int Maybe 
+
+Subseries json
+  title Text
+  synopsis Text Maybe
+  totalBookMembers Int
+  seriesId SeriesId
+
+Edition
+  name Text
+  year Int
+  language Text Maybe
+  titleId TitleId
+  binding Text Maybe
+  publisherImprintId PublisherImprintId
+
+Printing
+  printing Int
+  editionId EditionId
+  isbn Text Maybe
+  UniqueEditionPrinting printing editionId
+  pages Int Maybe
+  leafPages Int Maybe (sheets of paper between covers * 2)
+
+Manifestation
+  titleId TitleId
+  editionId TitleId
+  printId PrintId
+  condition Text Maybe -- (ENUM)
+  distinguishingMarks Text Maybe
+
+CreatorManifestation
+  manifestationId
+  creatorId CreatorId
+  signed Boolean
+
+Role
+  role Text -- ENUM { Admin, Patron }
+
+User
+  email Text
+  password Text Maybe
+  roleId Role
+  username Text Maybe
+  verified Bool
+  password_reset_token Text Maybe
+  salt Text Maybe
+  UniqueUserEmail email
+
+
+Checkout
+  manifestationId ManifestationId
+  outDate DateTime
+  inDate DateTime Maybe
+  comments Text Maybe -- can add things like returned with torn pages.
+  -- TODO: how to handle books that are deleted?
+
+CheckoutUser
+  userId User
+  checkoutId Checkout
+  -- what about deleted users?

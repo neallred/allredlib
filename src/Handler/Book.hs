@@ -8,12 +8,12 @@ module Handler.Book where
 
 import Import
 
-type Title = String
+type Title' = String
 
 type Author = String
 
 data Book =
-  Book Title Author
+  Book Title' Author
   deriving (Show)
 
 instance ToJSON Book where

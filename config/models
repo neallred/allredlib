@@ -16,3 +16,72 @@ Comment json -- Adding "json" causes ToJSON and FromJSON instances to be derived
     userId UserId Maybe
     deriving Eq
     deriving Show
+Creator json
+  lastName Text
+  firstName Text Maybe
+  birth Day Maybe
+  death Day Maybe
+  bio Text Maybe
+  site Text Maybe
+Genre json
+  genre GenreEnum
+Title json
+  title Text
+  subtitle Text Maybe
+  synopsis Text Maybe
+  seriesId SeriesId Maybe
+  seriesNumber Int Maybe
+  subseriesId SubseriesId Maybe
+  subseriesNumber Int Maybe -- which number is this work in the series.
+  genreId Genre
+  year Int Maybe -- typically, the copyright year of the true first edition. Possibly earlier if the book was known to have been completed earlier but was not published until years later.
+Series json
+  title Text
+  synopsis Text Maybe
+  totalBookMembers Int
+  totalSubseries Int Maybe
+Subseries json
+  title Text
+  synopsis Text Maybe
+  totalBookMembers Int
+  seriesId SeriesId
+GenreTitle json
+  titleId TitleId
+  genreId GenreId
+  UniqueGenreTitle titleId genreId
+CreatorTitle json
+  titleId TitleId
+  creatorId CreatorId
+  UniqueCreatorTitle titleId creatorId
+Publisher json
+  name Text
+Imprint json
+  imprint Text
+ImprintPublisher json
+  publisherId PublisherId
+  imprintId ImprintId
+  UniqueImprintPublisher publisherId imprintId
+Edition json
+  name Text
+  year Int
+  language Text Maybe
+  titleId TitleId
+  binding BookBinding Maybe
+  publisherImprintId ImprintPublisherId
+EditionIllustrator json
+  editionId EditionId
+  illustratorId CreatorId
+  UniqueEditionIllustrator editionId illustratorId
+Printing json
+  printing Int
+  editionId EditionId
+  isbn Text Maybe
+  UniqueEditionPrinting printing editionId
+  pages Int Maybe
+  leafPages Int Maybe (sheets of paper between covers * 2)
+Manifestation json
+  titleId TitleId
+  editionId TitleId
+  printingId PrintingId
+  condition BookCondition Maybe
+  distinguishingMarks Text Maybe

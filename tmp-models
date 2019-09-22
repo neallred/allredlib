@@ -8,10 +8,10 @@ Creator json
   bio Text Maybe
   site Text Maybe
 
-AuthorTitle json
+CreatorTitle json
   titleId TitleId 
-  authorId CreatorId 
-  UniqueAuthorTitle titleId authorId 
+  creatorId CreatorId 
+  UniqueCreatorTitle titleId creatorId 
 
 EditionIllustrator json
   editionId EditionId
@@ -19,25 +19,25 @@ EditionIllustrator json
   UniqueEditionIllustrator titleId illustratorId
 
 Genre json
-  genre String
+  genre Text -- ENUM {Action, Biography, Children, Classic, Dystopia, Fantasy, HistoricalFiction, History, Horror, Junior, Mystery, Religion, Romance, ScienceFiction, Textbook, Travel, WorldLiterature, YoungAdult}
 
 GenreTitle json
   titleId TitleId
   genreId GenreId
   UniqueGenreTitle titleId genreId
 
-Publisher
+Publisher json
   name Text
 
-Imprint
+Imprint json
   imprint Text
 
-ImprintPublisher
+ImprintPublisher json
   publisherId PublisherId
   imprintId ImprintId
   UniqueImprintPublisher publisherId imprintId
 
-Title
+Title json
   title Text
   subtitle Text Maybe
   synopsis Text Maybe
@@ -46,7 +46,7 @@ Title
   subseriesId SubseriesId Maybe
   subseriesNumber Int Maybe -- which number is this work in the series.
   genreId Genre
-  year Int Maybe -- typically, the copyright year of the true first edition. Possibly earlier if the book was known to have been completed earlier but was not published for several years.
+  year Int Maybe -- typically, the copyright year of the true first edition. Possibly earlier if the book was known to have been completed earlier but was not published until years later.
 
 Series json
   title Text
@@ -60,15 +60,15 @@ Subseries json
   totalBookMembers Int
   seriesId SeriesId
 
-Edition
+Edition json
   name Text
   year Int
   language Text Maybe
   titleId TitleId
-  binding Text Maybe
+  binding Text Maybe -- ENUM {}, Can I have the auto enum thing in maybe fields?
   publisherImprintId PublisherImprintId
 
-Printing
+Printing json
   printing Int
   editionId EditionId
   isbn Text Maybe
@@ -76,40 +76,40 @@ Printing
   pages Int Maybe
   leafPages Int Maybe (sheets of paper between covers * 2)
 
-Manifestation
+Manifestation json
   titleId TitleId
   editionId TitleId
   printId PrintId
-  condition Text Maybe -- (ENUM)
+  condition Text Maybe -- (ENUM) {New, LikeNew, Good, Used, VeryUsed, Replace} -- could have a default value
   distinguishingMarks Text Maybe
 
-CreatorManifestation
-  manifestationId
+CreatorManifestation json
+  manifestationId ManifestationId
   creatorId CreatorId
-  signed Boolean
+  signed Bool
 
-Role
+Role json
   role Text -- ENUM { Admin, Patron }
 
-User
+User json
   email Text
   password Text Maybe
-  roleId Role
+  roleId RoleId
   username Text Maybe
   verified Bool
-  password_reset_token Text Maybe
+  passwordResetToken Text Maybe
   salt Text Maybe
   UniqueUserEmail email
 
 
-Checkout
+Checkout json
   manifestationId ManifestationId
-  outDate DateTime
-  inDate DateTime Maybe
+  outDate UTCTime
+  inDate UTCTime Maybe
   comments Text Maybe -- can add things like returned with torn pages.
   -- TODO: how to handle books that are deleted?
 
-CheckoutUser
-  userId User
-  checkoutId Checkout
+CheckoutUser json
+  userId UserId
+  checkoutId CheckoutId
   -- what about deleted users?

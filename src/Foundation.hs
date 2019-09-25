@@ -7,24 +7,39 @@
 {-# LANGUAGE ExplicitForAll #-}
 {-# LANGUAGE RankNTypes #-}
 {-# LANGUAGE InstanceSigs #-}
+{-# LANGUAGE QuasiQuotes #-}
 
 module Foundation where
 
+import Control.Monad (join)
 import Control.Monad.Logger (LogSource)
+import Data.Maybe (isJust)
+-- import Data.Text (Text)
+import Data.Text
+import qualified Data.Text.Lazy.Encoding
 import Database.Persist.Sql (ConnectionPool, runSqlPool)
+import Network.Mail.Mime
 import Import.NoFoundation
-import Text.Hamlet (hamletFile)
+import Text.Blaze.Html.Renderer.Utf8 (renderHtml)
+import Text.Hamlet (hamletFile, shamlet)
+import Text.Shakespeare.Text (stext)
 import Text.Jasmine (minifym)
+
+
 
 -- Used only when in "auth-dummy-login" setting is enabled.
 import Yesod.Auth.Dummy
 
 import qualified Data.CaseInsensitive as CI
 import qualified Data.Text.Encoding as TE
-import Yesod.Auth.OpenId (IdentifierType(Claimed), authOpenId)
+-- import Yesod.Auth.OpenId (IdentifierType(Claimed), authOpenId)
+import Yesod.Auth
+import Yesod.Auth.Email
 import Yesod.Core.Types (Logger)
 import qualified Yesod.Core.Unsafe as Unsafe
 import Yesod.Default.Util (addStaticContentExternal)
+
+
 
 -- | The foundation datatype for your application. This can be a good place to
 -- keep settings and values requiring initialization before your application
@@ -150,19 +165,21 @@ instance Yesod App
     pc <-
       widgetToPageContent $ do
         addStylesheet $ StaticR css_bootstrap_css
-        addScript $ StaticR js_index_js
+        -- addScript $ StaticR js_index_js
         $(widgetFile "default-layout")
     withUrlRenderer $(hamletFile "templates/default-layout-wrapper.hamlet")
     -- The page to be redirected to when authentication is required.
   authRoute :: App -> Maybe (Route App)
   authRoute _ = Just $ AuthR LoginR
+  errorHandler NotFound = fmap toTypedContent $ defaultLayout $ do
+    -- setTitleI MsgTitleNotFound
+    $(widgetFile "404")
   isAuthorized ::
        Route App -- ^ The route the user is visiting.
     -> Bool -- ^ Whether or not this is a "write" request.
     -> Handler AuthResult
     -- Routes not requiring authentication.
   isAuthorized (AuthR _) _ = return Authorized
-  isAuthorized CommentR _ = return Authorized
   isAuthorized HomeR _ = return Authorized
   isAuthorized FaviconR _ = return Authorized
   isAuthorized RobotsR _ = return Authorized
@@ -248,15 +265,21 @@ instance YesodAuth App where
   authenticate creds =
     liftHandler $
     runDB $ do
-      x <- getBy $ UniqueUser $ credsIdent creds
-      case x of
-        Just (Entity uid _) -> return $ Authenticated uid
-        Nothing ->
-          Authenticated <$>
-          insert User {userIdent = credsIdent creds, userPassword = Nothing}
+      x <- insertBy $ User (credsIdent creds) Nothing Nothing False
+      return $ Authenticated $
+        case x of
+          Left (Entity userid _) -> userid -- newly added user
+          Right userid -> userid -- existing user
+--      x <- getBy $ UniqueUser $ credsIdent creds
+--      case x of
+--        Just (Entity uid _) -> return $ Authenticated uid
+--        Nothing ->
+--          Authenticated <$>
+--          insert User {userIdent = credsIdent creds, userPassword = Nothing}
     -- You can add other plugins like Google Email, email or OAuth here
+  --authPlugins app = [authOpenId Claimed []] ++ extraAuthPlugins
   authPlugins :: App -> [AuthPlugin App]
-  authPlugins app = [authOpenId Claimed []] ++ extraAuthPlugins
+  authPlugins app = [authEmail] ++ extraAuthPlugins
         -- Enable authDummy login if enabled.
     where
       extraAuthPlugins = [authDummy | appAuthDummyLogin $ appSettings app]
@@ -271,6 +294,71 @@ isAuthenticated = do
       Just _ -> Authorized
 
 instance YesodAuthPersist App
+
+instance YesodAuthEmail App where
+  type AuthEmailId App = UserId
+
+  afterPasswordRoute _ = HomeR
+
+  addUnverified email verkey =
+    liftHandler $ runDB $ insert $ User email Nothing (Just verkey) False
+
+  sendVerifyEmail email _ verurl = do
+      let textPart = Part { partType = "text/plain; charset=utf-8"
+          , partEncoding = None
+          , partFilename = Nothing
+          , partContent = Data.Text.Lazy.Encoding.encodeUtf8 [stext|
+              Please confirm your email address by clicking on the link below.
+
+              #{verurl}
+
+              Thank you
+            |]
+          , partHeaders = []
+          }
+      let htmlPart = Part { partType = "text/html; charset=utf-8"
+          , partEncoding = None
+          , partFilename = Nothing
+          , partContent = renderHtml [shamlet|
+            <p>Please confirm your email address by clicking on the link below
+            <p>
+              <a href=#{verurl}>#{verurl}
+            <p>Thank you
+          |]
+          , partHeaders = []
+          }
+      liftIO $ putStrLn $ "Copy/ Paste this URL in your browser: " <> verurl
+      liftIO $ renderSendMail (emptyMail $ Address Nothing "noreply")
+        { mailTo = [Address Nothing email]
+        , mailHeaders =
+          [ ("Subject", "Verify your email address")
+          ]
+        , mailParts = [[textPart, htmlPart]]
+        }
+  getVerifyKey = liftHandler . runDB . fmap (join . fmap userVerkey) . get
+  setVerifyKey uid key = liftHandler $ runDB $ update uid [UserVerkey =. Just key]
+  verifyAccount uid = liftHandler $ runDB $ do
+    mu <- get uid
+    case mu of
+      Nothing -> return Nothing
+      Just u -> do
+        update uid [UserVerified =. True, UserVerkey =. Nothing]
+        return $ Just uid
+  getPassword = liftHandler . runDB . fmap (join . fmap userPassword) . get
+  setPassword uid pass = liftHandler . runDB $ update uid [UserPassword =. Just pass]
+  getEmailCreds email = liftHandler $ runDB $ do
+    mu <- getBy $ UniqueUser email
+    case mu of
+      Nothing -> return Nothing
+      Just (Entity uid u) -> return $ Just EmailCreds
+        { emailCredsId = uid
+        , emailCredsAuthId = Just uid
+        , emailCredsStatus = isJust $ userPassword u
+        , emailCredsVerkey = userVerkey u
+        , emailCredsEmail = email
+        }
+
+
 
 -- This instance is required to use forms. You can modify renderMessage to
 -- achieve customized and internationalized form validation messages.

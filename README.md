@@ -8,13 +8,11 @@ Front end lives in `client/`
 
 ## Database Setup
 
-After installing Postgres, run:
-
+For development, run
 ```
-createuser allredlib --password allredlib --superuser
-createdb allredlib
-createdb allredlib_test
+docker-compose -f docker-compose-dev-db.yml up
 ```
+Make sure the environment variables specified in docker-compose-dev-db.yml are available in the host.
 
 ## Haskell Setup
 

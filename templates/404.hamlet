@@ -1,2 +1,46 @@
+<style>
+  code {
+    white-space: pre
+  }
+
 <div .ui.container>
-  404'ed!
+  <p>
+    You've scampered far, little hedgie! Can I help you find
+  <ul>
+    <li>
+        <a href="/">
+          the bookshelves?
+    <li>
+        <a href="/search">
+          a particular book?
+    <li>
+        <a href="/authors">
+          authors?
+  
+
+
+  <code>
+
+    -- The Hedgiegon
+
+  <!--
+  Still need to figure out how to make the spacings work.
+
+                          ^ ^
+                      \<<,-----
+                     \<<,      \_   o
+          _____      \<<,    O   \_/    (
+        _/     \    \<<,        / ``   ) \
+       /        \   \<<,       |\<==EE|)   (
+      /     !    \ \<<,        |\^^   \(_)/
+     !   !  !     '\<,         |
+     !   !   \____',          |  ::
+     !   .   \ __!\,          |)::|
+      \   \_!     \<,           \
+       \ !       \<<,            _
+        \!        \<<,            \_  ::
+                  \<<_             |)::|
+                   \<<\_         /
+                     \<<\       /
+                      \<<._,__,/
+  -->

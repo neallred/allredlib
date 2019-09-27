@@ -172,8 +172,9 @@ instance Yesod App
   authRoute :: App -> Maybe (Route App)
   authRoute _ = Just $ AuthR LoginR
   errorHandler NotFound = fmap toTypedContent $ defaultLayout $ do
-    -- setTitleI MsgTitleNotFound
+    setTitle "Confuzzled hedgie!"
     $(widgetFile "404")
+
   isAuthorized ::
        Route App -- ^ The route the user is visiting.
     -> Bool -- ^ Whether or not this is a "write" request.

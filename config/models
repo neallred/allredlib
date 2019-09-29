@@ -6,7 +6,8 @@ User
   password Text Maybe
   verkey Text Maybe
   verified Bool
---  displayName Text Maybe
+  displayName Text Maybe
+  role UserRole
   UniqueUser email
   deriving Typeable
 Creator json
@@ -26,7 +27,6 @@ Title json
   seriesNumber Int Maybe
   subseriesId SubseriesId Maybe
   subseriesNumber Int Maybe -- which number is this work in the series.
-  genreId Genre
   year Int Maybe -- typically, the copyright year of the true first edition. Possibly earlier if the book was known to have been completed earlier but was not published until years later.
 Series json
   title Text
@@ -78,3 +78,15 @@ Manifestation json
   printingId PrintingId
   condition BookCondition Maybe
   distinguishingMarks Text Maybe
+CreatorManifestation json
+  manifestationId ManifestationId
+  creatorId CreatorId
+  signed Bool
+Checkout json
+  manifestationId ManifestationId
+  outDate UTCTime
+  inDate UTCTime Maybe
+  comments Text Maybe -- can add things like returned with torn pages.
+CheckoutUser json
+  userId UserId
+  checkoutId CheckoutId

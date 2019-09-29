@@ -38,6 +38,7 @@ import Yesod.Auth.Email
 import Yesod.Core.Types (Logger)
 import qualified Yesod.Core.Unsafe as Unsafe
 import Yesod.Default.Util (addStaticContentExternal)
+import UserRole (UserRole(..))
 
 
 
@@ -266,7 +267,7 @@ instance YesodAuth App where
   authenticate creds =
     liftHandler $
     runDB $ do
-      x <- insertBy $ User (credsIdent creds) Nothing Nothing False
+      x <- insertBy $ User (credsIdent creds) Nothing Nothing False Nothing Patron
       return $ Authenticated $
         case x of
           Left (Entity userid _) -> userid -- newly added user
@@ -302,7 +303,7 @@ instance YesodAuthEmail App where
   afterPasswordRoute _ = HomeR
 
   addUnverified email verkey =
-    liftHandler $ runDB $ insert $ User email Nothing (Just verkey) False
+    liftHandler $ runDB $ insert $ User email Nothing (Just verkey) False Nothing Patron
 
   sendVerifyEmail email _ verurl = do
       let textPart = Part { partType = "text/plain; charset=utf-8"

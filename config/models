@@ -11,82 +11,101 @@ User
   UniqueUser email
   deriving Typeable
 Creator json
-  lastName Text
-  firstName Text Maybe
+  bio Text Maybe
   birth Day Maybe
   death Day Maybe
-  bio Text Maybe
+  firstName Text Maybe
+  lastName Text
   site Text Maybe
 Genre json
   genre GenreEnum
 Title json
-  title Text
-  subtitle Text Maybe
-  synopsis Text Maybe
   seriesId SeriesId Maybe
   seriesNumber Int Maybe
   subseriesId SubseriesId Maybe
   subseriesNumber Int Maybe -- which number is this work in the series.
-  year Int Maybe -- typically, the copyright year of the true first edition. Possibly earlier if the book was known to have been completed earlier but was not published until years later.
-Series json
-  title Text
+  subtitle Text Maybe
   synopsis Text Maybe
+  title Text
+  year Int Maybe -- first edition copyright year; earlier if title completed years before.
+Series json
+  synopsis Text Maybe
+  title Text
   totalBookMembers Int
   totalSubseries Int Maybe
 Subseries json
-  title Text
-  synopsis Text Maybe
-  totalBookMembers Int
   seriesId SeriesId
+  synopsis Text Maybe
+  title Text
+  totalBookMembers Int
 GenreTitle json
-  titleId TitleId
   genreId GenreId
+  titleId TitleId
   UniqueGenreTitle titleId genreId
 CreatorTitle json
-  titleId TitleId
   creatorId CreatorId
+  titleId TitleId
   UniqueCreatorTitle titleId creatorId
 Publisher json
   name Text
 Imprint json
   imprint Text
 ImprintPublisher json
-  publisherId PublisherId
   imprintId ImprintId
+  publisherId PublisherId
   UniqueImprintPublisher publisherId imprintId
 Edition json
-  name Text
-  year Int
-  language Text Maybe
-  titleId TitleId
   binding BookBinding Maybe
+  language Text Maybe
+  name Text
   publisherImprintId ImprintPublisherId
+  titleId TitleId
+  year Int Maybe
 EditionIllustrator json
   editionId EditionId
   illustratorId CreatorId
   UniqueEditionIllustrator editionId illustratorId
 Printing json
-  printing Int
   editionId EditionId
   isbn Text Maybe
+  printing Int
+  volumes Int -- required so that it cna be required in ManifestationPrinting
+  year Int Maybe
   UniqueEditionPrinting printing editionId
-  pages Int Maybe
-  leafPages Int Maybe (sheets of paper between covers * 2)
 Manifestation json
-  titleId TitleId
-  editionId TitleId
-  printingId PrintingId
   condition BookCondition Maybe
   distinguishingMarks Text Maybe
-CreatorManifestation json
+  leafPages Int Maybe (sheets of paper between covers * 2)
+  manifestationTitle Text Maybe -- for multiple `Title` manifestations
+ManifestationPrinting
   manifestationId ManifestationId
+  pages Int Maybe -- some manifestations have many printings/titles
+  printingId PrintingId
+  titleId TitleId
+  volumeNumber Int -- for arbitrary numbers of volumes in one manifestation
+  UniqueManifestationPrinting manifestationId printingId volumeNumber
+CreatorManifestation json
   creatorId CreatorId
+  manifestationId ManifestationId
   signed Bool
 Checkout json
+  comments Text Maybe -- can add things like "returned with torn pages".
+  inDate UTCTime Maybe
   manifestationId ManifestationId
   outDate UTCTime
-  inDate UTCTime Maybe
-  comments Text Maybe -- can add things like returned with torn pages.
 CheckoutUser json
-  userId UserId
   checkoutId CheckoutId
+  userId UserId
+
+-- ManifestationPrinting represents multi-title works like Lord of the Rings,
+-- Which can be contained in one manifestation, or 3
+-- Or a manifestation could contain all three volumes + The Hobbit or The Silmarillion
+--
+-- It also represents one title, multi-volume works like encyclopedias.
+--
+-- And can even handle arbitrarily crazy combinations of the two.
+
+-- Could add this to represent fantasy universes, such as Middle Earth, or Harry Potter
+-- If any titles are part of many universes, it could be made many to many.
+-- Universe
+--   universe Text

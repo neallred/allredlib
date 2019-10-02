@@ -175,6 +175,10 @@ instance Yesod App
   errorHandler NotFound = fmap toTypedContent $ defaultLayout $ do
     setTitle "Confuzzled hedgie!"
     $(widgetFile "404")
+  errorHandler err = fmap toTypedContent $ defaultLayout $ do
+    print err
+    setTitle "Confuzzled hedgie!"
+    $(widgetFile "404")
 
   isAuthorized ::
        Route App -- ^ The route the user is visiting.
@@ -186,6 +190,7 @@ instance Yesod App
   isAuthorized FaviconR _ = return Authorized
   isAuthorized RobotsR _ = return Authorized
   isAuthorized (StaticR _) _ = return Authorized
+  isAuthorized SeedDatabaseR _ = return Authorized -- TODO: This should require an Admin role
   isAuthorized BookR _ = return Authorized
     -- the profile route requires that the user is authenticated, so we
     -- delegate to that function

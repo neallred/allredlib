@@ -12,3 +12,4 @@
 /books BookR GET
 
 /profile ProfileR GET
+/seed-database SeedDatabaseR POST

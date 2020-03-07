@@ -14,9 +14,8 @@ Creator json
   bio Text Maybe
   birth Day Maybe
   death Day Maybe
-  firstName Text Maybe
-  lastName Text
-  site Text Maybe
+  firstName Text
+  lastName Text Maybe
 Genre json
   genre GenreEnum
 Title json
@@ -75,7 +74,7 @@ Printing json
 Manifestation json
   condition BookCondition Maybe
   distinguishingMarks Text Maybe
-  leafPages Int Maybe (sheets of paper between covers * 2)
+  leafPages Int Maybe -- (sheets of paper between covers * 2)
   manifestationTitle Text Maybe -- for multiple `Title` manifestations
 ManifestationPrinting
   manifestationId ManifestationId
@@ -96,16 +95,23 @@ Checkout json
 CheckoutUser json
   checkoutId CheckoutId
   userId UserId
-
--- ManifestationPrinting represents multi-title works like Lord of the Rings,
--- Which can be contained in one manifestation, or 3
--- Or a manifestation could contain all three volumes + The Hobbit or The Silmarillion
---
--- It also represents one title, multi-volume works like encyclopedias.
---
--- And can even handle arbitrarily crazy combinations of the two.
-
--- Could add this to represent fantasy universes, such as Middle Earth, or Harry Potter
--- If any titles are part of many universes, it could be made many to many.
--- Universe
---   universe Text
+Attribution
+  title Text
+  link Text Maybe
+  accessed UTCTime Maybe
+  yearCreated UTCTime Maybe
+  placePublished Text Maybe
+  author Text Maybe -- Not going to bother making these into entities
+  publisher Text Maybe -- Not going to bother making these into entities
+SeriesAttribution
+  seriesId SeriesId
+  attributionId AttributionId
+  UniqueSeriesAttribution seriesId attributionId
+SubseriesAttribution
+  subseriesId SubseriesId
+  attributionId AttributionId
+  UniqueSubseriesAttribution subseriesId attributionId
+CreatorAttribution
+  creatorId CreatorId
+  attributionId AttributionId
+  UniqueCreatorAttribution creatorId attributionId

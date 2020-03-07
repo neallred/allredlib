@@ -32,3 +32,4 @@ allredlib.cabal
 /node_modules/
 /output/
 /static/
+tmp-*

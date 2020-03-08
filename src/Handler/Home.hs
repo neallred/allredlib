@@ -30,7 +30,7 @@ getHomeR = do
   let submission = Nothing :: Maybe FileForm
       handlerName = "getHomeR" :: Text
   defaultLayout $ do
-    setTitle "Welcome To Yesod!"
+    setTitle "Jenna Allred Private Library"
     $(widgetFile "homepage")
 
 postHomeR :: Handler Html
@@ -42,7 +42,7 @@ postHomeR = do
           FormSuccess res -> Just res
           _ -> Nothing
   defaultLayout $ do
-    setTitle "Welcome To Yesod!"
+    setTitle "Jenna Allred Private Library"
     $(widgetFile "homepage")
 
 sampleForm :: Form FileForm

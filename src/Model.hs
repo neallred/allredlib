@@ -16,6 +16,7 @@ import BookBinding
 import BookCondition
 import Genre
 import UserRole
+import Language
 
 -- You can define all of your database entities in the entities file.
 -- You can find more information on persistent and how to declare entities

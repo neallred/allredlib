@@ -5,12 +5,17 @@ module Handler.SeedDatabase where
 
 import Data.Aeson
 import Import
-import Genre
 import Seed
+import BookCondition
 import qualified Data.ByteString.Lazy as B
+import Database.Persist.Postgresql
 
 has :: [a] -> Bool
 has = (> 0) . length
+
+existy :: Maybe a -> Bool
+existy (Just _) = True
+existy _ = False
 
 jsonFile :: FilePath
 jsonFile = "seed/Genre.json"
@@ -18,13 +23,52 @@ jsonFile = "seed/Genre.json"
 getJSON :: IO B.ByteString
 getJSON = B.readFile jsonFile
 
+-- runSeeder = (fmap (Just . fromSqlKey) (runDB $ insert lotr))
+runSeeder = do
+  lotrSeriesId <- (runDB $ insert lotrSeries)
+  torImprintId <- (runDB $ insert torImprint)
+  torPublisherId <- (runDB $ insert torPublisher)
+  torImprintPublisherId <- (runDB $ insert $ makeImprintPublisher torImprintId torPublisherId)
+  tolkienId <- (runDB $ insert jrrTolkien)
+  -- [fellowshipId, towersId, returnId] <- fmap (\x -> runDB $ insert (x lotrSeriesId )) [makeFellowship, makeTwoTowers, makeReturnOfTheKing]
+  -- fellowshipId : towersId : returnId : [] <- fmap (\x -> runDB $ insert (x lotrSeriesId )) [makeFellowship, makeTwoTowers, makeReturnOfTheKing]
+
+  fellowshipId <- runDB $ insert $ makeFellowship lotrSeriesId
+  towersId <- runDB $ insert $ makeTwoTowers lotrSeriesId
+  returnId <- runDB $ insert $ makeReturnOfTheKing lotrSeriesId
+
+  fellowshipEditionId <- (runDB $ insert $ makeLotrEdition torImprintPublisherId fellowshipId)
+  towersEditionId <- runDB $ insert $ makeLotrEdition torImprintPublisherId towersId
+  returnEditionId <- runDB $ insert $ makeLotrEdition torImprintPublisherId returnId
+
+  fellowshipPrintingId <- runDB $ insert $ makeLotrPrinting fellowshipEditionId "isbn-1" 1954 800
+  towersPrintingId <- runDB $ insert $ makeLotrPrinting towersEditionId "isbn-2" 1954 804
+  returnPrintingId <- runDB $ insert $ makeLotrPrinting returnEditionId "isbn-3" 1955 809
+
+  fellowshipManifestationId <- runDB $ insert $ makeManifestation
+  towersManifestationId <- runDB $ insert $ makeManifestation
+  returnManifestationId <- runDB $ insert $ makeManifestation
+
+  fellowshipManifestationPrintingId <- runDB $ insert $ makeManifestationPrinting fellowshipManifestationId fellowshipPrintingId
+  towersManifestationPrintingId <- runDB $ insert $ makeManifestationPrinting towersManifestationId towersPrintingId
+  returnManifestationPrintingId <- runDB $ insert $ makeManifestationPrinting returnManifestationId returnPrintingId
+
+  return (Just 42)
+-- (fmap (Just . fromSqlKey) 
+
 postSeedDatabaseR :: Handler Value
 postSeedDatabaseR = do
-  hasTitles <- fmap has $ runDB $ selectList [TitleTitle >. ""] []
-  hasAuthors <- fmap has $ runDB $ selectList [CreatorFirstName >. ""] []
-  hasManifestationPrintings <- fmap has $ runDB $ selectList [ManifestationPrintingVolumeNumber !=. 0] []
-  hasManifestations <- fmap  has $ runDB $ selectList [PrintingVolumes !=. 0] []
-  genres <- liftIO $ (eitherDecode <$> getJSON :: (IO (Either String [GenreEnum])))
-  let needsSeeding = all id [hasTitles, hasAuthors, hasManifestationPrintings, hasManifestations]
-  lordOfTheRingsId <- runDB $ insert $ lotr
-  returnJson ("needsSeeding" :: Text, needsSeeding :: Bool, lordOfTheRingsId :: Key Title)
+  hasAuthors <- fmap existy $ runDB $ selectFirst [CreatorFirstName >. ""] []
+  hasTitles <- fmap existy $ runDB $ selectFirst [TitleTitle >. ""] []
+  hasEditions <- fmap existy $ runDB $ selectFirst [EditionName >. ""] []
+  hasPrintings <- fmap existy $ runDB $ selectFirst [PrintingPrinting !=. 0] []
+  hasManifestations <- fmap existy $ runDB $ selectFirst ([ManifestationCondition !=. BookCondition.BookNew] ||. [ManifestationCondition ==. BookCondition.BookNew]) []
+  let needsSeeding = all not [hasAuthors, hasTitles, hasEditions, hasPrintings, hasManifestations]
+  seedingReturnValue <- (if needsSeeding
+                          then runSeeder -- return Nothing -- runSeeder
+                          else return Nothing
+                      )
+  returnJson (("needsSeeding: " :: Text) ++ if needsSeeding then "true" else "false", "hasAuthors: " :: Text, show hasAuthors)
+    
+      -- , seedingReturnValue :: Key Title)
+    -- ("needsSeeding: " :: Text) ++ ("blah" :: Text),

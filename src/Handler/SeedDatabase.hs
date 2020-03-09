@@ -23,15 +23,12 @@ jsonFile = "seed/Genre.json"
 getJSON :: IO B.ByteString
 getJSON = B.readFile jsonFile
 
--- runSeeder = (fmap (Just . fromSqlKey) (runDB $ insert lotr))
 runSeeder = do
   lotrSeriesId <- (runDB $ insert lotrSeries)
   torImprintId <- (runDB $ insert torImprint)
   torPublisherId <- (runDB $ insert torPublisher)
   torImprintPublisherId <- (runDB $ insert $ makeImprintPublisher torImprintId torPublisherId)
   tolkienId <- (runDB $ insert jrrTolkien)
-  -- [fellowshipId, towersId, returnId] <- fmap (\x -> runDB $ insert (x lotrSeriesId )) [makeFellowship, makeTwoTowers, makeReturnOfTheKing]
-  -- fellowshipId : towersId : returnId : [] <- fmap (\x -> runDB $ insert (x lotrSeriesId )) [makeFellowship, makeTwoTowers, makeReturnOfTheKing]
 
   fellowshipId <- runDB $ insert $ makeFellowship lotrSeriesId
   towersId <- runDB $ insert $ makeTwoTowers lotrSeriesId
@@ -54,7 +51,6 @@ runSeeder = do
   returnManifestationPrintingId <- runDB $ insert $ makeManifestationPrinting returnManifestationId returnPrintingId
 
   return (Just 42)
--- (fmap (Just . fromSqlKey) 
 
 postSeedDatabaseR :: Handler Value
 postSeedDatabaseR = do
@@ -65,10 +61,7 @@ postSeedDatabaseR = do
   hasManifestations <- fmap existy $ runDB $ selectFirst ([ManifestationCondition !=. BookCondition.BookNew] ||. [ManifestationCondition ==. BookCondition.BookNew]) []
   let needsSeeding = all not [hasAuthors, hasTitles, hasEditions, hasPrintings, hasManifestations]
   seedingReturnValue <- (if needsSeeding
-                          then runSeeder -- return Nothing -- runSeeder
+                          then runSeeder
                           else return Nothing
                       )
   returnJson (("needsSeeding: " :: Text) ++ if needsSeeding then "true" else "false", "hasAuthors: " :: Text, show hasAuthors)
-    
-      -- , seedingReturnValue :: Key Title)
-    -- ("needsSeeding: " :: Text) ++ ("blah" :: Text),

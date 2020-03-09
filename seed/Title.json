@@ -570,8 +570,8 @@
     "Extra": "World Literature",
     "Author": "Rulfo, Juan; Peden, Margaret Sayers",
     "authors_ids": "401, 353",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "42",
@@ -584,8 +584,8 @@
     "Extra": "Children",
     "Author": "Gannett, Ruth Stiles",
     "authors_ids": "153",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "43",
@@ -598,8 +598,8 @@
     "Extra": "Textbook",
     "Author": "Grieco, Joseph M.; Ikenberry, G. John",
     "authors_ids": "169, 218",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "44",
@@ -612,8 +612,8 @@
     "Extra": "Junior",
     "Author": "Sewell, Anna",
     "authors_ids": "415",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "45",
@@ -626,8 +626,8 @@
     "Extra": "Young Adult",
     "Author": "Croggon, Alison",
     "authors_ids": "101",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "5",
+    "volume_b": "5"
   },
   {
     "id": "46",
@@ -640,8 +640,8 @@
     "Extra": "Children",
     "Author": "Watterson, Bill",
     "authors_ids": "485",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "47",
@@ -655,7 +655,7 @@
     "Author": "Paolini, Christopher",
     "authors_ids": "348",
     "volume_a": "1",
-    "volume_b": ""
+    "volume_b": "4"
   },
   {
     "id": "48",
@@ -668,8 +668,8 @@
     "Extra": "Textbook",
     "Author": "Hoffmann, Laurence D.; Bradley, Gerald L.; Rosen, Kenneth H.",
     "authors_ids": "205, 53, 393",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "49",
@@ -678,12 +678,12 @@
     "year": "2003",
     "pages": "841",
     "isbn": "978-0-14-044908-2",
-    "summary": "The work that established the study of history in the western world, Herodotus's The Histories is a dazzling contemporary account of the ancient world, translated from the Greek by Aubrey de Sélincourt, revised with an introduction and notes by John Marincola in Penguin Classics. 'No one is fool enough to choose war instead of peace - in peace sons bury fathers, but in war fathers bury sons' One of the masterpieces of classical literature, the Histories describes how a small and quarrelsome band of Greek city states united to repel the might of the Persian Empire. But while this epic struggle forms the core of his work, Herodotus' natural curiosity frequently gives rise to colourful digressions - a description of the natural wonders of Egypt; an account of European lake-dwellers; and far-fetched accounts of dog-headed men and gold-digging ants. With its kaleidoscopic blend of fact and legend, The Histories offers a compelling Greek view of the world of the fifth century BC. This celebrated translation of The Histories has been extensively revised and includes an updated bibliography, chronology, glossary and additional notes. A Greek historian, Herodotus (c.485-25 BC) left his native town of Halicarnassus, a Greek colony, to travel extensively. He collected historical, geographical, ethnological, mythological and archaeological material for his histories. If you enjoyed The Histories, you might like Tacitus' Annals of Imperial Rome, also available in Penguin Classics.",
+    "summary": "The work that established the study of history in the western world, Herodotus's The Histories is a dazzling contemporary account of the ancient world, translated from the Greek by Aubrey de Sélincourt, revised with an introduction and notes by John Marincola in Penguin Classics. 'No one is fool enough to choose war instead of peace - in peace sons bury fathers, but in war fathers bury sons' One of the masterpieces of classical literature, the Histories describes how a small and quarrelsome band of Greek city states united to repel the might of the Persian Empire. But while this epic struggle forms the core of his work, Herodotus' natural curiosity frequently gives rise to colourful digressions - a description of the natural wonders of Egypt; an account of European lake-dwellers; and far-fetched accounts of dog-headed men and gold-digging ants. With its kaleidoscopic blend of fact and legend, The Histories offers a compelling Greek view of the world of the fifth century BC. This celebrated translation of The Histories has been extensively revised and includes an updated bibliography, chronology, glossary and additional notes. A Greek historian, Herodotus (c.485-25 BC) left his native town of Halicarnassus, a Greek colony, to travel extensively. He collected historical, geographical, ethnological, mythological and archaeological material for his histories. If you enjoyed The Histories, you might like Tacitus' Annals of Imperial Rome.",
     "Extra": "History",
     "Author": "Herodotus",
     "authors_ids": "197",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "50",
@@ -696,8 +696,8 @@
     "Extra": "Textbook",
     "Author": "",
     "authors_ids": "525",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "51",
@@ -710,8 +710,8 @@
     "Extra": "Romance",
     "Author": "Sparks, Nicholas",
     "authors_ids": "439",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "52",
@@ -724,8 +724,8 @@
     "Extra": "Classic",
     "Author": "Rand, Ayn",
     "authors_ids": "375",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "53",
@@ -738,8 +738,8 @@
     "Extra": "History",
     "Author": "Hibbert, Christopher",
     "authors_ids": "199",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "54",
@@ -752,8 +752,8 @@
     "Extra": "Fantasy",
     "Author": "Douglass, Sara",
     "authors_ids": "120",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "6"
   },
   {
     "id": "55",
@@ -766,8 +766,8 @@
     "Extra": "History",
     "Author": "Ursenbach, O. F.",
     "authors_ids": "472",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "56",
@@ -794,8 +794,8 @@
     "Extra": "Science Fiction",
     "Author": "Le Guin, Ursula K",
     "authors_ids": "258",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "58",
@@ -808,8 +808,8 @@
     "Extra": "Religion",
     "Author": "(Aquinas), Saint Thomas; Kreeft, Peter",
     "authors_ids": "1, 246",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "59",
@@ -822,8 +822,8 @@
     "Extra": "Fantasy",
     "Author": "Eddings, David",
     "authors_ids": "127",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "3"
   },
   {
     "id": "60",
@@ -836,8 +836,8 @@
     "Extra": "Historical Fiction",
     "Author": "Ashby, Clarin D.",
     "authors_ids": "25",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "61",
@@ -850,8 +850,8 @@
     "Extra": "Fantasy",
     "Author": "Jr, L. E. Modesitt; (Jr.), L. E. Modesitt",
     "authors_ids": "310",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "62",
@@ -864,8 +864,8 @@
     "Extra": "World Literature",
     "Author": "Borges, Jorge Luis",
     "authors_ids": "50",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "63",
@@ -879,7 +879,7 @@
     "Author": "Cao, Xueqin",
     "authors_ids": "74",
     "volume_a": "1",
-    "volume_b": "3"
+    "volume_b": "5"
   },
   {
     "id": "64",
@@ -892,8 +892,8 @@
     "Extra": "History",
     "Author": "Neustadt, Richard E.",
     "authors_ids": "324",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "65",
@@ -906,8 +906,8 @@
     "Extra": "Children",
     "Author": "Watterson, Bill",
     "authors_ids": "485",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "66",
@@ -921,7 +921,7 @@
     "Author": "Sachar, Louis",
     "authors_ids": "403",
     "volume_a": "1",
-    "volume_b": "3"
+    "volume_b": "2"
   },
   {
     "id": "67",
@@ -934,8 +934,8 @@
     "Extra": "Junior",
     "Author": "Alexander, Lloyd",
     "authors_ids": "14",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "5"
   },
   {
     "id": "68",
@@ -948,8 +948,8 @@
     "Extra": "Textbook",
     "Author": "",
     "authors_ids": "525",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "69",
@@ -962,8 +962,8 @@
     "Extra": "Young Adult",
     "Author": "Meyer, Stephenie",
     "authors_ids": "298",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "4"
   },
   {
     "id": "70",
@@ -976,8 +976,8 @@
     "Extra": "Textbook",
     "Author": "Kearl, James R.",
     "authors_ids": "231",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "71",
@@ -990,8 +990,8 @@
     "Extra": "Textbook",
     "Author": "Frieden, Jeffry A.; Lake, David A.; Broz, J. Lawrence",
     "authors_ids": "148, 252, 62",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "72",
@@ -1004,8 +1004,8 @@
     "Extra": "History",
     "Author": "Iinkai, Hiroshima-shi Nagasaki-shi Genbaku Saigaishi Henshū",
     "authors_ids": "217",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "73",
@@ -1018,8 +1018,8 @@
     "Extra": "Fantasy",
     "Author": "Roberson, Jennifer",
     "authors_ids": "388",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "8"
   },
   {
     "id": "74",
@@ -1032,8 +1032,8 @@
     "Extra": "Textbook",
     "Author": "Cohn, Theodore H.",
     "authors_ids": "91",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "75",
@@ -1046,8 +1046,8 @@
     "Extra": "Textbook",
     "Author": "Fox, Arturo A.",
     "authors_ids": "144",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "76",
@@ -1060,8 +1060,8 @@
     "Extra": "Textbook",
     "Author": "Truss, Lynne",
     "authors_ids": "468",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "77",
@@ -1074,8 +1074,8 @@
     "Extra": "Science Fiction",
     "Author": "Card, Orson Scott",
     "authors_ids": "75",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "7"
   },
   {
     "id": "78",
@@ -1088,13 +1088,13 @@
     "Extra": "History",
     "Author": "Wellikoff, Alan",
     "authors_ids": "489",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "79",
     "genres_id": "3",
-    "title": "A House Called Awful End: Book One in the Eddie Dickens Trilogy",
+    "title": "A House Called Awful End",
     "year": "2002",
     "pages": "136",
     "isbn": "978-0-8050-6828-3",
@@ -1102,8 +1102,8 @@
     "Extra": "Children",
     "Author": "Ardagh, Philip",
     "authors_ids": "22",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "80",
@@ -1130,8 +1130,8 @@
     "Extra": "Fantasy",
     "Author": "Miéville, China",
     "authors_ids": "309",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "82",
@@ -1144,8 +1144,8 @@
     "Extra": "Religion",
     "Author": "James E. Talmage",
     "authors_ids": "450",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "83",
@@ -1158,8 +1158,8 @@
     "Extra": "Classic",
     "Author": "Steinbeck, John",
     "authors_ids": "447",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "84",
@@ -1186,8 +1186,8 @@
     "Extra": "Junior",
     "Author": "Alexander, Lloyd",
     "authors_ids": "14",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "5"
   },
   {
     "id": "86",
@@ -1200,8 +1200,8 @@
     "Extra": "Textbook",
     "Author": "McMillan, John",
     "authors_ids": "293",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "87",
@@ -1214,8 +1214,8 @@
     "Extra": "History",
     "Author": "Haldeman, Harry R.",
     "authors_ids": "182",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "88",
@@ -1228,8 +1228,8 @@
     "Extra": "Textbook",
     "Author": "Rasmusen, Eric",
     "authors_ids": "377, 13",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "89",
@@ -1256,8 +1256,8 @@
     "Extra": "World Literature",
     "Author": "李乐毅",
     "authors_ids": "530",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "91",
@@ -1270,8 +1270,8 @@
     "Extra": "World Literature",
     "Author": "Достоевский, Федор Михайлович",
     "authors_ids": "119",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "92",
@@ -1284,8 +1284,8 @@
     "Extra": "History",
     "Author": "Iber, Jorge",
     "authors_ids": "215",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "93",
@@ -1298,8 +1298,8 @@
     "Extra": "Mystery",
     "Author": "Smith, Alexander McCall",
     "authors_ids": "427",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "20"
   },
   {
     "id": "94",
@@ -1312,8 +1312,8 @@
     "Extra": "Textbook",
     "Author": "Turabian, Kate L.; Booth, Wayne C.",
     "authors_ids": "469, 48",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "95",
@@ -1326,8 +1326,8 @@
     "Extra": "Biography",
     "Author": "Ashby, Clarin D.",
     "authors_ids": "25",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "96",
@@ -1340,8 +1340,8 @@
     "Extra": "Textbook",
     "Author": "Latsch, Marie-Luise",
     "authors_ids": "257",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "97",
@@ -1354,8 +1354,8 @@
     "Extra": "Fantasy",
     "Author": "Sanderson, Brandon",
     "authors_ids": "406",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "8"
   },
   {
     "id": "98",
@@ -1368,8 +1368,8 @@
     "Extra": "World Literature",
     "Author": "Shaogong, Han; gong, han shao",
     "authors_ids": "418",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "99",
@@ -1382,8 +1382,8 @@
     "Extra": "Junior",
     "Author": "Tarkington, Booth",
     "authors_ids": "454",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "100",
@@ -1396,8 +1396,8 @@
     "Extra": "Children",
     "Author": "Watterson, Bill",
     "authors_ids": "485",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "101",
@@ -1410,8 +1410,8 @@
     "Extra": "Junior",
     "Author": "Duey, Kathleen; Rayyan, Omar",
     "authors_ids": "124, 381",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "8"
   },
   {
     "id": "102",
@@ -1424,8 +1424,8 @@
     "Extra": "History",
     "Author": "Penkovskiy, Oleg",
     "authors_ids": "354",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "103",
@@ -1438,8 +1438,8 @@
     "Extra": "Textbook",
     "Author": "Shively, W. Phillips",
     "authors_ids": "422",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "104",
@@ -1452,8 +1452,8 @@
     "Extra": "Fantasy",
     "Author": "Modesitt, L. E.",
     "authors_ids": "310",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "5",
+    "volume_b": "22"
   },
   {
     "id": "105",
@@ -1466,8 +1466,8 @@
     "Extra": "Textbook",
     "Author": "Fuse, Tomoko",
     "authors_ids": "151",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "106",
@@ -1480,8 +1480,8 @@
     "Extra": "Textbook",
     "Author": "Spandel, Vicki",
     "authors_ids": "438",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "107",
@@ -1494,8 +1494,8 @@
     "Extra": "History",
     "Author": "Hachiya, Michihiko; Wells, Warner",
     "authors_ids": "177",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "108",
@@ -1508,8 +1508,8 @@
     "Extra": "Textbook",
     "Author": "Nicholson, Walter",
     "authors_ids": "327",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "109",
@@ -1522,8 +1522,8 @@
     "Extra": "Horror",
     "Author": "Andrews, V. C.",
     "authors_ids": "19",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "5"
   },
   {
     "id": "110",
@@ -1550,8 +1550,8 @@
     "Extra": "Classic",
     "Author": "Randall, Ronne; Alcott, Louisa May; illustrator), Robert Dunn (Children's book",
     "authors_ids": "376,",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "112",
@@ -1564,8 +1564,8 @@
     "Extra": "Fantasy",
     "Author": "Jordan, Robert",
     "authors_ids": "227",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "11",
+    "volume_b": "14"
   },
   {
     "id": "113",
@@ -1578,8 +1578,8 @@
     "Extra": "Fantasy",
     "Author": "Nix, Garth",
     "authors_ids": "330",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "114",
@@ -1592,8 +1592,8 @@
     "Extra": "Young Adult",
     "Author": "Noël, Alyson",
     "authors_ids": "331",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "6"
   },
   {
     "id": "115",
@@ -1606,8 +1606,8 @@
     "Extra": "Junior",
     "Author": "Alexander, Lloyd",
     "authors_ids": "14",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "5"
   },
   {
     "id": "116",
@@ -1621,7 +1621,7 @@
     "Author": "Nix, Garth",
     "authors_ids": "330",
     "volume_a": "2",
-    "volume_b": ""
+    "volume_b": "7"
   },
   {
     "id": "117",
@@ -1634,8 +1634,8 @@
     "Extra": "Young Adult",
     "Author": "Yancey, Rick",
     "authors_ids": "510",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "4"
   },
   {
     "id": "118",

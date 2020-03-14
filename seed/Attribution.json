@@ -509,5 +509,65 @@
     "author": "T.A. Barron",
     "publisher": "null",
     "id": 51
+  },
+  {
+    "title": "Inkheart trilogy",
+    "link": "https://en.wikipedia.org/wiki/Inkheart_trilogy",
+    "accessed": "1584051750",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 52
+  },
+  {
+    "title": "A Series of Unfortunate Events",
+    "link": "https://en.wikipedia.org/wiki/A_Series_of_Unfortunate_Events",
+    "accessed": "1584051871",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 53
+  },
+  {
+    "title": "Sovereign of the Seven Isles",
+    "link": "http://sovereignofthesevenisles.com/",
+    "accessed": "1584052067",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": "Wells, David A.",
+    "publisher": null,
+    "id": 54
+  },
+  {
+    "title": "Dragon Prince and Dragon Star trilogies",
+    "link": "https://en.wikipedia.org/wiki/Dragon_Prince_and_Dragon_Star_trilogies",
+    "accessed": "1584052371",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 55
+  },
+  {
+    "title": "Artemis Fowl",
+    "link": "https://en.wikipedia.org/wiki/Artemis_Fowl",
+    "accessed": "1584052688",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 56
+  },
+  {
+    "title": "The Sword of Shannara Trilogy",
+    "link": "https://en.wikipedia.org/wiki/The_Sword_of_Shannara_Trilogy",
+    "accessed": "1584067779",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 57
   }
 ]

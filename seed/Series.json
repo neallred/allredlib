@@ -390,8 +390,54 @@
     "totalBookMembers": 12,
     "totalSubseries": 0,
     "attribution_ids": [51]
+  },
+  {
+    "id": 50,
+    "synopsis": "The Inkheart trilogy is a series of three fantasy novels written by German author Cornelia Funke, comprising Inkheart (2003), Inkspell (2005), and Inkdeath (2007). The books chronicle the adventures of teen Meggie Folchart whose life changes dramatically when she realizes that she and her father, a bookbinder named Mo, have the unusual ability to bring characters from books into the real world when reading aloud. Mostly set in Northern Italy and the parallel world of the fictional Inkheart book, the central story arc concerns the magic of books, their characters and creatures, and the art of reading.",
+    "title": "Inkheart",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [52]
+  },
+  {
+    "id": 51,
+    "synopsis": "A Series of Unfortunate Events is a series of thirteen novels written by American author Daniel Handler under the pen name Lemony Snicket. Although they are classified \"children's novels\", the books often have a dark, mysterious feeling to them. The books follow the turbulent lives of Violet, Klaus, and Sunny Baudelaire. After their parents' death in a fire, the children are placed in the custody of a murderous relative, Count Olaf, who attempts to steal their inheritance and, later, orchestrates numerous disasters with the help of his accomplices as the children attempt to flee. As the plot progresses, the Baudelaires gradually confront further mysteries surrounding their family and deep conspiracies involving a secret society known as V.F.D., with connections to Olaf, their parents, and many other relatives. The series is narrated by Lemony Snicket, who dedicates each of his works to his deceased love interest, Beatrice, and often attempts to dissuade the reader from reading the Baudelaires' story.",
+    "title": "A Series of Unfortunate Events",
+    "totalBookMembers": 13,
+    "totalSubseries": 0,
+    "attribution_ids": [53]
+  },
+  {
+    "id": 52,
+    "synopsis": null,
+    "title": "Sovereign of the Seven Isles",
+    "totalBookMembers": 7,
+    "totalSubseries": 0,
+    "attribution_ids": [54]
+  },
+  {
+    "id": 53,
+    "synopsis": "The Dragon Star trilogy focuses on Pol, the son of  Prince Rohan of the Desert and his Sunrunner wife, Sioned. The books in the Dragon Star trilogy are Stronghold, The Dragon Token, and Skybowl.",
+    "title": "Dragon Star",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [55]
+  },
+  {
+    "id": 54,
+    "synopsis": "Artemis Fowl is a series of eight fantasy novels written by Irish author Eoin Colfer, featuring the criminal mastermind Artemis Fowl II.",
+    "title": "Artemis Fowl",
+    "totalBookMembers": 8,
+    "totalSubseries": 0,
+    "attribution_ids": [56]
+  },
+  {
+    "id": 55,
+    "synopsis": "The Sword of Shannara Trilogy consists of the first three Shannara novels (The Sword of Shannara, The Elfstones of Shannara and The Wishsong of Shannara) by Terry Brooks. Though not originally written as a trilogy, the novels were published as The Sword of Shannara Trilogy by Del Rey Books.\nThe first novel of The Original Shannara Trilogy chronicles the adventures of the brothers Shea and Flick Ohmsford in their quest to retrieve the Sword of Shannara to defeat the Warlock Lord who threatens the Four Lands.\nThe Second novel of The Original Shannara Trilogy follows Shea's grandson, Wil Ohmsford, as he aids the endangered Elven nation, helping it survive a horde of demons coming through from their sealed-off dimension, the Forbidding.\nThe final novel of The Original Shannara Trilogy details the quest of Jair and Brin Ohmsford, the children of Wil and Eretria, to save the Four Lands from the evil magic within a tome called the Ildatch.",
+    "title": "Original Shannara Trilogy",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [57]
   }
-
-
 ]
 

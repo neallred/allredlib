@@ -2656,8 +2656,8 @@
     "Extra": "Fantasy",
     "Author": "Rawn, Melanie",
     "authors_ids": "380",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "3"
   },
   {
     "id": "191",
@@ -2670,8 +2670,8 @@
     "Extra": "Religion",
     "Author": "Freeman, Robert C.",
     "authors_ids": "146",
-    "volume_a": "3",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "192",
@@ -2684,8 +2684,8 @@
     "Extra": "Textbook",
     "Author": "Kirkpatrick, Andy",
     "authors_ids": "239",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "193",
@@ -2698,8 +2698,8 @@
     "Extra": "Fantasy",
     "Author": "Wurts, Janny",
     "authors_ids": "508",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "194",
@@ -2712,8 +2712,8 @@
     "Extra": "Young Adult",
     "Author": "Funke, Cornelia Caroline; Bell, Anthea",
     "authors_ids": "150, 41",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "195",
@@ -2726,8 +2726,8 @@
     "Extra": "Classic",
     "Author": "Golding, William",
     "authors_ids": "161",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "196",
@@ -2746,7 +2746,7 @@
   {
     "id": "197",
     "genres_id": "6",
-    "title": "Thinblade: Sovereign of the Seven Isles: Book One",
+    "title": "Thinblade",
     "year": "2011",
     "pages": "326",
     "isbn": "978-1-4635-8998-1",
@@ -2754,8 +2754,8 @@
     "Extra": "Fantasy",
     "Author": "Wells, David",
     "authors_ids": "490",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "7"
   },
   {
     "id": "198",
@@ -2768,8 +2768,8 @@
     "Extra": "Fantasy",
     "Author": "Jordan, Robert",
     "authors_ids": "227",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "8",
+    "volume_b": "14"
   },
   {
     "id": "199",
@@ -2782,8 +2782,8 @@
     "Extra": "Fantasy",
     "Author": "Rawn, Melanie",
     "authors_ids": "380",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "200",
@@ -2796,13 +2796,13 @@
     "Extra": "Junior",
     "Author": "Gliori, Debi",
     "authors_ids": "160",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "201",
     "genres_id": "18",
-    "title": "Evermore: The Immortals",
+    "title": "Evermore",
     "year": "2009",
     "pages": "321",
     "isbn": "978-1-4299-1868-8",
@@ -2810,8 +2810,8 @@
     "Extra": "Young Adult",
     "Author": "Noël, Alyson",
     "authors_ids": "331",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "6"
   },
   {
     "id": "202",
@@ -2824,8 +2824,8 @@
     "Extra": "Religion",
     "Author": "Mirandola, Giovanni Pico della",
     "authors_ids": "305",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "203",
@@ -2838,8 +2838,8 @@
     "Extra": "Classic",
     "Author": "Shakespeare, William; Orgel, Stephen; Braunmuller, A. R.",
     "authors_ids": "417, 343, 54",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "204",
@@ -2852,8 +2852,8 @@
     "Extra": "World Literature",
     "Author": "Yoshimoto, Banana",
     "authors_ids": "517",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "205",
@@ -2866,8 +2866,8 @@
     "Extra": "World Literature",
     "Author": "郝廣才; Roth, Marianne",
     "authors_ids": "533, 396",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "206",
@@ -2880,8 +2880,8 @@
     "Extra": "Textbook",
     "Author": "Dozier, Eleanor; Iguina, Zulma",
     "authors_ids": "122, 216",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "207",
@@ -2894,8 +2894,8 @@
     "Extra": "Textbook",
     "Author": "Barry, Anita K.",
     "authors_ids": "38",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "208",
@@ -2908,8 +2908,8 @@
     "Extra": "Textbook",
     "Author": "Manser, Martin H.; Zhu, Yuan; Wang, Liangbi; Ren, Yongchang; Wu, Jingrong",
     "authors_ids": "285, 521, 481, 507",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "209",
@@ -2922,8 +2922,8 @@
     "Extra": "World Literature",
     "Author": "Aristophanes",
     "authors_ids": "23",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "210",
@@ -2936,8 +2936,8 @@
     "Extra": "Young Adult",
     "Author": "Colfer, Eoin",
     "authors_ids": "93",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "5",
+    "volume_b": "8"
   },
   {
     "id": "211",
@@ -2950,8 +2950,8 @@
     "Extra": "Fantasy",
     "Author": "McCaffrey, Anne",
     "authors_ids": "289",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "6",
+    "volume_b": "24"
   },
   {
     "id": "212",
@@ -2964,8 +2964,8 @@
     "Extra": "Religion",
     "Author": "The Church of Jesus Christ of Latter-day Saints",
     "authors_ids": "458",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "213",
@@ -2978,8 +2978,8 @@
     "Extra": "Historical Fiction",
     "Author": "Nolan, Jeannette Covert",
     "authors_ids": "332",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "214",
@@ -2992,8 +2992,8 @@
     "Extra": "Classic",
     "Author": "Dostoyevsky, Fyodor",
     "authors_ids": "119",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "215",
@@ -3006,8 +3006,8 @@
     "Extra": "Fantasy",
     "Author": "Malan, Violette",
     "authors_ids": "279",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "216",
@@ -3020,8 +3020,8 @@
     "Extra": "Fantasy",
     "Author": "Brooks, Terry",
     "authors_ids": "57",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "3"
   },
   {
     "id": "217",

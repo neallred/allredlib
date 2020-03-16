@@ -7,10 +7,11 @@
 /favicon.ico FaviconR GET
 /robots.txt RobotsR GET
 
-/ HomeR GET POST
+/ HomeR GET
 
 /books BookR GET
 /series SeriesR GET POST DELETE
+/series/#SeriesId SeriesSingularR PUT
 
 /profile ProfileR GET
 /seed-database SeedDatabaseR POST

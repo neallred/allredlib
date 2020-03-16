@@ -14,7 +14,6 @@ module Foundation where
 import Control.Monad (join)
 import Control.Monad.Logger (LogSource)
 import Data.Maybe (isJust)
--- import Data.Text (Text)
 import Data.Text
 import qualified Data.Text.Lazy.Encoding
 import Database.Persist.Sql (ConnectionPool, runSqlPool)
@@ -25,22 +24,16 @@ import Text.Hamlet (hamletFile, shamlet)
 import Text.Shakespeare.Text (stext)
 import Text.Jasmine (minifym)
 
-
-
 -- Used only when in "auth-dummy-login" setting is enabled.
 import Yesod.Auth.Dummy
 
 import qualified Data.CaseInsensitive as CI
 import qualified Data.Text.Encoding as TE
--- import Yesod.Auth.OpenId (IdentifierType(Claimed), authOpenId)
-import Yesod.Auth
 import Yesod.Auth.Email
 import Yesod.Core.Types (Logger)
 import qualified Yesod.Core.Unsafe as Unsafe
 import Yesod.Default.Util (addStaticContentExternal)
 import UserRole (UserRole(..))
-
-
 
 -- | The foundation datatype for your application. This can be a good place to
 -- keep settings and values requiring initialization before your application
@@ -119,50 +112,6 @@ instance Yesod App
   yesodMiddleware = defaultYesodMiddleware
   defaultLayout :: Widget -> Handler Html
   defaultLayout widget = do
-    master <- getYesod
-    mmsg <- getMessage
-    muser <- maybeAuthPair
-    mcurrentRoute <- getCurrentRoute
-        -- Get the breadcrumbs, as defined in the YesodBreadcrumbs instance.
-    (title, parents) <- breadcrumbs
-        -- Define the menu items of the header.
-    let menuItems =
-          [ NavbarLeft $
-            MenuItem
-              { menuItemLabel = "Home"
-              , menuItemRoute = HomeR
-              , menuItemAccessCallback = True
-              }
-          , NavbarLeft $
-            MenuItem
-              { menuItemLabel = "Profile"
-              , menuItemRoute = ProfileR
-              , menuItemAccessCallback = isJust muser
-              }
-          , NavbarRight $
-            MenuItem
-              { menuItemLabel = "Login"
-              , menuItemRoute = AuthR LoginR
-              , menuItemAccessCallback = isNothing muser
-              }
-          , NavbarRight $
-            MenuItem
-              { menuItemLabel = "Logout"
-              , menuItemRoute = AuthR LogoutR
-              , menuItemAccessCallback = isJust muser
-              }
-          ]
-    let navbarLeftMenuItems = [x | NavbarLeft x <- menuItems]
-    let navbarRightMenuItems = [x | NavbarRight x <- menuItems]
-    let navbarLeftFilteredMenuItems =
-          [x | x <- navbarLeftMenuItems, menuItemAccessCallback x]
-    let navbarRightFilteredMenuItems =
-          [x | x <- navbarRightMenuItems, menuItemAccessCallback x]
-        -- We break up the default layout into two components:
-        -- default-layout is the contents of the body tag, and
-        -- default-layout-wrapper is the entire page. Since the final
-        -- value passed to hamletToRepHtml cannot be a widget, this allows
-        -- you to use normal widget features in default-layout.
     pc <-
       widgetToPageContent $ do
         addStylesheet $ StaticR css_bootstrap_css
@@ -193,6 +142,7 @@ instance Yesod App
   isAuthorized SeedDatabaseR _ = return Authorized -- TODO: This should require an Admin role
   isAuthorized BookR _ = return Authorized
   isAuthorized SeriesR _ = return Authorized
+  isAuthorized (SeriesSingularR _) _ = return Authorized
     -- the profile route requires that the user is authenticated, so we
     -- delegate to that function
   isAuthorized ProfileR _ = isAuthenticated
@@ -324,7 +274,7 @@ instance YesodAuthEmail App where
             |]
           , partHeaders = []
           }
-      let htmlPart = Part { partType = "text/html; charset=utf-8"
+      let htmlMsg = Part { partType = "text/html; charset=utf-8"
           , partEncoding = None
           , partFilename = Nothing
           , partContent = renderHtml [shamlet|
@@ -341,7 +291,7 @@ instance YesodAuthEmail App where
         , mailHeaders =
           [ ("Subject", "Verify your email address")
           ]
-        , mailParts = [[textPart, htmlPart]]
+        , mailParts = [[textPart, htmlMsg]]
         }
   getVerifyKey = liftHandler . runDB . fmap (join . fmap userVerkey) . get
   setVerifyKey uid key = liftHandler $ runDB $ update uid [UserVerkey =. Just key]
@@ -349,7 +299,7 @@ instance YesodAuthEmail App where
     mu <- get uid
     case mu of
       Nothing -> return Nothing
-      Just u -> do
+      Just _ -> do
         update uid [UserVerified =. True, UserVerkey =. Nothing]
         return $ Just uid
   getPassword = liftHandler . runDB . fmap (join . fmap userPassword) . get

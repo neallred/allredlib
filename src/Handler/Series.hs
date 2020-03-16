@@ -33,7 +33,14 @@ postSeriesR = do
 
   returnJson insertResult
 
+putSeriesSingularR :: SeriesId -> Handler Value
+putSeriesSingularR seriesId = do
+  updatedSeries <- requireCheckJsonBody :: Handler Series
+  result <- runDB $ replace seriesId $ updatedSeries
+  returnJson [result]
+
 deleteSeriesR :: Handler Value
 deleteSeriesR = do
   returnJson ["TBD"::Text]
+
 

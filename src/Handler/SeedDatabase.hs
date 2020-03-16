@@ -50,7 +50,7 @@ runSeeder = do
   towersManifestationPrintingId <- runDB $ insert $ makeManifestationPrinting towersManifestationId towersPrintingId
   returnManifestationPrintingId <- runDB $ insert $ makeManifestationPrinting returnManifestationId returnPrintingId
 
-  return (Just 42)
+  return (Just ())
 
 postSeedDatabaseR :: Handler Value
 postSeedDatabaseR = do

@@ -33,3 +33,4 @@ allredlib.cabal
 /output/
 /static/
 tmp-*
+tmp

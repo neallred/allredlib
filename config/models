@@ -132,3 +132,5 @@ CreatorAttribution
   attributionId AttributionId
   UniqueCreatorAttribution creatorId attributionId
   deriving Show
+-- TODO: How to handle multiple volumes that are one title?
+-- e.g. Encyclopedias, or The Glory and the Dream

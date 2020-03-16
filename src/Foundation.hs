@@ -192,6 +192,7 @@ instance Yesod App
   isAuthorized (StaticR _) _ = return Authorized
   isAuthorized SeedDatabaseR _ = return Authorized -- TODO: This should require an Admin role
   isAuthorized BookR _ = return Authorized
+  isAuthorized SeriesR _ = return Authorized
     -- the profile route requires that the user is authenticated, so we
     -- delegate to that function
   isAuthorized ProfileR _ = isAuthenticated

@@ -9,13 +9,14 @@ module Handler.Book where
 import BookCondition
 import Import
 import Database.Persist.Postgresql
+import Yesod.Form.Input
 
 getBookR :: Handler Value
 getBookR = do
   titles <- runDB $ selectList [TitleTitle >. ""] []
   -- editions <- runDB $ selectList [EditionEdition >. ""] []
   -- printings <- runDB $ selectList [PrintingPrinting >. ""] []
-  manifestations <- runDB $ selectList [ManifestationCondition <. BookCondition.BookNew] []
+  -- manifestations <- runDB $ selectList [ManifestationCondition <. BookCondition.BookNew] []
   -- genres <- liftIO $ (eitherDecode <$> getJSON :: (IO (Either String [GenreEnum])))
   -- titles <- fmap has $ runDB $ selectList [TitleTitle >. ""] [Asc TitleTitle]
 

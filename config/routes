@@ -9,7 +9,8 @@
 
 / HomeR GET POST
 
-/books BookR GET
+/books BookR GET POST
+/series SeriesR GET POST DELETE
 
 /profile ProfileR GET
 /seed-database SeedDatabaseR POST

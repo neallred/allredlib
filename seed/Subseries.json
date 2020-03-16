@@ -5,5 +5,40 @@
     "title": "Mistborn",
     "totalBookMembers": 8,
     "attribution_ids": [24]
-  }
+  },
+  {
+    "seriesId": 56,
+    "synopsis": null,
+    "title": "Wars of Light and Shadow Arc I",
+    "totalBookMembers": 1,
+    "attribution_ids": [58]
+  },
+  {
+    "seriesId": 56,
+    "synopsis": null,
+    "title": "Wars of Light and Shadow Arc II",
+    "totalBookMembers": 2,
+    "attribution_ids": [58]
+  },
+  {
+    "seriesId": 56,
+    "synopsis": null,
+    "title": "Wars of Light and Shadow Arc III",
+    "totalBookMembers": 5,
+    "attribution_ids": [58]
+  },
+  {
+    "seriesId": 56,
+    "synopsis": null,
+    "title": "Wars of Light and Shadow Arc IV",
+    "totalBookMembers": 2,
+    "attribution_ids": [58]
+  },
+  {
+    "seriesId": 56,
+    "synopsis": null,
+    "title": "Wars of Light and Shadow Arc V",
+    "totalBookMembers": 1,
+    "attribution_ids": [58]
+  },
 ]

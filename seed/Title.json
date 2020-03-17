@@ -3062,8 +3062,8 @@
     "Extra": "World Literature",
     "Author": "Shi, Nai'an; Luo, Guanzhong",
     "authors_ids": "420, 275",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "220",
@@ -3077,7 +3077,7 @@
     "Author": "Heimerdinger, Chris",
     "authors_ids": "194",
     "volume_a": "8",
-    "volume_b": ""
+    "volume_b": "12"
   },
   {
     "id": "221",
@@ -3090,8 +3090,8 @@
     "Extra": "Religion",
     "Author": "The Church of Jesus Christ of Latter-day Saints",
     "authors_ids": "458",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "222",
@@ -3104,8 +3104,8 @@
     "Extra": "Religion",
     "Author": "Wilcox, Brad",
     "authors_ids": "494",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "223",
@@ -3118,8 +3118,8 @@
     "Extra": "History",
     "Author": "Pierson, Peter",
     "authors_ids": "357",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "224",
@@ -3132,8 +3132,8 @@
     "Extra": "?",
     "Author": "Anthony, Mark",
     "authors_ids": "20",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "6"
   },
   {
     "id": "225",
@@ -3146,8 +3146,8 @@
     "Extra": "Children",
     "Author": "",
     "authors_ids": "525",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "13",
+    "volume_b": "13"
   },
   {
     "id": "226",
@@ -3160,8 +3160,8 @@
     "Extra": "World Literature",
     "Author": "Sophocles",
     "authors_ids": "437",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "227",
@@ -3174,8 +3174,8 @@
     "Extra": "Textbook",
     "Author": "Inc, Merriam-Webster",
     "authors_ids": "525",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "228",
@@ -3188,8 +3188,8 @@
     "Extra": "World Literature",
     "Author": "郝廣才; Battaglia, Maria",
     "authors_ids": "533, 39",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "229",
@@ -3202,8 +3202,8 @@
     "Extra": "Textbook",
     "Author": "Random House Publishing Group",
     "authors_ids": "173",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "230",
@@ -3216,8 +3216,8 @@
     "Extra": "Textbook",
     "Author": "Mundo, Philip A.",
     "authors_ids": "315",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "231",
@@ -3230,8 +3230,8 @@
     "Extra": "Junior",
     "Author": "Tarkington, Booth",
     "authors_ids": "454",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "232",
@@ -3244,8 +3244,8 @@
     "Extra": "Fantasy",
     "Author": "Friedman, C. S.",
     "authors_ids": "149",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "2"
   },
   {
     "id": "233",
@@ -3258,8 +3258,8 @@
     "Extra": "Young Adult",
     "Author": "Rowling, J. K.",
     "authors_ids": "400",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "6",
+    "volume_b": "7"
   },
   {
     "id": "234",
@@ -3272,8 +3272,8 @@
     "Extra": "Textbook",
     "Author": "writers",
     "authors_ids": "525",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "235",
@@ -3300,8 +3300,8 @@
     "Extra": "Fantasy",
     "Author": "Anthony, Piers",
     "authors_ids": "21",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "46"
   },
   {
     "id": "237",
@@ -3314,8 +3314,8 @@
     "Extra": "?",
     "Author": "Gardner, Craig Shaw",
     "authors_ids": "155",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "238",
@@ -3328,8 +3328,8 @@
     "Extra": "Textbook",
     "Author": "Manhattan Prep, -Manhattan",
     "authors_ids": "283",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "239",
@@ -3342,8 +3342,8 @@
     "Extra": "Science Fiction",
     "Author": "Ashby, Madeline",
     "authors_ids": "26",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "240",
@@ -3356,8 +3356,8 @@
     "Extra": "World Literature",
     "Author": "Courtenay, Bryce",
     "authors_ids": "99",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "241",
@@ -3371,7 +3371,7 @@
     "Author": "Cao, Xueqin",
     "authors_ids": "74",
     "volume_a": "2",
-    "volume_b": "3"
+    "volume_b": "5"
   },
   {
     "id": "242",
@@ -3384,8 +3384,8 @@
     "Extra": "Fantasy",
     "Author": "Eddings, David",
     "authors_ids": "127",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "4",
+    "volume_b": "5"
   },
   {
     "id": "243",
@@ -3398,8 +3398,8 @@
     "Extra": "History",
     "Author": "González, Juan",
     "authors_ids": "162",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "244",
@@ -3412,8 +3412,8 @@
     "Extra": "Textbook",
     "Author": "",
     "authors_ids": "525",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "245",
@@ -3426,8 +3426,8 @@
     "Extra": "Dystopia",
     "Author": "Atwood, Margaret",
     "authors_ids": "29",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "246",
@@ -3440,8 +3440,8 @@
     "Extra": "Textbook",
     "Author": "Best, Joel",
     "authors_ids": "43",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "247",
@@ -3454,8 +3454,8 @@
     "Extra": "Fantasy",
     "Author": "Modesitt, L. E.",
     "authors_ids": "310",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "13",
+    "volume_b": "22"
   },
   {
     "id": "248",
@@ -3468,8 +3468,8 @@
     "Extra": "Classic",
     "Author": "Brontë, Emily",
     "authors_ids": "56",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "249",
@@ -3482,8 +3482,8 @@
     "Extra": "Fantasy",
     "Author": "Goodkind, Terry",
     "authors_ids": "163",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "21"
   },
   {
     "id": "250",
@@ -3496,8 +3496,8 @@
     "Extra": "World Literature",
     "Author": "郝廣才",
     "authors_ids": "533",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "251",
@@ -3506,12 +3506,12 @@
     "year": "2013",
     "pages": "274",
     "isbn": "978-0-85789-819-7",
-    "summary": "The sixth installment of David Wingrove's director's cut of his epic vision of the futureIt is 2206. As Chung Kuo's population continues to swell, the Seven—the ruling T'angs—are forced to make further concessions, laws must be relaxed and the House at Weinmar reopened. Change is coming, whether the Seven like it or not. The tides of unrest unleashed by earlier wars grow faster even than the population. DeVore secretly allies with newly appointed general, Hans Ebert. It seems that DeVore's plans are coming to fruition. But Ebert has his own schemes and plots—he intends to depose the Seven and control the whole of Chung Kuo. Includes more than 30 pages of character listing and Mandarin glossary.",
+    "summary": "The sixth installment of David Wingrove's director's cut of his epic vision of the future. It is 2206. As Chung Kuo's population continues to swell, the Seven—the ruling T'angs—are forced to make further concessions, laws must be relaxed and the House at Weinmar reopened. Change is coming, whether the Seven like it or not. The tides of unrest unleashed by earlier wars grow faster even than the population. DeVore secretly allies with newly appointed general, Hans Ebert. It seems that DeVore's plans are coming to fruition. But Ebert has his own schemes and plots—he intends to depose the Seven and control the whole of Chung Kuo. Includes more than 30 pages of character listing and Mandarin glossary.",
     "Extra": "Fantasy",
     "Author": "Wingrove, David",
     "authors_ids": "500",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "6",
+    "volume_b": "8"
   },
   {
     "id": "252",
@@ -3524,8 +3524,8 @@
     "Extra": "Textbook",
     "Author": "Hawkins, Kirk A.",
     "authors_ids": "191",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "253",
@@ -3538,8 +3538,8 @@
     "Extra": "Junior",
     "Author": "Lemon, Melissa",
     "authors_ids": "262",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "254",
@@ -3552,8 +3552,8 @@
     "Extra": "Textbook",
     "Author": "Tuttle Publishing",
     "authors_ids": "470",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "255",
@@ -3580,8 +3580,8 @@
     "Extra": "History",
     "Author": "Riencourt, Amaury de",
     "authors_ids": "385",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "257",
@@ -3594,8 +3594,8 @@
     "Extra": "Textbook",
     "Author": "Sandler, Michael; Lee, Jessica",
     "authors_ids": "407, 259",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "258",
@@ -3622,8 +3622,8 @@
     "Extra": "Classic",
     "Author": "Poe, Edgar Allan",
     "authors_ids": "361",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "260",
@@ -3636,8 +3636,8 @@
     "Extra": "World Literature",
     "Author": "Babelʹ, Isaak; Babel, Nathalie; Constantine, Peter",
     "authors_ids": "33",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "261",
@@ -3650,8 +3650,8 @@
     "Extra": "Textbook",
     "Author": "McNaughton, William; Ying, Li",
     "authors_ids": "295, 515",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "262",
@@ -3664,8 +3664,8 @@
     "Extra": "Fantasy",
     "Author": "Adina, Shelley",
     "authors_ids": "9",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "263",

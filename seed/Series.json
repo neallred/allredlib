@@ -446,6 +446,54 @@
     "totalBookMembers": 11,
     "totalSubseries": 5,
     "attribution_ids": [58]
+  },
+  {
+    "id": 57,
+    "synopsis": null,
+    "title": "Last Rune",
+    "totalBookMembers": 6,
+    "totalSubseries": 0,
+    "attribution_ids": [59]
+  },
+  {
+    "id": 58,
+    "synopsis": "The Wardstone Chronicles, published as The Last Apprentice series in the U.S., is a dark fantasy series of books written by British author Joseph Delaney and published in the UK by The Bodley Head division of Random House Publishing. The Wardstone Chronicles follow Thomas \"Tom\" Ward, the seventh son of a seventh son who is apprenticed to Gregory to become a Spook - a master fighter of supernatural evil. John Gregory is the Spook for \"the County\" and gives Tom practical instruction on tackling ghosts, ghasts, witches, boggarts, and all manner of other things that serve \"The Dark\".",
+    "title": "Last Rune",
+    "totalBookMembers": 13,
+    "totalSubseries": 0,
+    "attribution_ids": [60]
+  },
+  {
+    "id": 59,
+    "synopsis": null,
+    "title": "The Endless War duology",
+    "totalBookMembers": 2,
+    "totalSubseries": 0,
+    "attribution_ids": [61]
+  },
+  {
+    "id": 60,
+    "synopsis": null,
+    "title": "Machine Dynasties series",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [62]
+  },
+  {
+    "id": 61,
+    "synopsis": "The Belgariad is a five-book fantasy epic written by David Eddings, following the journey of protagonist Garion and his companions, first to recover a sacred stone, and later to use it against antagonist Torak.",
+    "title": "The Belgariad",
+    "totalBookMembers": 5,
+    "totalSubseries": 0,
+    "attribution_ids": [63]
+  },
+  {
+    "id": 62,
+    "synopsis": "With Triad bosses and assassins, emperors, whores and visionaries, Chung Kuo is part heroic epic, part technological thriller, part romance - a compelling tale of fallen empires, and ordinary people unified only by the dark history of their time.",
+    "title": "Chung Kuo",
+    "totalBookMembers": 8,
+    "totalSubseries": 0,
+    "attribution_ids": [64]
   }
 ]
 

@@ -9,9 +9,15 @@
 
 / HomeR GET
 
+/attributions AttributionsR GET POST
+/attributions/#AttributionId AttributionR PUT DELETE
+
 /books BookR GET
-/series SeriesR GET POST DELETE
-/series/#SeriesId SeriesSingularR PUT
 
 /profile ProfileR GET
+
 /seed-database SeedDatabaseR POST
+
+/series SeriesR GET POST
+/series/#SeriesId SeriesSingularR PUT DELETE
+

@@ -108,7 +108,7 @@ Checkout json
   outDate UTCTime
   userId UserId
   deriving Show
-Attribution
+Attribution json
   title Text
   link Text Maybe
   accessed UTCTime Maybe
@@ -117,17 +117,17 @@ Attribution
   author Text Maybe -- Not going to bother making these into entities
   publisher Text Maybe -- Not going to bother making these into entities
   deriving Show
-SeriesAttribution
+SeriesAttribution json
   seriesId SeriesId
   attributionId AttributionId
   UniqueSeriesAttribution seriesId attributionId
   deriving Show
-SubseriesAttribution
+SubseriesAttribution json
   subseriesId SubseriesId
   attributionId AttributionId
   UniqueSubseriesAttribution subseriesId attributionId
   deriving Show
-CreatorAttribution
+CreatorAttribution json
   creatorId CreatorId
   attributionId AttributionId
   UniqueCreatorAttribution creatorId attributionId

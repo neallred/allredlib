@@ -9,7 +9,6 @@ module Handler.Series where
 import Import
 import Database.Persist.Postgresql
 import Yesod.Form.Input
--- import Network.HTTP.Types
 
 seriesIForm :: FormInput Handler Series
 seriesIForm = Series
@@ -39,8 +38,9 @@ putSeriesSingularR seriesId = do
   result <- runDB $ replace seriesId $ updatedSeries
   returnJson [result]
 
-deleteSeriesR :: Handler Value
-deleteSeriesR = do
-  returnJson ["TBD"::Text]
+deleteSeriesSingularR :: SeriesId -> Handler Value
+deleteSeriesSingularR seriesId = do
+  result <- runDB $ delete seriesId
+  returnJson [result]
 
 

@@ -7,9 +7,21 @@
 /favicon.ico FaviconR GET
 /robots.txt RobotsR GET
 
-/ HomeR GET POST
+/ HomeR GET
+
+/attributions AttributionsR GET POST
+/attributions/#AttributionId AttributionR PUT DELETE
 
 /books BookR GET
 
 /profile ProfileR GET
+
 /seed-database SeedDatabaseR POST
+
+/series SeriesR GET POST
+/series/#SeriesId SeriesSingularR PUT DELETE
+
+/series-attributions/ SeriesAttributionsR GET
+/series-attributions/#SeriesAttributionId SeriesAttributionSingleR DELETE
+/series/#SeriesId/attributions/#AttributionId SeriesAttributionR POST
+

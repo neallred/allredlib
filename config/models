@@ -14,9 +14,8 @@ Creator json
   bio Text Maybe
   birth Day Maybe
   death Day Maybe
-  firstName Text Maybe
-  lastName Text
-  site Text Maybe
+  firstName Text
+  lastName Text Maybe
 Genre json
   genre GenreEnum
 Title json
@@ -28,84 +27,110 @@ Title json
   synopsis Text Maybe
   title Text
   year Int Maybe -- first edition copyright year; earlier if title completed years before.
+  deriving Show
 Series json
   synopsis Text Maybe
   title Text
   totalBookMembers Int
-  totalSubseries Int Maybe
+  totalSubseries Int
+  deriving Show
 Subseries json
   seriesId SeriesId
   synopsis Text Maybe
   title Text
   totalBookMembers Int
+  deriving Show
 GenreTitle json
   genreId GenreId
   titleId TitleId
   UniqueGenreTitle titleId genreId
+  deriving Show
 CreatorTitle json
   creatorId CreatorId
   titleId TitleId
   UniqueCreatorTitle titleId creatorId
+  deriving Show
 Publisher json
   name Text
+  deriving Show
 Imprint json
   imprint Text
+  deriving Show
 ImprintPublisher json
   imprintId ImprintId
   publisherId PublisherId
   UniqueImprintPublisher publisherId imprintId
+  deriving Show
 Edition json
   binding BookBinding Maybe
-  language Text Maybe
+  language Language Maybe
   name Text
   publisherImprintId ImprintPublisherId
+  volumes Int Maybe -- Needed?
   titleId TitleId
+  editionTitle Text Maybe
+    -- for if a certain edition of a book has a different title from other editions.
+    -- e.g. "The Hobbit" vs "There and Back Again"
   year Int Maybe
+  deriving Show
 EditionIllustrator json
   editionId EditionId
   illustratorId CreatorId
   UniqueEditionIllustrator editionId illustratorId
+  deriving Show
 Printing json
   editionId EditionId
   isbn Text Maybe
   printing Int
-  volumes Int -- required so that it cna be required in ManifestationPrinting
   year Int Maybe
+  pages Int Maybe
   UniqueEditionPrinting printing editionId
+  deriving Show
 Manifestation json
-  condition BookCondition Maybe
+  condition BookCondition
   distinguishingMarks Text Maybe
-  leafPages Int Maybe (sheets of paper between covers * 2)
-  manifestationTitle Text Maybe -- for multiple `Title` manifestations
-ManifestationPrinting
+  deriving Show
+ManifestationPrinting json -- some manifestations have many printings/titles, like Legion/Emperor's soul
   manifestationId ManifestationId
-  pages Int Maybe -- some manifestations have many printings/titles
   printingId PrintingId
-  titleId TitleId
-  volumeNumber Int -- for arbitrary numbers of volumes in one manifestation
-  UniqueManifestationPrinting manifestationId printingId volumeNumber
+  pages Int Maybe -- For multi-title manifestations, what is their cumulative page count?
+  volumeNumber Int Maybe -- for arbitrary numbers of volumes in one manifestation (example?)
+  UniqueManifestationPrinting manifestationId printingId
 CreatorManifestation json
   creatorId CreatorId
   manifestationId ManifestationId
   signed Bool
+  deriving Show
 Checkout json
   comments Text Maybe -- can add things like "returned with torn pages".
   inDate UTCTime Maybe
   manifestationId ManifestationId
   outDate UTCTime
-CheckoutUser json
-  checkoutId CheckoutId
   userId UserId
-
--- ManifestationPrinting represents multi-title works like Lord of the Rings,
--- Which can be contained in one manifestation, or 3
--- Or a manifestation could contain all three volumes + The Hobbit or The Silmarillion
---
--- It also represents one title, multi-volume works like encyclopedias.
---
--- And can even handle arbitrarily crazy combinations of the two.
-
--- Could add this to represent fantasy universes, such as Middle Earth, or Harry Potter
--- If any titles are part of many universes, it could be made many to many.
--- Universe
---   universe Text
+  deriving Show
+Attribution json
+  title Text
+  link Text Maybe
+  accessed UTCTime Maybe
+  yearCreated UTCTime Maybe
+  placePublished Text Maybe
+  author Text Maybe -- Not going to bother making these into entities
+  publisher Text Maybe -- Not going to bother making these into entities
+  deriving Show
+SeriesAttribution json
+  seriesId SeriesId
+  attributionId AttributionId
+  UniqueSeriesAttribution seriesId attributionId
+  deriving Show
+SubseriesAttribution json
+  subseriesId SubseriesId
+  attributionId AttributionId
+  UniqueSubseriesAttribution subseriesId attributionId
+  deriving Show
+CreatorAttribution json
+  creatorId CreatorId
+  attributionId AttributionId
+  UniqueCreatorAttribution creatorId attributionId
+  deriving Show
+-- TODO: How to handle multiple volumes that are one title?
+-- e.g. Encyclopedias, or The Glory and the Dream

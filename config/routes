@@ -21,3 +21,7 @@
 /series SeriesR GET POST
 /series/#SeriesId SeriesSingularR PUT DELETE
 
+/series-attributions/ SeriesAttributionsR GET
+/series-attributions/#SeriesAttributionId SeriesAttributionSingleR DELETE
+/series/#SeriesId/attributions/#AttributionId SeriesAttributionR POST
+

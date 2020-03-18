@@ -34,9 +34,9 @@ putAttributionR :: AttributionId -> Handler Value
 putAttributionR aId = do
   updatedAttribution <- requireCheckJsonBody :: Handler Attribution
   result <- runDB $ replace aId $ updatedAttribution
-  returnJson [result]
+  returnJson result
 
 deleteAttributionR :: AttributionId -> Handler Value
 deleteAttributionR aId = do
   result <- runDB $ delete aId
-  returnJson [result]
+  returnJson result

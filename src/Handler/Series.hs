@@ -31,4 +31,4 @@ putSeriesSingularR seriesId = do
 deleteSeriesSingularR :: SeriesId -> Handler Value
 deleteSeriesSingularR seriesId = do
   result <- runDB $ delete seriesId
-  returnJson [result]
+  returnJson result

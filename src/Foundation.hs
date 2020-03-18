@@ -145,6 +145,9 @@ instance Yesod App
   isAuthorized (SeriesSingularR _) _ = return Authorized
   isAuthorized AttributionsR _ = return Authorized
   isAuthorized (AttributionR _) _ = return Authorized
+  isAuthorized (SeriesAttributionSingleR _) _ = return Authorized
+  isAuthorized (SeriesAttributionR _ _) _ = return Authorized
+  isAuthorized SeriesAttributionsR _ = return Authorized
     -- the profile route requires that the user is authenticated, so we
     -- delegate to that function
   isAuthorized ProfileR _ = isAuthenticated

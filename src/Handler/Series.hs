@@ -1,21 +1,10 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE OverloadedStrings #-}
-{-# LANGUAGE TemplateHaskell #-}
-{-# LANGUAGE MultiParamTypeClasses #-}
-{-# LANGUAGE TypeFamilies #-}
 
 module Handler.Series where
 
 import Import
-import Database.Persist.Postgresql
-import Yesod.Form.Input
-
-seriesIForm :: FormInput Handler Series
-seriesIForm = Series
-    <$> iopt textField "synopsis"
-    <*> ireq textField "title"
-    <*> ireq intField "books"
-    <*> ireq intField "subseries"
+import Data.Aeson.Types ( Result(..) )
 
 getSeriesR :: Handler Value
 getSeriesR = do
@@ -24,23 +13,22 @@ getSeriesR = do
 
 postSeriesR :: Handler Value
 postSeriesR = do
-  formResultSeries <- runInputPostResult seriesIForm
+  formResultSeries <- parseCheckJsonBody
   insertResult <- case formResultSeries of
-    FormFailure x -> sendStatusJSON badRequest400 x
-    FormSuccess x -> do
-      runDB $ insert $ x
+    Error x -> sendStatusJSON badRequest400 x
+    Success x -> runDB $ insert (x :: Series)
 
   returnJson insertResult
 
 putSeriesSingularR :: SeriesId -> Handler Value
 putSeriesSingularR seriesId = do
-  updatedSeries <- requireCheckJsonBody :: Handler Series
-  result <- runDB $ replace seriesId $ updatedSeries
+  updatedSeries <- parseCheckJsonBody
+  result <- case updatedSeries of
+              Error x -> sendStatusJSON badRequest400 x
+              Success x -> runDB $ replace seriesId x
   returnJson [result]
 
 deleteSeriesSingularR :: SeriesId -> Handler Value
 deleteSeriesSingularR seriesId = do
   result <- runDB $ delete seriesId
   returnJson [result]
-
-

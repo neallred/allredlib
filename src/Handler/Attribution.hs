@@ -1,14 +1,10 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE OverloadedStrings #-}
-{-# LANGUAGE TemplateHaskell #-}
-{-# LANGUAGE MultiParamTypeClasses #-}
-{-# LANGUAGE TypeFamilies #-}
 
 module Handler.Attribution where
 
 import Import
-import Database.Persist.Postgresql
-import Data.Aeson.Types as A
+import Data.Aeson.Types (Result(..))
 import Network.URI
 
 getAttributionsR :: Handler Value
@@ -20,8 +16,8 @@ postAttributionsR :: Handler Value
 postAttributionsR = do
   attribution <- parseCheckJsonBody
   insertResult <- case attribution of
-    A.Error x -> sendStatusJSON badRequest400 x
-    A.Success x@(Attribution _ mLink _ _ _ _ _) -> do
+    Error x -> sendStatusJSON badRequest400 x
+    Success x@(Attribution _ mLink _ _ _ _ _) -> do
       case mLink of
         Nothing ->
           runDB $ insert (x :: Attribution)

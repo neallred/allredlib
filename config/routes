@@ -13,6 +13,8 @@
 /attributions/#AttributionId AttributionR PUT DELETE
 
 /books BookR GET
+/titles TitlesR GET POST
+/title/#TitleId TitleR PUT DELETE
 
 /profile ProfileR GET
 

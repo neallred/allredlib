@@ -6,23 +6,17 @@ module Handler.Book where
 
 import Import
 import Data.Aeson.Types ( Result(..) )
-import Database.Persist.Postgresql
+import qualified Database.Esqueleto as E
 
 getBookR :: Handler Value
 getBookR = do
-  titles <- runDB $ selectList [] [] :: Handler [Entity Title]
-  -- editions <- runDB $ selectList [EditionEdition >. ""] []
-  -- printings <- runDB $ selectList [PrintingPrinting >. ""] []
-  -- manifestations <- runDB $ selectList [ManifestationCondition <. BookCondition.BookNew] []
-  -- genres <- liftIO $ (eitherDecode <$> getJSON :: (IO (Either String [GenreEnum])))
-  -- titles <- fmap has $ runDB $ selectList [TitleTitle >. ""] [Asc TitleTitle]
+  titleSeries <- runDB $ E.select $
+    E.from $ \(t, s) -> do
+    E.where_ (t E.^. TitleSeriesId E.==. s E.?. SeriesId)
+    E.orderBy [E.asc (t E.^. TitleTitle)]
+    return (t, s)
 
-  $logInfo "info message"
-  $logWarn "warn message"
-  $logError "error message"
-  let ids = (fmap (fromSqlKey . entityKey) titles)
-  liftIO $ print $ ids
-  returnJson $ zip ids titles
+  returnJson titleSeries
 
 
 getTitlesR :: Handler Value

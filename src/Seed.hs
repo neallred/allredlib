@@ -16,6 +16,7 @@ lotrSeries =
     3
     0
 
+makeFellowship :: Key Series -> Title
 makeFellowship seriesId =
   Title
     (Just seriesId)
@@ -27,6 +28,7 @@ makeFellowship seriesId =
     "The Fellowship of the Ring"
     (Just 1954)
 
+makeTwoTowers :: Key Series -> Title
 makeTwoTowers seriesId =
   Title
     (Just seriesId)
@@ -38,6 +40,7 @@ makeTwoTowers seriesId =
     "The Two Towers"
     (Just 1954)
 
+makeReturnOfTheKing :: Key Series -> Title
 makeReturnOfTheKing seriesId =
   Title
     (Just seriesId)
@@ -49,7 +52,10 @@ makeReturnOfTheKing seriesId =
     "The Return of the King"
     (Just 1955)
 
+makeManifestation :: Manifestation
 makeManifestation = Manifestation BookCondition.BookNew Nothing
+
+makeManifestationPrinting :: Key Manifestation -> Key Printing -> ManifestationPrinting
 makeManifestationPrinting mId pId = ManifestationPrinting mId pId Nothing Nothing
 
 makeLotrEdition :: ImprintPublisherId -> TitleId -> Edition
@@ -64,6 +70,7 @@ makeLotrEdition imprintPublisherId titleId =
     Nothing
     Nothing
 
+makeLotrPrinting :: Key Edition -> Text -> Int -> Int -> Printing
 makeLotrPrinting editionId isbn year pages = 
   Printing
     editionId

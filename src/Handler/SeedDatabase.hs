@@ -8,7 +8,6 @@ import Import
 import Seed
 import BookCondition
 import qualified Data.ByteString.Lazy as B
-import Database.Persist.Postgresql
 
 has :: [a] -> Bool
 has = (> 0) . length
@@ -23,6 +22,7 @@ jsonFile = "seed/Genre.json"
 getJSON :: IO B.ByteString
 getJSON = B.readFile jsonFile
 
+runSeeder :: HandlerFor App (Maybe ())
 runSeeder = do
   lotrSeriesId <- (runDB $ insert lotrSeries)
   torImprintId <- (runDB $ insert torImprint)

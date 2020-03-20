@@ -27,6 +27,7 @@ emptyText :: Data.Text.Text
 emptyText = ""
 
 
+signature :: Text
 signature = Prelude.foldr (\x y -> x <> ("\n" :: Data.Text.Text) <> y) emptyText
   ([ ""
   , ""
@@ -54,6 +55,7 @@ signature = Prelude.foldr (\x y -> x <> ("\n" :: Data.Text.Text) <> y) emptyText
   , ""
   ] :: [Data.Text.Text])
 
+lazyPlainText :: Text -> Part
 lazyPlainText =  plainTextPart . fromStrict
 
 cc :: [Address]

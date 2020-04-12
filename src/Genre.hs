@@ -29,5 +29,25 @@ data GenreEnum = Action
     deriving (Generic, Show, Read, Eq)
 derivePersistField "GenreEnum"
 
+allGenres :: [GenreEnum]
+allGenres = [Action
+    , Biography
+    , Children
+    , Classic
+    , Dystopia
+    , Fantasy
+    , HistoricalFiction
+    , History
+    , Horror
+    , Junior
+    , Mystery
+    , Religion
+    , Romance
+    , ScienceFiction
+    , Textbook
+    , Travel
+    , WorldLiterature
+    , YoungAdult ]
+
 instance ToJSON GenreEnum
 instance FromJSON GenreEnum

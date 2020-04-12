@@ -14,7 +14,7 @@
 
 /books BookR GET
 /titles TitlesR GET POST
-/title/#TitleId TitleR PUT DELETE
+/title/#TitleId TitleR GET PUT DELETE
 
 /profile ProfileR GET
 
@@ -23,7 +23,14 @@
 /series SeriesR GET POST
 /series/#SeriesId SeriesSingularR PUT DELETE
 
+/subseries SubseriesR GET POST
+/subseries/#SubseriesId SubseriesSingularR GET PUT DELETE
+
 /series-attributions/ SeriesAttributionsR GET
 /series-attributions/#SeriesAttributionId SeriesAttributionSingleR DELETE
 /series/#SeriesId/attributions/#AttributionId SeriesAttributionR POST
 
+/creators/ CreatorsR GET POST
+/creators/#CreatorId CreatorR GET PUT DELETE
+
+/genres/ GenresR GET

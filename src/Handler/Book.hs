@@ -33,6 +33,10 @@ postTitlesR = do
 
   returnJson insertResult
 
+getTitleR :: TitleId -> Handler Value
+getTitleR titleId = do
+  title <- runDB $ selectFirst [TitleId ==. titleId] [] :: Handler (Maybe (Entity Title))
+  returnJson $ title
 
 putTitleR :: TitleId -> Handler Value
 putTitleR titleId = do

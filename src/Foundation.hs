@@ -143,6 +143,8 @@ instance Yesod App
   isAuthorized BookR _ = return Authorized
   isAuthorized SeriesR _ = return Authorized
   isAuthorized (SeriesSingularR _) _ = return Authorized
+  isAuthorized SubseriesR _ = return Authorized
+  isAuthorized (SubseriesSingularR _) _ = return Authorized
   isAuthorized AttributionsR _ = return Authorized
   isAuthorized (AttributionR _) _ = return Authorized
   isAuthorized (SeriesAttributionSingleR _) _ = return Authorized
@@ -150,6 +152,9 @@ instance Yesod App
   isAuthorized SeriesAttributionsR _ = return Authorized
   isAuthorized TitlesR _ = return Authorized
   isAuthorized (TitleR _) _ = return Authorized
+  isAuthorized CreatorsR _ = return Authorized
+  isAuthorized (CreatorR _) _ = return Authorized
+  isAuthorized GenresR _ = return Authorized
     -- the profile route requires that the user is authenticated, so we
     -- delegate to that function
   isAuthorized ProfileR _ = isAuthenticated
@@ -322,6 +327,7 @@ instance YesodAuthEmail App where
         , emailCredsVerkey = userVerkey u
         , emailCredsEmail = email
         }
+--  getEmail = runDB . fmap (fmap userEmail) . get
 
 
 

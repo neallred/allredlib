@@ -62,6 +62,9 @@ import Handler.Profile
 import Handler.SeedDatabase
 import Handler.Series
 import Handler.SeriesAttribution
+import Handler.Subseries
+import Handler.Creator
+import Handler.Genre
 
 -- This line actually creates our YesodDispatch instance. It is the second half
 -- of the call to mkYesodData which occurs in Foundation.hs. Please see the

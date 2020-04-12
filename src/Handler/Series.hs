@@ -8,7 +8,7 @@ import Data.Aeson.Types ( Result(..) )
 
 getSeriesR :: Handler Value
 getSeriesR = do
-  series <- runDB $ selectList [SeriesTitle >. ""] []
+  series <- runDB $ selectList [] [] :: Handler [Entity Series]
   returnJson $ series
 
 postSeriesR :: Handler Value

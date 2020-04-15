@@ -8,17 +8,22 @@ import Data.Aeson.Types ( Result(..) )
 
 getSeriesR :: Handler Value
 getSeriesR = do
-  series <- runDB $ selectList [] [] :: Handler [Entity Series]
-  returnJson $ series
+  queryResult <- runDB $ selectList [] [] :: Handler [Entity Series]
+  returnJson $ queryResult
 
 postSeriesR :: Handler Value
 postSeriesR = do
-  formResultSeries <- parseCheckJsonBody
-  insertResult <- case formResultSeries of
+  formResult <- parseCheckJsonBody
+  insertResult <- case formResult of
     Error x -> sendStatusJSON badRequest400 x
     Success x -> runDB $ insert (x :: Series)
 
   returnJson insertResult
+
+getSeriesSingularR :: SeriesId -> Handler Value
+getSeriesSingularR seriesId = do
+  queryResult <- runDB $ selectFirst [SeriesId ==. seriesId] [] :: Handler (Maybe (Entity Series))
+  returnJson $ queryResult
 
 putSeriesSingularR :: SeriesId -> Handler Value
 putSeriesSingularR seriesId = do

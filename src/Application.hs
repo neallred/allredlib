@@ -52,19 +52,26 @@ import Network.Wai.Middleware.RequestLogger
   )
 import System.Log.FastLogger (defaultBufSize, newStdoutLoggerSet, toLogStr)
 
-import Handler.Book
 -- Import all relevant handler modules here.
 -- Don't forget to add new modules to your cabal file!
 import Handler.Attribution
+import Handler.Book
 import Handler.Common
+import Handler.Creator
+import Handler.Edition
+import Handler.EditionIllustrator
+import Handler.Genre
 import Handler.Home
+import Handler.Imprint
+import Handler.ImprintPublisher
+import Handler.Manifestation
+import Handler.Printing
 import Handler.Profile
+import Handler.Publisher
 import Handler.SeedDatabase
 import Handler.Series
 import Handler.SeriesAttribution
 import Handler.Subseries
-import Handler.Creator
-import Handler.Genre
 
 -- This line actually creates our YesodDispatch instance. It is the second half
 -- of the call to mkYesodData which occurs in Foundation.hs. Please see the

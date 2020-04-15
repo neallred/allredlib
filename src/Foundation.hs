@@ -135,26 +135,39 @@ instance Yesod App
     -> Handler AuthResult
     -- Routes not requiring authentication.
   isAuthorized (AuthR _) _ = return Authorized
-  isAuthorized HomeR _ = return Authorized
   isAuthorized FaviconR _ = return Authorized
   isAuthorized RobotsR _ = return Authorized
   isAuthorized (StaticR _) _ = return Authorized
-  isAuthorized SeedDatabaseR _ = return Authorized -- TODO: This should require an Admin role
-  isAuthorized BookR _ = return Authorized
-  isAuthorized SeriesR _ = return Authorized
-  isAuthorized (SeriesSingularR _) _ = return Authorized
-  isAuthorized SubseriesR _ = return Authorized
-  isAuthorized (SubseriesSingularR _) _ = return Authorized
   isAuthorized AttributionsR _ = return Authorized
   isAuthorized (AttributionR _) _ = return Authorized
+  isAuthorized BookR _ = return Authorized
+  isAuthorized CreatorsR _ = return Authorized
+  isAuthorized (CreatorR _) _ = return Authorized
+  isAuthorized EditionsR _ = return Authorized
+  isAuthorized EditionIllustratorsR _ = return Authorized
+  isAuthorized (EditionIllustratorR _) _ = return Authorized
+  isAuthorized (EditionR _) _ = return Authorized
+  isAuthorized GenresR _ = return Authorized
+  isAuthorized HomeR _ = return Authorized
+  isAuthorized ImprintsR _ = return Authorized
+  isAuthorized (ImprintR _) _ = return Authorized
+  isAuthorized ImprintPublishersR _ = return Authorized
+  isAuthorized ManifestationsR _ = return Authorized
+  isAuthorized (ManifestationR _) _ = return Authorized
+  isAuthorized PrintingsR _ = return Authorized
+  isAuthorized (PrintingR _) _ = return Authorized
+  isAuthorized PublishersR _ = return Authorized
+  isAuthorized (PublisherR _) _ = return Authorized
+  isAuthorized SeedDatabaseR _ = return Authorized -- TODO: This should require an Admin role
+  isAuthorized SeriesR _ = return Authorized
+  isAuthorized (SeriesSingularR _) _ = return Authorized
   isAuthorized (SeriesAttributionSingleR _) _ = return Authorized
   isAuthorized (SeriesAttributionR _ _) _ = return Authorized
+  isAuthorized SubseriesR _ = return Authorized
+  isAuthorized (SubseriesSingularR _) _ = return Authorized
   isAuthorized SeriesAttributionsR _ = return Authorized
   isAuthorized TitlesR _ = return Authorized
   isAuthorized (TitleR _) _ = return Authorized
-  isAuthorized CreatorsR _ = return Authorized
-  isAuthorized (CreatorR _) _ = return Authorized
-  isAuthorized GenresR _ = return Authorized
     -- the profile route requires that the user is authenticated, so we
     -- delegate to that function
   isAuthorized ProfileR _ = isAuthenticated

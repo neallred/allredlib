@@ -12,16 +12,37 @@
 /attributions AttributionsR GET POST
 /attributions/#AttributionId AttributionR PUT DELETE
 
+/editions EditionsR GET POST
+/editions/#EditionId EditionR GET PUT DELETE
+
+/edition-illustrators EditionIllustratorsR GET POST
+/edition-illustrators/#EditionIllustratorId EditionIllustratorR DELETE
+
+/imprints ImprintsR GET POST
+/imprints/#ImprintId ImprintR GET PUT DELETE
+
+/imprint-publishers ImprintPublishersR GET POST
+/imprint-publishers/#ImprintPublisherId ImprintPublisherR DELETE
+
 /books BookR GET
 /titles TitlesR GET POST
-/title/#TitleId TitleR GET PUT DELETE
+/titles/#TitleId TitleR GET PUT DELETE
+
+/manifestations ManifestationsR GET POST
+/manifestations/#ManifestationId ManifestationR GET PUT DELETE
 
 /profile ProfileR GET
+
+/printings PrintingsR GET POST
+/printings/#PrintingId PrintingR GET PUT DELETE
+
+/publishers PublishersR GET POST
+/publishers/#PublisherId PublisherR GET PUT DELETE
 
 /seed-database SeedDatabaseR POST
 
 /series SeriesR GET POST
-/series/#SeriesId SeriesSingularR PUT DELETE
+/series/#SeriesId SeriesSingularR GET PUT DELETE
 
 /subseries SubseriesR GET POST
 /subseries/#SubseriesId SubseriesSingularR GET PUT DELETE

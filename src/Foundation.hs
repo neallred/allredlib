@@ -141,17 +141,28 @@ instance Yesod App
   isAuthorized AttributionsR _ = return Authorized
   isAuthorized (AttributionR _) _ = return Authorized
   isAuthorized BookR _ = return Authorized
+  isAuthorized CheckoutsR _ = return Authorized
+  isAuthorized (CheckoutR _) _ = return Authorized
   isAuthorized CreatorsR _ = return Authorized
   isAuthorized (CreatorR _) _ = return Authorized
+  isAuthorized CreatorTitlesR _ = return Authorized
+  isAuthorized (CreatorTitleR _) _ = return Authorized
+  isAuthorized CreatorAttributionsR _ = return Authorized
+  isAuthorized (CreatorAttributionR _) _ = return Authorized
+  isAuthorized CreatorManifestationsR _ = return Authorized
+  isAuthorized (CreatorManifestationR _) _ = return Authorized
   isAuthorized EditionsR _ = return Authorized
   isAuthorized EditionIllustratorsR _ = return Authorized
   isAuthorized (EditionIllustratorR _) _ = return Authorized
   isAuthorized (EditionR _) _ = return Authorized
   isAuthorized GenresR _ = return Authorized
+  isAuthorized GenreTitlesR _ = return Authorized
+  isAuthorized (GenreTitleR _) _ = return Authorized
   isAuthorized HomeR _ = return Authorized
   isAuthorized ImprintsR _ = return Authorized
   isAuthorized (ImprintR _) _ = return Authorized
   isAuthorized ImprintPublishersR _ = return Authorized
+  isAuthorized (ImprintPublisherR _) _ = return Authorized
   isAuthorized ManifestationsR _ = return Authorized
   isAuthorized (ManifestationR _) _ = return Authorized
   isAuthorized PrintingsR _ = return Authorized
@@ -166,6 +177,8 @@ instance Yesod App
   isAuthorized SubseriesR _ = return Authorized
   isAuthorized (SubseriesSingularR _) _ = return Authorized
   isAuthorized SeriesAttributionsR _ = return Authorized
+  isAuthorized SubseriesAttributionsR _ = return Authorized
+  isAuthorized (SubseriesAttributionR _) _ = return Authorized
   isAuthorized TitlesR _ = return Authorized
   isAuthorized (TitleR _) _ = return Authorized
     -- the profile route requires that the user is authenticated, so we

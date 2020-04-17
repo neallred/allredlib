@@ -12,11 +12,31 @@
 /attributions AttributionsR GET POST
 /attributions/#AttributionId AttributionR PUT DELETE
 
+/checkouts/ CheckoutsR GET POST
+/checkouts/#CheckoutId CheckoutR GET PUT DELETE
+
+/creators/ CreatorsR GET POST
+/creators/#CreatorId CreatorR GET PUT DELETE
+
+/creator-attributions CreatorAttributionsR GET POST
+/creator-attributions/#CreatorAttributionId CreatorAttributionR DELETE
+
+/creator-manifestations CreatorManifestationsR GET POST
+/creator-manifestations/#CreatorManifestationId CreatorManifestationR DELETE
+
+/creator-titles CreatorTitlesR GET POST
+/creator-titles/#CreatorTitleId CreatorTitleR DELETE
+
 /editions EditionsR GET POST
 /editions/#EditionId EditionR GET PUT DELETE
 
 /edition-illustrators EditionIllustratorsR GET POST
 /edition-illustrators/#EditionIllustratorId EditionIllustratorR DELETE
+
+/genres/ GenresR GET
+
+/genre-titles GenreTitlesR GET POST
+/genre-titles/#GenreTitleId GenreTitleR DELETE
 
 /imprints ImprintsR GET POST
 /imprints/#ImprintId ImprintR GET PUT DELETE
@@ -46,12 +66,9 @@
 
 /subseries SubseriesR GET POST
 /subseries/#SubseriesId SubseriesSingularR GET PUT DELETE
+/subseries-attributions/ SubseriesAttributionsR GET
+/subseries-attributions/#SubseriesAttributionId SubseriesAttributionR DELETE
 
 /series-attributions/ SeriesAttributionsR GET
 /series-attributions/#SeriesAttributionId SeriesAttributionSingleR DELETE
 /series/#SeriesId/attributions/#AttributionId SeriesAttributionR POST
-
-/creators/ CreatorsR GET POST
-/creators/#CreatorId CreatorR GET PUT DELETE
-
-/genres/ GenresR GET

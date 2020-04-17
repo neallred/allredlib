@@ -56,11 +56,16 @@ import System.Log.FastLogger (defaultBufSize, newStdoutLoggerSet, toLogStr)
 -- Don't forget to add new modules to your cabal file!
 import Handler.Attribution
 import Handler.Book
+import Handler.Checkout
 import Handler.Common
 import Handler.Creator
+import Handler.CreatorAttribution
+import Handler.CreatorManifestation
+import Handler.CreatorTitle
 import Handler.Edition
 import Handler.EditionIllustrator
 import Handler.Genre
+import Handler.GenreTitle
 import Handler.Home
 import Handler.Imprint
 import Handler.ImprintPublisher
@@ -72,6 +77,7 @@ import Handler.SeedDatabase
 import Handler.Series
 import Handler.SeriesAttribution
 import Handler.Subseries
+import Handler.SubseriesAttribution
 
 -- This line actually creates our YesodDispatch instance. It is the second half
 -- of the call to mkYesodData which occurs in Foundation.hs. Please see the

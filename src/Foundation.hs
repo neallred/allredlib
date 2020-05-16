@@ -24,9 +24,6 @@ import Text.Hamlet (hamletFile, shamlet)
 import Text.Shakespeare.Text (stext)
 import Text.Jasmine (minifym)
 
--- Used only when in "auth-dummy-login" setting is enabled.
-import Yesod.Auth.Dummy
-
 import qualified Data.CaseInsensitive as CI
 import qualified Data.Text.Encoding as TE
 import Yesod.Auth.Email
@@ -268,13 +265,8 @@ instance YesodAuth App where
 --        Nothing ->
 --          Authenticated <$>
 --          insert User {userIdent = credsIdent creds, userPassword = Nothing}
-    -- You can add other plugins like Google Email, email or OAuth here
-  --authPlugins app = [authOpenId Claimed []] ++ extraAuthPlugins
   authPlugins :: App -> [AuthPlugin App]
-  authPlugins app = [authEmail] ++ extraAuthPlugins
-        -- Enable authDummy login if enabled.
-    where
-      extraAuthPlugins = [authDummy | appAuthDummyLogin $ appSettings app]
+  authPlugins _ = [authEmail]
 
 -- | Access function to determine if a user is logged in.
 isAuthenticated :: Handler AuthResult
@@ -285,8 +277,10 @@ isAuthenticated = do
       Nothing -> Unauthorized "You must login to access this page"
       Just _ -> Authorized
 
+isAdminIfWrite :: Bool -> HandlerFor App AuthResult
 isAdminIfWrite isWrite = if isWrite then isAdmin else return Authorized
 
+isAdmin :: HandlerFor App AuthResult
 isAdmin = do
   muid <- maybeAuthId
   canDoThing <- case muid of
@@ -368,7 +362,7 @@ instance YesodAuthEmail App where
         , emailCredsVerkey = userVerkey u
         , emailCredsEmail = email
         }
---  getEmail = runDB . fmap (fmap userEmail) . get
+  getEmail = liftHandler . runDB . fmap (fmap userEmail) . get
 
 
 

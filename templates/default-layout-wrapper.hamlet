@@ -12,6 +12,7 @@ $newline never
 
     ^{pageHead pc}
 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.0.3/js.cookie.min.js">
     \<!-- Bootstrap-3.3.7 compiled and minified JavaScript -->
     <script>
       /* The `defaultCsrfMiddleware` Middleware added in Foundation.hs adds a CSRF token to the request cookies. */

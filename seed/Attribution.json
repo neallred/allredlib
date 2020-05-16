@@ -639,7 +639,325 @@
     "author": "David Wingrove",
     "publisher": null,
     "id": 64
-    
+  },
+  {
+    "title": "The Hunter's Blades Trilogy",
+    "link": "https://en.wikipedia.org/wiki/The_Hunter%27s_Blades_Trilogy",
+    "accessed": "1589655807",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 65
+  },
+  {
+    "title": "Night World No. 1: Secret Vampire; Daughters of Darkness; Spellbinder (Paperback) | The Reading Bug",
+    "link": "https://www.thereadingbug.com/book/9781416974505",
+    "accessed": "1589655955",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "The Reading World",
+    "id": 66
+  },
+  {
+    "title": "David Anthony Durham — The Sacred Band",
+    "link": "http://www.davidanthonydurham.com/novels/sacredband.html",
+    "accessed": "1589656423",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": "David Anthony Durham",
+    "publisher": null,
+    "id": 67
+  },
+  {
+    "title": "The Forever King",
+    "link": "https://en.wikipedia.org/wiki/The_Forever_King",
+    "accessed": "1589656662",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 68
+  },
+  {
+    "title": "Krondor's Sons",
+    "link": "https://en.wikipedia.org/wiki/Krondor%27s_Sons",
+    "accessed": "1589656783",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 69
+  },
+  {
+    "title": "Dune (franchise)",
+    "link": "https://en.wikipedia.org/wiki/Dune_(franchise)",
+    "accessed": "1589657238",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 70
+  },
+  {
+    "title": "An Unfortunate Fairy Tale",
+    "link": "https://www.chandahahn.com/books",
+    "accessed": "1589657554",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": "Chanda Hahn",
+    "publisher": null,
+    "id": 71
+  },
+  {
+    "title": "Heritage of Shannara",
+    "link": "https://en.wikipedia.org/wiki/Heritage_of_Shannara",
+    "accessed": "1589657832",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 72
+  },
+  {
+    "title": "The Restorer by Sharon Hinck",
+    "link": "https://sharonhinck.com/books/the-restorer/",
+    "accessed": "1589658476",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": "Sharon Hinck",
+    "publisher": null,
+    "id": 73
+  },
+  {
+    "title": "Sharon Shinn",
+    "link": "http://www.sharonshinn.net/darkmoondefender.shtml",
+    "accessed": "1589658728",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": "Sharon Shinn",
+    "publisher": null,
+    "id": 74
+  },
+  {
+    "title": "V C Andrews's Gemini books in order",
+    "link": "https://www.fantasticfiction.com/a/v-c-andrews/gemini/",
+    "accessed": "1589659343",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Fantastic Fiction",
+    "id": 75
+  },
+  {
+    "title": "The Giver Quartet",
+    "link": "https://en.wikipedia.org/wiki/The_Giver_Quartet",
+    "accessed": "1589660140",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 76
+  },
+  {
+    "title": "Diary of a Wimpy Kid (book series)",
+    "link": "https://en.wikipedia.org/wiki/Diary_of_a_Wimpy_Kid_(book_series)",
+    "accessed": "1589660620",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 77
+  },
+  {
+    "title": "Symphony of Ages",
+    "link": "https://en.wikipedia.org/wiki/Symphony_of_Ages",
+    "accessed": "1589660802",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 78
+  },
+  {
+    "title": "Musashi Miyamoto Series",
+    "link": "https://www.goodreads.com/series/151120-musashi-miyamoto",
+    "accessed": "1589661170",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Good Reads",
+    "id": 79
+  },
+  {
+    "title": "His Dark Materials",
+    "link": "https://en.wikipedia.org/wiki/His_Dark_Materials",
+    "accessed": "1589661505",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 80
+  },
+  {
+    "title": "Inda",
+    "link": "https://www.fantasticfiction.com/s/sherwood-smith/inda/",
+    "accessed": "1589661679",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Fantastic Fiction",
+    "id": 81
+  },
+  {
+    "title": "Jayson Wolfe Series",
+    "link": "https://www.goodreads.com/series/46049-jayson-wolfe",
+    "accessed": "1589662883",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Good Reads",
+    "id": 82
+  },
+  {
+    "title": "The Last Rune",
+    "link": "https://en.wikipedia.org/wiki/The_Last_Rune",
+    "accessed": "1589663085",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 83
+  },
+  {
+    "title": "Prophecy of the Sisters",
+    "link": "https://www.fantasticfiction.com/z/michelle-zink/prophecy-of-sisters.htm",
+    "accessed": "1589663685",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Fantastic Fiction",
+    "id": 84
+  },
+  {
+    "title": "Bakkian Chronicles",
+    "link": "https://www.fantasticfiction.com/p/jeffrey-poole/bakkian-chronicles/",
+    "accessed": "1589664440",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Fantastic Fiction",
+    "id": 85
+  },
+  {
+    "title": "Temeraire (series)",
+    "link": "https://en.wikipedia.org/wiki/Temeraire_(series)",
+    "accessed": "1589664530",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 86
+  },
+  {
+    "title": "Hourglass Door Trilogy",
+    "link": "https://www.fantasticfiction.com/m/lisa-mangum/hourglass-door-trilogy/",
+    "accessed": "1589666066",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Fantastic Fiction",
+    "id": 87
+  },
+  {
+    "title": "Divine Comedy",
+    "link": "https://en.wikipedia.org/wiki/Divine_Comedy",
+    "accessed": "1589666210",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 88
+  },
+  {
+    "title": "The Great Alta Saga",
+    "link": "https://www.netgalley.com/catalog/book/113003",
+    "accessed": "1589666582",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Net Galley",
+    "id": 89
+  },
+  {
+    "title": "The Famished Road Trilogy",
+    "link": "https://en.wikipedia.org/wiki/The_Famished_Road",
+    "accessed": "1589666822",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 90
+  },
+  {
+    "title": "Andria Buchanan",
+    "link": "https://www.andriabuchanan.com/",
+    "accessed": "1589667333",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": "Andria Buchanan",
+    "publisher": null,
+    "id": 91
+  },
+  {
+    "title": "Kate Mosse",
+    "link": "https://en.wikipedia.org/wiki/Kate_Mosse",
+    "accessed": "1589667715",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 92
+  },
+  {
+    "title": "Janny Wurts",
+    "link": "https://en.wikipedia.org/wiki/Janny_Wurts",
+    "accessed": "1589667918",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 93
+  },
+  {
+    "title": "Brian Rathbone",
+    "link": "https://www.fantasticfiction.com/r/brian-rathbone/dawning-of-power/",
+    "accessed": "1589668103",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Fantastic Fiction",
+    "id": 94
+  },
+  {
+    "title": "The Last Dragon Chronicles",
+    "link": "https://en.wikipedia.org/wiki/The_Last_Dragon_Chronicles",
+    "accessed": "1589668269",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 95
+  },
+  {
+    "title": "The Worst-Case Scenario Survival Handbooks Book Series",
+    "link": "https://www.thriftbooks.com/series/the-worst-case-scenario-survival-handbooks/38313/",
+    "accessed": "1589668505",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Thrift Books",
+    "id": 96
   }
 ]
-

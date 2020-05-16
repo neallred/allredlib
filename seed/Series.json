@@ -122,8 +122,8 @@
   {
     "id": 16,
     "synopsis": "Holes is a 1998 young adult novel written by Louis Sachar and first published by Farrar, Straus and Giroux. A sequel to Holes entitled Small Steps was published in 2006 and centers on one of the secondary characters in the Holes, Armpit.",
-    "title": "The Tamuli",
-    "totalBookMembers": 2,
+    "title": "Holes",
+    "totalBookMembers": 3,
     "totalSubseries": 0,
     "attribution_ids": [17]
   },
@@ -494,6 +494,261 @@
     "totalBookMembers": 8,
     "totalSubseries": 0,
     "attribution_ids": [64]
+  },
+  {
+    "id": 63,
+    "synopsis": "The Hunter's Blades Trilogy is a fantasy trilogy by American writer R.A. Salvatore. It follows the Paths of Darkness series and is composed of three books, The Thousand Orcs, The Lone Drow, and The Two Swords.[1] The Two Swords was Salvatore's 17th work concerning one of his most famous characters, Drizzt Do'Urden. In this series, Drizzt takes a stand to stop the spread of chaos and war by an overambitious orc king across Drizzt's adopted homeland.[1] The series reached the New York Times bestseller list and is followed by the installments of the Transitions series.",
+    "title": "The Hunter's Blades Trilogy",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [65]
+  },
+  {
+    "id": 64,
+    "synopsis": "#1 in the Night World series.\n#2: Dark Angel/The Chosen/Soulmate\nHuntress, Black Dawn, Witchlight\n#4 Dark Angel\n#5: The Chosen\n#6: Soulmate\n#7: Huntress\n#8: Black Dawn\n#9: Witchlight",
+    "title": "Night World",
+    "totalBookMembers": 12,
+    "totalSubseries": 0,
+    "attribution_ids": [66]
+  },
+  {
+    "id": 64,
+    "synopsis": "With the first two books in the Acacia Trilogy, Acacia and The Other Lands, David Anthony Durham has created a vast and engrossing canvas of a world in turmoil, where the surviving children of a royal dynasty are on a quest to realize their fates—and perhaps right ancient wrongs once and for all. As The Sacred Band begins, one of them, Queen Corinn, bestrides the world as a result of her mastery of spells found in the ancient Book of Elenet.",
+    "title": "The Acacia Trilogy",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [67]
+  },
+  {
+    "id": 65,
+    "synopsis": "The Forever King is a fantasy book written by Molly Cochran and Warren Murphy, the authors of Grandmaster, which reached #3 on The New York Times bestseller list. The Forever King is the first in the Forever King Trilogy. The second title is The Broken Sword: King Arthur Returns while the third book is called The Third Magic. Robert Jordan, author of The Dragon Reborn calls The Forever King \"a fresh and exciting view of the Arthur legend.”",
+    "title": "The Forever King Trilogy",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [68]
+  },
+  {
+    "id": 66,
+    "synopsis": "Krondor's Sons is a series of fantasy novel by American writer Raymond E. Feist. The books are part of The Riftwar Cycle and set on the fictional world of Midkemia. The two novels are set between riftwars and explores Midkemia beyond the borders of the Kingdom of the Isles. The main characters are the three sons of Prince of Krondor Arutha ConDoin, Borric, Erland, and Nicholas. According to Feist, the series was originally meant to be a trilogy, with The Return of the Buccaneer being the third volume. However, following The King's Buccaneer Feist changed publishers, and his new editors wanted a brand-new series rather than a continuation of the old one.",
+    "title": "Krondor's Sons",
+    "totalBookMembers": 2,
+    "totalSubseries": 0,
+    "attribution_ids": [69]
+  },
+  {
+    "id": 67,
+    "synopsis": "Dune is a science fiction media franchise that originated with the 1965 novel Dune by Frank Herbert and has continued to add new publications up to 2017. The political, scientific, and social fictional setting of Herbert's novels and derivative works is known as the Dune universe, or Duniverse.[19] Set tens of thousands of years in the future, the saga chronicles a civilization which has banned all forms of computers, or \"thinking machines\", but has also developed advanced technology and mental and physical abilities. Vital to this empire is the harsh desert planet Arrakis, only known source of the spice melange, the most valuable substance in the universe.",
+    "title": "Dune Chronicles",
+    "totalBookMembers": 6,
+    "totalSubseries": 0,
+    "attribution_ids": [70]
+  },
+  {
+    "id": 68,
+    "synopsis": "Mina Grime is unlucky, unpopular and uncoordinated; until she saves her crush's life on a field trip, changing her High School status from loser to hero overnight. But with her new found fame brings misfortune in the form of an old family curse come to light. For Mina is descended from the Brothers Grimm and has inherited all of their unfinished fairy tale business. Which includes trying to outwit a powerful Story from making her it's next fairytale victim.",
+    "title": "An Unfortunate Fairy Tale",
+    "totalBookMembers": 5,
+    "totalSubseries": 0,
+    "attribution_ids": [71]
+  },
+  {
+    "id": 69,
+    "synopsis": "The Heritage of Shannara is a series of four fantasy novels by Terry Brooks, set hundreds of years after the original Shannara trilogy. Unlike the original trilogy, however, this series is all one, cohesive story, in contrast to the three isolated stories of the originals. It is set in a future Four Lands in which the Federation of the Southland has driven off the Elves, enslaved the Dwarves, and outlawed magic. Only the rebel Free-born, led by Padishar Creel, dare to resist.",
+    "title": "The Heritage of Shannara",
+    "totalBookMembers": 4,
+    "totalSubseries": 0,
+    "attribution_ids": [72]
+  },
+  {
+    "id": 70,
+    "synopsis": "Meet Susan, a modern-day soccer mom who is pulled through a portal into another world, where a nation grappling for its soul waits for a promised Restorer to save their people.\nSusan has always longed to do something great for God, but can she fill this role?",
+    "title": "Sword of Lyric Series",
+    "totalBookMembers": 4,
+    "totalSubseries": 0,
+    "attribution_ids": [73]
+  },
+  {
+    "id": 71,
+    "synopsis": "The fire mystic Senneth crosses the country of Gillengaria on a mission for the king. The thing that most people seemed to find disappointing about the Samaria books was that they didn’t follow the same people through successive storylines, so from the outset I planned the Twelve Houses books as a series about six main characters. I gave Senneth my own headaches just so I could share the pain.",
+    "title": "Twelve Houses",
+    "totalBookMembers": 5,
+    "totalSubseries": 0,
+    "attribution_ids": [74]
+  },
+  {
+    "id": 72,
+    "synopsis": "Comprising 3 books: 1. Celeste (2004), 2. Black Cat (2004), 3. Child of Darkness (2005)",
+    "title": "Gemini",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [75]
+  },
+  {
+    "id": 73,
+    "synopsis": "The Giver Quartet is a series of four books about a dystopian world by Lois Lowry. The quartet consists of The Giver (1993), Gathering Blue (2000), Messenger (2004), and Son (2012). The first book won the 1994 Newbery Medal and has sold more than 10 million copies. The story takes place in the world of the Giver. Each book has a different protagonist, but is set in the same futuristic era.",
+    "title": "The Giver Quartet",
+    "totalBookMembers": 4,
+    "totalSubseries": 0,
+    "attribution_ids": [76]
+  },
+  {
+    "id": 74,
+    "synopsis": "Diary of a Wimpy Kid is a series of fiction books written by the American author and cartoonist Jeff Kinney. All the main books are the journals of the main character, Greg Heffley. Befitting a teen's diary, the books are filled with hand-written notes and simple drawings of Greg's daily adventures.",
+    "title": "Diary of a Wimpy Kid",
+    "totalBookMembers": 14,
+    "totalSubseries": 0,
+    "attribution_ids": [77]
+  },
+  {
+    "id": 75,
+    "synopsis": "The Symphony of Ages is a series of fantasy–romance books by Elizabeth Haydon. The books tell the story of Rhapsody, a young singer of considerable talent who travels across time to a new land only to learn that it was foretold in a prophecy. Along with her two companions, Rhapsody fights to reunite a kingdom ravaged by war and long-standing prejudice. It has 3 subseries: The Rhapsody Trilogy, The Middle Books, and The War of the Known World",
+    "title": "The Giver Quartet",
+    "totalBookMembers": 9,
+    "totalSubseries": 3,
+    "attribution_ids": [78]
+  },
+  {
+    "id": 76,
+    "synopsis": "Consists of Child of Vengeance, Sword of Honor, ell and Silence",
+    "title": "Musashi Miyamoto Series",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [79]
+  },
+  {
+    "id": 77,
+    "synopsis": "His Dark Materials is a trilogy of fantasy novels by Philip Pullman consisting of Northern Lights (1995) (published as The Golden Compass in North America), The Subtle Knife (1997), and The Amber Spyglass (2000). It follows the coming of age of two children, Lyra Belacqua and Will Parry, as they wander through a series of parallel universes. The novels have won a number of awards, including the Carnegie Medal in 1995 for Northern Lights and the 2001 Whitbread Book of the Year for The Amber Spyglass. In 2003, the trilogy was ranked third on the BBC's The Big Read poll.",
+    "title": "His Dark Materials",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [80]
+  },
+  {
+    "id": 78,
+    "synopsis": "Consists of 1. Inda (2006), 2. The Fox (2007), 3. The King's Shield (2008), 4. Treason's Shore (2009)",
+    "title": "Inda",
+    "totalBookMembers": 4,
+    "totalSubseries": 0,
+    "attribution_ids": [81]
+  },
+  {
+    "id": 79,
+    "synopsis": "Consists of The Sound of Rain, A Distant Thunder, Winds of Hope, Shelter from the Storm, The Silence of Snow",
+    "title": "Jayson Wolfe Series",
+    "totalBookMembers": 4,
+    "totalSubseries": 0,
+    "attribution_ids": [82]
+  },
+  {
+    "id": 80,
+    "synopsis": "The Last Rune is a series of six epic fantasy novels written by American author Mark Anthony. It concerns the exploits of two earthlings, tavern owner Travis Wilder and ER doctor Grace Beckett, as well as those of their allies, both throughout their homeworld of Earth and the otherworld of Eldh. Travis soon discovers that he has a wild talent for the magic of runes, which gives him power over the material world, while Grace learns that she is a witch, with power over nature.",
+    "title": "The Last Rune",
+    "totalBookMembers": 6,
+    "totalSubseries": 0,
+    "attribution_ids": [83]
+  },
+  {
+    "id": 81,
+    "synopsis": "Sixteen year-old Lia Milthorpe and her twin sister Alice have just become orphans and, as Lia discovers, they have also become enemies. The twins are part of an ancient prophecy that has turned generations of sisters against each other. To escape from a dark fate and to remain in the arms of her beloved boyfriend James, Lia must end the prophecy before her sister does. Only then will she understand the mysterious circumstances of her parents' deaths, the true meaning of the strange mark branded on her wrist, and the lengths to which her sister will go to defeat her.",
+    "title": "Prophecy of the Sisters",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [84]
+  },
+  {
+    "id": 82,
+    "synopsis": "Consists of 1. The Prophecy (2010), 2. Insurrection (2011), 3. Amulet of Aria (2012), Bakkian Chronicles: Short Stories (2013)",
+    "title": "Bakkian Chronicles",
+    "totalBookMembers": 4,
+    "totalSubseries": 0,
+    "attribution_ids": [85]
+  },
+  {
+    "id": 83,
+    "synopsis": "Temeraire is a series of nine novels written by American author Naomi Novik. The novels are works of both fantasy and alternate history: they are \"a reimagining of the epic events of the Napoleonic Wars with an air force—an air force of dragons, manned by crews of aviators\"",
+    "title": "Temeraire",
+    "totalBookMembers": 9,
+    "totalSubseries": 0,
+    "attribution_ids": [86]
+  },
+  {
+    "id": 84,
+    "synopsis": "Consists of 1. The Hourglass Door (2009), 2. The Golden Spiral (2010), 3. The Forgotten Locket (2011)",
+    "title": "Temeraire",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [87]
+  },
+  {
+    "id": 85,
+    "synopsis": "The Divine Comedy is a long Italian narrative poem by Dante Alighieri, begun c. 1308 and completed in 1320, a year before his death in 1321. It is widely considered to be the pre-eminent work in Italian literature and one of the greatest works of world literature. The poem's imaginative vision of the afterlife is representative of the medieval world-view as it had developed in the Western Church by the 14th century. It helped establish the Tuscan language, in which it is written (also in most present-day Italian-market editions), as the standardized Italian language. It is divided into three parts: Inferno, Purgatorio, and Paradiso.",
+    "title": "The Divine Comedy",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [88]
+  },
+  {
+    "id": 86,
+    "synopsis": "A foretold warrior and her dark sister join forces to dismantle and remake their embattled world in this epic fantasy saga from a Nebula Award–winning author.",
+    "title": "The Great Alta Saga",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [89]
+  },
+  {
+    "id": 87,
+    "synopsis": "The Famished Road is a novel by Nigerian author Ben Okri, the first book in a trilogy that continues with Songs of Enchantment (1993) and Infinite Riches (1998).",
+    "title": "The Famished Road Trilogy",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [90]
+  },
+  {
+    "id": 88,
+    "synopsis": "",
+    "title": "Chronicles of Nerissette",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [91]
+  },
+  {
+    "id": 89,
+    "synopsis": "",
+    "title": "The Languedoc Trilogy",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [92]
+  },
+  {
+    "id": 90,
+    "synopsis": "",
+    "title": "Cycle of Fire",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [93]
+  },
+  {
+    "id": 91,
+    "synopsis": "",
+    "title": "Dawning of Power",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [94]
+  },
+  {
+    "id": 92,
+    "synopsis": "The Last Dragon Chronicles is a series of seven children's fantasy novels written by Chris d'Lacey. The books follow a college student, David Rain, as he discovers the existence of living clay dragons in the house he lodges at.",
+    "title": "The Last Dragon Chronicles",
+    "totalBookMembers": 7,
+    "totalSubseries": 0,
+    "attribution_ids": [95]
+  },
+  {
+    "id": 93,
+    "synopsis": "",
+    "title": "The Worst-Case Scenario Survival Handbooks Book Series",
+    "totalBookMembers": 12,
+    "totalSubseries": 0,
+    "attribution_ids": [96]
   }
 ]
-

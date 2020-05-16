@@ -41,4 +41,25 @@
     "totalBookMembers": 1,
     "attribution_ids": [58]
   },
+  {
+    "seriesId": 75,
+    "synopsis": null,
+    "title": "The Rhapsody Trilogy",
+    "totalBookMembers": 3,
+    "attribution_ids": [78]
+  },
+  {
+    "seriesId": 75,
+    "synopsis": null,
+    "title": "The Middle Books",
+    "totalBookMembers": 2,
+    "attribution_ids": [78]
+  },
+  {
+    "seriesId": 75,
+    "synopsis": null,
+    "title": "The War of the Known World",
+    "totalBookMembers": 4,
+    "attribution_ids": [78]
+  }
 ]

@@ -1900,8 +1900,8 @@
     "Extra": "Science Fiction",
     "Author": "Herbert, Frank",
     "authors_ids": "196",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "6"
   },
   {
     "id": "137",
@@ -3678,8 +3678,8 @@
     "Extra": "Fantasy",
     "Author": "Salvatore, R. A.",
     "authors_ids": "405",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "264",
@@ -3692,8 +3692,8 @@
     "Extra": "Fantasy",
     "Author": "Smith, L. J.",
     "authors_ids": "429",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1-3",
+    "volume_b": "12"
   },
   {
     "id": "265",
@@ -3706,8 +3706,8 @@
     "Extra": "?",
     "Author": "Durham, David Anthony",
     "authors_ids": "126",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "266",
@@ -3720,8 +3720,8 @@
     "Extra": "?",
     "Author": "Cochran, Molly; Murphy, Warren",
     "authors_ids": "90",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "267",
@@ -3734,8 +3734,8 @@
     "Extra": "Fantasy",
     "Author": "Feist, Raymond E.",
     "authors_ids": "138",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "2"
   },
   {
     "id": "268",
@@ -3748,8 +3748,8 @@
     "Extra": "Dystopia",
     "Author": "Bradbury, Ray",
     "authors_ids": "52",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "269",
@@ -3762,8 +3762,8 @@
     "Extra": "Fantasy",
     "Author": "Tolkien, J. R. John Ronald Reuel",
     "authors_ids": "465",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "270",
@@ -3776,8 +3776,8 @@
     "Extra": "Children",
     "Author": "Sims, Lesley",
     "authors_ids": "425",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "271",
@@ -3790,8 +3790,8 @@
     "Extra": "Textbook",
     "Author": "Gebhard, Jerry G.",
     "authors_ids": "157",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "272",
@@ -3818,8 +3818,8 @@
     "Extra": "textbook",
     "Author": "Leitch, Vincent B.",
     "authors_ids": "261",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "274",
@@ -3832,8 +3832,8 @@
     "Extra": "Textbook",
     "Author": "Hodson, Kristin B.; Harrison, Thomas G.; Worthington, Alisha B.",
     "authors_ids": "204, 189, 504",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "275",
@@ -3846,8 +3846,8 @@
     "Extra": "Religion",
     "Author": "The Church of Jesus Christ of Latter-day Saints",
     "authors_ids": "458",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "276",
@@ -3860,13 +3860,13 @@
     "Extra": "Textbook",
     "Author": "Ross, Claudia; Ma, Jing-heng Sheng",
     "authors_ids": "394, 277",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "277",
     "genres_id": "6",
-    "title": "An Unfortunate Fairy Tale",
+    "title": "UnEnchanted",
     "year": "2012",
     "pages": "515",
     "isbn": "978-1-4750-7030-9",
@@ -3874,8 +3874,8 @@
     "Extra": "Fantasy",
     "Author": "Hahn, Chanda",
     "authors_ids": "180",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "5"
   },
   {
     "id": "278",
@@ -3888,8 +3888,8 @@
     "Extra": "?",
     "Author": "Kordi, Gohar",
     "authors_ids": "243",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "279",
@@ -3902,8 +3902,8 @@
     "Extra": "Travel",
     "Author": "Leffman, David; Lewis, Simon; Atiyah, Jeremy",
     "authors_ids": "260, 267, 27",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "280",
@@ -3916,8 +3916,8 @@
     "Extra": "Travel",
     "Author": "Hansel, Bettina",
     "authors_ids": "187",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "281",
@@ -3930,8 +3930,8 @@
     "Extra": "Fantasy",
     "Author": "Anthony, Piers",
     "authors_ids": "21",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "4",
+    "volume_b": "46"
   },
   {
     "id": "282",
@@ -3944,8 +3944,8 @@
     "Extra": "Textbook",
     "Author": "Santrock, John",
     "authors_ids": "408",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "283",
@@ -3958,8 +3958,8 @@
     "Extra": "World Literature",
     "Author": "Yu, Hua",
     "authors_ids": "518",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "284",
@@ -3972,8 +3972,8 @@
     "Extra": "Fantasy",
     "Author": "Brooks, Terry",
     "authors_ids": "57",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "4",
+    "volume_b": "4"
   },
   {
     "id": "285",
@@ -3986,8 +3986,8 @@
     "Extra": "Fantasy",
     "Author": "Cashore, Kristin",
     "authors_ids": "77",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "286",
@@ -4000,8 +4000,8 @@
     "Extra": "Fantasy",
     "Author": "Hinck, Sharon",
     "authors_ids": "202",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "4"
   },
   {
     "id": "287",
@@ -4015,7 +4015,7 @@
     "Author": "Riordan, Rick",
     "authors_ids": "387",
     "volume_a": "2",
-    "volume_b": ""
+    "volume_b": "5"
   },
   {
     "id": "288",
@@ -4028,8 +4028,8 @@
     "Extra": "Romance",
     "Author": "Shinn, Sharon",
     "authors_ids": "421",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "5"
   },
   {
     "id": "289",
@@ -4042,8 +4042,8 @@
     "Extra": "Textbook",
     "Author": "Teng, Shou-hsin",
     "authors_ids": "457",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "290",
@@ -4056,8 +4056,8 @@
     "Extra": "Junior",
     "Author": "Findlay, Jamieson",
     "authors_ids": "140",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "291",
@@ -4070,8 +4070,8 @@
     "Extra": "Travel",
     "Author": "writers",
     "authors_ids": "525",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "292",
@@ -4084,8 +4084,8 @@
     "Extra": "Young Adult",
     "Author": "MacHale, D. J.",
     "authors_ids": "278",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "10"
   },
   {
     "id": "293",
@@ -4099,7 +4099,7 @@
     "Author": "Smith, Joseph",
     "authors_ids": "428",
     "volume_a": "2",
-    "volume_b": "8"
+    "volume_b": "7"
   },
   {
     "id": "294",
@@ -4112,8 +4112,8 @@
     "Extra": "Romance",
     "Author": "Shinn, Sharon",
     "authors_ids": "421",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "5"
   },
   {
     "id": "295",
@@ -4126,8 +4126,8 @@
     "Extra": "Fantasy",
     "Author": "Rawn, Melanie",
     "authors_ids": "380",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "296",
@@ -4140,8 +4140,8 @@
     "Extra": "Young Adult",
     "Author": "Croggon, Alison",
     "authors_ids": "101",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "5"
   },
   {
     "id": "297",
@@ -4154,8 +4154,8 @@
     "Extra": "Fantasy",
     "Author": "Tolkien, John Ronald Reuel",
     "authors_ids": "465",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "298",
@@ -4168,8 +4168,8 @@
     "Extra": "Junior",
     "Author": "Tingle, Rebecca",
     "authors_ids": "463",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "299",
@@ -4182,8 +4182,8 @@
     "Extra": "Classic",
     "Author": "Milton, John",
     "authors_ids": "303",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "300",
@@ -4196,8 +4196,8 @@
     "Extra": "Religion",
     "Author": "The Church of Jesus Christ of Latter-day Saints",
     "authors_ids": "458",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "301",
@@ -4210,8 +4210,8 @@
     "Extra": "Textbook",
     "Author": "America, Boy Scouts of",
     "authors_ids": "16",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "302",
@@ -4224,13 +4224,13 @@
     "Extra": "Horror",
     "Author": "Andrews, V. C.",
     "authors_ids": "19",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "303",
     "genres_id": "6",
-    "title": "Soul of the Fire: A Sword of Truth Novel",
+    "title": "Soul of the Fire",
     "year": "2000",
     "pages": "806",
     "isbn": "978-0-8125-5149-5",
@@ -4238,13 +4238,13 @@
     "Extra": "Fantasy",
     "Author": "Goodkind, Terry",
     "authors_ids": "163",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "7",
+    "volume_b": "21"
   },
   {
     "id": "304",
     "genres_id": "6",
-    "title": "Temple of the Winds: Book Four of 'The Sword of Truths'",
+    "title": "Temple of the Winds",
     "year": "1998",
     "pages": "836",
     "isbn": "978-0-8125-5148-8",
@@ -4252,8 +4252,8 @@
     "Extra": "Fantasy",
     "Author": "Goodkind, Terry",
     "authors_ids": "163",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "4",
+    "volume_b": "21"
   },
   {
     "id": "305",
@@ -4266,8 +4266,8 @@
     "Extra": "Fantasy",
     "Author": "Jordan, Robert",
     "authors_ids": "227",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "306",
@@ -4280,8 +4280,8 @@
     "Extra": "Textbook",
     "Author": "Neuendorf, Kimberly A.",
     "authors_ids": "323",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "307",
@@ -4294,8 +4294,8 @@
     "Extra": "Young Adult",
     "Author": "Adams, Richard",
     "authors_ids": "7",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "308",
@@ -4308,8 +4308,8 @@
     "Extra": "Fantasy",
     "Author": "Weis, Margaret; Hickman, Tracy",
     "authors_ids": "487, 200",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "3"
   },
   {
     "id": "309",
@@ -4322,8 +4322,8 @@
     "Extra": "World Literature",
     "Author": "郝廣才; Forestier, Isabelle",
     "authors_ids": "533, 141",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "310",
@@ -4336,8 +4336,8 @@
     "Extra": "World Literature",
     "Author": "Dai, Sijie; Rilke, Ina",
     "authors_ids": "107, 386",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "311",
@@ -4350,8 +4350,8 @@
     "Extra": "Religion",
     "Author": "The Church of Jesus Christ of Latter-day Saints",
     "authors_ids": "458",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "312",
@@ -4364,8 +4364,8 @@
     "Extra": "Classic",
     "Author": "Tolstoy, Nikolai",
     "authors_ids": "467",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "313",
@@ -4378,8 +4378,8 @@
     "Extra": "?",
     "Author": "Mayhar, Ardath",
     "authors_ids": "288",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "314",
@@ -4392,8 +4392,8 @@
     "Extra": "?",
     "Author": "Tey, Josephine",
     "authors_ids": "458",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "315",
@@ -4406,8 +4406,8 @@
     "Extra": "Junior",
     "Author": "Lowry, Lois",
     "authors_ids": "272",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "4"
   },
   {
     "id": "316",
@@ -4420,13 +4420,13 @@
     "Extra": "Fantasy",
     "Author": "Anthony, Piers",
     "authors_ids": "21",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "26",
+    "volume_b": "46"
   },
   {
     "id": "317",
     "genres_id": "14",
-    "title": "11:15: The Making of a Halfling (FREE ebook)",
+    "title": "11:15: The Making of a Halfling",
     "year": "2011",
     "pages": "31",
     "isbn": "978-0-310-72346-2",
@@ -4434,8 +4434,8 @@
     "Extra": "Science Fiction",
     "Author": "Burch, Heather",
     "authors_ids": "65",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "318",
@@ -4448,8 +4448,8 @@
     "Extra": "Young Adult",
     "Author": "Rowling, J. K.",
     "authors_ids": "400",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "5",
+    "volume_b": "7"
   },
   {
     "id": "319",
@@ -4462,8 +4462,8 @@
     "Extra": "Textbook",
     "Author": "Williams, Edwin B.",
     "authors_ids": "496",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "320",
@@ -4476,8 +4476,8 @@
     "Extra": "History",
     "Author": "Kessler, Ronald",
     "authors_ids": "234",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "321",
@@ -4490,8 +4490,8 @@
     "Extra": "World Literature",
     "Author": "Cortázar, Julio",
     "authors_ids": "98",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "322",
@@ -4504,8 +4504,8 @@
     "Extra": "Textbook",
     "Author": "Landsburg, Steven E.",
     "authors_ids": "254",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "323",
@@ -4518,8 +4518,8 @@
     "Extra": "Junior",
     "Author": "Kinney, Jeff",
     "authors_ids": "235",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "14"
   },
   {
     "id": "324",
@@ -4532,8 +4532,8 @@
     "Extra": "Romance",
     "Author": "Stansfield, Anita",
     "authors_ids": "442",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "325",
@@ -4546,8 +4546,8 @@
     "Extra": "Fantasy",
     "Author": "Haydon, Elizabeth",
     "authors_ids": "193",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "326",
@@ -4560,8 +4560,8 @@
     "Extra": "Fantasy",
     "Author": "Roberson, Jennifer",
     "authors_ids": "388",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "8"
   },
   {
     "id": "327",
@@ -4574,8 +4574,8 @@
     "Extra": "?",
     "Author": "Kirk, David",
     "authors_ids": "238",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "328",
@@ -4588,8 +4588,8 @@
     "Extra": "?",
     "Author": "Kostova, Elizabeth",
     "authors_ids": "244",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "329",
@@ -4602,8 +4602,8 @@
     "Extra": "?",
     "Author": "Child, Lauren",
     "authors_ids": "85",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "330",
@@ -4630,8 +4630,8 @@
     "Extra": "Fantasy",
     "Author": "Smith, Sherwood",
     "authors_ids": "430",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "4",
+    "volume_b": "4"
   },
   {
     "id": "332",
@@ -4644,8 +4644,8 @@
     "Extra": "Young Adult",
     "Author": "MacHale, D. J.",
     "authors_ids": "278",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "5",
+    "volume_b": "10"
   },
   {
     "id": "333",
@@ -4658,8 +4658,8 @@
     "Extra": "Fantasy",
     "Author": "Roberson, Jennifer",
     "authors_ids": "388",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "4",
+    "volume_b": "8"
   },
   {
     "id": "334",
@@ -4672,8 +4672,8 @@
     "Extra": "?",
     "Author": "Wodehouse, P. G.",
     "authors_ids": "501",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "335",
@@ -4686,8 +4686,8 @@
     "Extra": "Junior",
     "Author": "Karr, Kathleen",
     "authors_ids": "229",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "336",
@@ -4700,8 +4700,8 @@
     "Extra": "Fantasy",
     "Author": "Jordan, Robert",
     "authors_ids": "227",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "10",
+    "volume_b": "14"
   },
   {
     "id": "337",
@@ -4714,8 +4714,8 @@
     "Extra": "Classic",
     "Author": "Shakespeare, William",
     "authors_ids": "417",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "338",
@@ -4728,8 +4728,8 @@
     "Extra": "Religion",
     "Author": "",
     "authors_ids": "525",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "339",
@@ -4742,8 +4742,8 @@
     "Extra": "Textbook",
     "Author": "Walters, Derek",
     "authors_ids": "478",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "340",
@@ -4756,8 +4756,8 @@
     "Extra": "Junior",
     "Author": "Duey, Kathleen",
     "authors_ids": "124",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "341",
@@ -4770,13 +4770,13 @@
     "Extra": "?",
     "Author": "Prabhupāda, A. C. Bhaktivedanta Swami",
     "authors_ids": "368",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "342",
     "genres_id": "13",
-    "title": "A Distant Thunder: Jayson Wolfe Series. bk. 2",
+    "title": "A Distant Thunder",
     "year": "2008",
     "pages": "294",
     "isbn": "978-1-59811-711-0",
@@ -4784,8 +4784,8 @@
     "Extra": "Romance",
     "Author": "Stansfield, Anita",
     "authors_ids": "442",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "5"
   },
   {
     "id": "343",
@@ -4798,8 +4798,8 @@
     "Extra": "?",
     "Author": "Anthony, Mark",
     "authors_ids": "20",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "5",
+    "volume_b": "6"
   },
   {
     "id": "344",
@@ -4812,8 +4812,8 @@
     "Extra": "Textbook",
     "Author": "Johnson, Janet Buttolph; Reynolds, H. T.",
     "authors_ids": "223, 384",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "345",
@@ -4827,7 +4827,7 @@
     "Author": "Paolini, Christopher",
     "authors_ids": "348",
     "volume_a": "2",
-    "volume_b": ""
+    "volume_b": "4"
   },
   {
     "id": "346",
@@ -4840,8 +4840,8 @@
     "Extra": "Religion",
     "Author": "The Church of Jesus Christ of Latter-day Saints",
     "authors_ids": "458",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "347",
@@ -4854,8 +4854,8 @@
     "Extra": "Textbook",
     "Author": "Nakano, Dokuotei",
     "authors_ids": "319",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "348",
@@ -4868,8 +4868,8 @@
     "Extra": "Classic",
     "Author": "Shelley, Mary Wollstonecraft",
     "authors_ids": "419",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "349",
@@ -4882,8 +4882,8 @@
     "Extra": "Religion",
     "Author": "Smith, Joseph",
     "authors_ids": "428",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "4",
+    "volume_b": "7"
   },
   {
     "id": "350",
@@ -4896,8 +4896,8 @@
     "Extra": "History",
     "Author": "Levinson, Marc",
     "authors_ids": "265",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "351",
@@ -4910,8 +4910,8 @@
     "Extra": "Fantasy",
     "Author": "Modesitt, L. E. Jr.",
     "authors_ids": "310",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "4",
+    "volume_b": "22"
   },
   {
     "id": "352",
@@ -4924,8 +4924,8 @@
     "Extra": "Science Fiction",
     "Author": "Adams, Douglas",
     "authors_ids": "6",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "353",
@@ -4938,8 +4938,8 @@
     "Extra": "Fantasy",
     "Author": "Sanderson, Brandon",
     "authors_ids": "406",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "8"
   },
   {
     "id": "354",
@@ -4952,8 +4952,8 @@
     "Extra": "Fantasy",
     "Author": "Smith, Sherwood",
     "authors_ids": "430",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "4"
   },
   {
     "id": "355",
@@ -4966,8 +4966,8 @@
     "Extra": "Textbook",
     "Author": "Gwynn, R. S.",
     "authors_ids": "175",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "356",
@@ -4980,8 +4980,8 @@
     "Extra": "Fantasy",
     "Author": "Zink, Michelle",
     "authors_ids": "523",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "357",
@@ -4994,8 +4994,8 @@
     "Extra": "Romance",
     "Author": "Stansfield, Anita",
     "authors_ids": "442",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "4"
   },
   {
     "id": "358",
@@ -5008,8 +5008,8 @@
     "Extra": "?",
     "Author": "Poole, Jeffrey",
     "authors_ids": "364",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "4"
   },
   {
     "id": "359",
@@ -5022,8 +5022,8 @@
     "Extra": "Fantasy",
     "Author": "Novik, Naomi",
     "authors_ids": "335",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "9"
   },
   {
     "id": "360",
@@ -5036,8 +5036,8 @@
     "Extra": "History",
     "Author": "Boyer, Carl B.",
     "authors_ids": "51",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "361",
@@ -5050,8 +5050,8 @@
     "Extra": "World Literature",
     "Author": "Cisneros, Sandra",
     "authors_ids": "88",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "362",
@@ -5064,8 +5064,8 @@
     "Extra": "Textbook",
     "Author": "Fuse, Tomoko",
     "authors_ids": "151",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "363",
@@ -5078,8 +5078,8 @@
     "Extra": "World Literature",
     "Author": "Adichie, Chimamanda Ngozi",
     "authors_ids": "8",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "364",
@@ -5092,8 +5092,8 @@
     "Extra": "Textbook",
     "Author": "Hsia, Chih-tsing",
     "authors_ids": "211",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "365",
@@ -5106,8 +5106,8 @@
     "Extra": "Junior",
     "Author": "Alexander, Lloyd",
     "authors_ids": "14",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "366",
@@ -5120,8 +5120,8 @@
     "Extra": "Textbook",
     "Author": "Freeman, Scott",
     "authors_ids": "147",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "367",
@@ -5134,8 +5134,8 @@
     "Extra": "Textbook",
     "Author": "Beyle, Thad",
     "authors_ids": "44",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "368",
@@ -5148,8 +5148,8 @@
     "Extra": "World Literature",
     "Author": "王学英; Chi, Li-Chuang;冯力平",
     "authors_ids": "532, 83, 526",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "369",
@@ -5162,8 +5162,8 @@
     "Extra": "Fantasy",
     "Author": "Jordan, Robert",
     "authors_ids": "227",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "6",
+    "volume_b": "14"
   },
   {
     "id": "370",
@@ -5176,8 +5176,8 @@
     "Extra": "Young Adult",
     "Author": "Guin, Ursula K. Le",
     "authors_ids": "258",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "371",
@@ -5190,8 +5190,8 @@
     "Extra": "Fantasy",
     "Author": "Goodkind, Terry",
     "authors_ids": "163",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "21"
   },
   {
     "id": "372",
@@ -5204,8 +5204,8 @@
     "Extra": "Fantasy",
     "Author": "Goodkind, Terry",
     "authors_ids": "163",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "8",
+    "volume_b": "21"
   },
   {
     "id": "373",
@@ -5218,8 +5218,8 @@
     "Extra": "Textbook",
     "Author": "Ladefoged, Peter; Johnson, Keith",
     "authors_ids": "250, 224",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "374",
@@ -5232,8 +5232,8 @@
     "Extra": "Textbook",
     "Author": "Fox, Frank; Pope, Clayne",
     "authors_ids": "145, 365",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "375",
@@ -5246,8 +5246,8 @@
     "Extra": "Children",
     "Author": "Barrie, James Matthew",
     "authors_ids": "36",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "376",
@@ -5260,8 +5260,8 @@
     "Extra": "Fantasy",
     "Author": "Rawn, Melanie",
     "authors_ids": "380",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "377",
@@ -5274,8 +5274,8 @@
     "Extra": "Fantasy",
     "Author": "Modesitt, L. E.",
     "authors_ids": "310",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "6",
+    "volume_b": "22"
   },
   {
     "id": "378",
@@ -5289,7 +5289,7 @@
     "Author": "Riordan, Rick",
     "authors_ids": "387",
     "volume_a": "3",
-    "volume_b": ""
+    "volume_b": "5"
   },
   {
     "id": "379",
@@ -5302,8 +5302,8 @@
     "Extra": "Fantasy",
     "Author": "Smith, Sherwood",
     "authors_ids": "430",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "4"
   },
   {
     "id": "380",
@@ -5316,8 +5316,8 @@
     "Extra": "Textbook",
     "Author": "Davis, Kenneth C.",
     "authors_ids": "109",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "381",
@@ -5330,8 +5330,8 @@
     "Extra": "Textbook",
     "Author": "Kneissler, Irmgard; Lasting, Inger",
     "authors_ids": "242, 256",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "382",
@@ -5344,8 +5344,8 @@
     "Extra": "Young Adult",
     "Author": "MacHale, D. J.",
     "authors_ids": "278",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "10"
   },
   {
     "id": "383",
@@ -5358,8 +5358,8 @@
     "Extra": "Religion",
     "Author": "Facione, Mario",
     "authors_ids": "133",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "384",
@@ -5372,8 +5372,8 @@
     "Extra": "Classic",
     "Author": "James, Henry",
     "authors_ids": "221",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "385",
@@ -5386,8 +5386,8 @@
     "Extra": "Science Fiction",
     "Author": "Card, Orson Scott",
     "authors_ids": "75",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "7",
+    "volume_b": "20"
   },
   {
     "id": "386",
@@ -5400,8 +5400,8 @@
     "Extra": "Biography",
     "Author": "Harris, Wyatt",
     "authors_ids": "188",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "387",
@@ -5414,8 +5414,8 @@
     "Extra": "Textbook",
     "Author": "Fuse, Tomoko",
     "authors_ids": "151",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "388",
@@ -5428,8 +5428,8 @@
     "Extra": "?",
     "Author": "Mangum, Lisa",
     "authors_ids": "282",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "389",
@@ -5442,8 +5442,8 @@
     "Extra": "World Literature",
     "Author": "Alighieri, Dante; Mandelbaum, Allen",
     "authors_ids": "15, 281",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "3"
   },
   {
     "id": "390",
@@ -5456,8 +5456,8 @@
     "Extra": "Fantasy",
     "Author": "Goodkind, Terry",
     "authors_ids": "163",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "11",
+    "volume_b": "21"
   },
   {
     "id": "391",
@@ -5470,8 +5470,8 @@
     "Extra": "Fantasy",
     "Author": "Eddings, David",
     "authors_ids": "127",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "5",
+    "volume_b": "5"
   },
   {
     "id": "392",
@@ -5484,8 +5484,8 @@
     "Extra": "Travel",
     "Author": "Brown, Joshua Samuel",
     "authors_ids": "61",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "393",
@@ -5498,8 +5498,8 @@
     "Extra": "Young Adult",
     "Author": "Yolen, Jane",
     "authors_ids": "516",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "394",
@@ -5512,8 +5512,8 @@
     "Extra": "Young Adult",
     "Author": "Sachar, Louis",
     "authors_ids": "403",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "3"
   },
   {
     "id": "395",
@@ -5526,8 +5526,8 @@
     "Extra": "Textbook",
     "Author": "Group, Random House Publishing",
     "authors_ids": "173",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "396",
@@ -5540,8 +5540,8 @@
     "Extra": "World Literature",
     "Author": "Okri, Ben",
     "authors_ids": "342",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "397",
@@ -5554,8 +5554,8 @@
     "Extra": "Fantasy",
     "Author": "Roberson, Jennifer",
     "authors_ids": "388",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "8"
   },
   {
     "id": "398",
@@ -5568,8 +5568,8 @@
     "Extra": "Textbook",
     "Author": "Gynecologists, American College of Obstetricians and",
     "authors_ids": "176",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "399",
@@ -5582,8 +5582,8 @@
     "Extra": "Fantasy",
     "Author": "Jordan, Robert",
     "authors_ids": "227",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "9",
+    "volume_b": "14"
   },
   {
     "id": "400",
@@ -5596,8 +5596,8 @@
     "Extra": "Fantasy",
     "Author": "Goodkind, Terry",
     "authors_ids": "163",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "9",
+    "volume_b": "21"
   },
   {
     "id": "401",
@@ -5610,8 +5610,8 @@
     "Extra": "Textbook",
     "Author": "Waley, Arthur",
     "authors_ids": "475",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "402",
@@ -5624,8 +5624,8 @@
     "Extra": "Fantasy",
     "Author": "Douglass, Sara",
     "authors_ids": "120",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "4",
+    "volume_b": "6"
   },
   {
     "id": "403",
@@ -5638,8 +5638,8 @@
     "Extra": "Fantasy",
     "Author": "Tolkien, John Ronald Reuel",
     "authors_ids": "465",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "404",
@@ -5652,8 +5652,8 @@
     "Extra": "World Literature",
     "Author": "王学英; Chi, Li-Chuang;冯力平",
     "authors_ids": "532, 83, 526",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "405",
@@ -5666,8 +5666,8 @@
     "Extra": "?",
     "Author": "Buchanan, Andria",
     "authors_ids": "63",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "406",
@@ -5680,8 +5680,8 @@
     "Extra": "Fantasy",
     "Author": "Jordan, Robert",
     "authors_ids": "227",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "7",
+    "volume_b": "14"
   },
   {
     "id": "407",
@@ -5694,8 +5694,8 @@
     "Extra": "Science Fiction",
     "Author": "Card, Orson Scott",
     "authors_ids": "75",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "5",
+    "volume_b": "20"
   },
   {
     "id": "408",
@@ -5708,8 +5708,8 @@
     "Extra": "Fantasy",
     "Author": "Hinck, Sharon",
     "authors_ids": "202",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "4"
   },
   {
     "id": "409",
@@ -5722,8 +5722,8 @@
     "Extra": "Children",
     "Author": "Juster, Norton",
     "authors_ids": "228",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "410",
@@ -5736,8 +5736,8 @@
     "Extra": "Textbook",
     "Author": "Palermo, Vicente",
     "authors_ids": "346",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "411",
@@ -5750,8 +5750,8 @@
     "Extra": "History",
     "Author": "Chang, Jung",
     "authors_ids": "81",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "412",
@@ -5764,8 +5764,8 @@
     "Extra": "Junior",
     "Author": "Kinney, Jeff",
     "authors_ids": "235",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "14"
   },
   {
     "id": "413",
@@ -5778,8 +5778,8 @@
     "Extra": "Textbook",
     "Author": "Chiang, Gregory",
     "authors_ids": "84",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "414",
@@ -5792,8 +5792,8 @@
     "Extra": "History",
     "Author": "Solzhenitsyn, Aleksandr",
     "authors_ids": "435",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "415",
@@ -5806,8 +5806,8 @@
     "Extra": "Textbook",
     "Author": "Lutgens, Frederick K.; Tarbuck, Edward J.",
     "authors_ids": "276, 452",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "416",
@@ -5820,8 +5820,8 @@
     "Extra": "Horror",
     "Author": "Mosse, Kate",
     "authors_ids": "313",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "417",
@@ -5834,8 +5834,8 @@
     "Extra": "Textbook",
     "Author": "Books, Time-Life",
     "authors_ids": "47",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "418",
@@ -5848,8 +5848,8 @@
     "Extra": "Fantasy",
     "Author": "Wurts, Janny",
     "authors_ids": "508",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "419",
@@ -5862,8 +5862,8 @@
     "Extra": "Young Adult",
     "Author": "Rathbone, Brian",
     "authors_ids": "378",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "420",
@@ -5876,8 +5876,8 @@
     "Extra": "Young Adult",
     "Author": "d'Lacey, Chris",
     "authors_ids": "524",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "7"
   },
   {
     "id": "421",
@@ -5890,8 +5890,8 @@
     "Extra": "Travel",
     "Author": "Piven, Joshua; Borgenicht, David",
     "authors_ids": "359,49",
-    "volume_a": "1",
-    "volume_b": "13"
+    "volume_a": "5",
+    "volume_b": "12"
   },
   {
     "id": "422",
@@ -5904,8 +5904,8 @@
     "Extra": "Fantasy",
     "Author": "Eddings, David",
     "authors_ids": "127",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "3"
   },
   {
     "id": "423",

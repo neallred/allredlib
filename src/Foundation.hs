@@ -129,58 +129,54 @@ instance Yesod App
     setTitle "Confuzzled hedgie!"
     $(widgetFile "404")
 
-  isAuthorized ::
-       Route App -- ^ The route the user is visiting.
-    -> Bool -- ^ Whether or not this is a "write" request.
-    -> Handler AuthResult
-    -- Routes not requiring authentication.
+  isAuthorized :: Route App -> Bool -> Handler AuthResult
   isAuthorized (AuthR _) _ = return Authorized
   isAuthorized FaviconR _ = return Authorized
   isAuthorized RobotsR _ = return Authorized
   isAuthorized (StaticR _) _ = return Authorized
-  isAuthorized AttributionsR _ = return Authorized
-  isAuthorized (AttributionR _) _ = return Authorized
-  isAuthorized BookR _ = return Authorized
-  isAuthorized CheckoutsR _ = return Authorized
-  isAuthorized (CheckoutR _) _ = return Authorized
-  isAuthorized CreatorsR _ = return Authorized
-  isAuthorized (CreatorR _) _ = return Authorized
-  isAuthorized CreatorTitlesR _ = return Authorized
-  isAuthorized (CreatorTitleR _) _ = return Authorized
-  isAuthorized CreatorAttributionsR _ = return Authorized
-  isAuthorized (CreatorAttributionR _) _ = return Authorized
-  isAuthorized CreatorManifestationsR _ = return Authorized
-  isAuthorized (CreatorManifestationR _) _ = return Authorized
-  isAuthorized EditionsR _ = return Authorized
-  isAuthorized EditionIllustratorsR _ = return Authorized
-  isAuthorized (EditionIllustratorR _) _ = return Authorized
-  isAuthorized (EditionR _) _ = return Authorized
-  isAuthorized GenresR _ = return Authorized
-  isAuthorized GenreTitlesR _ = return Authorized
-  isAuthorized (GenreTitleR _) _ = return Authorized
+  isAuthorized AttributionsR w = isAdminIfWrite w
+  isAuthorized (AttributionR _) w = isAdminIfWrite w
+  isAuthorized BookR w = isAdminIfWrite w
+  isAuthorized CheckoutsR _ = isAdmin
+  isAuthorized (CheckoutR _) _ = isAdmin -- TODO: Make an isResourceOwner method that is true if admin, true if patron and they are tied to the requested resource, and false otherwise
+  isAuthorized CreatorsR w = isAdminIfWrite w
+  isAuthorized (CreatorR _) w = isAdminIfWrite w
+  isAuthorized CreatorTitlesR w = isAdminIfWrite w
+  isAuthorized (CreatorTitleR _) w = isAdminIfWrite w
+  isAuthorized CreatorAttributionsR w = isAdminIfWrite w
+  isAuthorized (CreatorAttributionR _) w =  isAdminIfWrite w
+  isAuthorized CreatorManifestationsR w = isAdminIfWrite w
+  isAuthorized (CreatorManifestationR _) w = isAdminIfWrite w
+  isAuthorized EditionsR w = isAdminIfWrite w
+  isAuthorized EditionIllustratorsR w = isAdminIfWrite w
+  isAuthorized (EditionIllustratorR _) w = isAdminIfWrite w
+  isAuthorized (EditionR _) w = isAdminIfWrite w
+  isAuthorized GenresR w = isAdminIfWrite w
+  isAuthorized GenreTitlesR w = isAdminIfWrite w
+  isAuthorized (GenreTitleR _) w = isAdminIfWrite w
   isAuthorized HomeR _ = return Authorized
-  isAuthorized ImprintsR _ = return Authorized
-  isAuthorized (ImprintR _) _ = return Authorized
-  isAuthorized ImprintPublishersR _ = return Authorized
-  isAuthorized (ImprintPublisherR _) _ = return Authorized
-  isAuthorized ManifestationsR _ = return Authorized
-  isAuthorized (ManifestationR _) _ = return Authorized
-  isAuthorized PrintingsR _ = return Authorized
-  isAuthorized (PrintingR _) _ = return Authorized
-  isAuthorized PublishersR _ = return Authorized
-  isAuthorized (PublisherR _) _ = return Authorized
-  isAuthorized SeedDatabaseR _ = return Authorized -- TODO: This should require an Admin role
-  isAuthorized SeriesR _ = return Authorized
-  isAuthorized (SeriesSingularR _) _ = return Authorized
-  isAuthorized (SeriesAttributionSingleR _) _ = return Authorized
-  isAuthorized (SeriesAttributionR _ _) _ = return Authorized
-  isAuthorized SubseriesR _ = return Authorized
-  isAuthorized (SubseriesSingularR _) _ = return Authorized
-  isAuthorized SeriesAttributionsR _ = return Authorized
-  isAuthorized SubseriesAttributionsR _ = return Authorized
-  isAuthorized (SubseriesAttributionR _) _ = return Authorized
-  isAuthorized TitlesR _ = return Authorized
-  isAuthorized (TitleR _) _ = return Authorized
+  isAuthorized ImprintsR w = isAdminIfWrite w
+  isAuthorized (ImprintR _) w = isAdminIfWrite w
+  isAuthorized ImprintPublishersR w = isAdminIfWrite w
+  isAuthorized (ImprintPublisherR _) w = isAdminIfWrite w
+  isAuthorized ManifestationsR w = isAdminIfWrite w
+  isAuthorized (ManifestationR _) w = isAdminIfWrite w
+  isAuthorized PrintingsR w = isAdminIfWrite w
+  isAuthorized (PrintingR _) w = isAdminIfWrite w
+  isAuthorized PublishersR w = isAdminIfWrite w
+  isAuthorized (PublisherR _) w = isAdminIfWrite w
+  isAuthorized SeedDatabaseR _ = return Authorized -- isAdmin -- TODO: Figure out way of becoming admin, then change to isAdmin
+  isAuthorized SeriesR w = isAdminIfWrite w
+  isAuthorized (SeriesSingularR _) w = isAdminIfWrite w
+  isAuthorized (SeriesAttributionSingleR _) w = isAdminIfWrite w
+  isAuthorized (SeriesAttributionR _ _) w = isAdminIfWrite w
+  isAuthorized SubseriesR w = isAdminIfWrite w
+  isAuthorized (SubseriesSingularR _) w = isAdminIfWrite w
+  isAuthorized SeriesAttributionsR w = isAdminIfWrite w
+  isAuthorized SubseriesAttributionsR w = isAdminIfWrite w
+  isAuthorized (SubseriesAttributionR _) w = isAdminIfWrite w
+  isAuthorized TitlesR w = isAdminIfWrite w
+  isAuthorized (TitleR _) w = isAdminIfWrite w
     -- the profile route requires that the user is authenticated, so we
     -- delegate to that function
   isAuthorized ProfileR _ = isAuthenticated
@@ -288,6 +284,25 @@ isAuthenticated = do
     case muid of
       Nothing -> Unauthorized "You must login to access this page"
       Just _ -> Authorized
+
+isAdminIfWrite isWrite = if isWrite then isAdmin else return Authorized
+
+isAdmin = do
+  muid <- maybeAuthId
+  canDoThing <- case muid of
+      Nothing -> return (Unauthorized "You must login to access this page")
+      Just uid -> do
+        queryResult <- liftHandler ( runDB $ selectFirst [UserId ==. uid] [])
+        return (case queryResult of
+          Nothing -> Unauthorized "You must login to access this page"
+          Just (Entity _ (User _ _ _ _ _ role) ) ->
+            case role of
+              Anonymous -> AuthenticationRequired
+              Patron -> Unauthorized "You must be an admin to do this"
+              Admin -> Authorized
+               )
+  return canDoThing
+
 
 instance YesodAuthPersist App
 

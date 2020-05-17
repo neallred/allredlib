@@ -750,5 +750,93 @@
     "totalBookMembers": 12,
     "totalSubseries": 0,
     "attribution_ids": [96]
+  },
+  {
+    "id": 94,
+    "synopsis": "",
+    "title": "The Dreamtime",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [97]
+  },
+  {
+    "id": 95,
+    "synopsis": "The Chronicles of Narnia is a series of fantasy novels by British author C. S. Lewis. Written by Lewis, illustrated by Pauline Baynes, and originally published in London between 1950 and 1956, The Chronicles of Narnia has been adapted for radio, television, the stage, and film. The series is set in the fictional realm of Narnia, a fantasy world of magic, mythical beasts, and talking animals. It narrates the adventures of various children who play central roles in the unfolding history of the Narnian world. Except in The Horse and His Boy, the protagonists are all children from the real world who are magically transported to Narnia, where they are sometimes called upon by the lion Aslan to protect Narnia from evil. The books span the entire history of Narnia, from its creation in The Magician's Nephew to its eventual destruction in The Last Battle.",
+    "title": "The Chronicles of Narnia",
+    "totalBookMembers": 7,
+    "totalSubseries": 0,
+    "attribution_ids": [98]
+  },
+  {
+    "id": 96,
+    "synopsis": "The Tales of Alvin Maker is a series of six alternate history fantasy novels written by American novelist Orson Scott Card, published from 1987 to 2003 (with one more planned), that explore the experiences of a young man, Alvin Miller, who realizes he has incredible powers for creating and shaping things around him.",
+    "title": "The Tales of Alvin Maker",
+    "totalBookMembers": 6,
+    "totalSubseries": 0,
+    "attribution_ids": [99]
+  },
+  {
+    "id": 97,
+    "synopsis": "The Dragon Prince novels take place in a world of political intrigue, Sunrunners, Sorcerers, war, and dragons.\n This world is known as the Continent. It is divided into thirteen Princedoms (Desert, Princemarch, Cunaxa, Dorval, Syr, Gilad, Ossetia, Meadowlord, Grib, Kierst, Isel, Fessenden, and Firon) all of which follow the rule of the High Prince, whose seat is Princemarch. During the Rialla the Princes gather to make new laws and alliances. The princedoms and titles usually pass down to the oldest son; however, women have acted as regents and have ruled their own Keeps.",
+    "title": "The Dragon Prince Trilogy",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [55]
+  },
+  {
+    "id": 98,
+    "synopsis": "The Liberation Trilogy is a series of military history books about the United States' involvement in World War II, written by American author Rick Atkinson and published by Henry Holt & Co.\nThe first volume, An Army at Dawn, won the 2003 Pulitzer Prize for History and was a New York Times best seller. The Day of Battle, the second book, was also a New York Times best seller, and the final installment, The Guns at Last Light, debuted at the top of the Hardcover Nonfiction list.",
+    "title": "The Liberation Trilogy",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [100]
+  },
+  {
+    "id": 99,
+    "synopsis": "Includes 1. The Secret Country (2005), 2. The Shadow World (2006), 3. Dragon's Fire (2007), Legends of the Shadow World (2010).",
+    "title": "Eidolon Chronicles",
+    "totalBookMembers": 4,
+    "totalSubseries": 0,
+    "attribution_ids": [101]
+  },
+  {
+    "id": 100,
+    "synopsis": "The Sword and Sorceress series is a series of fantasy anthologies originally edited by Marion Zimmer Bradley, and originally published by DAW Books. As she explained in the foreword to the first volume, she created the anthology to redress the lack of strong female protagonists in the subgenre of sword and sorcery. At the time, most female characters in sword and sorcery were little more than stock damsels in distress, or pawns who were distributed at the conclusion of the story as \"bad-conduct prizes\" (Bradley's term) for the male protagonists. Many of the early sword-and-sorcery works featured attitudes toward women that Bradley considered appalling.\nAs the Sword and Sorceress series grew in popularity with readers, she began to receive increasing numbers of excellent submissions. As a result, she had to become more selective, and to shorten her reading periods accordingly. For the eighteenth volume, which she was editing at the time of her death, she had enough material for three volumes. After her death, it was decided to take as many as possible of the stories she had tentatively chosen and publish them in three annual volumes, thus extending the series. After volume twenty was published, the publisher decided to extend an invitation for an additional volume under Diana L. Paxson, an editor who had worked with Bradley, with the possibility of additional volumes being published if it became a success.",
+    "title": "Sword and Sorceress Series",
+    "totalBookMembers": 30,
+    "totalSubseries": 0,
+    "attribution_ids": [102]
+  },
+  {
+    "id": 101,
+    "synopsis": "The Dresden Files is a series of contemporary fantasy/mystery novels written by American author Jim Butcher. The first novel, Storm Front, was published in 2000 by Roc Books.\nThe books are written as a first-person narrative from the perspective of the main character, private investigator and wizard Harry Dresden, as he recounts investigations into supernatural disturbances in modern-day Chicago. Butcher's original proposed title for the first novel was Semiautomagic, which sums up the series' balance of fantasy and hard-boiled detective fiction.",
+    "title": "The Dresden Files",
+    "totalBookMembers": 15,
+    "totalSubseries": 0,
+    "attribution_ids": [103]
+  },
+  {
+    "id": 102,
+    "synopsis": "Leven Thumps is a series of children's fantasy novels by Obert Skye. The series, which has five books, deals with an orphaned 14-year-old boy, Leven Thumps, who becomes involved in a battle between good and evil.",
+    "title": "Leven Thumps",
+    "totalBookMembers": 5,
+    "totalSubseries": 0,
+    "attribution_ids": [104]
+  },
+  {
+    "id": 103,
+    "synopsis": "",
+    "title": "Mer Tales",
+    "totalBookMembers": 4,
+    "totalSubseries": 0,
+    "attribution_ids": [105]
+  },
+  {
+    "id": 104,
+    "synopsis": "Fablehaven is a fantasy book series for children written by Brandon Mull. The book series, which includes Fablehaven, Fablehaven: Rise of the Evening Star, Fablehaven: Grip of the Shadow Plague, Fablehaven: Secrets of the Dragon Sanctuary, and Fablehaven: Keys to the Demon Prison, is published by Shadow Mountain in hardcover and Simon & Schuster in paperback. It is followed by the five-part sequel series Dragonwatch.",
+    "title": "FableHaven",
+    "totalBookMembers": 5,
+    "totalSubseries": 0,
+    "attribution_ids": [106]
   }
 ]

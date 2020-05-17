@@ -3674,7 +3674,7 @@
     "year": "2003",
     "pages": "453",
     "isbn": "978-0-7869-2980-1",
-    "summary": "Wolf Haas' Detective Brenner series has become wildly popular around the world for a reason: They're timely, edgy stories told in a wry, quirky voice that's often hilarious, and with a protagonist it's hard not to love. In this episode, Brenner-forced out of the police force-tries to get away from detective work by taking a job as the personal chauffeur for two-year-old Helena, the daughter of a Munich construction giant and a Viennese abortion doctor. One day, while Brenner's attention is turned to picking out a chocolate bar for Helena at a gas station, Helena gets snatched from the car. Abruptly out of a job, Brenner decides to investigate her disappearance on his own. With both parents in the public eye, there's no scarcity of leads-the father's latest development project has spurred public protest, and the mother's clinic has been targeted by the zealous leader of an anti-abortion group. Brenner and God is told with a dark humor that leaves no character, including Brenner, unscathed. Haas tells the story of a fallible hero who can be indecisive and world-weary, baffled and disillusioned by what he finds, but who presses forward nonetheless out of a stubborn sense of decency-a two-year-old is kidnapped, so you find her, because that's just what you do.",
+    "summary": "The Thousand Orcs is a fantasy novel by American writer R. A. Salvatore, the first book in his series The Hunter's Blades Trilogy. In it, Drizzt Do'Urden is separated from his friends while orcs, giants, and a few drow are determined to destroy everything in their path.",
     "Extra": "Fantasy",
     "Author": "Salvatore, R. A.",
     "authors_ids": "405",
@@ -5918,8 +5918,8 @@
     "Extra": "Romance",
     "Author": "Stansfield, Anita",
     "authors_ids": "442",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "4"
   },
   {
     "id": "424",
@@ -5932,8 +5932,8 @@
     "Extra": "Junior",
     "Author": "Paterson, Katherine",
     "authors_ids": "351",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "425",
@@ -5946,8 +5946,8 @@
     "Extra": "Textbook",
     "Author": "Leonardo, Zeus; Grubb, W. Norton",
     "authors_ids": "263, 174",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "426",
@@ -5960,8 +5960,8 @@
     "Extra": "Textbook",
     "Author": "Foster, Thomas C.",
     "authors_ids": "143",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "427",
@@ -5974,8 +5974,8 @@
     "Extra": "World Literature",
     "Author": "扎根教育持續會;鍾明君",
     "authors_ids": "529, 534",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "428",
@@ -5988,8 +5988,8 @@
     "Extra": "Children",
     "Author": "Parish, Peggy",
     "authors_ids": "350",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "429",
@@ -6002,8 +6002,8 @@
     "Extra": "Classic",
     "Author": "Euripides; Morwood, James",
     "authors_ids": "131, 312",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "430",
@@ -6017,7 +6017,7 @@
     "Author": "Heimerdinger, Chris",
     "authors_ids": "194",
     "volume_a": "6",
-    "volume_b": ""
+    "volume_b": "12"
   },
   {
     "id": "431",
@@ -6030,8 +6030,8 @@
     "Extra": "?",
     "Author": "Norminton, Gregory",
     "authors_ids": "333",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "432",
@@ -6058,8 +6058,8 @@
     "Extra": "Classic",
     "Author": "Paine, Thomas",
     "authors_ids": "345",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "434",
@@ -6072,8 +6072,8 @@
     "Extra": "History",
     "Author": "Sabin, Louis",
     "authors_ids": "402",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "435",
@@ -6086,8 +6086,8 @@
     "Extra": "Fantasy",
     "Author": "Eddings, David",
     "authors_ids": "127",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "5"
   },
   {
     "id": "436",
@@ -6100,8 +6100,8 @@
     "Extra": "Action",
     "Author": "Brown, Dan",
     "authors_ids": "59",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "5"
   },
   {
     "id": "437",
@@ -6114,8 +6114,8 @@
     "Extra": "History",
     "Author": "Manchester, William",
     "authors_ids": "280",
-    "volume_a": "1",
-    "volume_b": "2"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "438",
@@ -6128,8 +6128,8 @@
     "Extra": "Young Adult",
     "Author": "Grahame-Smith, Seth; Austen, Jane; Parada, Roberto",
     "authors_ids": "165, 30, 349",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "439",
@@ -6142,8 +6142,8 @@
     "Extra": "Textbook",
     "Author": "Wang, Fang-yü",
     "authors_ids": "480",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "440",
@@ -6156,13 +6156,13 @@
     "Extra": "Textbook",
     "Author": "writers",
     "authors_ids": "525",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "441",
     "genres_id": "20",
-    "title": "The Covenant Rising: Book One of The Dreamtime",
+    "title": "The Covenant Rising",
     "year": "2005",
     "pages": "418",
     "isbn": "978-0-06-073889-1",
@@ -6170,8 +6170,8 @@
     "Extra": "?",
     "Author": "Nicholls, Stan",
     "authors_ids": "326",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "442",
@@ -6184,8 +6184,8 @@
     "Extra": "Textbook",
     "Author": "Nicholson, Walter; Snyder, Christopher M.",
     "authors_ids": "327, 433",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "443",
@@ -6199,7 +6199,7 @@
     "Author": "The Church of Jesus Christ of Latter-day Saints",
     "authors_ids": "458",
     "volume_a": "1",
-    "volume_b": "8"
+    "volume_b": "7"
   },
   {
     "id": "444",
@@ -6212,8 +6212,8 @@
     "Extra": "Fantasy",
     "Author": "Wurts, Janny",
     "authors_ids": "508",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "2"
   },
   {
     "id": "445",
@@ -6226,8 +6226,8 @@
     "Extra": "Classic",
     "Author": "Cyr, Ellen M.",
     "authors_ids": "104",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "446",
@@ -6240,8 +6240,8 @@
     "Extra": "Children",
     "Author": "Tolkien, John Ronald Reuel; Scull, Christina; Hammond, Wayne G.",
     "authors_ids": "465, 412, 186",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "447",
@@ -6254,8 +6254,8 @@
     "Extra": "Young Adult",
     "Author": "Croggon, Alison",
     "authors_ids": "101",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "4"
   },
   {
     "id": "448",
@@ -6268,8 +6268,8 @@
     "Extra": "Religion",
     "Author": "Christensen, Clayton M.",
     "authors_ids": "86",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "449",
@@ -6282,8 +6282,8 @@
     "Extra": "World Literature",
     "Author": "Kundera, Milan",
     "authors_ids": "247",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "450",
@@ -6296,8 +6296,8 @@
     "Extra": "Textbook",
     "Author": "writers",
     "authors_ids": "525",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "451",
@@ -6310,13 +6310,13 @@
     "Extra": "Young Adult",
     "Author": "Tan, Amy",
     "authors_ids": "451",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "452",
     "genres_id": "18",
-    "title": "The Golden Compass",
+    "title": "The Golden Compass/Northern Lights",
     "year": "2001",
     "pages": "413",
     "isbn": "978-0-440-41832-0",
@@ -6324,8 +6324,8 @@
     "Extra": "Young Adult",
     "Author": "Pullman, Philip",
     "authors_ids": "373",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "453",
@@ -6339,7 +6339,7 @@
     "Author": "Heimerdinger, Chris",
     "authors_ids": "194",
     "volume_a": "7",
-    "volume_b": ""
+    "volume_b": "12"
   },
   {
     "id": "454",
@@ -6352,8 +6352,8 @@
     "Extra": "Fantasy",
     "Author": "Hinck, Sharon",
     "authors_ids": "202",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "4"
   },
   {
     "id": "455",
@@ -6366,8 +6366,8 @@
     "Extra": "Textbook",
     "Author": "Johnson, Richard Edward; Kiokemeister, Fred Ludwig",
     "authors_ids": "225, 236",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "456",
@@ -6380,8 +6380,8 @@
     "Extra": "Textbook",
     "Author": "Hook, Steven W.",
     "authors_ids": "208",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "457",
@@ -6394,8 +6394,8 @@
     "Extra": "Textbook",
     "Author": "Packard, Ron",
     "authors_ids": "344",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "458",
@@ -6422,8 +6422,8 @@
     "Extra": "Textbook",
     "Author": "Greenblatt, Stephen",
     "authors_ids": "166",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "460",
@@ -6436,8 +6436,8 @@
     "Extra": "World Literature",
     "Author": "Hosseini, Khaled",
     "authors_ids": "210",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "461",
@@ -6450,8 +6450,8 @@
     "Extra": "Junior",
     "Author": "Kinney, Jeff",
     "authors_ids": "235",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "4",
+    "volume_b": "14"
   },
   {
     "id": "462",
@@ -6464,8 +6464,8 @@
     "Extra": "Classic",
     "Author": "Steinbeck, John",
     "authors_ids": "447",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "463",
@@ -6478,8 +6478,8 @@
     "Extra": "Textbook",
     "Author": "Myre, Greg; Griffin, Jennifer",
     "authors_ids": "318, 170",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "464",
@@ -6492,8 +6492,8 @@
     "Extra": "Science Fiction",
     "Author": "Card, Orson Scott",
     "authors_ids": "75",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "20"
   },
   {
     "id": "465",
@@ -6506,8 +6506,8 @@
     "Extra": "Young Adult",
     "Author": "Croggon, Alison",
     "authors_ids": "101",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "4"
   },
   {
     "id": "466",
@@ -6520,8 +6520,8 @@
     "Extra": "Science Fiction",
     "Author": "Card, Orson Scott",
     "authors_ids": "75",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "5",
+    "volume_b": "6"
   },
   {
     "id": "467",
@@ -6534,8 +6534,8 @@
     "Extra": "Classic",
     "Author": "Dickens, Charles",
     "authors_ids": "114",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "468",
@@ -6548,8 +6548,8 @@
     "Extra": "Junior",
     "Author": "Kinney, Jeff",
     "authors_ids": "235",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "5",
+    "volume_b": "14"
   },
   {
     "id": "469",
@@ -6562,8 +6562,8 @@
     "Extra": "Fantasy",
     "Author": "Jordan, Robert",
     "authors_ids": "227",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "14"
   },
   {
     "id": "470",
@@ -6576,8 +6576,8 @@
     "Extra": "Fantasy",
     "Author": "Salvatore, R. A.",
     "authors_ids": "405",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "471",
@@ -6590,8 +6590,8 @@
     "Extra": "Religion",
     "Author": "The Church of Jesus Christ of Latter-day Saints",
     "authors_ids": "458",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "472",
@@ -6604,8 +6604,8 @@
     "Extra": "Fantasy",
     "Author": "McKinley, Robin",
     "authors_ids": "292",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "473",
@@ -6618,8 +6618,8 @@
     "Extra": "?",
     "Author": "Stevens, William Oliver",
     "authors_ids": "448",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "474",
@@ -6632,8 +6632,8 @@
     "Extra": "Fantasy",
     "Author": "Weis, Margaret; Hickman, Tracy",
     "authors_ids": "487, 200",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "475",
@@ -6646,8 +6646,8 @@
     "Extra": "Textbook",
     "Author": "writers",
     "authors_ids": "525",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "476",
@@ -6660,8 +6660,8 @@
     "Extra": "Classic",
     "Author": "Wright, Richard",
     "authors_ids": "506",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "477",
@@ -6674,8 +6674,8 @@
     "Extra": "Fantasy",
     "Author": "Eddings, David; Eddings, Leigh",
     "authors_ids": "127, 128",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "478",
@@ -6688,8 +6688,8 @@
     "Extra": "Romance",
     "Author": "Shinn, Sharon",
     "authors_ids": "421",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "5"
   },
   {
     "id": "479",
@@ -6702,8 +6702,8 @@
     "Extra": "World Literature",
     "Author": "Achebe, Chinua",
     "authors_ids": "5",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "480",
@@ -6716,8 +6716,8 @@
     "Extra": "Fantasy",
     "Author": "Anthony, Piers",
     "authors_ids": "21",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "6",
+    "volume_b": "46"
   },
   {
     "id": "481",
@@ -6730,8 +6730,8 @@
     "Extra": "Textbook",
     "Author": "Liu, Ruinian; Li, Duanduan",
     "authors_ids": "271, 269",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "482",
@@ -6744,8 +6744,8 @@
     "Extra": "Textbook",
     "Author": "Husted, Steven L.; Melvin, Michael",
     "authors_ids": "214, 296",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "483",
@@ -6758,8 +6758,8 @@
     "Extra": "Fantasy",
     "Author": "Rawn, Melanie",
     "authors_ids": "380",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "3"
   },
   {
     "id": "484",
@@ -6772,8 +6772,8 @@
     "Extra": "History",
     "Author": "Atkinson, Rick",
     "authors_ids": "28",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "3"
   },
   {
     "id": "485",
@@ -6786,8 +6786,8 @@
     "Extra": "Textbook",
     "Author": "Gallagher, Kelly",
     "authors_ids": "152",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "486",
@@ -6800,8 +6800,8 @@
     "Extra": "Mystery",
     "Author": "Christie, Agatha",
     "authors_ids": "87",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "487",
@@ -6814,8 +6814,8 @@
     "Extra": "Textbook",
     "Author": "Holmes, Janet",
     "authors_ids": "206",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "488",
@@ -6828,8 +6828,8 @@
     "Extra": "Textbook",
     "Author": "Kotler, Philip; Armstrong, Gary M.",
     "authors_ids": "245, 24",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "489",
@@ -6842,8 +6842,8 @@
     "Extra": "Children",
     "Author": "Gannett, Ruth Stiles",
     "authors_ids": "153",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "490",
@@ -6856,8 +6856,8 @@
     "Extra": "Historical Fiction",
     "Author": "Shaara, Michael",
     "authors_ids": "416",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "491",
@@ -6870,8 +6870,8 @@
     "Extra": "Textbook",
     "Author": "Nilsen, Alleen Pace; Donelson, Kenneth L.",
     "authors_ids": "329, 117",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "492",
@@ -6884,8 +6884,8 @@
     "Extra": "Fantasy",
     "Author": "Goodkind, Terry",
     "authors_ids": "163",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "7",
+    "volume_b": "21"
   },
   {
     "id": "493",
@@ -6898,8 +6898,8 @@
     "Extra": "Action",
     "Author": "Ludlum, Robert",
     "authors_ids": "274",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "494",
@@ -6912,8 +6912,8 @@
     "Extra": "Textbook",
     "Author": "Pramaggiore, Maria; Wallis, Tom",
     "authors_ids": "369, 477",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "495",
@@ -6926,8 +6926,8 @@
     "Extra": "?",
     "Author": "Yep, Laurence",
     "authors_ids": "514",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "496",
@@ -6940,8 +6940,8 @@
     "Extra": "World Literature",
     "Author": "郝廣才; Indre, Agnes;愛格妮絲",
     "authors_ids": "533, 220, 528",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "497",
@@ -6954,8 +6954,8 @@
     "Extra": "Historical Fiction",
     "Author": "Morgan, Jude",
     "authors_ids": "311",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "498",
@@ -6968,8 +6968,8 @@
     "Extra": "History",
     "Author": "Brown, Dee Alexander",
     "authors_ids": "60",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "499",
@@ -6982,8 +6982,8 @@
     "Extra": "?",
     "Author": "Dean, Pamela",
     "authors_ids": "110",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "4"
   },
   {
     "id": "500",
@@ -6996,8 +6996,8 @@
     "Extra": "World Literature",
     "Author": "Zhang, Song Nan",
     "authors_ids": "520",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "501",
@@ -7010,8 +7010,8 @@
     "Extra": "World Literature",
     "Author": "Alighieri, Dante",
     "authors_ids": "15",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "502",
@@ -7024,8 +7024,8 @@
     "Extra": "Textbook",
     "Author": "Stanley, Thomas J.; Danko, William D.",
     "authors_ids": "441, 108",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "503",
@@ -7038,8 +7038,8 @@
     "Extra": "Mystery",
     "Author": "Doyle, Arthur Conan",
     "authors_ids": "121",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "504",
@@ -7052,8 +7052,8 @@
     "Extra": "Fantasy",
     "Author": "Sanderson, Brandon",
     "authors_ids": "406",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "505",
@@ -7066,8 +7066,8 @@
     "Extra": "Textbook",
     "Author": "Abcarian, Richard; Klotz, Marvin",
     "authors_ids": "2, 241",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "506",
@@ -7080,8 +7080,8 @@
     "Extra": "Fantasy",
     "Author": "Douglass, Sara",
     "authors_ids": "120",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "5",
+    "volume_b": "6"
   },
   {
     "id": "507",
@@ -7094,8 +7094,8 @@
     "Extra": "Fantasy",
     "Author": "Zimmer Bradley, Marion",
     "authors_ids": "522",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "9",
+    "volume_b": "30"
   },
   {
     "id": "508",
@@ -7108,8 +7108,8 @@
     "Extra": "Textbook",
     "Author": "Eker, T. Harv",
     "authors_ids": "129",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "509",
@@ -7122,8 +7122,8 @@
     "Extra": "World Literature",
     "Author": "Narayan, R. K.",
     "authors_ids": "320",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "510",
@@ -7136,8 +7136,8 @@
     "Extra": "Historical Fiction",
     "Author": "Butcher, Jim",
     "authors_ids": "68",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "14",
+    "volume_b": "15"
   },
   {
     "id": "511",
@@ -7150,8 +7150,8 @@
     "Extra": "Romance",
     "Author": "Shinn, Sharon",
     "authors_ids": "421",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "5",
+    "volume_b": "5"
   },
   {
     "id": "512",
@@ -7164,8 +7164,8 @@
     "Extra": "World Literature",
     "Author": "Aiyar, Pallavi",
     "authors_ids": "11",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "513",
@@ -7178,8 +7178,8 @@
     "Extra": "Fantasy",
     "Author": "Eddings, David; Eddings, Leigh",
     "authors_ids": "127, 128",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "514",
@@ -7192,8 +7192,8 @@
     "Extra": "Fantasy",
     "Author": "Goodkind, Terry",
     "authors_ids": "163",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "21"
   },
   {
     "id": "515",
@@ -7206,8 +7206,8 @@
     "Extra": "Science Fiction",
     "Author": "Ashby, Madeline",
     "authors_ids": "26",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "516",
@@ -7220,8 +7220,8 @@
     "Extra": "Fantasy",
     "Author": "Zimmer Bradley, Marion",
     "authors_ids": "522",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "11",
+    "volume_b": "30"
   },
   {
     "id": "517",
@@ -7234,8 +7234,8 @@
     "Extra": "Textbook",
     "Author": "Wackerly, Dennis D.; Scheaffer, Richard L.",
     "authors_ids": "474, 409",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "518",
@@ -7248,8 +7248,8 @@
     "Extra": "Classic",
     "Author": "Hawthorne, Nathaniel",
     "authors_ids": "192",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "519",
@@ -7262,8 +7262,8 @@
     "Extra": "Junior",
     "Author": "Skye, Obert",
     "authors_ids": "426",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "5"
   },
   {
     "id": "520",
@@ -7276,8 +7276,8 @@
     "Extra": "Children",
     "Author": "Barrie, James Matthew",
     "authors_ids": "36",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "521",
@@ -7290,8 +7290,8 @@
     "Extra": "World Literature",
     "Author": "Portilla, Miguel León",
     "authors_ids": "366",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "522",
@@ -7305,7 +7305,7 @@
     "Author": "Heimerdinger, Chris",
     "authors_ids": "194",
     "volume_a": "4",
-    "volume_b": ""
+    "volume_b": "12"
   },
   {
     "id": "523",
@@ -7318,8 +7318,8 @@
     "Extra": "World Literature",
     "Author": "Landon, Margaret",
     "authors_ids": "253",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "524",
@@ -7332,8 +7332,8 @@
     "Extra": "Textbook",
     "Author": "Sensoy, Özlem; DiAngelo, Robin",
     "authors_ids": "414, 113",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "525",
@@ -7346,8 +7346,8 @@
     "Extra": "Classic",
     "Author": "Byron, George Gordon Byron Baron; Steffan, Truman Guy; Steffan, E.; Pratt, Willis Winslow",
     "authors_ids": "69, 445, 446, 370",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "526",
@@ -7360,8 +7360,8 @@
     "Extra": "World Literature",
     "Author": "Giorgio, Marosa Di",
     "authors_ids": "159",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "527",
@@ -7374,8 +7374,8 @@
     "Extra": "Fantasy",
     "Author": "Goodkind, Terry",
     "authors_ids": "163",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "10",
+    "volume_b": "21"
   },
   {
     "id": "528",
@@ -7388,8 +7388,8 @@
     "Extra": "Textbook",
     "Author": "Greenblatt, Stephen; Abrams, Meyer Howard",
     "authors_ids": "166, 4",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "529",
@@ -7402,8 +7402,8 @@
     "Extra": "Fantasy",
     "Author": "Douglass, Sara",
     "authors_ids": "120",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "6"
   },
   {
     "id": "530",
@@ -7416,8 +7416,8 @@
     "Extra": "Fantasy",
     "Author": "Anthony, Piers",
     "authors_ids": "21",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "46"
   },
   {
     "id": "531",
@@ -7430,8 +7430,8 @@
     "Extra": "Textbook",
     "Author": "Smith, T. Alexander; Tatalovich, Raymond",
     "authors_ids": "431",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "532",
@@ -7444,8 +7444,8 @@
     "Extra": "Textbook",
     "Author": "Adler, Mortimer Jerome; Doren, Charles Lincoln Van",
     "authors_ids": "10, 118",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "533",
@@ -7458,8 +7458,8 @@
     "Extra": "Young Adult",
     "Author": "Pullman, Philip",
     "authors_ids": "373",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "3"
   },
   {
     "id": "534",
@@ -7472,8 +7472,8 @@
     "Extra": "World Literature",
     "Author": "尹斌庸; Rohsenow, John Snowden",
     "authors_ids": "527, 391",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "535",
@@ -7486,8 +7486,8 @@
     "Extra": "Textbook",
     "Author": "Publishers, HarperCollins",
     "authors_ids": "372",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "536",
@@ -7500,8 +7500,8 @@
     "Extra": "Young Adult",
     "Author": "Pandos, Brenda",
     "authors_ids": "347",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "4"
   },
   {
     "id": "537",
@@ -7514,8 +7514,8 @@
     "Extra": "Biography",
     "Author": "Ashby, Clarin",
     "authors_ids": "25",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "538",
@@ -7528,8 +7528,8 @@
     "Extra": "Fantasy",
     "Author": "Roberson, Jennifer",
     "authors_ids": "388",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "5",
+    "volume_b": "8"
   },
   {
     "id": "539",
@@ -7542,8 +7542,8 @@
     "Extra": "Fantasy",
     "Author": "Modesitt, L. E. Jr.",
     "authors_ids": "310",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "10",
+    "volume_b": "22"
   },
   {
     "id": "540",
@@ -7556,8 +7556,8 @@
     "Extra": "?",
     "Author": "Kay, Guy Gavriel",
     "authors_ids": "230",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "541",
@@ -7570,8 +7570,8 @@
     "Extra": "Young Adult",
     "Author": "Canfield, Jack; Mitchell, Nancy; McNamara, Heather",
     "authors_ids": "73, 307, 294",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "542",
@@ -7584,8 +7584,8 @@
     "Extra": "Textbook",
     "Author": "Aytüre-Scheele, Zülal",
     "authors_ids": "32",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "543",
@@ -7598,8 +7598,8 @@
     "Extra": "Textbook",
     "Author": "Nydell, Margaret Kleffner",
     "authors_ids": "337",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "544",
@@ -7612,8 +7612,8 @@
     "Extra": "Children",
     "Author": "Burnett, Frances Hodgson",
     "authors_ids": "66",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "545",
@@ -7626,8 +7626,8 @@
     "Extra": "Fantasy",
     "Author": "Tolkien, John Ronald Reuel",
     "authors_ids": "465",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "546",
@@ -7641,7 +7641,7 @@
     "Author": "Mull, Brandon",
     "authors_ids": "314",
     "volume_a": "2",
-    "volume_b": ""
+    "volume_b": "5"
   },
   {
     "id": "547",
@@ -7654,8 +7654,8 @@
     "Extra": "Textbook",
     "Author": "Cai, Zong-qi",
     "authors_ids": "71",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "548",
@@ -7668,8 +7668,8 @@
     "Extra": "World Literature",
     "Author": "Lahiri, Jhumpa",
     "authors_ids": "251",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "549",
@@ -7682,8 +7682,8 @@
     "Extra": "Biography",
     "Author": "Hoover Presidential Library Association, Hoover Presidential Library",
     "authors_ids": "209",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "550",
@@ -7696,8 +7696,8 @@
     "Extra": "Romance",
     "Author": "Shinn, Sharon",
     "authors_ids": "421",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "4",
+    "volume_b": "5"
   },
   {
     "id": "551",
@@ -7710,8 +7710,8 @@
     "Extra": "Textbook",
     "Author": "Bickerton, Ian J.; Klausner, Carla L.",
     "authors_ids": "45, 240",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "552",
@@ -7724,8 +7724,8 @@
     "Extra": "Young Adult",
     "Author": "Colfer, Eoin",
     "authors_ids": "93",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "6",
+    "volume_b": "8"
   },
   {
     "id": "553",
@@ -7738,8 +7738,8 @@
     "Extra": "Classic",
     "Author": "Newcomer, Alphonso Gerald; Andrews, Alice Ebba; Hall, Howard Judson",
     "authors_ids": "325, 18, 183",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "554",
@@ -7752,8 +7752,8 @@
     "Extra": "Classic",
     "Author": "Dumas, Alexandre",
     "authors_ids": "125",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "555",

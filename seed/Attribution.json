@@ -957,7 +957,107 @@
     "yearCreated": null,
     "placePublished": null,
     "author": null,
-    "publisher": "Thrift Books",
+    "publisher": null,
     "id": 96
+  },
+  {
+    "title": "The Diamond Isle: Book Three of The Dreamtime (The Dreamtime Series 3)",
+    "link": "https://www.amazon.com/Diamond-Isle-Book-Three-Dreamtime-ebook/dp/B000N0WTHE/",
+    "accessed": "1589675005",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": null,
+    "id": 97
+  },
+  {
+    "title": "The Chronicles of Narnia",
+    "link": "https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia",
+    "accessed": "1589675702",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 98
+  },
+  {
+    "title": "The Tales of Alvin Maker",
+    "link": "https://en.wikipedia.org/wiki/The_Tales_of_Alvin_Maker",
+    "accessed": "1589676048",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 99
+  },
+  {
+    "title": "The Liberation Trilogy",
+    "link": "https://en.wikipedia.org/wiki/The_Liberation_Trilogy",
+    "accessed": "1589683731",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 100
+  },
+  {
+    "title": "Eidolon Chronicles",
+    "link": "https://www.fantasticfiction.com/j/jane-johnson/eidolon-chronicles/",
+    "accessed": "1589684269",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Fantastic Fiction",
+    "id": 101
+  },
+  {
+    "title": "Sword and Sorceress Series",
+    "link": "https://en.wikipedia.org/wiki/Sword_and_Sorceress_series",
+    "accessed": "1589684574",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 102
+  },
+  {
+    "title": "The Dresden Files",
+    "link": "https://en.wikipedia.org/wiki/The_Dresden_Files",
+    "accessed": "1589684857",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 103
+  },
+  {
+    "title": "Leven Thumps",
+    "link": "https://en.wikipedia.org/wiki/Leven_Thumps",
+    "accessed": "1589685292",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 104
+  },
+  {
+    "title": "Mer Tales",
+    "link": "https://www.fictiondb.com/author/brenda-pandos~series~mer-tales~30974.htm",
+    "accessed": "1589685859",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Fiction DB",
+    "id": 105
+  },
+  {
+    "title": "Fablehaven",
+    "link": "https://en.wikipedia.org/wiki/Fablehaven",
+    "accessed": "1589686169",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 106
   }
 ]

@@ -834,9 +834,57 @@
   {
     "id": 104,
     "synopsis": "Fablehaven is a fantasy book series for children written by Brandon Mull. The book series, which includes Fablehaven, Fablehaven: Rise of the Evening Star, Fablehaven: Grip of the Shadow Plague, Fablehaven: Secrets of the Dragon Sanctuary, and Fablehaven: Keys to the Demon Prison, is published by Shadow Mountain in hardcover and Simon & Schuster in paperback. It is followed by the five-part sequel series Dragonwatch.",
-    "title": "FableHaven",
+    "title": "Fablehaven",
     "totalBookMembers": 5,
     "totalSubseries": 0,
     "attribution_ids": [106]
+  },
+  {
+    "id": 105,
+    "synopsis": "Comprised of Howl's Moving Castle (1986), Castle in the Air (1990), House of Many Ways (2008), and Wizard's Castle (2002)",
+    "title": "Howl's Castle",
+    "totalBookMembers": 4,
+    "totalSubseries": 0,
+    "attribution_ids": [107]
+  },
+  {
+    "id": 106,
+    "synopsis": "Unicorns of Balinor is a series by Mary Stanton for young readers. The story begins with a young girl, Ari, who is recovering in the hospital and suffers from memory loss after a mysterious accident. Her only prominent and familiar memory is a strong connection to Chase, one of the horses at the Glacier River Farm where Ari lives with her foster parents, Ann and Frank. However, Ann and Frank realise they cannot afford Ari's medical bills and decide to lease Chase for riding lessons to the obnoxious and spoiled Lori Carmichael. Heartbroken to see her horse being treated badly, Ari runs away with Chase and her faithful collie, Lincoln. They do not get far before the group, along with Lori, fall through the mysterious Gap, a pathway between worlds.\nThe group lands in Balinor, a magical land of unicorns, plagued by an evil and intangible entity known as the Shifter. Ari is revealed to be the missing Princess Arianna, heir to the throne of Balinor, and Chase is the unicorn known as the Sunchaser, Lord of the Animals. With help from Atalanta, a Celestial Valley Unicorn known as the Dreamspeaker, and Tobiano, an obnoxious pinto unicorn, they are to first recover the Sunchaser's broken horn and then the Royal Scepter to defeat the Shifter and restore the balance of magic in Balinor.",
+    "title": "Unicorns of Balinor",
+    "totalBookMembers": 8,
+    "totalSubseries": 0,
+    "attribution_ids": [108]
+  },
+  {
+    "id": 107,
+    "synopsis": "The Old Kingdom, or Abhorsen in North America, is a fantasy series written by Australian author Garth Nix. It originated in 1995 with the novel Sabriel and has continued in the novels Lirael (2001) and Abhorsen (2003). The series has continued with the prequel novel Clariel (2014), and the latest installment of the series, Goldenhand, was released in October 2016. The Old Kingdom also consists of the novella The Creature in the Case (2005) and other short fiction.",
+    "title": "Old Kingdom (Abhorsen)",
+    "totalBookMembers": 5,
+    "totalSubseries": 0,
+    "attribution_ids": [109]
+  },
+  {
+    "id": 108,
+    "synopsis": "A series of books by author David Drake. In 1997, Drake began his largest fantasy series, Lord of the Isles, using elements of Sumerian religion and medieval era technology. The series consists of nine books broken into two distinct parts, the Lord of the Isles consisting of the first six books, and a final trilogy dubbed the Crown of the Isles.",
+    "title": "Lord of the Isles",
+    "totalBookMembers": 5,
+    "totalSubseries": 0,
+    "attribution_ids": [110]
+  },
+  {
+    "id": 109,
+    "synopsis": "The Time Quintet is a fantasy/science fiction series of five young adult novels written by Madeleine L'Engle. ",
+    "title": "Time Quintet",
+    "totalBookMembers": 5,
+    "totalSubseries": 0,
+    "attribution_ids": [111]
+  },
+  {
+    "id": 110,
+    "synopsis": "Witch World is a speculative fiction project of American writer Andre Norton, inaugurated by her 1963 novel Witch World and continuing more than four decades. Beginning in the mid-1980s, when she was about 75 years old, Norton recruited other writers to the project, and some books were published only after her death in 2005. The Witch World setting is one planet in a parallel universe where magic long ago superseded science; early in the fictional history it is performed exclusively by women. The series began as a hybrid of science fiction and sword and sorcery but for the most part it combines the latter with high fantasy.",
+    "title": "Witch World",
+    "totalBookMembers": 29,
+    "totalSubseries": 0,
+    "attribution_ids": [112]
   }
 ]

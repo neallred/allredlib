@@ -1059,5 +1059,65 @@
     "author": null,
     "publisher": "Wikipedia",
     "id": 106
+  },
+  {
+    "title": "Howl's Castle",
+    "link": "http://www.isfdb.org/cgi-bin/pe.cgi?3835",
+    "accessed": "1590114020",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Internet Speculative Fiction Database",
+    "id": 107
+  },
+  {
+    "title": "Unicorns of Balinor",
+    "link": "https://en.wikipedia.org/wiki/Unicorns_of_Balinor",
+    "accessed": "1590114102",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 108
+  },
+  {
+    "title": "Old Kingdom (book series)",
+    "link": "https://en.wikipedia.org/wiki/Old_Kingdom_(book_series)",
+    "accessed": "1590115212",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 109
+  },
+  {
+    "title": "Lord of the Isles (David Drake)",
+    "link": "https://en.wikipedia.org/wiki/Lord_of_the_Isles_(David_Drake)",
+    "accessed": "1590115497",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 110
+  },
+  {
+    "title": "Time Quintet",
+    "link": "https://en.wikipedia.org/wiki/Time_Quintet",
+    "accessed": "1590116409",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 111
+  },
+  {
+    "title": "Witch World",
+    "link": "https://en.wikipedia.org/wiki/Witch_World",
+    "accessed": "1590116870",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 112
   }
 ]

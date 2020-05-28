@@ -1190,5 +1190,21 @@
     "totalBookMembers": 3,
     "totalSubseries": 0,
     "attribution_ids": [150]
+  },
+  {
+    "id": 149,
+    "synopsis": "Includes October Sky, The Coalwood Way, Sky of Stone, and We are Not Afraid.",
+    "title": "The Coalwood Seres",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [151]
+  },
+  {
+    "id": 150,
+    "synopsis": "Includes The Heart of Myrial, The Spirit of the Stone, and The Eye of Eternity",
+    "title": "The Shadowleague",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [152]
   }
 ]

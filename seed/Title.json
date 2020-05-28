@@ -12233,7 +12233,7 @@
     "Author": "MacHale, D. J.",
     "authors_ids": "278",
     "volume_a": "9",
-    "volume_b": ""
+    "volume_b": "10"
   },
   {
     "id": "875",
@@ -12246,8 +12246,8 @@
     "Extra": "",
     "Author": "Dahl, Roald",
     "authors_ids": "106",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "876",
@@ -12260,8 +12260,8 @@
     "Extra": "",
     "Author": "Iggulden, Hal",
     "authors_ids": "668",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "877",
@@ -12274,8 +12274,8 @@
     "Extra": "",
     "Author": "Redd, Lura",
     "authors_ids": "669",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "878",
@@ -12288,8 +12288,8 @@
     "Extra": "",
     "Author": "Kagan, Richard C.",
     "authors_ids": "670",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "879",
@@ -12428,8 +12428,8 @@
     "Extra": "",
     "Author": "Hickam, Homer H., Jr.",
     "authors_ids": "672",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "4"
   },
   {
     "id": "889",
@@ -12442,8 +12442,8 @@
     "Extra": "",
     "Author": "Shaffer, Mary Ann and Annie Barrows",
     "authors_ids": "673, 674",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "890",
@@ -12456,8 +12456,8 @@
     "Extra": "",
     "Author": "Sherman, Herman Morrow",
     "authors_ids": "675",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "891",
@@ -12485,7 +12485,7 @@
     "Author": "Riordan, Rick",
     "authors_ids": "387",
     "volume_a": "2",
-    "volume_b": ""
+    "volume_b": "5"
   },
   {
     "id": "893",
@@ -12499,7 +12499,7 @@
     "Author": "Riordan, Rick",
     "authors_ids": "387",
     "volume_a": "3",
-    "volume_b": ""
+    "volume_b": "5"
   },
   {
     "id": "894",
@@ -12513,7 +12513,7 @@
     "Author": "Riordan, Rick",
     "authors_ids": "387",
     "volume_a": "4",
-    "volume_b": ""
+    "volume_b": "5"
   },
   {
     "id": "895",
@@ -12527,7 +12527,7 @@
     "Author": "Riordan, Rick",
     "authors_ids": "387",
     "volume_a": "5",
-    "volume_b": ""
+    "volume_b": "5"
   },
   {
     "id": "896",
@@ -12541,7 +12541,7 @@
     "Author": "Riordan, Rick",
     "authors_ids": "387",
     "volume_a": "1",
-    "volume_b": ""
+    "volume_b": "5"
   },
   {
     "id": "897",
@@ -12554,8 +12554,8 @@
     "Extra": "",
     "Author": "Coleridge, Samuel Taylor and Gustave Doré",
     "authors_ids": "676, 677",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "898",
@@ -12568,8 +12568,8 @@
     "Extra": "",
     "Author": "Coren, Michael",
     "authors_ids": "97",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "899",
@@ -12582,8 +12582,8 @@
     "Extra": "",
     "Author": "Card, Orson Scott",
     "authors_ids": "75",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "11",
+    "volume_b": "20"
   },
   {
     "id": "900",
@@ -12597,7 +12597,7 @@
     "Author": "Furey, Maggie",
     "authors_ids": "678",
     "volume_a": "2",
-    "volume_b": ""
+    "volume_b": "3"
   },
   {
     "id": "901",

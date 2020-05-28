@@ -18,7 +18,7 @@
   {
     "id": 3,
     "synopsis": "History of the Church (cited as HC) (originally entitled History of Joseph Smith; first published under the title History of the Church of Jesus Christ of Latter-day Saints; nicknamed Documentary History of the Church or DHC) is a semi-official history of the early Latter Day Saint movement during the lifetime of founder Joseph Smith. It is largely composed of Smith's writings and interpolations and editorial comments by Smith's secretaries, scribes, and after Smith's death, historians of The Church of Jesus Christ of Latter-day Saints (LDS Church). The history was written between 1839 and 1856 (Jessee 1976). Part of it was published in Times and Seasons and other church periodicals. It was later published in its entirety with extensive annotations and edits by B. H. Roberts as part of a seven-volume series beginning in 1902 as History of the Church of Jesus Christ of Latter-day Saints.",
-    "title": "The Stormlight Archive",
+    "title": "History of the Church",
     "totalBookMembers": 7,
     "totalSubseries": 0,
     "attribution_ids": [3]
@@ -1022,5 +1022,173 @@
     "totalBookMembers": 16,
     "totalSubseries": 0,
     "attribution_ids": [129]
+  },
+  {
+    "id": 128,
+    "synopsis": "Includes You Wish, Wishful Thinking, Wishing Well, Wish You Were Here",
+    "title": "The Misadventures of Benjamin Bartholomew Piff Series",
+    "totalBookMembers": 4,
+    "totalSubseries": 0,
+    "attribution_ids": [130]
+  },
+  {
+    "id": 129,
+    "synopsis": "Includes Dragonlord's Justice (Short Story) (1995), The Last Dragonlord (1998), Dragon and Phoenix (1999), Bard's Oath (November 2012)",
+    "title": "Dragonlord",
+    "totalBookMembers": 4,
+    "totalSubseries": 0,
+    "attribution_ids": [131]
+  },
+  {
+    "id": 130,
+    "synopsis": "This biography series examines the lives of individuals who have shaped the course of our nation, including patriots, generals, a spy, and others. The fact-filled books feature historical documents, timelines, maps, and illustrations.",
+    "title": "We the People Series",
+    "totalBookMembers": 127,
+    "totalSubseries": 0,
+    "attribution_ids": [132]
+  },
+  {
+    "id": 131,
+    "synopsis": "Memory, Sorrow, and Thorn is a trilogy of epic fantasy novels by American writer Tad Williams, comprising The Dragonbone Chair (1988), Stone of Farewell (1990), and To Green Angel Tower (1993).\nMemory, Sorrow, and Thorn takes place on the fictional continent of Osten Ard, comprising several united countries. Williams used several characters, both protagonist and antagonist, as point of view characters throughout the novels, presenting the reader with an assortment of disparate and subjective viewpoints.\nA novelette set in the world of Osten Ard, The Burning Man, was released in 1998 and later published as a graphic novel. A sequel trilogy, The Last King of Osten Ard, began publication in 2017, following 2017's The Heart of What Was Lost. A prequel to the entirety of Osten Ard, The Shadow of Things to Come, is also expected to be published.",
+    "title": "Memory, Sorrow, and Thorn",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [133]
+  },
+  {
+    "id": 132,
+    "synopsis": "Includes Keeper of the Lost Cities, Exile, Everblaze, Neverseen, Lodestar, Nightfall, Flashback, Legacy, Unlocked",
+    "title": "Keeper of the Lost Cities",
+    "totalBookMembers": 9,
+    "totalSubseries": 0,
+    "attribution_ids": [134]
+  },
+  {
+    "id": 133,
+    "synopsis": "Includes Princess Academy, Princess Academy: Palace of Stone, and Princess Academy: The Forgotten Sisters",
+    "title": "Keeper of the Lost Cities",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [135]
+  },
+  {
+    "id": 134,
+    "synopsis": "The Kane Chronicles is a trilogy of adventure and Egyptian mythological fiction books written by American author Rick Riordan. The series is set in the same universe as Riordan's other franchises, Camp Half-Blood Chronicles and Magnus Chase and the Gods of Asgard.\nThe novels are narrated alternately in first-person by the two protagonists, siblings Carter and Sadie Kane. The siblings are powerful magicians descended from the two pharaohs Narmer and Ramses the Great. They and their friends are forced to contend with Egyptian gods and goddesses who still interact with the modern world.",
+    "title": "The Kane Chronicles",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [136]
+  },
+  {
+    "id": 135,
+    "synopsis": "Includes Ship of Magic, the Mad Ship, and Ship of Destiny. The Liveship Traders Trilogy is a trilogy of books by Robin Hobb. The trilogy follows the lives of Bingtown Trader families.\nThe Liveship Trader's Trilogy takes place in Jamaillia, Bingtown and the Pirate Isles, on the coast far to the south of the Six Duchies. The war in the north has interrupted the trade that is the lifeblood of Bingtown, and the Liveship Traders have fallen on hard times despite their magic sentient ships. At one time, possession of a Liveship, constructed of magical wizard wood, guaranteed a Trader's family prosperity. Only a Liveship can brave the dangers of the Rain Wild River and trade with the legendary Rain Wild Traders and their mysterious magical goods, plundered from the enigmatic Elderling ruins. Althea Vestrit expects her families to adhere to tradition, and pass the family Liveship on to her when it quickens at the death of her father. Instead, the Vivacia goes to her sister Keffria and her scheming Chalcedean husband Kyle. The proud Liveship becomes a transport vessel for the despised but highly profitable slave trade.",
+    "title": "The Liveship Traders Trilogy",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [137]
+  },
+  {
+    "id": 136,
+    "synopsis": "Includes Pegasus: Flame of Olympus, Pegasus: Olympus at War, Pegasus: The New Olympians, Pegasus: Origins of Olympus, Pegasus: Rise of the Titans, Pegasus: The End of Olympus",
+    "title": "Pegasus",
+    "totalBookMembers": 6,
+    "totalSubseries": 0,
+    "attribution_ids": [138]
+  },
+  {
+    "id": 137,
+    "synopsis": "Includes The Dragon of Trelian, The Princess of Trelian, and The Mage of Trelian.",
+    "title": "Trelian Trilogy",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [139]
+  },
+  {
+    "id": 138,
+    "synopsis": "The Pit Dragon Chronicles is a series of science fiction and fantasy novels by Jane Yolen. The anthology is simply all of the first three books in one. The books are set in the far future, on a desert planet called Austar IV, which has a history and climate similar to that of Australia. The planet was originally a place where convicts would be exiled. For many generations the outcasts had adapted to their new environment and even formed a functioning society, focusing on a caste system of paid bonders and their owners. The amazing feature of the planet is that it does hold life, but very little, and has one species of dragons. The humans eventually managed to tame some of the dragons, and train them. They are bred for food and fighting. The economy on Austar is centered on \"the pit\" where owners bring their dragons in to fight.",
+    "title": "The Pit Dragon Chronicles",
+    "totalBookMembers": 4,
+    "totalSubseries": 0,
+    "attribution_ids": [140]
+  },
+  {
+    "id": 139,
+    "synopsis": "Includes Down a Lost Road, Subverter, Prism.",
+    "title": "The Lost Road Chronicles",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [141]
+  },
+  {
+    "id": 140,
+    "synopsis": "Uglies is a book series by Scott Westerfeld for young adults. Westerfeld originally intended for Uglies to be a trilogy. However, after publishing the series' first three novels, Uglies, Pretties, and Specials, he ultimately wrote an additional fourth book, Extras. This fourth book is dedicated \"[t]o everyone who wrote to me to reveal the secret definition of the word 'trilogy'.\" On February 2, 2018, Westerfeld announced a continuation of the series consisting of four new novels, the first one being Impostors, that was released in September 2018.",
+    "title": "Uglies",
+    "totalBookMembers": 4,
+    "totalSubseries": 0,
+    "attribution_ids": [142]
+  },
+  {
+    "id": 141,
+    "synopsis": "Includes Let the Sky Fall, Let the Storm Break, Let the Wind Rise",
+    "title": "Sky Fall Trilogy",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [143]
+  },
+  {
+    "id": 142,
+    "synopsis": "Includes The Assassin's Blade, Throne of Glass, Crown of Midnight, Heir of Fire, Queen of Shadows, Empire of Storms, Tower of Dawn, and Kingdom of Ash. Throne of Glass is a young adult high fantasy novel series by American author Sarah J. Maas, beginning with the novel of the same name, released in August 2012. The story follows the journey of Celaena Sardothien, a teenage assassin in a corrupt kingdom with a tyrannical ruler. As the tale progresses, Celaena forms unexpected bonds and uncovers a conspiracy amidst her adventures. The series concluded with the eighth book in October 2018.",
+    "title": "Throne of Glass",
+    "totalBookMembers": 8,
+    "totalSubseries": 0,
+    "attribution_ids": [144]
+  },
+  {
+    "id": 143,
+    "synopsis": "Includes Wildwood, Under Wildwood, and Wildwood Imperium",
+    "title": "Wildwood Chronicles",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [145]
+  },
+  {
+    "id": 144,
+    "synopsis": "Includes City of Bones, City of Ash, City of Glass, City of Fallen Angels, City of Lost Souls, and City of Heavenly Fire. The Mortal Instruments is a series of six young adult fantasy novels written by Cassandra Clare, the last of which was published on May 27, 2014. The Mortal Instruments is chronologically the third series of a proposed five in The Shadowhunter Chronicles but it was the first one published. It follows Clary Fray (who interacts with a group of Nephilim known as Shadowhunters) while also discovering her own heritage. The Shadowhunters protect the world of mundane people, who are also called mundanes or \"mundies\", from dark forces beyond their world.",
+    "title": "The Mortal Instruments",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [146]
+  },
+  {
+    "id": 145,
+    "synopsis": "Includes Clockwork Angel, Clockwork Prince, and Clockwork Princess. The Infernal Devices is a trilogy by author Cassandra Clare, centering on a race called the Shadowhunters introduced in her The Mortal Instruments series. The trilogy is a prequel series to The Mortal Instruments series, and contains some of the character's ancestors.",
+    "title": "The Infernal Devices",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [147]
+  },
+  {
+    "id": 146,
+    "synopsis": "Includes Beyonders: A World Without Heroes, Beyonders 2: Seeds of Rebellion, and Beyonders 3: Chasing the Prophecy",
+    "title": "Beyonders",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [148]
+  },
+  {
+    "id": 147,
+    "synopsis": "Includes Cinder, Scarlet, Cress, Fairest, and Winter. The Lunar Chronicles is a series of young adult science fiction novels written by American author Marissa Meyer. Each book entails a sci-fi twist on an old fairy tale, including Cinderella, Little Red Riding Hood, Rapunzel, and Snow White. The story takes place in a futuristic world where earthens, cyborgs, androids, and a race of moon colonists all coexist.",
+    "title": "The Lunar Chronicles",
+    "totalBookMembers": 5,
+    "totalSubseries": 0,
+    "attribution_ids": [149]
+  },
+  {
+    "id": 148,
+    "synopsis": "Millennium is a series of best-selling and award-winning Swedish crime novels, created by journalist Stieg Larsson. The two primary characters in the saga are Lisbeth Salander, a woman in her 20s with a photographic memory and poor social skills, and Mikael Blomkvist, an investigative journalist and publisher of a magazine called Millennium.",
+    "title": "Millenium",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [150]
   }
 ]

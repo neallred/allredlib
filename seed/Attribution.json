@@ -507,7 +507,7 @@
     "yearCreated": null,
     "placePublished": null,
     "author": "T.A. Barron",
-    "publisher": "null",
+    "publisher": null,
     "id": 51
   },
   {
@@ -1289,5 +1289,215 @@
     "author": null,
     "publisher": "Wikipedia",
     "id": 129
+  },
+  {
+    "title": "The Misadventures of Benjamin Bartholomew Piff Series",
+    "link": "https://www.goodreads.com/series/42595",
+    "accessed": "1590661593",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Goodreads",
+    "id": 130
+  },
+  {
+    "title": "Joanna Bertin",
+    "link": "https://en.wikipedia.org/wiki/Joanne_Bertin",
+    "accessed": "1590661868",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 131
+  },
+  {
+    "title": "We the People Series",
+    "link": "https://www.goodreads.com/series/59571-we-the-people",
+    "accessed": "1590662162",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Goodreads",
+    "id": 132
+  },
+  {
+    "title": "Memory, Sorrow, and Thorn",
+    "link": "https://en.wikipedia.org/wiki/Memory,_Sorrow,_and_Thorn",
+    "accessed": "1590662713",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 133
+  },
+  {
+    "title": "Keeper of the Lost Cities Series",
+    "link": "https://shannonmessenger.com/keeper-of-lost-cities.html",
+    "accessed": "1590663229",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": "Shannon Messenger",
+    "publisher": null,
+    "id": 134
+  },
+  {
+    "title": "Princess Academy",
+    "link": "https://en.wikipedia.org/wiki/Princess_Academy",
+    "accessed": "1590663465",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 135
+  },
+  {
+    "title": "The Kane Chronicles",
+    "link": "https://en.wikipedia.org/wiki/The_Kane_Chronicles",
+    "accessed": "1590663578",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 136
+  },
+  {
+    "title": "The Liveship Traders Trilogy",
+    "link": "https://en.wikipedia.org/wiki/Liveship_Traders_Trilogy",
+    "accessed": "1590663741",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 137
+  },
+  {
+    "title": "Kate O'Hearn",
+    "link": "https://en.wikipedia.org/wiki/Kate_O%27Hearn",
+    "accessed": "1590663979",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 138
+  },
+  {
+    "title": "Trelian Trilogy",
+    "link": "https://en.wikipedia.org/wiki/Michelle_Knudsen",
+    "accessed": "1590664510",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 139
+  },
+  {
+    "title": "The Pit Dragon Trilogy",
+    "link": "https://en.wikipedia.org/wiki/The_Pit_Dragon_Trilogy",
+    "accessed": "1590664589",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 140
+  },
+  {
+    "title": "The Lost Road Chronicles",
+    "link": "https://jleighbralick.com/novels/lost-road-chronicles/",
+    "accessed": "1590664875",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": "J. Leigh Bralick",
+    "publisher": null,
+    "id": 141
+  },
+  {
+    "title": "Uglies",
+    "link": "https://en.wikipedia.org/wiki/Uglies_series",
+    "accessed": "1590665232",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 142
+  },
+  {
+    "title": "Sky Fall Trilogy",
+    "link": "https://shannonmessenger.com/sky-fall-trilogy.html#fall-excerpt",
+    "accessed": "1590665412",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": "Shanon Messenger",
+    "publisher": null,
+    "id": 143
+  },
+  {
+    "title": "Throne of Glass",
+    "link": "https://en.wikipedia.org/wiki/Throne_of_Glass",
+    "accessed": "1590665555",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 144
+  },
+  {
+    "title": "Wildwood Chronicles",
+    "link": "https://www.goodreads.com/series/61711-wildwood-chronicles",
+    "accessed": "1590665812",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Goodreads",
+    "id": 145
+  },
+  {
+    "title": "The Mortal Instruments",
+    "link": "https://en.wikipedia.org/wiki/The_Mortal_Instruments",
+    "accessed": "1590666447",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 146
+  },
+  {
+    "title": "The Infernal Devices",
+    "link": "https://en.wikipedia.org/wiki/The_Infernal_Devices",
+    "accessed": "1590666640",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 147
+  },
+  {
+    "title": "Beyonders",
+    "link": "http://brandonmull.com/category/beyonders/",
+    "accessed": "1590666822",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": "Brandon Mull",
+    "publisher": null,
+    "id": 148
+  },
+  {
+    "title": "The Lunar Chronicles",
+    "link": "https://en.wikipedia.org/wiki/The_Lunar_Chronicles",
+    "accessed": "1590666947",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 149
+  },
+  {
+    "title": "Millenium (novel series)",
+    "link": "https://en.wikipedia.org/wiki/Millennium_(novel_series)",
+    "accessed": "1590667191",
+    "yearCreated": null,
+    "placePublished": null,
+    "author": null,
+    "publisher": "Wikipedia",
+    "id": 150
   }
 ]

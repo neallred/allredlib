@@ -10776,8 +10776,8 @@
     "Extra": "Junior",
     "Author": "Lethcoe, Jason",
     "authors_ids": "607",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "4"
   },
   {
     "id": "771",
@@ -10790,8 +10790,8 @@
     "Extra": "Junior",
     "Author": "Black, Holly",
     "authors_ids": "608",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "772",
@@ -10804,8 +10804,8 @@
     "Extra": "Junior",
     "Author": "DiCamillo, Kate",
     "authors_ids": "609",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "773",
@@ -10818,8 +10818,8 @@
     "Extra": "Young Adult",
     "Author": "Dean, Pamela",
     "authors_ids": "110",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "774",
@@ -10832,8 +10832,8 @@
     "Extra": "Young Adult",
     "Author": "Bertin, Joanne",
     "authors_ids": "610",
-    "volume_a": "2",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "4"
   },
   {
     "id": "775",
@@ -10846,8 +10846,8 @@
     "Extra": "History",
     "Author": "Heinrichs, Ann",
     "authors_ids": "611",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": "127"
   },
   {
     "id": "776",
@@ -10860,8 +10860,8 @@
     "Extra": "Travel",
     "Author": "Morrison, Marion",
     "authors_ids": "612",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "777",
@@ -10874,8 +10874,8 @@
     "Extra": "Biography",
     "Author": "Calvert, Patricia",
     "authors_ids": "613",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "778",
@@ -10888,8 +10888,8 @@
     "Extra": "Biography",
     "Author": "Salzman, Mark",
     "authors_ids": "614",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "779",
@@ -10902,8 +10902,8 @@
     "Extra": "",
     "Author": "Briggs, Patricia",
     "authors_ids": "615",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "780",
@@ -10958,8 +10958,8 @@
     "Extra": "",
     "Author": "McKinley, Robin",
     "authors_ids": "292",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "784",
@@ -10972,8 +10972,8 @@
     "Extra": "",
     "Author": "Salvatore, R. A.",
     "authors_ids": "405",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "4"
   },
   {
     "id": "785",
@@ -10986,8 +10986,8 @@
     "Extra": "",
     "Author": "Sanderson, Brandon",
     "authors_ids": "406",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "786",
@@ -11001,7 +11001,7 @@
     "Author": "Sanderson, Brandon",
     "authors_ids": "406",
     "volume_a": "1",
-    "volume_b": ""
+    "volume_b": "10"
   },
   {
     "id": "787",
@@ -11014,8 +11014,8 @@
     "Extra": "",
     "Author": "Wurts, Janny",
     "authors_ids": "508",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "788",
@@ -11028,8 +11028,8 @@
     "Extra": "",
     "Author": "Williams, Tad",
     "authors_ids": "498",
-    "volume_a": "1",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "3"
   },
   {
     "id": "789",
@@ -11042,8 +11042,8 @@
     "Extra": "",
     "Author": "Williams, Tad",
     "authors_ids": "498",
-    "volume_a": "1",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "3"
   },
   {
     "id": "790",
@@ -11056,8 +11056,8 @@
     "Extra": "",
     "Author": "Wurts, Janny",
     "authors_ids": "508",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "4",
+    "volume_b": "11"
   },
   {
     "id": "791",
@@ -11070,8 +11070,8 @@
     "Extra": "",
     "Author": "Wurts, Janny",
     "authors_ids": "508",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "5",
+    "volume_b": "11"
   },
   {
     "id": "792",
@@ -11084,8 +11084,8 @@
     "Extra": "",
     "Author": "Wurts, Janny",
     "authors_ids": "508",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "6",
+    "volume_b": "11"
   },
   {
     "id": "793",
@@ -11098,8 +11098,8 @@
     "Extra": "",
     "Author": "Chaucer, Geoffrey",
     "authors_ids": "616",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "794",
@@ -11112,8 +11112,8 @@
     "Extra": "",
     "Author": "Chekhov, Anton",
     "authors_ids": "617",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "795",
@@ -11126,8 +11126,8 @@
     "Extra": "",
     "Author": "Amery, Heather",
     "authors_ids": "618",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "796",
@@ -11140,8 +11140,8 @@
     "Extra": "",
     "Author": "McNaughton, William and Li Ying",
     "authors_ids": "295, 515",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "797",
@@ -11154,8 +11154,8 @@
     "Extra": "",
     "Author": "Turnbull, Stephen",
     "authors_ids": "619",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "798",
@@ -11168,8 +11168,8 @@
     "Extra": "",
     "Author": "Millet, Robert L. and Lloyd D. Newell",
     "authors_ids": "620, 621",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "799",
@@ -11182,8 +11182,8 @@
     "Extra": "",
     "Author": "Millet, Robert L. and Lloyd D. Newell",
     "authors_ids": "620, 621",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "800",
@@ -11196,8 +11196,8 @@
     "Extra": "",
     "Author": "Millet, Robert L. and Lloyd D. Newell",
     "authors_ids": "620, 621",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "801",
@@ -11210,8 +11210,8 @@
     "Extra": "",
     "Author": "Hinckley, Gordon Bitner",
     "authors_ids": "622",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "802",
@@ -11224,8 +11224,8 @@
     "Extra": "",
     "Author": "Johnson, Ian",
     "authors_ids": "623",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "803",
@@ -11238,8 +11238,8 @@
     "Extra": "",
     "Author": "Haw, Stephen G.",
     "authors_ids": "624",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "804",
@@ -11252,8 +11252,8 @@
     "Extra": "",
     "Author": "Go, Gam P.",
     "authors_ids": "625",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "805",
@@ -11266,8 +11266,8 @@
     "Extra": "",
     "Author": "Rohsenow, John Snowden",
     "authors_ids": "391",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "806",
@@ -11280,8 +11280,8 @@
     "Extra": "",
     "Author": "Yuan, Boping and Kan Qian",
     "authors_ids": "626, 627",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "807",
@@ -11294,8 +11294,8 @@
     "Extra": "",
     "Author": "De Mente, Boyé Lafayette",
     "authors_ids": "628",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "808",
@@ -11308,8 +11308,8 @@
     "Extra": "",
     "Author": "Chang, Jung and Jon Halliday",
     "authors_ids": "81, 629",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "809",
@@ -11322,8 +11322,8 @@
     "Extra": "",
     "Author": "Leymarie, Jean",
     "authors_ids": "630",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "810",
@@ -11336,8 +11336,8 @@
     "Extra": "",
     "Author": "Smith, Peter Hopkinson",
     "authors_ids": "631",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "811",
@@ -11350,8 +11350,8 @@
     "Extra": "",
     "Author": "Kurtz, Marcus J",
     "authors_ids": "632",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "812",
@@ -11364,8 +11364,8 @@
     "Extra": "",
     "Author": "Faroult, Stéphane and Peter Robson",
     "authors_ids": "633, 634",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "813",
@@ -11378,8 +11378,8 @@
     "Extra": "",
     "Author": "Watterson, Bill",
     "authors_ids": "485",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "814",
@@ -11392,8 +11392,8 @@
     "Extra": "",
     "Author": "Pan, Philip P.",
     "authors_ids": "635",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "815",
@@ -11406,8 +11406,8 @@
     "Extra": "",
     "Author": "Seligman, Scott D.",
     "authors_ids": "636",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "816",
@@ -11420,8 +11420,8 @@
     "Extra": "",
     "Author": "Guo, Sujian",
     "authors_ids": "637",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "817",
@@ -11434,8 +11434,8 @@
     "Extra": "",
     "Author": "Fewsmith, Joseph",
     "authors_ids": "638",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "818",
@@ -11448,8 +11448,8 @@
     "Extra": "",
     "Author": "van Duyne, Landay and Hong",
     "authors_ids": "639, 640, 641",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "819",
@@ -11462,8 +11462,8 @@
     "Extra": "",
     "Author": "Stoker, Bram",
     "authors_ids": "642",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "820",
@@ -11476,8 +11476,8 @@
     "Extra": "",
     "Author": "Orczy, Emmuska",
     "authors_ids": "643",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "821",
@@ -11490,8 +11490,8 @@
     "Extra": "",
     "Author": "Wells, H.G.",
     "authors_ids": "644",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "822",
@@ -11504,8 +11504,8 @@
     "Extra": "",
     "Author": "The Church of Jesus Christ of Latter-Day Saints",
     "authors_ids": "459",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "823",
@@ -11518,8 +11518,8 @@
     "Extra": "",
     "Author": "Vernon, Edward Wood",
     "authors_ids": "645",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "824",
@@ -11532,8 +11532,8 @@
     "Extra": "",
     "Author": "Wiarda, Howard J. and Harvey F. Kline",
     "authors_ids": "646, 647",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "825",
@@ -11547,7 +11547,7 @@
     "Author": "Messenger, Shannon",
     "authors_ids": "648",
     "volume_a": "3",
-    "volume_b": ""
+    "volume_b": "9"
   },
   {
     "id": "826",
@@ -11561,7 +11561,7 @@
     "Author": "Messenger, Shannon",
     "authors_ids": "648",
     "volume_a": "2",
-    "volume_b": ""
+    "volume_b": "9"
   },
   {
     "id": "827",
@@ -11574,8 +11574,8 @@
     "Extra": "",
     "Author": "Bell, Hilari",
     "authors_ids": "649",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "828",
@@ -11588,8 +11588,8 @@
     "Extra": "",
     "Author": "Hale, Shannon",
     "authors_ids": "650",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "829",
@@ -11602,8 +11602,8 @@
     "Extra": "",
     "Author": "Riordan, Rick",
     "authors_ids": "387",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "830",
@@ -11617,7 +11617,7 @@
     "Author": "Messenger, Shannon",
     "authors_ids": "648",
     "volume_a": "1",
-    "volume_b": ""
+    "volume_b": "9"
   },
   {
     "id": "831",
@@ -11631,7 +11631,7 @@
     "Author": "Messenger, Shannon",
     "authors_ids": "648",
     "volume_a": "4",
-    "volume_b": ""
+    "volume_b": "9"
   },
   {
     "id": "832",
@@ -11645,7 +11645,7 @@
     "Author": "Messenger, Shannon",
     "authors_ids": "648",
     "volume_a": "5",
-    "volume_b": ""
+    "volume_b": "9"
   },
   {
     "id": "833",
@@ -11658,8 +11658,8 @@
     "Extra": "",
     "Author": "Bradbury, Ray",
     "authors_ids": "52",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "834",
@@ -11672,8 +11672,8 @@
     "Extra": "",
     "Author": "Hobb, Robin",
     "authors_ids": "651",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "3"
   },
   {
     "id": "835",
@@ -11686,8 +11686,8 @@
     "Extra": "",
     "Author": "O’Hearn, Kate",
     "authors_ids": "652",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "6"
   },
   {
     "id": "836",
@@ -11700,8 +11700,8 @@
     "Extra": "",
     "Author": "Knudsen, Michelle",
     "authors_ids": "653",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "837",
@@ -11714,8 +11714,8 @@
     "Extra": "",
     "Author": "Wallace, Sean",
     "authors_ids": "654",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "838",
@@ -11729,7 +11729,7 @@
     "Author": "Yolen, Jane",
     "authors_ids": "516",
     "volume_a": "3",
-    "volume_b": "3"
+    "volume_b": "4"
   },
   {
     "id": "839",
@@ -11743,7 +11743,7 @@
     "Author": "Yolen, Jane",
     "authors_ids": "516",
     "volume_a": "1",
-    "volume_b": "3"
+    "volume_b": "4"
   },
   {
     "id": "840",
@@ -11752,12 +11752,12 @@
     "year": "1980",
     "pages": "76",
     "isbn": "0-590-13601-1",
-    "summary": "How do you outwit a Twit?  Mr. and Mrs. Twit are the smelliest, nastiest, ugliest people in the world. They hate everything—except playing mean jokes on each other, catching innocent birds to put in their Bird Pies, and making their caged monkeys, the Muggle-Wumps, stand on their heads all day. But the Muggle-Wumps have had enough. They don’t just want out, they want revenge.",
+    "summary": "How do you outwit a Twit? Mr. and Mrs. Twit are the smelliest, nastiest, ugliest people in the world. They hate everything—except playing mean jokes on each other, catching innocent birds to put in their Bird Pies, and making their caged monkeys, the Muggle-Wumps, stand on their heads all day. But the Muggle-Wumps have had enough. They don’t just want out, they want revenge.",
     "Extra": "",
     "Author": "Dahl, Roald",
     "authors_ids": "106",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "841",
@@ -11770,8 +11770,8 @@
     "Extra": "",
     "Author": "Dahl, Roald",
     "authors_ids": "106",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "842",
@@ -11784,8 +11784,8 @@
     "Extra": "",
     "Author": "Dahl, Roald",
     "authors_ids": "106",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "843",
@@ -11799,7 +11799,7 @@
     "Author": "d'Lacey, Chris",
     "authors_ids": "524",
     "volume_a": "2",
-    "volume_b": ""
+    "volume_b": "7"
   },
   {
     "id": "844",
@@ -11813,7 +11813,7 @@
     "Author": "d'Lacey, Chris",
     "authors_ids": "524",
     "volume_a": "1",
-    "volume_b": ""
+    "volume_b": "7"
   },
   {
     "id": "845",
@@ -11826,8 +11826,8 @@
     "Extra": "",
     "Author": "Christensen, Sharon",
     "authors_ids": "655",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "846",
@@ -11840,8 +11840,8 @@
     "Extra": "",
     "Author": "Bralick, J. Leigh",
     "authors_ids": "656",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "847",
@@ -11854,8 +11854,8 @@
     "Extra": "",
     "Author": "Roth, Veronica",
     "authors_ids": "399",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "848",
@@ -11866,10 +11866,10 @@
     "isbn": "978-0-14-241543-6",
     "summary": "Mia had everything: a loving family, a gorgeous, adoring boyfriend, and a bright future full of music and full of choices. Then, in an instant, almost all of that is taken from her. Caught between life and death, between a happy past and an unknowable future, Mia spends one critical day contemplating the one decision she has left—the most important decision she’ll ever make. Simultaneously tragic and hopeful, this is a romantic, riveting and ultimately uplifting story about memory, music, living, dying, loving.",
     "Extra": "",
-    "Author": "",
+    "Author": "Forman, Gayle",
     "authors_ids": "657",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "849",
@@ -11882,8 +11882,8 @@
     "Extra": "",
     "Author": "Nesbit, E.",
     "authors_ids": "322",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "850",
@@ -11896,8 +11896,8 @@
     "Extra": "",
     "Author": "Selznick, Brian",
     "authors_ids": "658",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "851",
@@ -11910,8 +11910,8 @@
     "Extra": "",
     "Author": "DiCamillo, Kate",
     "authors_ids": "609",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "852",
@@ -11924,8 +11924,8 @@
     "Extra": "",
     "Author": "Westerfeld, Scott",
     "authors_ids": "659",
-    "volume_a": "1",
-    "volume_b": ""
+    "volume_a": "4",
+    "volume_b": "4"
   },
   {
     "id": "853",
@@ -11939,7 +11939,7 @@
     "Author": "Messenger, Shannon",
     "authors_ids": "648",
     "volume_a": "1",
-    "volume_b": ""
+    "volume_b": "3"
   },
   {
     "id": "854",
@@ -11953,7 +11953,7 @@
     "Author": "Messenger, Shannon",
     "authors_ids": "648",
     "volume_a": "2",
-    "volume_b": ""
+    "volume_b": "3"
   },
   {
     "id": "855",
@@ -11967,7 +11967,7 @@
     "Author": "Messenger, Shannon",
     "authors_ids": "648",
     "volume_a": "3",
-    "volume_b": ""
+    "volume_b": "3"
   },
   {
     "id": "856",
@@ -11981,7 +11981,7 @@
     "Author": "Maas, Sarah Janet",
     "authors_ids": "660",
     "volume_a": "1",
-    "volume_b": ""
+    "volume_b": "8"
   },
   {
     "id": "857",
@@ -11995,7 +11995,7 @@
     "Author": "Maas, Sarah Janet",
     "authors_ids": "660",
     "volume_a": "2",
-    "volume_b": ""
+    "volume_b": "8"
   },
   {
     "id": "858",
@@ -12009,7 +12009,7 @@
     "Author": "Maas, Sarah Janet",
     "authors_ids": "660",
     "volume_a": "3",
-    "volume_b": ""
+    "volume_b": "8"
   },
   {
     "id": "859",
@@ -12023,7 +12023,7 @@
     "Author": "Maas, Sarah Janet",
     "authors_ids": "660",
     "volume_a": "4",
-    "volume_b": ""
+    "volume_b": "8"
   },
   {
     "id": "860",
@@ -12037,7 +12037,7 @@
     "Author": "Maas, Sarah Janet",
     "authors_ids": "660",
     "volume_a": "5",
-    "volume_b": ""
+    "volume_b": "8"
   },
   {
     "id": "861",
@@ -12050,8 +12050,8 @@
     "Extra": "",
     "Author": "Tester, John R.",
     "authors_ids": "661",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "862",
@@ -12064,8 +12064,8 @@
     "Extra": "",
     "Author": "Desaulniers, Marcel",
     "authors_ids": "662",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "863",
@@ -12078,8 +12078,8 @@
     "Extra": "",
     "Author": "Wouk, Herman",
     "authors_ids": "663",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "864",
@@ -12092,8 +12092,8 @@
     "Extra": "",
     "Author": "Meloy, Colin",
     "authors_ids": "664",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "865",
@@ -12106,8 +12106,8 @@
     "Extra": "",
     "Author": "Yolen, Jane",
     "authors_ids": "516",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "866",
@@ -12121,7 +12121,7 @@
     "Author": "Westerfeld, Scott",
     "authors_ids": "659",
     "volume_a": "2",
-    "volume_b": ""
+    "volume_b": "4"
   },
   {
     "id": "867",
@@ -12135,7 +12135,7 @@
     "Author": "Westerfeld, Scott",
     "authors_ids": "659",
     "volume_a": "3",
-    "volume_b": ""
+    "volume_b": "4"
   },
   {
     "id": "868",
@@ -12148,8 +12148,8 @@
     "Extra": "",
     "Author": "Green, John",
     "authors_ids": "665",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "869",
@@ -12163,12 +12163,12 @@
     "Author": "Clare, Cassandra",
     "authors_ids": "666",
     "volume_a": "1",
-    "volume_b": ""
+    "volume_b": "6"
   },
   {
     "id": "870",
     "genres_id": "",
-    "title": "The Infernal Devices: Book One",
+    "title": "Clockwork Angel",
     "year": "2010",
     "pages": "479",
     "isbn": "9781416975878",
@@ -12177,7 +12177,7 @@
     "Author": "Clare, Cassandra",
     "authors_ids": "666",
     "volume_a": "1",
-    "volume_b": ""
+    "volume_b": "3"
   },
   {
     "id": "871",
@@ -12190,8 +12190,8 @@
     "Extra": "",
     "Author": "Mull, Brandon",
     "authors_ids": "314",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "872",
@@ -12204,8 +12204,8 @@
     "Extra": "",
     "Author": "Rowling, J. K.",
     "authors_ids": "400",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "873",
@@ -12218,8 +12218,8 @@
     "Extra": "",
     "Author": "Meyer, Marissa",
     "authors_ids": "667",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "5"
   },
   {
     "id": "874",

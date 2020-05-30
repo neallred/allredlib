@@ -2118,8 +2118,10 @@
     "Extra": "Fantasy",
     "Author": "Sanderson, Brandon",
     "authors_ids": "406",
-    "volume_a": "",
-    "volume_b": ""
+    "seriesPart": null,
+    "seriesId": "9",
+    "subseriesPart": "3",
+    "subseriesId": "1"
   },
   {
     "id": "152",
@@ -2132,8 +2134,8 @@
     "Extra": "Fantasy",
     "Author": "Goodkind, Terry",
     "authors_ids": "163",
-    "volume_a": "3",
-    "volume_b": "21"
+    "seriesPart": "3",
+    "seriesId": "41"
   },
   {
     "id": "153",
@@ -2160,8 +2162,8 @@
     "Extra": "Fantasy",
     "Author": "Farland, David",
     "authors_ids": "135",
-    "volume_a": "3",
-    "volume_b": "9"
+    "seriesPart": "3",
+    "seriesId": "42"
   },
   {
     "id": "155",
@@ -2212,12 +2214,12 @@
     "year": "2001",
     "pages": "436",
     "isbn": "978-0-7869-1805-8",
-    "summary": "Wolf Haas' Detective Brenner series has become wildly popular around the world for a reason: They're timely, edgy stories told in a wry, quirky voice that's often hilarious, and with a protagonist it's hard not to love. In this episode, Brenner-forced out of the police force-tries to get away from detective work by taking a job as the personal chauffeur for two-year-old Helena, the daughter of a Munich construction giant and a Viennese abortion doctor. One day, while Brenner's attention is turned to picking out a chocolate bar for Helena at a gas station, Helena gets snatched from the car. Abruptly out of a job, Brenner decides to investigate her disappearance on his own. With both parents in the public eye, there's no scarcity of leads-the father's latest development project has spurred public protest, and the mother's clinic has been targeted by the zealous leader of an anti-abortion group. Brenner and God is told with a dark humor that leaves no character, including Brenner, unscathed. Haas tells the story of a fallible hero who can be indecisive and world-weary, baffled and disillusioned by what he finds, but who presses forward nonetheless out of a stubborn sense of decency-a two-year-old is kidnapped, so you find her, because that's just what you do.",
+    "summary": "War of the Twins is a 1986 fantasy novel by american writers Margaret Weis and Tracy Hickman. Part of the Dragonlance series of novels, it is the second novel in the Dragonlance Legends trilogy, which details the journey of the fictional twins Raistlin Majere and Caramon Majere, along with Crysania and Tasslehoff Burrfoot. the book details their adventures during the Dwarfgate Wars, some 100 years after the Cataclysm, a monumental event in the Dragonlance world that altered the shape of the world. The story sees Raistlin, Caramon, and Crysania arrive in the Tower of High Sorcery at Palanthas. Caramon, before bent on stopping Raistlin's quest for godhood, must now aid him to return to his own time period.",
     "Extra": "Fantasy",
     "Author": "Weis, Margaret; Hickman, Tracy",
     "authors_ids": "487, 200",
-    "volume_a": "2",
-    "volume_b": "3"
+    "seriesPart": "2",
+    "seriesId": "43"
   },
   {
     "id": "159",
@@ -2272,8 +2274,8 @@
     "Extra": "Fantasy",
     "Author": "Jordan, Robert; Sanderson, Brandon",
     "authors_ids": "227, 406",
-    "volume_a": "12",
-    "volume_b": "14"
+    "seriesPart": "12",
+    "seriesId": "27"
   },
   {
     "id": "163",
@@ -2328,8 +2330,8 @@
     "Extra": "Religion",
     "Author": "Heimerdinger, Chris",
     "authors_ids": "194",
-    "volume_a": "3",
-    "volume_b": "12"
+    "seriesPart": "3",
+    "seriesId": "44"
   },
   {
     "id": "167",
@@ -2384,8 +2386,8 @@
     "Extra": "Children",
     "Author": "Teitelbaum, Michael",
     "authors_ids": "455",
-    "volume_a": "1",
-    "volume_b": "6"
+    "seriesPart": "1",
+    "seriesId": "45"
   },
   {
     "id": "171",
@@ -2398,8 +2400,8 @@
     "Extra": "Young Adult",
     "Author": "MacHale, D. J.",
     "authors_ids": "278",
-    "volume_a": "7",
-    "volume_b": "10"
+    "seriesPart": "9",
+    "seriesId": "39"
   },
   {
     "id": "172",
@@ -2412,8 +2414,8 @@
     "Extra": "Fantasy",
     "Author": "Feist, Raymond E.; Wurts, Janny",
     "authors_ids": "138, 508",
-    "volume_a": "3",
-    "volume_b": "3"
+    "seriesPart": "3",
+    "seriesId": "46"
   },
   {
     "id": "173",
@@ -2426,8 +2428,8 @@
     "Extra": "Fantasy",
     "Author": "Anthony, Piers",
     "authors_ids": "21",
-    "volume_a": "5",
-    "volume_b": "46"
+    "seriesPart": "5",
+    "seriesId": "47"
   },
   {
     "id": "174",
@@ -2440,8 +2442,8 @@
     "Extra": "Young Adult",
     "Author": "Riordan, Rick",
     "authors_ids": "387",
-    "volume_a": "1",
-    "volume_b": "5"
+    "seriesPart": "1",
+    "seriesId": "48"
   },
   {
     "id": "175",
@@ -2468,8 +2470,8 @@
     "Extra": "Fantasy",
     "Author": "Modesitt, L. E.",
     "authors_ids": "310",
-    "volume_a": "14",
-    "volume_b": "22"
+    "seriesPart": "14",
+    "seriesId": "25"
   },
   {
     "id": "177",
@@ -2496,8 +2498,8 @@
     "Extra": "Junior",
     "Author": "Barron, T. A.",
     "authors_ids": "37",
-    "volume_a": "4",
-    "volume_b": "12"
+    "seriesPart": "4",
+    "seriesId": "49"
   },
   {
     "id": "179",
@@ -2510,8 +2512,8 @@
     "Extra": "Junior",
     "Author": "Alexander, Lloyd",
     "authors_ids": "14",
-    "volume_a": "5",
-    "volume_b": "5"
+    "seriesPart": "5",
+    "seriesId": "17"
   },
   {
     "id": "180",
@@ -2562,12 +2564,12 @@
     "year": "2001",
     "pages": "436",
     "isbn": "978-0-7869-1804-1",
-    "summary": "Wolf Haas' Detective Brenner series has become wildly popular around the world for a reason: They're timely, edgy stories told in a wry, quirky voice that's often hilarious, and with a protagonist it's hard not to love. In this episode, Brenner-forced out of the police force-tries to get away from detective work by taking a job as the personal chauffeur for two-year-old Helena, the daughter of a Munich construction giant and a Viennese abortion doctor. One day, while Brenner's attention is turned to picking out a chocolate bar for Helena at a gas station, Helena gets snatched from the car. Abruptly out of a job, Brenner decides to investigate her disappearance on his own. With both parents in the public eye, there's no scarcity of leads-the father's latest development project has spurred public protest, and the mother's clinic has been targeted by the zealous leader of an anti-abortion group. Brenner and God is told with a dark humor that leaves no character, including Brenner, unscathed. Haas tells the story of a fallible hero who can be indecisive and world-weary, baffled and disillusioned by what he finds, but who presses forward nonetheless out of a stubborn sense of decency-a two-year-old is kidnapped, so you find her, because that's just what you do.",
+    "summary": "Time of the Twins is a 1986 fantasy novel in the Dragonlance series by American writers Margaret Weis and Tracy Hickman. It is the beginning of the Dragonlance Legends Trilogy, a series detailing the journey of fictional twins, the warrior Caramon Majere and the mage Raistlin Majere, along with the cleric Crysania. The book details the start of their adventure.",
     "Extra": "Fantasy",
     "Author": "Weis, Margaret; Hickman, Tracy; Williams, Michael",
     "authors_ids": "487, 200, 497",
-    "volume_a": "1",
-    "volume_b": "3"
+    "seriesPart": "1",
+    "volume_b": "43"
   },
   {
     "id": "184",
@@ -2650,8 +2652,8 @@
     "Extra": "History",
     "Author": "Manchester, William",
     "authors_ids": "280",
-    "volume_a": "2",
-    "volume_b": "2"
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "190",
@@ -2664,8 +2666,8 @@
     "Extra": "Fantasy",
     "Author": "Rawn, Melanie",
     "authors_ids": "380",
-    "volume_a": "3",
-    "volume_b": "3"
+    "seriesPart": "3",
+    "seriesId": "53"
   },
   {
     "id": "191",
@@ -2720,8 +2722,8 @@
     "Extra": "Young Adult",
     "Author": "Funke, Cornelia Caroline; Bell, Anthea",
     "authors_ids": "150, 41",
-    "volume_a": "2",
-    "volume_b": "3"
+    "seriesPart": "2",
+    "seriesId": "50"
   },
   {
     "id": "195",
@@ -2748,8 +2750,8 @@
     "Extra": "Children",
     "Author": "Snicket, Lemony",
     "authors_ids": "432",
-    "volume_a": "2",
-    "volume_b": "13"
+    "seriesPart": "2",
+    "seriesId": "51"
   },
   {
     "id": "197",
@@ -2762,8 +2764,8 @@
     "Extra": "Fantasy",
     "Author": "Wells, David",
     "authors_ids": "490",
-    "volume_a": "1",
-    "volume_b": "7"
+    "seriesPart": "1",
+    "seriesId": "52"
   },
   {
     "id": "198",
@@ -2776,8 +2778,8 @@
     "Extra": "Fantasy",
     "Author": "Jordan, Robert",
     "authors_ids": "227",
-    "volume_a": "8",
-    "volume_b": "14"
+    "seriesPart": "8",
+    "seriesId": "27"
   },
   {
     "id": "199",
@@ -2790,8 +2792,8 @@
     "Extra": "Fantasy",
     "Author": "Rawn, Melanie",
     "authors_ids": "380",
-    "volume_a": "2",
-    "volume_b": "3"
+    "seriesPart": "2",
+    "seriesId": "53"
   },
   {
     "id": "200",
@@ -2818,8 +2820,8 @@
     "Extra": "Young Adult",
     "Author": "Noël, Alyson",
     "authors_ids": "331",
-    "volume_a": "1",
-    "volume_b": "6"
+    "seriesPart": "1",
+    "seriesId": "28"
   },
   {
     "id": "202",
@@ -2944,8 +2946,8 @@
     "Extra": "Young Adult",
     "Author": "Colfer, Eoin",
     "authors_ids": "93",
-    "volume_a": "5",
-    "volume_b": "8"
+    "seriesPart": "5",
+    "seriesId": "54"
   },
   {
     "id": "211",
@@ -2958,8 +2960,8 @@
     "Extra": "Fantasy",
     "Author": "McCaffrey, Anne",
     "authors_ids": "289",
-    "volume_a": "6",
-    "volume_b": "24"
+    "seriesPart": "6",
+    "seriesId": "8"
   },
   {
     "id": "212",
@@ -3028,8 +3030,8 @@
     "Extra": "Fantasy",
     "Author": "Brooks, Terry",
     "authors_ids": "57",
-    "volume_a": "3",
-    "volume_b": "3"
+    "seriesPart": "3",
+    "seriesId": "55"
   },
   {
     "id": "217",
@@ -3042,8 +3044,10 @@
     "Extra": "Fantasy",
     "Author": "Wurts, Janny",
     "authors_ids": "508",
-    "volume_a": "1",
-    "volume_b": "2"
+    "subseriesPart": "1",
+    "subseriesId": "3",
+    "seriesPart": "2",
+    "seriesId": "56"
   },
   {
     "id": "218",
@@ -3084,8 +3088,8 @@
     "Extra": "Religion",
     "Author": "Heimerdinger, Chris",
     "authors_ids": "194",
-    "volume_a": "8",
-    "volume_b": "12"
+    "seriesPart": "8",
+    "seriesId": "44"
   },
   {
     "id": "221",
@@ -3140,8 +3144,8 @@
     "Extra": "?",
     "Author": "Anthony, Mark",
     "authors_ids": "20",
-    "volume_a": "2",
-    "volume_b": "6"
+    "seriesPart": "2",
+    "seriesId": "57"
   },
   {
     "id": "225",
@@ -3154,8 +3158,8 @@
     "Extra": "Children",
     "Author": "",
     "authors_ids": "525",
-    "volume_a": "13",
-    "volume_b": "13"
+    "seriesPart": "13",
+    "seriesId": "58"
   },
   {
     "id": "226",
@@ -3238,8 +3242,8 @@
     "Extra": "Junior",
     "Author": "Tarkington, Booth",
     "authors_ids": "454",
-    "volume_a": "1",
-    "volume_b": "3"
+    "seriesPart": "1",
+    "seriesNumber": "23"
   },
   {
     "id": "232",
@@ -3252,8 +3256,8 @@
     "Extra": "Fantasy",
     "Author": "Friedman, C. S.",
     "authors_ids": "149",
-    "volume_a": "2",
-    "volume_b": "2"
+    "seriesPart": "2",
+    "seriesId": "59"
   },
   {
     "id": "233",
@@ -3266,8 +3270,8 @@
     "Extra": "Young Adult",
     "Author": "Rowling, J. K.",
     "authors_ids": "400",
-    "volume_a": "6",
-    "volume_b": "7"
+    "seriesPart": "6",
+    "seriesId": "7"
   },
   {
     "id": "234",
@@ -3294,8 +3298,8 @@
     "Extra": "Children",
     "Author": "Snicket, Lemony",
     "authors_ids": "432",
-    "volume_a": "5",
-    "volume_b": "13"
+    "seriesPart": "5",
+    "seriesId": "51"
   },
   {
     "id": "236",
@@ -3308,8 +3312,8 @@
     "Extra": "Fantasy",
     "Author": "Anthony, Piers",
     "authors_ids": "21",
-    "volume_a": "2",
-    "volume_b": "46"
+    "seriesPart": "2",
+    "seriesId": "47"
   },
   {
     "id": "237",
@@ -3350,8 +3354,8 @@
     "Extra": "Science Fiction",
     "Author": "Ashby, Madeline",
     "authors_ids": "26",
-    "volume_a": "1",
-    "volume_b": "3"
+    "seriesPart": "1",
+    "seriesId": "60"
   },
   {
     "id": "240",
@@ -3378,8 +3382,8 @@
     "Extra": "World Literature",
     "Author": "Cao, Xueqin",
     "authors_ids": "74",
-    "volume_a": "2",
-    "volume_b": "5"
+    "seriesPart": "2",
+    "seriesId": "5"
   },
   {
     "id": "242",
@@ -3392,8 +3396,8 @@
     "Extra": "Fantasy",
     "Author": "Eddings, David",
     "authors_ids": "127",
-    "volume_a": "4",
-    "volume_b": "5"
+    "seriesPart": "4",
+    "seriesId": "61"
   },
   {
     "id": "243",
@@ -3462,8 +3466,8 @@
     "Extra": "Fantasy",
     "Author": "Modesitt, L. E.",
     "authors_ids": "310",
-    "volume_a": "13",
-    "volume_b": "22"
+    "seriesPart": "13",
+    "seriesId": "25"
   },
   {
     "id": "248",
@@ -3490,8 +3494,8 @@
     "Extra": "Fantasy",
     "Author": "Goodkind, Terry",
     "authors_ids": "163",
-    "volume_a": "1",
-    "volume_b": "21"
+    "seriesPart": "1",
+    "seriesId": "41"
   },
   {
     "id": "250",
@@ -3518,8 +3522,8 @@
     "Extra": "Fantasy",
     "Author": "Wingrove, David",
     "authors_ids": "500",
-    "volume_a": "6",
-    "volume_b": "8"
+    "seriesPart": "6",
+    "seriesId": "8"
   },
   {
     "id": "252",
@@ -3574,8 +3578,8 @@
     "Extra": "Children",
     "Author": "Snicket, Lemony",
     "authors_ids": "432",
-    "volume_a": "6",
-    "volume_b": "13"
+    "seriesPart": "6",
+    "seriesId": "51"
   },
   {
     "id": "256",
@@ -3616,8 +3620,8 @@
     "Extra": "Children",
     "Author": "Snicket, Lemony; Helquist, Brett",
     "authors_ids": "432, 195",
-    "volume_a": "11",
-    "volume_b": "13"
+    "seriesPart": "11",
+    "seriesId": "51"
   },
   {
     "id": "259",
@@ -3686,8 +3690,8 @@
     "Extra": "Fantasy",
     "Author": "Salvatore, R. A.",
     "authors_ids": "405",
-    "volume_a": "1",
-    "volume_b": "3"
+    "seriesPart": "1",
+    "seriesId": "63"
   },
   {
     "id": "264",
@@ -3700,8 +3704,8 @@
     "Extra": "Fantasy",
     "Author": "Smith, L. J.",
     "authors_ids": "429",
-    "volume_a": "1-3",
-    "volume_b": "12"
+    "seriesPart": "1-3",
+    "seriesId": "64"
   },
   {
     "id": "265",

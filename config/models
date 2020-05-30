@@ -20,9 +20,9 @@ Genre json
   genre GenreEnum
 Title json
   seriesId SeriesId Maybe
-  seriesNumber Int Maybe
+  seriesPart String Maybe -- which part is this work in the subseries. String for things like prequels
   subseriesId SubseriesId Maybe
-  subseriesNumber Int Maybe -- which number is this work in the series.
+  subseriesNumber String Maybe -- which part is this work in the subseries.
   subtitle Text Maybe
   synopsis Text Maybe
   title Text

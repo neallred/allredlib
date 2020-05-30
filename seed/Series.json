@@ -873,7 +873,7 @@
   },
   {
     "id": 109,
-    "synopsis": "The Time Quintet is a fantasy/science fiction series of five young adult novels written by Madeleine L'Engle. ",
+    "synopsis": "The Time Quintet is a fantasy/science fiction series of five young adult novels written by Madeleine L'Engle. Includes A Wrinkle in Time, A Wind in the Door, A Swiftly Tilting Planet, Many Waters, and An Acceptable Time",
     "title": "Time Quintet",
     "totalBookMembers": 5,
     "totalSubseries": 0,
@@ -1206,5 +1206,125 @@
     "totalBookMembers": 3,
     "totalSubseries": 0,
     "attribution_ids": [152]
+  },
+  {
+    "id": 151,
+    "synopsis": "World of the Five Gods is a fantasy series by American writer Lois McMaster Bujold. It was awarded the Hugo Award for Best Series in 2018. It consists of three novels and eight novellas, with six of the novellas included in the award. All three novels and two of the novellas were nominees for or winners of major awards.\nThe World of the Five Gods was informally called \"the Chalion series\" at first, but the name was abandoned as the series expanded.",
+    "title": "World of the Five Gods",
+    "totalBookMembers": 11,
+    "totalSubseries": 0,
+    "attribution_ids": [153]
+  },
+  {
+    "id": 152,
+    "synopsis": "Includes Aurian, Harp of Winds, Sword of Flame, and Dhiammara",
+    "title": "The Artefacts of Power",
+    "totalBookMembers": 4,
+    "totalSubseries": 0,
+    "attribution_ids": [152]
+  },
+  {
+    "id": 153,
+    "synopsis": null,
+    "title": "The Mera Trilogy",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [154]
+  },
+  {
+    "id": 154,
+    "synopsis": "Wicked is a series of young adult novels written by American authors Nancy Holder and Debbie Viguié. The first book, Witch was released in 2002 through Simon Pulse.",
+    "title": "Wicked",
+    "totalBookMembers": 5,
+    "totalSubseries": 0,
+    "attribution_ids": [155]
+  },
+  {
+    "id": 155,
+    "synopsis": "The Enchanted Forest Chronicles is a series of four young adult fantasy novels by Patricia C. Wrede titled Dealing with Dragons, Searching for Dragons, Calling on Dragons, and Talking to Dragons. Additionally, the Book of Enchantments includes one short story titled Utensile Strength and also includes a short story titled The Princess, the Cat, and the Unicorn which takes place in the Enchanted Forest universe, but does not involve any of the familiar characters. Patricia C. Wrede does \"hope\" to author a fifth Enchanted Forest novel once her current book contracts have been fulfilled.",
+    "title": "Enchanted Forest Chronicles",
+    "totalBookMembers": 4,
+    "totalSubseries": 0,
+    "attribution_ids": [156]
+  },
+  {
+    "id": 156,
+    "synopsis": "Includes Fairy Wings and Fairy Lies.",
+    "title": "Fairy Wings",
+    "totalBookMembers": 2,
+    "totalSubseries": 0,
+    "attribution_ids": [157]
+  },
+  {
+    "id": 157,
+    "synopsis": "The Books of Elsewhere is a series of fantasy novels for kids and young teens by Jacqueline West that centers on the McMartins' house on Linden Street, which has lots of magical paintings. Includes The Shadows (2010), Spellbound (2011), The Second Spy (2012), The Strangers (2013), Still Life (2014)",
+    "title": "The Books of Elsewhere",
+    "totalBookMembers": 5,
+    "totalSubseries": 0,
+    "attribution_ids": [158]
+  },
+  {
+    "id": 158,
+    "synopsis": "Includes The Dark Hills Divide (2005), Beyond the Valley of Thorns (2005), The Tenth City (2006), Into the Mist (Prequel) (2007), Stargazer (2008)",
+    "title": "The Land of Elyon Series",
+    "totalBookMembers": 5,
+    "totalSubseries": 0,
+    "attribution_ids": [159]
+  },
+  {
+    "id": 159,
+    "synopsis": "Includes Little asshole, The 13½ Lives of Captain Bluebear, A Wild Ride Through the Night, Rumo & His Miraculous Adventures, The City of Dreaming Books, The Alchemaster's Apprentice, The Labyrinth of Dreaming Books",
+    "title": "Zamonia Series",
+    "totalBookMembers": 7,
+    "totalSubseries": 0,
+    "attribution_ids": [160]
+  },
+  {
+    "id": 160,
+    "synopsis": "Includes Anne of Green Gables, Anne of Avonlea, Anne of the Island, Anne of Windy Poplars, Anne's House of Dreams, Anne of Ingleside, Rainbow Valley, Rilla of Ingleside, The Blythes Are Quoted",
+    "title": "Anne of Green Gables",
+    "totalBookMembers": 9,
+    "totalSubseries": 0,
+    "attribution_ids": [161]
+  },
+  {
+    "id": 161,
+    "synopsis": "Includes Five Children and It, The Phoenix and the Carpet, and The Story of the Amulet",
+    "title": "Psammead Trilogy",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [162]
+  },
+  {
+    "id": 162,
+    "synopsis": "The Homecoming Saga is a science fiction series by Orson Scott Card. The series is patterned on the Book of Mormon.[1] Some of the names also come from the Book of Mormon.\nThe series, containing five volumes, is set forty million years in the future, with volumes 1-3 taking place on a planet called Harmony. After the Earth was rendered uninhabitable by human wars, mankind departed for Harmony, as well as at least forty other planets. (Only two of these are named in the series: Ramadan, settled by Arabs; and Harmony, apparently settled by Slavs, as its languages all developed from Russian.)\nOn Harmony, the colonists established the Oversoul - an artificial intelligence, monitoring the planet with a small army of satellites. It also influences the actions of humans. Though it does not prevent them from doing evil, it keeps their destruction limited by suppressing any thoughts that might lead to things like long-distance travel or instant communication. Thus the technology on Harmony includes basic computers, presumably without advanced Internet capabilities, although the Oversoul was used for basic data transfer, and solar-powered handheld energy weapons, but no cars or even wagons.",
+    "title": "Homecoming Saga",
+    "totalBookMembers": 5,
+    "totalSubseries": 0,
+    "attribution_ids": [163]
+  },
+  {
+    "id": 163,
+    "synopsis": "The Dreamers is the title of a fantasy book series by American writer David Eddings and his wife Leigh Eddings. The story revolves around four beings known as The Elder Gods residing in the land of Dhrall: Dahlaine of the North, Veltan of the South, Zelana of the West and Aracia of the East. They must recruit the help of outlanders to destroy the fiendish Vlagh and prevent its attempt at world conquest. Includes The Elder Gods, The Treasured One, Crystal Gorge, and The Younger Gods.",
+    "title": "The Dreamers",
+    "totalBookMembers": 4,
+    "totalSubseries": 0,
+    "attribution_ids": [164]
+  },
+  {
+    "id": 164,
+    "synopsis": "The Elenium is a series of fantasy novels by American writer David Eddings. The series consists of three volumes: The Diamond Throne, The Ruby Knight, and The Sapphire Rose. The series is followed by The Tamuli. The Elenium is Eddings' third fantasy series.",
+    "title": "The Elenium",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [165]
+  },
+  {
+    "id": 165,
+    "synopsis": "The Malloreon is a five-part fantasy book series written by David Eddings, which follows The Belgariad. The Malloreon is set in the same world as The Belgariad, but expands on several aspects of the setting, especially the eastern continent of Mallorea. Includes Guardians of the West, King of the Murgos, Demon Lord of Karanda, Sorceress of Darshiva, The Seeress of Kell",
+    "title": "The Malloreon",
+    "totalBookMembers": 5,
+    "totalSubseries": 0,
+    "attribution_ids": [166]
   }
 ]

@@ -12610,8 +12610,8 @@
     "Extra": "",
     "Author": "Bujold, Lois McMaster",
     "authors_ids": "679",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "11",
+    "volume_b": "11"
   },
   {
     "id": "902",
@@ -12625,7 +12625,7 @@
     "Author": "Furey, Maggie",
     "authors_ids": "678",
     "volume_a": "3",
-    "volume_b": ""
+    "volume_b": "4"
   },
   {
     "id": "903",
@@ -12666,8 +12666,8 @@
     "Extra": "",
     "Author": "Wurts, Janny",
     "authors_ids": "508",
-    "volume_a": "3",
-    "volume_b": ""
+    "volume_a": "6",
+    "volume_b": "11"
   },
   {
     "id": "906",
@@ -12681,7 +12681,7 @@
     "Author": "Furey, Maggie",
     "authors_ids": "678",
     "volume_a": "3",
-    "volume_b": ""
+    "volume_b": "3"
   },
   {
     "id": "907",
@@ -12695,7 +12695,7 @@
     "Author": "Furey, Maggie",
     "authors_ids": "678",
     "volume_a": "1",
-    "volume_b": ""
+    "volume_b": "3"
   },
   {
     "id": "908",
@@ -12708,8 +12708,8 @@
     "Extra": "",
     "Author": "Virgil",
     "authors_ids": "681",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "909",
@@ -12722,8 +12722,8 @@
     "Extra": "",
     "Author": "Yates, Kyle Monroe and John Joseph Owens",
     "authors_ids": "682, 683",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "910",
@@ -12736,8 +12736,8 @@
     "Extra": "",
     "Author": "Brooks, Frederick P., Jr.",
     "authors_ids": "684",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "911",
@@ -12751,7 +12751,7 @@
     "Author": "Paolini, Christopher",
     "authors_ids": "348",
     "volume_a": "3",
-    "volume_b": ""
+    "volume_b": "4"
   },
   {
     "id": "912",
@@ -12764,8 +12764,8 @@
     "Extra": "",
     "Author": "Jewish Publication Society",
     "authors_ids": "685",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "913",
@@ -12778,8 +12778,8 @@
     "Extra": "",
     "Author": "Irving, Washington",
     "authors_ids": "686",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "914",
@@ -12793,7 +12793,7 @@
     "Author": "Brooks, Terry",
     "authors_ids": "57",
     "volume_a": "2",
-    "volume_b": ""
+    "volume_b": "3"
   },
   {
     "id": "915",
@@ -12806,8 +12806,8 @@
     "Extra": "",
     "Author": "Holder, Nancy and Debbie Viguié",
     "authors_ids": "687, 688",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1 & 2",
+    "volume_b": "5"
   },
   {
     "id": "916",
@@ -12820,8 +12820,8 @@
     "Extra": "",
     "Author": "Alighieri, Dante",
     "authors_ids": "15",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "917",
@@ -12834,8 +12834,8 @@
     "Extra": "",
     "Author": "Stewart, Trenton Lee",
     "authors_ids": "689",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "918",
@@ -12848,8 +12848,8 @@
     "Extra": "",
     "Author": "More, Thomas",
     "authors_ids": "690",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "919",
@@ -12862,8 +12862,8 @@
     "Extra": "",
     "Author": "Moyes, Jojo",
     "authors_ids": "691",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "920",
@@ -12876,8 +12876,8 @@
     "Extra": "",
     "Author": "Wooding, Chris",
     "authors_ids": "692",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "921",
@@ -12890,8 +12890,8 @@
     "Extra": "",
     "Author": "Muhammad",
     "authors_ids": "693",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "922",
@@ -12904,8 +12904,8 @@
     "Extra": "",
     "Author": "Nelson, Russell M.",
     "authors_ids": "694",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "923",
@@ -12974,8 +12974,8 @@
     "Extra": "",
     "Author": "The Church of Jesus Christ of Latter-Day Saints",
     "authors_ids": "459",
-    "volume_a": "1",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "928",
@@ -12988,8 +12988,8 @@
     "Extra": "",
     "Author": "Rowling, J. K., John Tiffany and Jack Thorne",
     "authors_ids": "400, 696, 697",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "929",
@@ -13000,10 +13000,10 @@
     "isbn": "978-0-312-36858-6",
     "summary": "Under their feet the ground seemed to tremble. Polly O'Keefe has recently moved in with her grandparents, the famous scientists Alex and Kate Murry,, when she wanders into a time 3,000 years before her own. Perhaps it's not an accident--as she is told by two druids: When a gate between circles of time opens, it opens for a reason. When the gate closes behind Polly and her gravely ill friend Zachary, the reason becomes clear. In this desperate time, can Polly keep herself and Zachary alive until the gate reopens to bring them home?",
     "Extra": "",
-    "Author": "L'Engle, Madeleine ",
+    "Author": "L'Engle, Madeleine",
     "authors_ids": "248",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "5",
+    "volume_b": "5"
   },
   {
     "id": "930",
@@ -13016,8 +13016,8 @@
     "Extra": "",
     "Author": "L'Engle, Madeleine ",
     "authors_ids": "248",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "5"
   },
   {
     "id": "931",
@@ -13030,8 +13030,8 @@
     "Extra": "",
     "Author": "Baker, Elizabeth Dawson",
     "authors_ids": "698",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "2"
   },
   {
     "id": "932",
@@ -13058,8 +13058,8 @@
     "Extra": "",
     "Author": "Carman, Patrick",
     "authors_ids": "352",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "prequel",
+    "volume_b": "5"
   },
   {
     "id": "934",
@@ -13073,7 +13073,7 @@
     "Author": "Carman, Patrick",
     "authors_ids": "352",
     "volume_a": "2",
-    "volume_b": ""
+    "volume_b": "5"
   },
   {
     "id": "935",
@@ -13086,8 +13086,8 @@
     "Extra": "",
     "Author": "Ohba, Tsugumi",
     "authors_ids": "700",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "936",
@@ -13100,8 +13100,8 @@
     "Extra": "",
     "Author": "Funke, Cornelia Caroline",
     "authors_ids": "150",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "3",
+    "volume_b": "3"
   },
   {
     "id": "937",
@@ -13114,8 +13114,8 @@
     "Extra": "",
     "Author": "Funke, Cornelia Caroline",
     "authors_ids": "150",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "1"
   },
   {
     "id": "938",
@@ -13128,8 +13128,8 @@
     "Extra": "",
     "Author": "Lowry, Lois",
     "authors_ids": "272",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "4"
   },
   {
     "id": "939",
@@ -13142,8 +13142,8 @@
     "Extra": "",
     "Author": "Moers, Walter",
     "authors_ids": "701",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "7",
+    "volume_b": "7"
   },
   {
     "id": "940",
@@ -13156,8 +13156,8 @@
     "Extra": "",
     "Author": "Montgomery, Lucy Maud",
     "authors_ids": "702",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "9"
   },
   {
     "id": "941",
@@ -13170,8 +13170,8 @@
     "Extra": "",
     "Author": "Nix, Garth",
     "authors_ids": "330",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "5"
   },
   {
     "id": "942",
@@ -13185,7 +13185,7 @@
     "Author": "Mull, Brandon",
     "authors_ids": "314",
     "volume_a": "1",
-    "volume_b": ""
+    "volume_b": "5"
   },
   {
     "id": "943",
@@ -13212,8 +13212,8 @@
     "Extra": "",
     "Author": "Gardiner, Christie",
     "authors_ids": "703",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "945",
@@ -13226,8 +13226,8 @@
     "Extra": "",
     "Author": "Underwood, Don and Paul B. Brown",
     "authors_ids": "704, 705",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "946",
@@ -13241,12 +13241,12 @@
     "Author": "Rowling, J. K. and Jim Kay",
     "authors_ids": "400, 706",
     "volume_a": "1",
-    "volume_b": ""
+    "volume_b": "7"
   },
   {
     "id": "947",
     "genres_id": "",
-    "title": "Harry Potter and the Changer of Secrets (Illustrated)",
+    "title": "Harry Potter and the Chamber of Secrets (Illustrated)",
     "year": "2016",
     "pages": "259",
     "isbn": "978-0-545-79132-8",
@@ -13255,7 +13255,7 @@
     "Author": "Rowling, J. K. and Jim Kay",
     "authors_ids": "400, 706",
     "volume_a": "2",
-    "volume_b": ""
+    "volume_b": "7"
   },
   {
     "id": "948",
@@ -13269,7 +13269,7 @@
     "Author": "Rowling, J. K. and Jim Kay",
     "authors_ids": "400, 706",
     "volume_a": "3",
-    "volume_b": ""
+    "volume_b": "7"
   },
   {
     "id": "949",
@@ -13282,8 +13282,8 @@
     "Extra": "",
     "Author": "Hugo, Victor",
     "authors_ids": "213",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "950",
@@ -13324,8 +13324,8 @@
     "Extra": "",
     "Author": "Grilli, Elise",
     "authors_ids": "707",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "953",
@@ -13338,13 +13338,13 @@
     "Extra": "",
     "Author": "Lee, Alan and David Day",
     "authors_ids": "708, 709",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": null,
+    "volume_b": null
   },
   {
     "id": "954",
     "genres_id": "",
-    "title": "The Memory of Earth (Homecoming volume 1)",
+    "title": "The Memory of Earth",
     "year": "1993",
     "pages": "330",
     "isbn": "0-812-53259-7",
@@ -13353,12 +13353,12 @@
     "Author": "Card, Orson Scott",
     "authors_ids": "75",
     "volume_a": "1",
-    "volume_b": ""
+    "volume_b": "5"
   },
   {
     "id": "955",
     "genres_id": "",
-    "title": "The Call of Earth (Homecoming volume 2)",
+    "title": "The Call of Earth",
     "year": "1994",
     "pages": "330",
     "isbn": "0-812-53261-9",
@@ -13367,12 +13367,12 @@
     "Author": "Card, Orson Scott",
     "authors_ids": "75",
     "volume_a": "2",
-    "volume_b": ""
+    "volume_b": "5"
   },
   {
     "id": "956",
     "genres_id": "",
-    "title": "The Ships of Earth (Homecoming volume 3)",
+    "title": "The Ships of Earth",
     "year": "1995",
     "pages": "362",
     "isbn": "0-812-53263-5",
@@ -13381,12 +13381,12 @@
     "Author": "Card, Orson Scott",
     "authors_ids": "75",
     "volume_a": "3",
-    "volume_b": ""
+    "volume_b": "5"
   },
   {
     "id": "957",
     "genres_id": "",
-    "title": "Domes of Fire (The Tamuli book 1)",
+    "title": "Domes of Fire",
     "year": "1993",
     "pages": "471",
     "isbn": "0-345-38327-3",
@@ -13395,12 +13395,12 @@
     "Author": "Eddings, David",
     "authors_ids": "127",
     "volume_a": "1",
-    "volume_b": ""
+    "volume_b": "3"
   },
   {
     "id": "958",
     "genres_id": "",
-    "title": "The Shining Ones (The Tamuli book 2)",
+    "title": "The Shining Ones",
     "year": "1994",
     "pages": "472",
     "isbn": "0-345-38866-6",
@@ -13414,7 +13414,7 @@
   {
     "id": "959",
     "genres_id": "",
-    "title": "The Elder Gods (The Dreamers book 1)",
+    "title": "The Elder Gods",
     "year": "2004",
     "pages": "448",
     "isbn": "0-446-61333-9",
@@ -13428,7 +13428,7 @@
   {
     "id": "960",
     "genres_id": "",
-    "title": "The Diamond Throne (The Elenium book 1)",
+    "title": "The Diamond Throne",
     "year": "1990",
     "pages": "435",
     "isbn": "0-345-36769-3",
@@ -13437,12 +13437,12 @@
     "Author": "Eddings, David",
     "authors_ids": "127",
     "volume_a": "1",
-    "volume_b": ""
+    "volume_b": "3"
   },
   {
     "id": "961",
     "genres_id": "",
-    "title": "The Seeress of Kell (The Malloreon book 5)",
+    "title": "The Seeress of Kell",
     "year": "1992",
     "pages": "374",
     "isbn": "0-345-37759-1",
@@ -13451,7 +13451,7 @@
     "Author": "Eddings, David",
     "authors_ids": "127",
     "volume_a": "5",
-    "volume_b": ""
+    "volume_b": "5"
   },
   {
     "id": "962",
@@ -13464,8 +13464,8 @@
     "Extra": "",
     "Author": "Feist, Raymond E. and Janny Wurts",
     "authors_ids": "138, 508",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "1",
+    "volume_b": "3"
   },
   {
     "id": "963",
@@ -13478,8 +13478,8 @@
     "Extra": "The long-awaited beginning of the fourth story arc - Sword of the Canon - in the epic fantasy series, the Wars of Light and Shadow.  Betrayed and double-crossed, Arithon sFfalenn is held captive by the Order of the Koriathain. The desperate Fellowship Sorcerers have gambled the weal of Athera and forced through the perilous bargain that spared him, as the last Prince of Rathain, and their sole hope of unity. To suspend the Prime Matriarchs decree of execution, Arithon lives only to battle Maraks horde of free wraiths, unleashed one by one from the shielding grip of the star wards.  But on the day the last wraith is redeemed, the inflexible terms sealed by Dakars oath of debt will be forfeit  Against a backdrop in which the Religion of Light has undergone schism, the fanatical True Sects high priesthood stands consumed by its thwarted ambition: to conquer Havish, the backbone of order that secures the terms of Paravian survival. Now Lord Mayor of Etarra, Lysaer sIlessid must fight the pull of the Mistwraiths curse, and battle for sanity to uphold his just ethic. Another young defender will stand at his side, newly sworn by the Sorcerers auspices.  As Arithons life once again becomes the fulcrum that shifts the game board, Elairas choice might save or break the unstable future; while at large and answerable to no mortal law, Davien and the dragon that holds his service throw in the wild card no one predicts",
     "Author": "Wurts, Janny",
     "authors_ids": "508",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "9",
+    "volume_b": "11"
   },
   {
     "id": "964",
@@ -13492,8 +13492,8 @@
     "Extra": "",
     "Author": "Feist, Raymond E. and Janny Wurts",
     "authors_ids": "138, 508",
-    "volume_a": "",
-    "volume_b": ""
+    "volume_a": "2",
+    "volume_b": "3"
   },
   {
     "id": "965",
@@ -13506,8 +13506,8 @@
     "Extra": "",
     "Author": "Wurts, Janny",
     "authors_ids": "508",
-    "volume_a": "5",
-    "volume_b": "5"
+    "volume_a": "8",
+    "volume_b": "11"
   },
   {
     "id": "966",
@@ -13520,8 +13520,8 @@
     "Extra": "",
     "Author": "Wurts, Janny",
     "authors_ids": "508",
-    "volume_a": "4",
-    "volume_b": "5"
+    "volume_a": "7",
+    "volume_b": "11"
   },
   {
     "id": "967",
@@ -13534,7 +13534,7 @@
     "Extra": "",
     "Author": "Djikstra, Edsger Wybe",
     "authors_ids": "710",
-    "volume_a": "1",
-    "volume_b": "1"
+    "volume_a": null,
+    "volume_b": null
   }
 ]

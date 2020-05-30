@@ -556,7 +556,7 @@
     "Extra": "Fantasy",
     "Author": "Sanderson, Brandon",
     "authors_ids": "406",
-    "seriesPart": "",
+    "seriesPart": null,
     "seriesId": "9",
     "subseriesPart": "1",
     "subseriesId": "10"
@@ -3718,8 +3718,8 @@
     "Extra": "?",
     "Author": "Durham, David Anthony",
     "authors_ids": "126",
-    "volume_a": "2",
-    "volume_b": "3"
+    "seriesPart": "2",
+    "seriesId": "65"
   },
   {
     "id": "266",
@@ -3732,8 +3732,8 @@
     "Extra": "?",
     "Author": "Cochran, Molly; Murphy, Warren",
     "authors_ids": "90",
-    "volume_a": "1",
-    "volume_b": "3"
+    "seriesPart": "1",
+    "seriesId": "66"
   },
   {
     "id": "267",
@@ -3746,8 +3746,8 @@
     "Extra": "Fantasy",
     "Author": "Feist, Raymond E.",
     "authors_ids": "138",
-    "volume_a": "1",
-    "volume_b": "2"
+    "seriesPart": "1",
+    "seriesId": "67"
   },
   {
     "id": "268",
@@ -3816,8 +3816,8 @@
     "Extra": "Science Fiction",
     "Author": "Herbert, Frank",
     "authors_ids": "196",
-    "volume_a": "",
-    "volume_b": ""
+    "seriesPart": null,
+    "seriesId": "68"
   },
   {
     "id": "273",
@@ -3882,12 +3882,12 @@
     "year": "2012",
     "pages": "515",
     "isbn": "978-1-4750-7030-9",
-    "summary": "Mina Grime is unlucky, unpopular and uncoordinated; that is until she  saves her crush&#39;s life on a field trip, changing her High School status  from loser to hero overnight. But with her new found fame brings  misfortune in the form of an old family curse come to light. For Mina is  a descendant from the Brothers Grimm and has inherited all of their  unfinished fairy tale business which includes trying to outwit a  powerful Story from making her its&#39; next fairy-tale victim. To break the  fairy tale curse on her family and make these deadly occurrences stop,  Mina must finish the tales until the very Grimm end.",
+    "summary": "Mina Grime is unlucky, unpopular and uncoordinated; that is until she  saves her crush&#39;s life on a field trip, changing her High School status  from loser to hero overnight. But with her new found fame brings  misfortune in the form of an old family curse come to light. For Mina is  a descendant from the Brothers Grimm and has inherited all of their unfinished fairy tale business. Which includes trying to outwit a powerful Story from making her its next fairy-tale victim. To break the  fairy tale curse on her family and make these deadly occurrences stop, Mina must finish the tales until the very Grimm end.",
     "Extra": "Fantasy",
     "Author": "Hahn, Chanda",
     "authors_ids": "180",
-    "volume_a": "1",
-    "volume_b": "5"
+    "seriesPart": "1",
+    "seriesId": "69"
   },
   {
     "id": "278",
@@ -3942,8 +3942,8 @@
     "Extra": "Fantasy",
     "Author": "Anthony, Piers",
     "authors_ids": "21",
-    "volume_a": "4",
-    "volume_b": "46"
+    "seriesPart": "4",
+    "seriesId": "47"
   },
   {
     "id": "282",
@@ -3984,8 +3984,8 @@
     "Extra": "Fantasy",
     "Author": "Brooks, Terry",
     "authors_ids": "57",
-    "volume_a": "4",
-    "volume_b": "4"
+    "seriesPart": "4",
+    "seriesId": "70"
   },
   {
     "id": "285",
@@ -4012,8 +4012,8 @@
     "Extra": "Fantasy",
     "Author": "Hinck, Sharon",
     "authors_ids": "202",
-    "volume_a": "2",
-    "volume_b": "4"
+    "seriesPart": "2",
+    "seriesId": "71"
   },
   {
     "id": "287",
@@ -4026,8 +4026,8 @@
     "Extra": "Young Adult",
     "Author": "Riordan, Rick",
     "authors_ids": "387",
-    "volume_a": "2",
-    "volume_b": "5"
+    "seriesPart": "2",
+    "seriesId": "48"
   },
   {
     "id": "288",
@@ -4036,12 +4036,12 @@
     "year": "2007",
     "pages": "484",
     "isbn": "978-0-441-01537-5",
-    "summary": "The third Novel of the Twelve Houses from the national bestselling author.  In this story of hidden magic and forbidden love, the King&#39;s Rider Justin befriends Ellynor, a young novice at a convent-only to discover that she is a mystic being manipulated by the fanatical Daughters of the Pale Moon into hunting down and killing other mystics.",
+    "summary": "The third Novel of the Twelve Houses from the national bestselling author.  In this story of hidden magic and forbidden love, the King's Rider Justin befriends Ellynor, a young novice at a convent-only to discover that she is a mystic being manipulated by the fanatical Daughters of the Pale Moon into hunting down and killing other mystics.",
     "Extra": "Romance",
     "Author": "Shinn, Sharon",
     "authors_ids": "421",
-    "volume_a": "3",
-    "volume_b": "5"
+    "seriesPart": "3",
+    "seriesId": "72"
   },
   {
     "id": "289",
@@ -4096,8 +4096,8 @@
     "Extra": "Young Adult",
     "Author": "MacHale, D. J.",
     "authors_ids": "278",
-    "volume_a": "1",
-    "volume_b": "10"
+    "seriesPart": "1",
+    "seriesId": "39"
   },
   {
     "id": "293",
@@ -4110,8 +4110,8 @@
     "Extra": "Religion",
     "Author": "Smith, Joseph",
     "authors_ids": "428",
-    "volume_a": "2",
-    "volume_b": "7"
+    "seriesPart": "2",
+    "seriesId": "3"
   },
   {
     "id": "294",
@@ -4124,8 +4124,8 @@
     "Extra": "Romance",
     "Author": "Shinn, Sharon",
     "authors_ids": "421",
-    "volume_a": "1",
-    "volume_b": "5"
+    "seriesPart": "1",
+    "seriesId": "5"
   },
   {
     "id": "295",
@@ -4138,8 +4138,8 @@
     "Extra": "Fantasy",
     "Author": "Rawn, Melanie",
     "authors_ids": "380",
-    "volume_a": "2",
-    "volume_b": "3"
+    "seriesPart": "2",
+    "seriesId": "34"
   },
   {
     "id": "296",
@@ -4152,8 +4152,8 @@
     "Extra": "Young Adult",
     "Author": "Croggon, Alison",
     "authors_ids": "101",
-    "volume_a": "3",
-    "volume_b": "5"
+    "seriesPart": "3",
+    "seriesNumber": "11"
   },
   {
     "id": "297",
@@ -4236,8 +4236,8 @@
     "Extra": "Horror",
     "Author": "Andrews, V. C.",
     "authors_ids": "19",
-    "volume_a": "2",
-    "volume_b": "3"
+    "seriesPart": "2",
+    "seriesId": "73"
   },
   {
     "id": "303",
@@ -4250,8 +4250,8 @@
     "Extra": "Fantasy",
     "Author": "Goodkind, Terry",
     "authors_ids": "163",
-    "volume_a": "7",
-    "volume_b": "21"
+    "seriesPart": "7",
+    "seriesId": "41"
   },
   {
     "id": "304",
@@ -4264,8 +4264,8 @@
     "Extra": "Fantasy",
     "Author": "Goodkind, Terry",
     "authors_ids": "163",
-    "volume_a": "4",
-    "volume_b": "21"
+    "seriesPart": "4",
+    "seriesId": "41"
   },
   {
     "id": "305",
@@ -4320,8 +4320,8 @@
     "Extra": "Fantasy",
     "Author": "Weis, Margaret; Hickman, Tracy",
     "authors_ids": "487, 200",
-    "volume_a": "3",
-    "volume_b": "3"
+    "seriesPart": "3",
+    "seriesId": "43"
   },
   {
     "id": "309",
@@ -4418,8 +4418,8 @@
     "Extra": "Junior",
     "Author": "Lowry, Lois",
     "authors_ids": "272",
-    "volume_a": "1",
-    "volume_b": "4"
+    "seriesPart": "1",
+    "seriesNumber": "74"
   },
   {
     "id": "316",
@@ -4432,8 +4432,8 @@
     "Extra": "Fantasy",
     "Author": "Anthony, Piers",
     "authors_ids": "21",
-    "volume_a": "26",
-    "volume_b": "46"
+    "seriesPart": "26",
+    "seriesId": "47"
   },
   {
     "id": "317",
@@ -4460,8 +4460,8 @@
     "Extra": "Young Adult",
     "Author": "Rowling, J. K.",
     "authors_ids": "400",
-    "volume_a": "5",
-    "volume_b": "7"
+    "seriesPart": "5",
+    "seriesId": "7"
   },
   {
     "id": "319",
@@ -4530,8 +4530,8 @@
     "Extra": "Junior",
     "Author": "Kinney, Jeff",
     "authors_ids": "235",
-    "volume_a": "1",
-    "volume_b": "14"
+    "seriesPart": "1",
+    "seriesId": "75"
   },
   {
     "id": "324",
@@ -4558,8 +4558,10 @@
     "Extra": "Fantasy",
     "Author": "Haydon, Elizabeth",
     "authors_ids": "193",
-    "volume_a": "1",
-    "volume_b": "3"
+    "subseriesPart": "1",
+    "subseriesId": "7",
+    "seriesPart": "1",
+    "seriesId": "76"
   },
   {
     "id": "326",
@@ -4572,8 +4574,8 @@
     "Extra": "Fantasy",
     "Author": "Roberson, Jennifer",
     "authors_ids": "388",
-    "volume_a": "2",
-    "volume_b": "8"
+    "seriesPart": "2",
+    "seriesId": "19"
   },
   {
     "id": "327",
@@ -4586,8 +4588,8 @@
     "Extra": "?",
     "Author": "Kirk, David",
     "authors_ids": "238",
-    "volume_a": "1",
-    "volume_b": "3"
+    "seriesPart": "1",
+    "seriesId": "77"
   },
   {
     "id": "328",
@@ -4628,8 +4630,8 @@
     "Extra": "Young Adult",
     "Author": "Pullman, Philip",
     "authors_ids": "373",
-    "volume_a": "",
-    "volume_b": ""
+    "seriesPart": "2",
+    "seriesId": "78"
   },
   {
     "id": "331",
@@ -4642,8 +4644,8 @@
     "Extra": "Fantasy",
     "Author": "Smith, Sherwood",
     "authors_ids": "430",
-    "volume_a": "4",
-    "volume_b": "4"
+    "seriesPart": "4",
+    "seriesId": "79"
   },
   {
     "id": "332",
@@ -4656,8 +4658,8 @@
     "Extra": "Young Adult",
     "Author": "MacHale, D. J.",
     "authors_ids": "278",
-    "volume_a": "5",
-    "volume_b": "10"
+    "seriesPart": "5",
+    "seriesId": "39"
   },
   {
     "id": "333",
@@ -4670,8 +4672,8 @@
     "Extra": "Fantasy",
     "Author": "Roberson, Jennifer",
     "authors_ids": "388",
-    "volume_a": "4",
-    "volume_b": "8"
+    "seriesPart": "4",
+    "seriesId": "19"
   },
   {
     "id": "334",
@@ -4712,8 +4714,8 @@
     "Extra": "Fantasy",
     "Author": "Jordan, Robert",
     "authors_ids": "227",
-    "volume_a": "10",
-    "volume_b": "14"
+    "seriesPart": "10",
+    "seriesId": "27"
   },
   {
     "id": "337",
@@ -4796,8 +4798,8 @@
     "Extra": "Romance",
     "Author": "Stansfield, Anita",
     "authors_ids": "442",
-    "volume_a": "2",
-    "volume_b": "5"
+    "seriesPart": "2",
+    "seriesId": "80"
   },
   {
     "id": "343",
@@ -4810,8 +4812,8 @@
     "Extra": "?",
     "Author": "Anthony, Mark",
     "authors_ids": "20",
-    "volume_a": "5",
-    "volume_b": "6"
+    "seriesPart": "5",
+    "seriesId": "6"
   },
   {
     "id": "344",
@@ -4838,8 +4840,8 @@
     "Extra": "Young Adult",
     "Author": "Paolini, Christopher",
     "authors_ids": "348",
-    "volume_a": "2",
-    "volume_b": "4"
+    "seriesPart": "2",
+    "seriesId": "12"
   },
   {
     "id": "346",
@@ -4894,8 +4896,8 @@
     "Extra": "Religion",
     "Author": "Smith, Joseph",
     "authors_ids": "428",
-    "volume_a": "4",
-    "volume_b": "7"
+    "seriesPart": "4",
+    "seriesId": "3"
   },
   {
     "id": "350",
@@ -4922,8 +4924,8 @@
     "Extra": "Fantasy",
     "Author": "Modesitt, L. E. Jr.",
     "authors_ids": "310",
-    "volume_a": "4",
-    "volume_b": "22"
+    "seriesPart": "4",
+    "seriesId": "25"
   },
   {
     "id": "352",
@@ -4950,8 +4952,10 @@
     "Extra": "Fantasy",
     "Author": "Sanderson, Brandon",
     "authors_ids": "406",
-    "volume_a": "2",
-    "volume_b": "8"
+    "seriesPart": null,
+    "seriesId": "9",
+    "subseriesPart": "2",
+    "subseriesId": "1"
   },
   {
     "id": "354",
@@ -4964,8 +4968,8 @@
     "Extra": "Fantasy",
     "Author": "Smith, Sherwood",
     "authors_ids": "430",
-    "volume_a": "1",
-    "volume_b": "4"
+    "seriesPart": "1",
+    "seriesId": "79"
   },
   {
     "id": "355",
@@ -4992,8 +4996,8 @@
     "Extra": "Fantasy",
     "Author": "Zink, Michelle",
     "authors_ids": "523",
-    "volume_a": "1",
-    "volume_b": "3"
+    "seriesPart": "1",
+    "seriesId": "82"
   },
   {
     "id": "357",
@@ -5006,8 +5010,8 @@
     "Extra": "Romance",
     "Author": "Stansfield, Anita",
     "authors_ids": "442",
-    "volume_a": "3",
-    "volume_b": "4"
+    "seriesPart": "3",
+    "seriesId": "80"
   },
   {
     "id": "358",
@@ -5020,8 +5024,8 @@
     "Extra": "?",
     "Author": "Poole, Jeffrey",
     "authors_ids": "364",
-    "volume_a": "1",
-    "volume_b": "4"
+    "seriesPart": "1",
+    "seriesId": "83"
   },
   {
     "id": "359",
@@ -5034,8 +5038,8 @@
     "Extra": "Fantasy",
     "Author": "Novik, Naomi",
     "authors_ids": "335",
-    "volume_a": "2",
-    "volume_b": "9"
+    "seriesPart": "2",
+    "seriesId": "84"
   },
   {
     "id": "360",
@@ -5174,8 +5178,8 @@
     "Extra": "Fantasy",
     "Author": "Jordan, Robert",
     "authors_ids": "227",
-    "volume_a": "6",
-    "volume_b": "14"
+    "seriesPart": "6",
+    "seriesId": "27"
   },
   {
     "id": "370",
@@ -5202,8 +5206,8 @@
     "Extra": "Fantasy",
     "Author": "Goodkind, Terry",
     "authors_ids": "163",
-    "volume_a": "2",
-    "volume_b": "21"
+    "seriesPart": "2",
+    "seriesId": "41"
   },
   {
     "id": "372",
@@ -5216,8 +5220,8 @@
     "Extra": "Fantasy",
     "Author": "Goodkind, Terry",
     "authors_ids": "163",
-    "volume_a": "8",
-    "volume_b": "21"
+    "seriesPart": "8",
+    "seriesId": "41"
   },
   {
     "id": "373",
@@ -5272,8 +5276,8 @@
     "Extra": "Fantasy",
     "Author": "Rawn, Melanie",
     "authors_ids": "380",
-    "volume_a": "2",
-    "volume_b": "3"
+    "seriesPart": "2",
+    "seriesId": "98"
   },
   {
     "id": "377",
@@ -5286,8 +5290,8 @@
     "Extra": "Fantasy",
     "Author": "Modesitt, L. E.",
     "authors_ids": "310",
-    "volume_a": "6",
-    "volume_b": "22"
+    "seriesPart": "6",
+    "seriesId": "25"
   },
   {
     "id": "378",
@@ -5300,8 +5304,8 @@
     "Extra": "Young Adult",
     "Author": "Riordan, Rick",
     "authors_ids": "387",
-    "volume_a": "3",
-    "volume_b": "5"
+    "seriesPart": "3",
+    "seriesId": "48"
   },
   {
     "id": "379",
@@ -5314,8 +5318,8 @@
     "Extra": "Fantasy",
     "Author": "Smith, Sherwood",
     "authors_ids": "430",
-    "volume_a": "2",
-    "volume_b": "4"
+    "seriesPart": "2",
+    "seriesId": "79"
   },
   {
     "id": "380",
@@ -5356,8 +5360,8 @@
     "Extra": "Young Adult",
     "Author": "MacHale, D. J.",
     "authors_ids": "278",
-    "volume_a": "2",
-    "volume_b": "10"
+    "seriesPart": "2",
+    "seriesId": "39"
   },
   {
     "id": "383",
@@ -5398,8 +5402,10 @@
     "Extra": "Science Fiction",
     "Author": "Card, Orson Scott",
     "authors_ids": "75",
-    "volume_a": "7",
-    "volume_b": "20"
+    "seriesPart": "12",
+    "seriesId": "20",
+    "subseriesPart": "3",
+    "subseriesId": "14"
   },
   {
     "id": "386",
@@ -5440,8 +5446,8 @@
     "Extra": "?",
     "Author": "Mangum, Lisa",
     "authors_ids": "282",
-    "volume_a": "2",
-    "volume_b": "3"
+    "seriesPart": "2",
+    "seriesId": "85"
   },
   {
     "id": "389",
@@ -5454,8 +5460,8 @@
     "Extra": "World Literature",
     "Author": "Alighieri, Dante; Mandelbaum, Allen",
     "authors_ids": "15, 281",
-    "volume_a": "3",
-    "volume_b": "3"
+    "seriesPart": "3",
+    "seriesId": "86"
   },
   {
     "id": "390",
@@ -5468,8 +5474,8 @@
     "Extra": "Fantasy",
     "Author": "Goodkind, Terry",
     "authors_ids": "163",
-    "volume_a": "11",
-    "volume_b": "21"
+    "seriesPart": "11",
+    "seriesId": "41"
   },
   {
     "id": "391",
@@ -5482,8 +5488,8 @@
     "Extra": "Fantasy",
     "Author": "Eddings, David",
     "authors_ids": "127",
-    "volume_a": "5",
-    "volume_b": "5"
+    "seriesPart": "5",
+    "seriesId": "61"
   },
   {
     "id": "392",
@@ -5510,8 +5516,8 @@
     "Extra": "Young Adult",
     "Author": "Yolen, Jane",
     "authors_ids": "516",
-    "volume_a": "2",
-    "volume_b": "3"
+    "seriesPart": "2",
+    "seriesId": "87"
   },
   {
     "id": "394",
@@ -5524,8 +5530,8 @@
     "Extra": "Young Adult",
     "Author": "Sachar, Louis",
     "authors_ids": "403",
-    "volume_a": "3",
-    "volume_b": "3"
+    "seriesPart": "3",
+    "seriesId": "16"
   },
   {
     "id": "395",
@@ -5552,8 +5558,8 @@
     "Extra": "World Literature",
     "Author": "Okri, Ben",
     "authors_ids": "342",
-    "volume_a": "1",
-    "volume_b": "3"
+    "seriesPart": "1",
+    "seriesId": "88"
   },
   {
     "id": "397",

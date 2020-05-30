@@ -5,7 +5,9 @@
     "title": "Damar",
     "totalBookMembers": 2,
     "totalSubseries": 0,
-    "attribution_ids": [1]
+    "attribution_ids": [
+      1
+    ]
   },
   {
     "id": 2,
@@ -13,7 +15,9 @@
     "title": "The Stormlight Archive",
     "totalBookMembers": 10,
     "totalSubseries": 0,
-    "attribution_ids": [2]
+    "attribution_ids": [
+      2
+    ]
   },
   {
     "id": 3,
@@ -21,7 +25,9 @@
     "title": "History of the Church",
     "totalBookMembers": 7,
     "totalSubseries": 0,
-    "attribution_ids": [3]
+    "attribution_ids": [
+      3
+    ]
   },
   {
     "id": 4,
@@ -29,7 +35,9 @@
     "title": "The Missing Link Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [4]
+    "attribution_ids": [
+      4
+    ]
   },
   {
     "id": 5,
@@ -37,7 +45,9 @@
     "title": "The Story of the Stone",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [5]
+    "attribution_ids": [
+      5
+    ]
   },
   {
     "id": 6,
@@ -45,31 +55,40 @@
     "title": "Ruby's Song",
     "totalBookMembers": 2,
     "totalSubseries": 0,
-    "attribution_ids": [6]
+    "attribution_ids": [
+      6
+    ]
   },
   {
     "id": 7,
-    "synopsis": "Harry Potter is a series of fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).\nSince the release of the first novel, Harry Potter and the Philosopher's Stone, on 26 June 1997, the books have found immense popularity, critical acclaim and commercial success worldwide. They have attracted a wide adult audience as well as younger readers and are often considered cornerstones of modern young adult literature.[2] As of February 2018, the books have sold more than 500 million copies worldwide, making them the best-selling book series in history, and have been translated into eighty languages.[3] The last four books consecutively set records as the fastest-selling books in history, with the final instalment selling roughly eleven million copies in the United States within twenty-four hours of its release.\nThe series was originally published in English by two major publishers, Bloomsbury in the United Kingdom and Scholastic Press in the United States. A play, Harry Potter and the Cursed Child, based on a story co-written by Rowling, premiered in London on 30 July 2016 at the Palace Theatre, and its script was published by Little, Brown. The original seven books were adapted into an eight-part namesake film series by Warner Bros. Pictures, which is the third highest-grossing film series of all time as of February 2020. In 2016, the total value of the Harry Potter franchise was estimated at $25 billion,[4] making Harry Potter one of the highest-grossing media franchises of all time.\nA series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references.[5] According to Rowling, the main theme is death.[6] Other major themes in the series include prejudice, corruption, and madness.[7]\nThe success of the books and films has allowed the Harry Potter franchise to expand with numerous derivative works, a travelling exhibition that premiered in Chicago in 2009, a studio tour in London that opened in 2012, a digital platform on which J.K. Rowling updates the series with new information and insight, and a pentalogy of spin-off films premiering in November 2016 with Fantastic Beasts and Where to Find Them, among many other developments. Most recently, themed attractions, collectively known as The Wizarding World of Harry Potter, have been built at several Universal Parks & Resorts amusement parks around the world.",
+    "synopsis": "Harry Potter is a series of fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).\nSince the release of the first novel, Harry Potter and the Philosopher's Stone, on 26 June 1997, the books have found immense popularity, critical acclaim and commercial success worldwide. They have attracted a wide adult audience as well as younger readers and are often considered cornerstones of modern young adult literature. As of February 2018, the books have sold more than 500 million copies worldwide, making them the best-selling book series in history, and have been translated into eighty languages. The last four books consecutively set records as the fastest-selling books in history, with the final instalment selling roughly eleven million copies in the United States within twenty-four hours of its release.\nThe series was originally published in English by two major publishers, Bloomsbury in the United Kingdom and Scholastic Press in the United States. A play, Harry Potter and the Cursed Child, based on a story co-written by Rowling, premiered in London on 30 July 2016 at the Palace Theatre, and its script was published by Little, Brown. The original seven books were adapted into an eight-part namesake film series by Warner Bros. Pictures, which is the third highest-grossing film series of all time as of February 2020. In 2016, the total value of the Harry Potter franchise was estimated at $25 billion, making Harry Potter one of the highest-grossing media franchises of all time.\nA series of many genres, including fantasy, drama, coming of age, and the British school story (which includes elements of mystery, thriller, adventure, horror, and romance), the world of Harry Potter explores numerous themes and includes many cultural meanings and references. According to Rowling, the main theme is death. Other major themes in the series include prejudice, corruption, and madness.\nThe success of the books and films has allowed the Harry Potter franchise to expand with numerous derivative works, a travelling exhibition that premiered in Chicago in 2009, a studio tour in London that opened in 2012, a digital platform on which J.K. Rowling updates the series with new information and insight, and a pentalogy of spin-off films premiering in November 2016 with Fantastic Beasts and Where to Find Them, among many other developments. Most recently, themed attractions, collectively known as The Wizarding World of Harry Potter, have been built at several Universal Parks & Resorts amusement parks around the world.",
     "title": "Harry Potter",
     "totalBookMembers": 2,
     "totalSubseries": 0,
-    "attribution_ids": [7]
+    "attribution_ids": [
+      7
+    ]
   },
   {
     "id": 8,
-    "synopsis": "Dragonriders of Pern is a science fiction series written primarily by American-Irish author Anne McCaffrey,[a] who initiated it in 1967. Beginning in 2003, her middle child Todd McCaffrey has written Pern novels, both solo and jointly with Anne. The series (as of July 2012) comprises 23 novels and several short stories. Most of the short fiction has been collected in two volumes or incorporated in one of the novels, so Dragonriders of Pern is sometimes identified with the 24 books.[b][1] Two of the novellas included in the first novel, Dragonflight, made McCaffrey the first woman to win a Hugo or Nebula Award.[2]",
+    "synopsis": "Dragonriders of Pern is a science fiction series written primarily by American-Irish author Anne McCaffrey,[a] who initiated it in 1967. Beginning in 2003, her middle child Todd McCaffrey has written Pern novels, both solo and jointly with Anne. The series (as of July 2012) comprises 23 novels and several short stories. Most of the short fiction has been collected in two volumes or incorporated in one of the novels, so Dragonriders of Pern is sometimes identified with the 24 books. Two of the novellas included in the first novel, Dragonflight, made McCaffrey the first woman to win a Hugo or Nebula Award.",
     "title": "Dragonriders of Pern",
     "totalBookMembers": 24,
     "totalSubseries": 0,
-    "attribution_ids": [8]
+    "attribution_ids": [
+      8
+    ]
   },
   {
     "id": 9,
-    "synopsis": "The Cosmere is the name of the series and universe in which Elantris, Mistborn, Warbreaker, The Stormlight Archive, White Sand, and stories contained in Arcanum Unbounded: The Cosmere Collection are all set. This idea came from Sanderson's desire to create an epic-length series without requiring readers to buy a ridiculous number of books. Because of that, he hides connections to his other works within each book, creating this \"hidden epic\". He has estimated that the Cosmere sequence could conclude with at least 40 books.[36]\nThe story of the Cosmere is about a mysterious being called Adonalsium, who existed on a world known as Yolen. Adonalsium was killed by a group of sixteen conspirators, causing its power to shatter into sixteen different Shards, each of which bears immense power.[37] The sixteen people then took these Shards and traveled to new worlds, populating them with different systems of magic. In one case, the Shards Ruin and Preservation worked together to actually create a planet and its people (Scadrial, as featured in Mistborn).\nEach Shard has an Intent, such as Ambition or Honor, and a Vessel's personality is changed over time to bring them more in-line with their Intent. Odium has killed—or Splintered—several shards. On Sel, he splintered Devotion and Dominion, accidentally creating the Dor, from which Seons and Skaze have emerged. On Roshar, Odium splintered Honor, and brought about the Everstorm and the True Desolation. He has also Splintered Ambition, in the Threnody system. A man named Hoid is seen or mentioned in most Cosmere books. He travels the so-called Shardworlds, using the people of those worlds to further an unknown agenda.[38]\nIn October 2016, the movie rights to the entire Cosmere universe were licensed by DMG Entertainment.[31]",
+    "synopsis": "The Cosmere is the name of the series and universe in which Elantris, Mistborn, Warbreaker, The Stormlight Archive, White Sand, and stories contained in Arcanum Unbounded: The Cosmere Collection are all set. This idea came from Sanderson's desire to create an epic-length series without requiring readers to buy a ridiculous number of books. Because of that, he hides connections to his other works within each book, creating this \"hidden epic\". He has estimated that the Cosmere sequence could conclude with at least 40 books.\nThe story of the Cosmere is about a mysterious being called Adonalsium, who existed on a world known as Yolen. Adonalsium was killed by a group of sixteen conspirators, causing its power to shatter into sixteen different Shards, each of which bears immense power. The sixteen people then took these Shards and traveled to new worlds, populating them with different systems of magic. In one case, the Shards Ruin and Preservation worked together to actually create a planet and its people (Scadrial, as featured in Mistborn).\nEach Shard has an Intent, such as Ambition or Honor, and a Vessel's personality is changed over time to bring them more in-line with their Intent. Odium has killed—or Splintered—several shards. On Sel, he splintered Devotion and Dominion, accidentally creating the Dor, from which Seons and Skaze have emerged. On Roshar, Odium splintered Honor, and brought about the Everstorm and the True Desolation. He has also Splintered Ambition, in the Threnody system. A man named Hoid is seen or mentioned in most Cosmere books. He travels the so-called Shardworlds, using the people of those worlds to further an unknown agenda.\nIn October 2016, the movie rights to the entire Cosmere universe were licensed by DMG Entertainment.",
     "title": "Cosmere",
     "totalBookMembers": 16,
     "totalSubseries": 5,
-    "attribution_ids": [9, 10]
+    "attribution_ids": [
+      9,
+      10
+    ]
   },
   {
     "id": 10,
@@ -77,7 +96,9 @@
     "title": "My Father's Dragon",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [11]
+    "attribution_ids": [
+      11
+    ]
   },
   {
     "id": 11,
@@ -85,7 +106,9 @@
     "title": "Pellinor",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [12]
+    "attribution_ids": [
+      12
+    ]
   },
   {
     "id": 12,
@@ -93,7 +116,9 @@
     "title": "The Inheritance Cycle",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [13]
+    "attribution_ids": [
+      13
+    ]
   },
   {
     "id": 13,
@@ -101,15 +126,19 @@
     "title": "Wayfarer Redemption",
     "totalBookMembers": 6,
     "totalSubseries": 0,
-    "attribution_ids": [14]
+    "attribution_ids": [
+      14
+    ]
   },
   {
     "id": 14,
-    "synopsis": "The Lord of the Rings is an epic[1] high-fantasy novel written by English author and scholar J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is one of the best-selling novels ever written, with over 150 million copies sold.[2]\nThe title of the novel refers to the story's main antagonist, the Dark Lord Sauron,[a] who had in an earlier age created the One Ring to rule the other Rings of Power as the ultimate weapon in his campaign to conquer and rule all of Middle-earth. From quiet beginnings in the Shire, a hobbit land not unlike the English countryside, the story ranges across Middle-earth, following the course of the War of the Ring through the eyes of its characters, most notably the hobbits Frodo, Sam, Merry and Pippin.\nAlthough generally known to readers as a trilogy, the work was initially intended by Tolkien to be one volume of a two-volume set, the other to be The Silmarillion, but this idea was dismissed by his publisher.[4][5] For economic reasons, The Lord of the Rings was published in three volumes over the course of a year from 29 July 1954 to 20 October 1955.[4][6] The three volumes were titled The Fellowship of the Ring, The Two Towers and The Return of the King. Structurally, the novel is divided internally into six books, two per volume, with several appendices of background material included at the end. Some editions combine the entire work into a single volume. The Lord of the Rings has since been reprinted numerous times and translated into 38 languages.\nTolkien's work has been the subject of extensive analysis of its themes and origins. Although a major work in itself, the story was only the last movement of a larger epic Tolkien had worked on since 1917,[7] in a process he described as mythopoeia.[b] Influences on this earlier work, and on the story of The Lord of the Rings, include philology, mythology, religion and the author's distaste for the effects of industrialization, as well as earlier fantasy works and Tolkien's experiences in World War I.[9] The Lord of the Rings in its turn is considered to have had a great effect on modern fantasy; the impact of Tolkien's works is such that the use of the words \"Tolkienian\" and \"Tolkienesque\" has been recorded in the Oxford English Dictionary.[10]",
+    "synopsis": "The Lord of the Rings is an epic high-fantasy novel written by English author and scholar J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is one of the best-selling novels ever written, with over 150 million copies sold.\nThe title of the novel refers to the story's main antagonist, the Dark Lord Sauron,[a] who had in an earlier age created the One Ring to rule the other Rings of Power as the ultimate weapon in his campaign to conquer and rule all of Middle-earth. From quiet beginnings in the Shire, a hobbit land not unlike the English countryside, the story ranges across Middle-earth, following the course of the War of the Ring through the eyes of its characters, most notably the hobbits Frodo, Sam, Merry and Pippin.\nAlthough generally known to readers as a trilogy, the work was initially intended by Tolkien to be one volume of a two-volume set, the other to be The Silmarillion, but this idea was dismissed by his publisher. For economic reasons, The Lord of the Rings was published in three volumes over the course of a year from 29 July 1954 to 20 October 1955. The three volumes were titled The Fellowship of the Ring, The Two Towers and The Return of the King. Structurally, the novel is divided internally into six books, two per volume, with several appendices of background material included at the end. Some editions combine the entire work into a single volume. The Lord of the Rings has since been reprinted numerous times and translated into 38 languages.\nTolkien's work has been the subject of extensive analysis of its themes and origins. Although a major work in itself, the story was only the last movement of a larger epic Tolkien had worked on since 1917, in a process he described as mythopoeia.[b] Influences on this earlier work, and on the story of The Lord of the Rings, include philology, mythology, religion and the author's distaste for the effects of industrialization, as well as earlier fantasy works and Tolkien's experiences in World War I. The Lord of the Rings in its turn is considered to have had a great effect on modern fantasy; the impact of Tolkien's works is such that the use of the words \"Tolkienian\" and \"Tolkienesque\" has been recorded in the Oxford English Dictionary.",
     "title": "The Lord of the Rings",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [15]
+    "attribution_ids": [
+      15
+    ]
   },
   {
     "id": 15,
@@ -117,7 +146,9 @@
     "title": "The Tamuli",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [16]
+    "attribution_ids": [
+      16
+    ]
   },
   {
     "id": 16,
@@ -125,23 +156,29 @@
     "title": "Holes",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [17]
+    "attribution_ids": [
+      17
+    ]
   },
   {
     "id": 17,
-    "synopsis": "The Chronicles of Prydain is a pentalogy of children's high fantasy Bildungsroman novels written by American author Lloyd Alexander.[1] Henry Holt published one annually from 1964 to 1968; the second earned a 1966 Newbery Honor and the last won the 1969 Newbery Medal.[2]\nThe five novels follow the protagonist Taran from youth to maturity, most overtly in the fourth book, Taran Wanderer.[3] Taran has the title Assistant Pig-Keeper at Caer Dallben but initially dreams of being a grand hero. His most important companions in adventure are Princess Eilonwy, a girl his age; Fflewddur Fflam, a wandering bard and minor king; Gurgi, a wild man-beast; and Doli, a dwarf.",
+    "synopsis": "The Chronicles of Prydain is a pentalogy of children's high fantasy Bildungsroman novels written by American author Lloyd Alexander. Henry Holt published one annually from 1964 to 1968; the second earned a 1966 Newbery Honor and the last won the 1969 Newbery Medal.\nThe five novels follow the protagonist Taran from youth to maturity, most overtly in the fourth book, Taran Wanderer. Taran has the title Assistant Pig-Keeper at Caer Dallben but initially dreams of being a grand hero. His most important companions in adventure are Princess Eilonwy, a girl his age; Fflewddur Fflam, a wandering bard and minor king; Gurgi, a wild man-beast; and Doli, a dwarf.",
     "title": "The Chronicles of Prydain",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [18]
+    "attribution_ids": [
+      18
+    ]
   },
   {
     "id": 18,
-    "synopsis": "Twilight is a series of four vampire-themed fantasy romance novels by American author Stephenie Meyer. Released annually from 2005 through 2008, the four books chart the later teen years of Isabella \"Bella\" Swan, a girl who moves to Forks, Washington, and falls in love with a 104-year-old vampire named Edward Cullen. The series is told primarily from Bella's point of view, with the epilogue of Eclipse and Part II of Breaking Dawn being told from the viewpoint of character Jacob Black, a werewolf. The unpublished Midnight Sun is a retelling of the first book, Twilight, from Edward Cullen's point of view. The novella The Short Second Life of Bree Tanner, which tells the story of a newborn vampire who appeared in Eclipse, was published on June 5, 2010, as a hardcover book and on June 7 as a free online ebook.[1] The Twilight Saga: The Official Illustrated Guide, a definitive encyclopedic reference with nearly 100 full color illustrations, was released in bookstores on April 12, 2011.[2]",
+    "synopsis": "Twilight is a series of four vampire-themed fantasy romance novels by American author Stephenie Meyer. Released annually from 2005 through 2008, the four books chart the later teen years of Isabella \"Bella\" Swan, a girl who moves to Forks, Washington, and falls in love with a 104-year-old vampire named Edward Cullen. The series is told primarily from Bella's point of view, with the epilogue of Eclipse and Part II of Breaking Dawn being told from the viewpoint of character Jacob Black, a werewolf. The unpublished Midnight Sun is a retelling of the first book, Twilight, from Edward Cullen's point of view. The novella The Short Second Life of Bree Tanner, which tells the story of a newborn vampire who appeared in Eclipse, was published on June 5, 2010, as a hardcover book and on June 7 as a free online ebook. The Twilight Saga: The Official Illustrated Guide, a definitive encyclopedic reference with nearly 100 full color illustrations, was released in bookstores on April 12, 2011.",
     "title": "Twilight",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [19]
+    "attribution_ids": [
+      19
+    ]
   },
   {
     "id": 19,
@@ -149,15 +186,19 @@
     "title": "Sword-Dancer Saga",
     "totalBookMembers": 8,
     "totalSubseries": 0,
-    "attribution_ids": [20]
+    "attribution_ids": [
+      20
+    ]
   },
   {
     "id": 20,
-    "synopsis": "The Ender's Game series (often referred to as the Ender saga and also the Enderverse) is a series of science fiction books written by American author Orson Scott Card. The series started with the novelette Ender's Game, which was later expanded into the novel of the same title. It currently consists of sixteen novels, thirteen short stories, 47 comic issues, an audioplay, and a film. The first two novels in the series, Ender's Game and Speaker for the Dead, each won both the Hugo[1][2] and Nebula[1][3] Awards, and were among the most influential novels of the 1980s.[not verified in body]\nThe series is set in a future where mankind is facing annihilation by an aggressive alien society, an insect-like race known formally as \"Formics\", but more colloquially as \"Buggers\". The series protagonist, Andrew \"Ender\" Wiggin, is one of the child soldiers trained at Battle School (and eventually Command School) to be the future leaders for the protection of Earth.",
+    "synopsis": "The Ender's Game series (often referred to as the Ender saga and also the Enderverse) is a series of science fiction books written by American author Orson Scott Card. The series started with the novelette Ender's Game, which was later expanded into the novel of the same title. It currently consists of sixteen novels, thirteen short stories, 47 comic issues, an audioplay, and a film. The first two novels in the series, Ender's Game and Speaker for the Dead, each won both the Hugo and Nebula Awards, and were among the most influential novels of the 1980s.[not verified in body]\nThe series is set in a future where mankind is facing annihilation by an aggressive alien society, an insect-like race known formally as \"Formics\", but more colloquially as \"Buggers\". The series protagonist, Andrew \"Ender\" Wiggin, is one of the child soldiers trained at Battle School (and eventually Command School) to be the future leaders for the protection of Earth.",
     "title": "Ender's Game series",
     "totalBookMembers": 20,
     "totalSubseries": 4,
-    "attribution_ids": [21]
+    "attribution_ids": [
+      21
+    ]
   },
   {
     "id": 21,
@@ -165,7 +206,9 @@
     "title": "Eddie Dickens Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [22]
+    "attribution_ids": [
+      22
+    ]
   },
   {
     "id": 22,
@@ -173,7 +216,9 @@
     "title": "The No. 1 Ladies' Detective Agency",
     "totalBookMembers": 20,
     "totalSubseries": 0,
-    "attribution_ids": [23]
+    "attribution_ids": [
+      23
+    ]
   },
   {
     "id": 23,
@@ -181,7 +226,9 @@
     "title": "Penrod: His Complete Story",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [25]
+    "attribution_ids": [
+      25
+    ]
   },
   {
     "id": 24,
@@ -189,7 +236,9 @@
     "title": "Unicorn's Secret",
     "totalBookMembers": 8,
     "totalSubseries": 0,
-    "attribution_ids": [26]
+    "attribution_ids": [
+      26
+    ]
   },
   {
     "id": 25,
@@ -197,7 +246,9 @@
     "title": "The Saga of Recluce",
     "totalBookMembers": 22,
     "totalSubseries": 0,
-    "attribution_ids": [27]
+    "attribution_ids": [
+      27
+    ]
   },
   {
     "id": 26,
@@ -205,15 +256,19 @@
     "title": "Dollanganger Series",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [28]
+    "attribution_ids": [
+      28
+    ]
   },
   {
     "id": 27,
-    "synopsis": "The Wheel of Time is a series of high fantasy novels written by American author James Oliver Rigney Jr., under his pen name of Robert Jordan. Originally planned as a six-book series, The Wheel of Time spanned fourteen volumes, in addition to a prequel novel and two companion books. Jordan began writing the first volume, The Eye of the World, in 1984, and it was published in January 1990.[1]\nJordan died in 2007 while working on what was planned to be the twelfth and final volume in the series. He prepared extensive notes so another author could complete the book according to his wishes. Fellow fantasy author and long-time Wheel of Time fan Brandon Sanderson was brought in to complete the final book, but during the writing process, it was decided that the book would be far too large to be published in one volume and would instead be published as three volumes:[2] The Gathering Storm (2009), Towers of Midnight (2010), and A Memory of Light (2013).\nThe series draws on numerous elements of both European and Asian mythology, most notably the cyclical nature of time found in Buddhism and Hinduism, the metaphysical concepts of balance and duality, and a respect for nature found in Taoism. Additionally, its creation story has similarities to Christianity's \"Creator\" (Light) and Shai'tan, \"The Dark One\" (Shaitan is an Arabic word that, in Islamic contexts, is used as a name for the Devil). It was also partly inspired by Leo Tolstoy's War and Peace (1869).[3]\nThe Wheel of Time is notable for its length, detailed imaginary world, well-developed magic system, and large cast of characters. The eighth through fourteenth books each reached number one on the New York Times Best Seller list.",
+    "synopsis": "The Wheel of Time is a series of high fantasy novels written by American author James Oliver Rigney Jr., under his pen name of Robert Jordan. Originally planned as a six-book series, The Wheel of Time spanned fourteen volumes, in addition to a prequel novel and two companion books. Jordan began writing the first volume, The Eye of the World, in 1984, and it was published in January 1990.\nJordan died in 2007 while working on what was planned to be the twelfth and final volume in the series. He prepared extensive notes so another author could complete the book according to his wishes. Fellow fantasy author and long-time Wheel of Time fan Brandon Sanderson was brought in to complete the final book, but during the writing process, it was decided that the book would be far too large to be published in one volume and would instead be published as three volumes: The Gathering Storm (2009), Towers of Midnight (2010), and A Memory of Light (2013).\nThe series draws on numerous elements of both European and Asian mythology, most notably the cyclical nature of time found in Buddhism and Hinduism, the metaphysical concepts of balance and duality, and a respect for nature found in Taoism. Additionally, its creation story has similarities to Christianity's \"Creator\" (Light) and Shai'tan, \"The Dark One\" (Shaitan is an Arabic word that, in Islamic contexts, is used as a name for the Devil). It was also partly inspired by Leo Tolstoy's War and Peace (1869).\nThe Wheel of Time is notable for its length, detailed imaginary world, well-developed magic system, and large cast of characters. The eighth through fourteenth books each reached number one on the New York Times Best Seller list.",
     "title": "The Wheel of Time",
     "totalBookMembers": 14,
     "totalSubseries": 0,
-    "attribution_ids": [29]
+    "attribution_ids": [
+      29
+    ]
   },
   {
     "id": 28,
@@ -221,7 +276,9 @@
     "title": "The Immortals",
     "totalBookMembers": 6,
     "totalSubseries": 0,
-    "attribution_ids": [30]
+    "attribution_ids": [
+      30
+    ]
   },
   {
     "id": 29,
@@ -229,7 +286,9 @@
     "title": "The Keys to the Kingdom",
     "totalBookMembers": 7,
     "totalSubseries": 0,
-    "attribution_ids": [31]
+    "attribution_ids": [
+      31
+    ]
   },
   {
     "id": 30,
@@ -237,7 +296,9 @@
     "title": "The Monstrumologist Series",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [32]
+    "attribution_ids": [
+      32
+    ]
   },
   {
     "id": 31,
@@ -245,7 +306,9 @@
     "title": "Legacy of the Drow",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [33]
+    "attribution_ids": [
+      33
+    ]
   },
   {
     "id": 32,
@@ -253,7 +316,9 @@
     "title": "The Crystal Singer series",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [34]
+    "attribution_ids": [
+      34
+    ]
   },
   {
     "id": 33,
@@ -261,7 +326,9 @@
     "title": "Murry–O'Keefe Series",
     "totalBookMembers": 8,
     "totalSubseries": 0,
-    "attribution_ids": [35]
+    "attribution_ids": [
+      35
+    ]
   },
   {
     "id": 34,
@@ -269,7 +336,9 @@
     "title": "Exiles Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [36]
+    "attribution_ids": [
+      36
+    ]
   },
   {
     "id": 35,
@@ -277,7 +346,9 @@
     "title": "What I Wish I'd Known in High School Series",
     "totalBookMembers": 2,
     "totalSubseries": 0,
-    "attribution_ids": [37]
+    "attribution_ids": [
+      37
+    ]
   },
   {
     "id": 36,
@@ -285,15 +356,19 @@
     "title": "Robert Langdon Series",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [38]
+    "attribution_ids": [
+      38
+    ]
   },
   {
     "id": 37,
-    "synopsis": "Percy Jackson & the Olympians, often shortened to Percy Jackson or PJO, is a pentalogy of fantasy adventure novels written by American author Rick Riordan, and the first book series in the Camp Half-Blood Chronicles.[4] Five supplementary books, along with all of the books having graphic novels, have also been released. More than 69 million copies of the books have been sold in more than 35 countries.",
+    "synopsis": "Percy Jackson & the Olympians, often shortened to Percy Jackson or PJO, is a pentalogy of fantasy adventure novels written by American author Rick Riordan, and the first book series in the Camp Half-Blood Chronicles. Five supplementary books, along with all of the books having graphic novels, have also been released. More than 69 million copies of the books have been sold in more than 35 countries.",
     "title": "Percy Jackson & the Olympians",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [39]
+    "attribution_ids": [
+      39
+    ]
   },
   {
     "id": 38,
@@ -301,7 +376,9 @@
     "title": "Cloudmages trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [40]
+    "attribution_ids": [
+      40
+    ]
   },
   {
     "id": 39,
@@ -309,15 +386,19 @@
     "title": "Pendragon Series",
     "totalBookMembers": 10,
     "totalSubseries": 0,
-    "attribution_ids": [41]
+    "attribution_ids": [
+      41
+    ]
   },
   {
     "id": 40,
-    "synopsis": "The Myst Reader is a collection of three novels based on the Myst series of adventure games. The collection was published in September 2004 and combines three works previously published separately: The Book of Atrus (1995), The Book of Ti'ana (1996), and The Book of D'ni (1997).[2] The novels were each written by British science-fiction writer David Wingrove with assistance from Myst's creators, Rand and Robyn Miller.\nEach novel centers on the family of Atrus, a scientist and explorer who has the ability to write special books which serve as links to other worlds, known as Ages. This ability, known as the Art, was practiced extensively by an ancient civilization known as the D'ni, who were only mentioned briefly in the original Myst game. The plot of each book reveals more of the Myst back-story and the workings of the D'ni.",
+    "synopsis": "The Myst Reader is a collection of three novels based on the Myst series of adventure games. The collection was published in September 2004 and combines three works previously published separately: The Book of Atrus (1995), The Book of Ti'ana (1996), and The Book of D'ni (1997). The novels were each written by British science-fiction writer David Wingrove with assistance from Myst's creators, Rand and Robyn Miller.\nEach novel centers on the family of Atrus, a scientist and explorer who has the ability to write special books which serve as links to other worlds, known as Ages. This ability, known as the Art, was practiced extensively by an ancient civilization known as the D'ni, who were only mentioned briefly in the original Myst game. The plot of each book reveals more of the Myst back-story and the workings of the D'ni.",
     "title": "The Myst Reader",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [42]
+    "attribution_ids": [
+      42
+    ]
   },
   {
     "id": 41,
@@ -325,7 +406,9 @@
     "title": "The Sword of Truth",
     "totalBookMembers": 21,
     "totalSubseries": 0,
-    "attribution_ids": [43]
+    "attribution_ids": [
+      43
+    ]
   },
   {
     "id": 42,
@@ -333,15 +416,19 @@
     "title": "The Runelords",
     "totalBookMembers": 9,
     "totalSubseries": 0,
-    "attribution_ids": [44]
+    "attribution_ids": [
+      44
+    ]
   },
   {
     "id": 43,
-    "synopsis": "Dragonlance Legends is a trilogy of fantasy novels written by Margaret Weis and Tracy Hickman, which take place in the Dragonlance setting. This series is the sequel to the Dragonlance Chronicles, and explores the lives of Raistlin and Caramon.[1] The trilogy has two major story arcs:\nRaistlin Majere's aspirations to godhood, and his twin Caramon Majere's attempts to stop him;[1] and\nThe machinations of Kitiara uth Matar, the twins' half-sister, and her attack on the city of Palanthas as part of the Blue Lady's War.",
+    "synopsis": "Dragonlance Legends is a trilogy of fantasy novels written by Margaret Weis and Tracy Hickman, which take place in the Dragonlance setting. This series is the sequel to the Dragonlance Chronicles, and explores the lives of Raistlin and Caramon. The trilogy has two major story arcs:\nRaistlin Majere's aspirations to godhood, and his twin Caramon Majere's attempts to stop him; and\nThe machinations of Kitiara uth Matar, the twins' half-sister, and her attack on the city of Palanthas as part of the Blue Lady's War.",
     "title": "Dragonlance Legends",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [45]
+    "attribution_ids": [
+      45
+    ]
   },
   {
     "id": 44,
@@ -349,7 +436,9 @@
     "title": "Tennis Shoes Adventure Series",
     "totalBookMembers": 12,
     "totalSubseries": 0,
-    "attribution_ids": [46]
+    "attribution_ids": [
+      46
+    ]
   },
   {
     "id": 45,
@@ -357,7 +446,9 @@
     "title": "The Earth Kingdom Chronicles Series",
     "totalBookMembers": 6,
     "totalSubseries": 0,
-    "attribution_ids": [47]
+    "attribution_ids": [
+      47
+    ]
   },
   {
     "id": 46,
@@ -365,23 +456,29 @@
     "title": "Empire Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [48]
+    "attribution_ids": [
+      48
+    ]
   },
   {
     "id": 47,
-    "synopsis": "Xanth (/ˈzænθ/ ZANTH) is a fantasy world created by author Piers Anthony for his Xanth series of novels, also known as The Magic of Xanth. Anthony originally intended for Xanth to be a trilogy, and after the success of the first three books expanded the series to nine books. A devoted fan base persuaded the author to continue writing the series, which is now open-ended.\nAnthony has stated that he has kept the series going as long as he has because the Xanth novels are \"just about all that publishers want\" from him.[1]",
+    "synopsis": "Xanth (/ˈzænθ/ ZANTH) is a fantasy world created by author Piers Anthony for his Xanth series of novels, also known as The Magic of Xanth. Anthony originally intended for Xanth to be a trilogy, and after the success of the first three books expanded the series to nine books. A devoted fan base persuaded the author to continue writing the series, which is now open-ended.\nAnthony has stated that he has kept the series going as long as he has because the Xanth novels are \"just about all that publishers want\" from him.",
     "title": "Xanth",
     "totalBookMembers": 46,
     "totalSubseries": 0,
-    "attribution_ids": [49]
+    "attribution_ids": [
+      49
+    ]
   },
   {
     "id": 48,
-    "synopsis": "The Heroes of Olympus is a pentalogy of fantasy-adventure novels written by American author Rick Riordan. The novels detail a conflict between Greek demigods, Roman demigods, and Gaea (Roman name Terra) also known as Mother Earth. In the fourth book of the series, there is also a semi-large fight against Tartarus, which, in Greek mythology, was the darkest and deepest point of the underworld. The series is a sequel to Percy Jackson & the Olympians, which detailed the life of modern-day Greek demigods.[4] Riordan introduces Roman mythology in his sequel series as well as several new characters. The first book of the series, The Lost Hero, was published on October 12, 2010.[5] The final entry in the series, The Blood of Olympus, was published on October 7, 2014.[6]",
+    "synopsis": "The Heroes of Olympus is a pentalogy of fantasy-adventure novels written by American author Rick Riordan. The novels detail a conflict between Greek demigods, Roman demigods, and Gaea (Roman name Terra) also known as Mother Earth. In the fourth book of the series, there is also a semi-large fight against Tartarus, which, in Greek mythology, was the darkest and deepest point of the underworld. The series is a sequel to Percy Jackson & the Olympians, which detailed the life of modern-day Greek demigods. Riordan introduces Roman mythology in his sequel series as well as several new characters. The first book of the series, The Lost Hero, was published on October 12, 2010. The final entry in the series, The Blood of Olympus, was published on October 7, 2014.",
     "title": "The Heroes of Olympus",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [50]
+    "attribution_ids": [
+      50
+    ]
   },
   {
     "id": 49,
@@ -389,7 +486,9 @@
     "title": "The Merlin Saga",
     "totalBookMembers": 12,
     "totalSubseries": 0,
-    "attribution_ids": [51]
+    "attribution_ids": [
+      51
+    ]
   },
   {
     "id": 50,
@@ -397,7 +496,9 @@
     "title": "Inkheart",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [52]
+    "attribution_ids": [
+      52
+    ]
   },
   {
     "id": 51,
@@ -405,7 +506,9 @@
     "title": "A Series of Unfortunate Events",
     "totalBookMembers": 13,
     "totalSubseries": 0,
-    "attribution_ids": [53]
+    "attribution_ids": [
+      53
+    ]
   },
   {
     "id": 52,
@@ -413,7 +516,9 @@
     "title": "Sovereign of the Seven Isles",
     "totalBookMembers": 7,
     "totalSubseries": 0,
-    "attribution_ids": [54]
+    "attribution_ids": [
+      54
+    ]
   },
   {
     "id": 53,
@@ -421,7 +526,9 @@
     "title": "Dragon Star",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [55]
+    "attribution_ids": [
+      55
+    ]
   },
   {
     "id": 54,
@@ -429,7 +536,9 @@
     "title": "Artemis Fowl",
     "totalBookMembers": 8,
     "totalSubseries": 0,
-    "attribution_ids": [56]
+    "attribution_ids": [
+      56
+    ]
   },
   {
     "id": 55,
@@ -437,15 +546,19 @@
     "title": "Original Shannara Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [57]
+    "attribution_ids": [
+      57
+    ]
   },
   {
     "id": 56,
-    "synopsis": "Through her combined talents as a writer/illustrator, Janny Wurts has immersed herself in a lifelong ambition: to create a seamless interface between words and pictures that will lead reader and viewer into the imagination. Her lavish use of language invites the mind into a crafted realm of experience, with characters and events woven into a complex tapestry, and drawn with an intensity to inspire active fuel for thought.[1] The idea for the Wars of Light and Shadow originated while researching tactics and weapons. A documentary film on the brutal Battle of Culloden Moor gave her the historical sense of the fighting stripped of any romantic patina. It also helped her realize that education, written history, and entertainment serve to justify the actions of the winners and portray the losers as morally wrong and evil. The series attempts to portray the fictional conflict of Lysaer and Arithon in sympathetic terms, illustrating each side with equal pathos. The story tracks the martial, political, and personal conflicts of the characters, and the different tactics used by each - a mass following in one case, and a solitary wandering in the other. Wurts narrates each character from their own perspectives, leaving the reader to draw their own conclusions about the morality of individual actions[2].",
+    "synopsis": "Through her combined talents as a writer/illustrator, Janny Wurts has immersed herself in a lifelong ambition: to create a seamless interface between words and pictures that will lead reader and viewer into the imagination. Her lavish use of language invites the mind into a crafted realm of experience, with characters and events woven into a complex tapestry, and drawn with an intensity to inspire active fuel for thought. The idea for the Wars of Light and Shadow originated while researching tactics and weapons. A documentary film on the brutal Battle of Culloden Moor gave her the historical sense of the fighting stripped of any romantic patina. It also helped her realize that education, written history, and entertainment serve to justify the actions of the winners and portray the losers as morally wrong and evil. The series attempts to portray the fictional conflict of Lysaer and Arithon in sympathetic terms, illustrating each side with equal pathos. The story tracks the martial, political, and personal conflicts of the characters, and the different tactics used by each - a mass following in one case, and a solitary wandering in the other. Wurts narrates each character from their own perspectives, leaving the reader to draw their own conclusions about the morality of individual actions.",
     "title": "Wars of Light and Shadow",
     "totalBookMembers": 11,
     "totalSubseries": 5,
-    "attribution_ids": [58]
+    "attribution_ids": [
+      58
+    ]
   },
   {
     "id": 57,
@@ -453,7 +566,9 @@
     "title": "Last Rune",
     "totalBookMembers": 6,
     "totalSubseries": 0,
-    "attribution_ids": [59]
+    "attribution_ids": [
+      59
+    ]
   },
   {
     "id": 58,
@@ -461,7 +576,9 @@
     "title": "The Wardstone Chronicles / The Last Apprentice",
     "totalBookMembers": 13,
     "totalSubseries": 0,
-    "attribution_ids": [60]
+    "attribution_ids": [
+      60
+    ]
   },
   {
     "id": 59,
@@ -469,7 +586,9 @@
     "title": "The Endless War duology",
     "totalBookMembers": 2,
     "totalSubseries": 0,
-    "attribution_ids": [61]
+    "attribution_ids": [
+      61
+    ]
   },
   {
     "id": 60,
@@ -477,7 +596,9 @@
     "title": "Machine Dynasties series",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [62]
+    "attribution_ids": [
+      62
+    ]
   },
   {
     "id": 61,
@@ -485,7 +606,9 @@
     "title": "The Belgariad",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [63]
+    "attribution_ids": [
+      63
+    ]
   },
   {
     "id": 62,
@@ -493,15 +616,19 @@
     "title": "Chung Kuo",
     "totalBookMembers": 8,
     "totalSubseries": 0,
-    "attribution_ids": [64]
+    "attribution_ids": [
+      64
+    ]
   },
   {
     "id": 63,
-    "synopsis": "The Hunter's Blades Trilogy is a fantasy trilogy by American writer R.A. Salvatore. It follows the Paths of Darkness series and is composed of three books, The Thousand Orcs, The Lone Drow, and The Two Swords.[1] The Two Swords was Salvatore's 17th work concerning one of his most famous characters, Drizzt Do'Urden. In this series, Drizzt takes a stand to stop the spread of chaos and war by an overambitious orc king across Drizzt's adopted homeland.[1] The series reached the New York Times bestseller list and is followed by the installments of the Transitions series.",
+    "synopsis": "The Hunter's Blades Trilogy is a fantasy trilogy by American writer R.A. Salvatore. It follows the Paths of Darkness series and is composed of three books, The Thousand Orcs, The Lone Drow, and The Two Swords. The Two Swords was Salvatore's 17th work concerning one of his most famous characters, Drizzt Do'Urden. In this series, Drizzt takes a stand to stop the spread of chaos and war by an overambitious orc king across Drizzt's adopted homeland. The series reached the New York Times bestseller list and is followed by the installments of the Transitions series.",
     "title": "The Hunter's Blades Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [65]
+    "attribution_ids": [
+      65
+    ]
   },
   {
     "id": 64,
@@ -509,822 +636,1028 @@
     "title": "Night World",
     "totalBookMembers": 12,
     "totalSubseries": 0,
-    "attribution_ids": [66]
+    "attribution_ids": [
+      66
+    ]
   },
   {
-    "id": 64,
+    "id": 65,
     "synopsis": "With the first two books in the Acacia Trilogy, Acacia and The Other Lands, David Anthony Durham has created a vast and engrossing canvas of a world in turmoil, where the surviving children of a royal dynasty are on a quest to realize their fates—and perhaps right ancient wrongs once and for all. As The Sacred Band begins, one of them, Queen Corinn, bestrides the world as a result of her mastery of spells found in the ancient Book of Elenet.",
     "title": "The Acacia Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [67]
+    "attribution_ids": [
+      67
+    ]
   },
   {
-    "id": 65,
+    "id": 66,
     "synopsis": "The Forever King is a fantasy book written by Molly Cochran and Warren Murphy, the authors of Grandmaster, which reached #3 on The New York Times bestseller list. The Forever King is the first in the Forever King Trilogy. The second title is The Broken Sword: King Arthur Returns while the third book is called The Third Magic. Robert Jordan, author of The Dragon Reborn calls The Forever King \"a fresh and exciting view of the Arthur legend.”",
     "title": "The Forever King Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [68]
+    "attribution_ids": [
+      68
+    ]
   },
   {
-    "id": 66,
+    "id": 67,
     "synopsis": "Krondor's Sons is a series of fantasy novel by American writer Raymond E. Feist. The books are part of The Riftwar Cycle and set on the fictional world of Midkemia. The two novels are set between riftwars and explores Midkemia beyond the borders of the Kingdom of the Isles. The main characters are the three sons of Prince of Krondor Arutha ConDoin, Borric, Erland, and Nicholas. According to Feist, the series was originally meant to be a trilogy, with The Return of the Buccaneer being the third volume. However, following The King's Buccaneer Feist changed publishers, and his new editors wanted a brand-new series rather than a continuation of the old one.",
     "title": "Krondor's Sons",
     "totalBookMembers": 2,
     "totalSubseries": 0,
-    "attribution_ids": [69]
-  },
-  {
-    "id": 67,
-    "synopsis": "Dune is a science fiction media franchise that originated with the 1965 novel Dune by Frank Herbert and has continued to add new publications up to 2017. The political, scientific, and social fictional setting of Herbert's novels and derivative works is known as the Dune universe, or Duniverse.[19] Set tens of thousands of years in the future, the saga chronicles a civilization which has banned all forms of computers, or \"thinking machines\", but has also developed advanced technology and mental and physical abilities. Vital to this empire is the harsh desert planet Arrakis, only known source of the spice melange, the most valuable substance in the universe.",
-    "title": "Dune Chronicles",
-    "totalBookMembers": 6,
-    "totalSubseries": 0,
-    "attribution_ids": [70]
+    "attribution_ids": [
+      69
+    ]
   },
   {
     "id": 68,
+    "synopsis": "Dune is a science fiction media franchise that originated with the 1965 novel Dune by Frank Herbert and has continued to add new publications up to 2017. The political, scientific, and social fictional setting of Herbert's novels and derivative works is known as the Dune universe, or Duniverse. Set tens of thousands of years in the future, the saga chronicles a civilization which has banned all forms of computers, or \"thinking machines\", but has also developed advanced technology and mental and physical abilities. Vital to this empire is the harsh desert planet Arrakis, only known source of the spice melange, the most valuable substance in the universe.",
+    "title": "Dune Chronicles",
+    "totalBookMembers": 6,
+    "totalSubseries": 0,
+    "attribution_ids": [
+      70
+    ]
+  },
+  {
+    "id": 69,
     "synopsis": "Mina Grime is unlucky, unpopular and uncoordinated; until she saves her crush's life on a field trip, changing her High School status from loser to hero overnight. But with her new found fame brings misfortune in the form of an old family curse come to light. For Mina is descended from the Brothers Grimm and has inherited all of their unfinished fairy tale business. Which includes trying to outwit a powerful Story from making her it's next fairytale victim.",
     "title": "An Unfortunate Fairy Tale",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [71]
+    "attribution_ids": [
+      71
+    ]
   },
   {
-    "id": 69,
+    "id": 70,
     "synopsis": "The Heritage of Shannara is a series of four fantasy novels by Terry Brooks, set hundreds of years after the original Shannara trilogy. Unlike the original trilogy, however, this series is all one, cohesive story, in contrast to the three isolated stories of the originals. It is set in a future Four Lands in which the Federation of the Southland has driven off the Elves, enslaved the Dwarves, and outlawed magic. Only the rebel Free-born, led by Padishar Creel, dare to resist.",
     "title": "The Heritage of Shannara",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [72]
+    "attribution_ids": [
+      72
+    ]
   },
   {
-    "id": 70,
+    "id": 71,
     "synopsis": "Meet Susan, a modern-day soccer mom who is pulled through a portal into another world, where a nation grappling for its soul waits for a promised Restorer to save their people.\nSusan has always longed to do something great for God, but can she fill this role?",
     "title": "Sword of Lyric Series",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [73]
+    "attribution_ids": [
+      73
+    ]
   },
   {
-    "id": 71,
+    "id": 72,
     "synopsis": "The fire mystic Senneth crosses the country of Gillengaria on a mission for the king. The thing that most people seemed to find disappointing about the Samaria books was that they didn’t follow the same people through successive storylines, so from the outset I planned the Twelve Houses books as a series about six main characters. I gave Senneth my own headaches just so I could share the pain.",
     "title": "Twelve Houses",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [74]
+    "attribution_ids": [
+      74
+    ]
   },
   {
-    "id": 72,
+    "id": 73,
     "synopsis": "Comprising 3 books: 1. Celeste (2004), 2. Black Cat (2004), 3. Child of Darkness (2005)",
     "title": "Gemini",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [75]
+    "attribution_ids": [
+      75
+    ]
   },
   {
-    "id": 73,
+    "id": 74,
     "synopsis": "The Giver Quartet is a series of four books about a dystopian world by Lois Lowry. The quartet consists of The Giver (1993), Gathering Blue (2000), Messenger (2004), and Son (2012). The first book won the 1994 Newbery Medal and has sold more than 10 million copies. The story takes place in the world of the Giver. Each book has a different protagonist, but is set in the same futuristic era.",
     "title": "The Giver Quartet",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [76]
+    "attribution_ids": [
+      76
+    ]
   },
   {
-    "id": 74,
+    "id": 75,
     "synopsis": "Diary of a Wimpy Kid is a series of fiction books written by the American author and cartoonist Jeff Kinney. All the main books are the journals of the main character, Greg Heffley. Befitting a teen's diary, the books are filled with hand-written notes and simple drawings of Greg's daily adventures.",
     "title": "Diary of a Wimpy Kid",
     "totalBookMembers": 14,
     "totalSubseries": 0,
-    "attribution_ids": [77]
+    "attribution_ids": [
+      77
+    ]
   },
   {
-    "id": 75,
+    "id": 76,
     "synopsis": "The Symphony of Ages is a series of fantasy–romance books by Elizabeth Haydon. The books tell the story of Rhapsody, a young singer of considerable talent who travels across time to a new land only to learn that it was foretold in a prophecy. Along with her two companions, Rhapsody fights to reunite a kingdom ravaged by war and long-standing prejudice. It has 3 subseries: The Rhapsody Trilogy, The Middle Books, and The War of the Known World",
     "title": "The Giver Quartet",
     "totalBookMembers": 9,
     "totalSubseries": 3,
-    "attribution_ids": [78]
+    "attribution_ids": [
+      78
+    ]
   },
   {
-    "id": 76,
+    "id": 77,
     "synopsis": "Consists of Child of Vengeance, Sword of Honor, ell and Silence",
     "title": "Musashi Miyamoto Series",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [79]
+    "attribution_ids": [
+      79
+    ]
   },
   {
-    "id": 77,
+    "id": 78,
     "synopsis": "His Dark Materials is a trilogy of fantasy novels by Philip Pullman consisting of Northern Lights (1995) (published as The Golden Compass in North America), The Subtle Knife (1997), and The Amber Spyglass (2000). It follows the coming of age of two children, Lyra Belacqua and Will Parry, as they wander through a series of parallel universes. The novels have won a number of awards, including the Carnegie Medal in 1995 for Northern Lights and the 2001 Whitbread Book of the Year for The Amber Spyglass. In 2003, the trilogy was ranked third on the BBC's The Big Read poll.",
     "title": "His Dark Materials",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [80]
+    "attribution_ids": [
+      80
+    ]
   },
   {
-    "id": 78,
+    "id": 79,
     "synopsis": "Consists of 1. Inda (2006), 2. The Fox (2007), 3. The King's Shield (2008), 4. Treason's Shore (2009)",
     "title": "Inda",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [81]
+    "attribution_ids": [
+      81
+    ]
   },
   {
-    "id": 79,
+    "id": 80,
     "synopsis": "Consists of The Sound of Rain, A Distant Thunder, Winds of Hope, Shelter from the Storm, The Silence of Snow",
     "title": "Jayson Wolfe Series",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [82]
+    "attribution_ids": [
+      82
+    ]
   },
   {
-    "id": 80,
+    "id": 81,
     "synopsis": "The Last Rune is a series of six epic fantasy novels written by American author Mark Anthony. It concerns the exploits of two earthlings, tavern owner Travis Wilder and ER doctor Grace Beckett, as well as those of their allies, both throughout their homeworld of Earth and the otherworld of Eldh. Travis soon discovers that he has a wild talent for the magic of runes, which gives him power over the material world, while Grace learns that she is a witch, with power over nature.",
     "title": "The Last Rune",
     "totalBookMembers": 6,
     "totalSubseries": 0,
-    "attribution_ids": [83]
+    "attribution_ids": [
+      83
+    ]
   },
   {
-    "id": 81,
+    "id": 82,
     "synopsis": "Sixteen year-old Lia Milthorpe and her twin sister Alice have just become orphans and, as Lia discovers, they have also become enemies. The twins are part of an ancient prophecy that has turned generations of sisters against each other. To escape from a dark fate and to remain in the arms of her beloved boyfriend James, Lia must end the prophecy before her sister does. Only then will she understand the mysterious circumstances of her parents' deaths, the true meaning of the strange mark branded on her wrist, and the lengths to which her sister will go to defeat her.",
     "title": "Prophecy of the Sisters",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [84]
+    "attribution_ids": [
+      84
+    ]
   },
   {
-    "id": 82,
+    "id": 83,
     "synopsis": "Consists of 1. The Prophecy (2010), 2. Insurrection (2011), 3. Amulet of Aria (2012), Bakkian Chronicles: Short Stories (2013)",
     "title": "Bakkian Chronicles",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [85]
+    "attribution_ids": [
+      85
+    ]
   },
   {
-    "id": 83,
+    "id": 84,
     "synopsis": "Temeraire is a series of nine novels written by American author Naomi Novik. The novels are works of both fantasy and alternate history: they are \"a reimagining of the epic events of the Napoleonic Wars with an air force—an air force of dragons, manned by crews of aviators\"",
     "title": "Temeraire",
     "totalBookMembers": 9,
     "totalSubseries": 0,
-    "attribution_ids": [86]
+    "attribution_ids": [
+      86
+    ]
   },
   {
-    "id": 84,
+    "id": 85,
     "synopsis": "Consists of 1. The Hourglass Door (2009), 2. The Golden Spiral (2010), 3. The Forgotten Locket (2011)",
     "title": "Temeraire",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [87]
+    "attribution_ids": [
+      87
+    ]
   },
   {
-    "id": 85,
+    "id": 86,
     "synopsis": "The Divine Comedy is a long Italian narrative poem by Dante Alighieri, begun c. 1308 and completed in 1320, a year before his death in 1321. It is widely considered to be the pre-eminent work in Italian literature and one of the greatest works of world literature. The poem's imaginative vision of the afterlife is representative of the medieval world-view as it had developed in the Western Church by the 14th century. It helped establish the Tuscan language, in which it is written (also in most present-day Italian-market editions), as the standardized Italian language. It is divided into three parts: Inferno, Purgatorio, and Paradiso.",
     "title": "The Divine Comedy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [88]
+    "attribution_ids": [
+      88
+    ]
   },
   {
-    "id": 86,
+    "id": 87,
     "synopsis": "A foretold warrior and her dark sister join forces to dismantle and remake their embattled world in this epic fantasy saga from a Nebula Award–winning author.",
     "title": "The Great Alta Saga",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [89]
+    "attribution_ids": [
+      89
+    ]
   },
   {
-    "id": 87,
+    "id": 88,
     "synopsis": "The Famished Road is a novel by Nigerian author Ben Okri, the first book in a trilogy that continues with Songs of Enchantment (1993) and Infinite Riches (1998).",
     "title": "The Famished Road Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [90]
-  },
-  {
-    "id": 88,
-    "synopsis": "",
-    "title": "Chronicles of Nerissette",
-    "totalBookMembers": 3,
-    "totalSubseries": 0,
-    "attribution_ids": [91]
+    "attribution_ids": [
+      90
+    ]
   },
   {
     "id": 89,
     "synopsis": "",
-    "title": "The Languedoc Trilogy",
+    "title": "Chronicles of Nerissette",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [92]
+    "attribution_ids": [
+      91
+    ]
   },
   {
     "id": 90,
     "synopsis": "",
-    "title": "Cycle of Fire",
+    "title": "The Languedoc Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [93]
+    "attribution_ids": [
+      92
+    ]
   },
   {
     "id": 91,
     "synopsis": "",
-    "title": "Dawning of Power",
+    "title": "Cycle of Fire",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [94]
+    "attribution_ids": [
+      93
+    ]
   },
   {
     "id": 92,
+    "synopsis": "",
+    "title": "Dawning of Power",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [
+      94
+    ]
+  },
+  {
+    "id": 93,
     "synopsis": "The Last Dragon Chronicles is a series of seven children's fantasy novels written by Chris d'Lacey. The books follow a college student, David Rain, as he discovers the existence of living clay dragons in the house he lodges at.",
     "title": "The Last Dragon Chronicles",
     "totalBookMembers": 7,
     "totalSubseries": 0,
-    "attribution_ids": [95]
-  },
-  {
-    "id": 93,
-    "synopsis": "",
-    "title": "The Worst-Case Scenario Survival Handbooks Book Series",
-    "totalBookMembers": 12,
-    "totalSubseries": 0,
-    "attribution_ids": [96]
+    "attribution_ids": [
+      95
+    ]
   },
   {
     "id": 94,
     "synopsis": "",
-    "title": "The Dreamtime",
-    "totalBookMembers": 3,
+    "title": "The Worst-Case Scenario Survival Handbooks Book Series",
+    "totalBookMembers": 12,
     "totalSubseries": 0,
-    "attribution_ids": [97]
+    "attribution_ids": [
+      96
+    ]
   },
   {
     "id": 95,
+    "synopsis": "",
+    "title": "The Dreamtime",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [
+      97
+    ]
+  },
+  {
+    "id": 96,
     "synopsis": "The Chronicles of Narnia is a series of fantasy novels by British author C. S. Lewis. Written by Lewis, illustrated by Pauline Baynes, and originally published in London between 1950 and 1956, The Chronicles of Narnia has been adapted for radio, television, the stage, and film. The series is set in the fictional realm of Narnia, a fantasy world of magic, mythical beasts, and talking animals. It narrates the adventures of various children who play central roles in the unfolding history of the Narnian world. Except in The Horse and His Boy, the protagonists are all children from the real world who are magically transported to Narnia, where they are sometimes called upon by the lion Aslan to protect Narnia from evil. The books span the entire history of Narnia, from its creation in The Magician's Nephew to its eventual destruction in The Last Battle.",
     "title": "The Chronicles of Narnia",
     "totalBookMembers": 7,
     "totalSubseries": 0,
-    "attribution_ids": [98]
+    "attribution_ids": [
+      98
+    ]
   },
   {
-    "id": 96,
+    "id": 97,
     "synopsis": "The Tales of Alvin Maker is a series of six alternate history fantasy novels written by American novelist Orson Scott Card, published from 1987 to 2003 (with one more planned), that explore the experiences of a young man, Alvin Miller, who realizes he has incredible powers for creating and shaping things around him.",
     "title": "The Tales of Alvin Maker",
     "totalBookMembers": 6,
     "totalSubseries": 0,
-    "attribution_ids": [99]
+    "attribution_ids": [
+      99
+    ]
   },
   {
-    "id": 97,
+    "id": 98,
     "synopsis": "The Dragon Prince novels take place in a world of political intrigue, Sunrunners, Sorcerers, war, and dragons.\n This world is known as the Continent. It is divided into thirteen Princedoms (Desert, Princemarch, Cunaxa, Dorval, Syr, Gilad, Ossetia, Meadowlord, Grib, Kierst, Isel, Fessenden, and Firon) all of which follow the rule of the High Prince, whose seat is Princemarch. During the Rialla the Princes gather to make new laws and alliances. The princedoms and titles usually pass down to the oldest son; however, women have acted as regents and have ruled their own Keeps.",
     "title": "The Dragon Prince Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [55]
+    "attribution_ids": [
+      55
+    ]
   },
   {
-    "id": 98,
+    "id": 99,
     "synopsis": "The Liberation Trilogy is a series of military history books about the United States' involvement in World War II, written by American author Rick Atkinson and published by Henry Holt & Co.\nThe first volume, An Army at Dawn, won the 2003 Pulitzer Prize for History and was a New York Times best seller. The Day of Battle, the second book, was also a New York Times best seller, and the final installment, The Guns at Last Light, debuted at the top of the Hardcover Nonfiction list.",
     "title": "The Liberation Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [100]
+    "attribution_ids": [
+      100
+    ]
   },
   {
-    "id": 99,
+    "id": 100,
     "synopsis": "Includes 1. The Secret Country (2005), 2. The Shadow World (2006), 3. Dragon's Fire (2007), Legends of the Shadow World (2010).",
     "title": "Eidolon Chronicles",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [101]
+    "attribution_ids": [
+      101
+    ]
   },
   {
-    "id": 100,
+    "id": 101,
     "synopsis": "The Sword and Sorceress series is a series of fantasy anthologies originally edited by Marion Zimmer Bradley, and originally published by DAW Books. As she explained in the foreword to the first volume, she created the anthology to redress the lack of strong female protagonists in the subgenre of sword and sorcery. At the time, most female characters in sword and sorcery were little more than stock damsels in distress, or pawns who were distributed at the conclusion of the story as \"bad-conduct prizes\" (Bradley's term) for the male protagonists. Many of the early sword-and-sorcery works featured attitudes toward women that Bradley considered appalling.\nAs the Sword and Sorceress series grew in popularity with readers, she began to receive increasing numbers of excellent submissions. As a result, she had to become more selective, and to shorten her reading periods accordingly. For the eighteenth volume, which she was editing at the time of her death, she had enough material for three volumes. After her death, it was decided to take as many as possible of the stories she had tentatively chosen and publish them in three annual volumes, thus extending the series. After volume twenty was published, the publisher decided to extend an invitation for an additional volume under Diana L. Paxson, an editor who had worked with Bradley, with the possibility of additional volumes being published if it became a success.",
     "title": "Sword and Sorceress Series",
     "totalBookMembers": 30,
     "totalSubseries": 0,
-    "attribution_ids": [102]
+    "attribution_ids": [
+      102
+    ]
   },
   {
-    "id": 101,
+    "id": 102,
     "synopsis": "The Dresden Files is a series of contemporary fantasy/mystery novels written by American author Jim Butcher. The first novel, Storm Front, was published in 2000 by Roc Books.\nThe books are written as a first-person narrative from the perspective of the main character, private investigator and wizard Harry Dresden, as he recounts investigations into supernatural disturbances in modern-day Chicago. Butcher's original proposed title for the first novel was Semiautomagic, which sums up the series' balance of fantasy and hard-boiled detective fiction.",
     "title": "The Dresden Files",
     "totalBookMembers": 15,
     "totalSubseries": 0,
-    "attribution_ids": [103]
+    "attribution_ids": [
+      103
+    ]
   },
   {
-    "id": 102,
+    "id": 103,
     "synopsis": "Leven Thumps is a series of children's fantasy novels by Obert Skye. The series, which has five books, deals with an orphaned 14-year-old boy, Leven Thumps, who becomes involved in a battle between good and evil.",
     "title": "Leven Thumps",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [104]
+    "attribution_ids": [
+      104
+    ]
   },
   {
-    "id": 103,
+    "id": 104,
     "synopsis": "",
     "title": "Mer Tales",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [105]
+    "attribution_ids": [
+      105
+    ]
   },
   {
-    "id": 104,
+    "id": 105,
     "synopsis": "Fablehaven is a fantasy book series for children written by Brandon Mull. The book series, which includes Fablehaven, Fablehaven: Rise of the Evening Star, Fablehaven: Grip of the Shadow Plague, Fablehaven: Secrets of the Dragon Sanctuary, and Fablehaven: Keys to the Demon Prison, is published by Shadow Mountain in hardcover and Simon & Schuster in paperback. It is followed by the five-part sequel series Dragonwatch.",
     "title": "Fablehaven",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [106]
+    "attribution_ids": [
+      106
+    ]
   },
   {
-    "id": 105,
+    "id": 106,
     "synopsis": "Comprised of Howl's Moving Castle (1986), Castle in the Air (1990), House of Many Ways (2008), and Wizard's Castle (2002)",
     "title": "Howl's Castle",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [107]
+    "attribution_ids": [
+      107
+    ]
   },
   {
-    "id": 106,
+    "id": 107,
     "synopsis": "Unicorns of Balinor is a series by Mary Stanton for young readers. The story begins with a young girl, Ari, who is recovering in the hospital and suffers from memory loss after a mysterious accident. Her only prominent and familiar memory is a strong connection to Chase, one of the horses at the Glacier River Farm where Ari lives with her foster parents, Ann and Frank. However, Ann and Frank realise they cannot afford Ari's medical bills and decide to lease Chase for riding lessons to the obnoxious and spoiled Lori Carmichael. Heartbroken to see her horse being treated badly, Ari runs away with Chase and her faithful collie, Lincoln. They do not get far before the group, along with Lori, fall through the mysterious Gap, a pathway between worlds.\nThe group lands in Balinor, a magical land of unicorns, plagued by an evil and intangible entity known as the Shifter. Ari is revealed to be the missing Princess Arianna, heir to the throne of Balinor, and Chase is the unicorn known as the Sunchaser, Lord of the Animals. With help from Atalanta, a Celestial Valley Unicorn known as the Dreamspeaker, and Tobiano, an obnoxious pinto unicorn, they are to first recover the Sunchaser's broken horn and then the Royal Scepter to defeat the Shifter and restore the balance of magic in Balinor.",
     "title": "Unicorns of Balinor",
     "totalBookMembers": 8,
     "totalSubseries": 0,
-    "attribution_ids": [108]
+    "attribution_ids": [
+      108
+    ]
   },
   {
-    "id": 107,
+    "id": 108,
     "synopsis": "The Old Kingdom, or Abhorsen in North America, is a fantasy series written by Australian author Garth Nix. It originated in 1995 with the novel Sabriel and has continued in the novels Lirael (2001) and Abhorsen (2003). The series has continued with the prequel novel Clariel (2014), and the latest installment of the series, Goldenhand, was released in October 2016. The Old Kingdom also consists of the novella The Creature in the Case (2005) and other short fiction.",
     "title": "Old Kingdom (Abhorsen)",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [109]
+    "attribution_ids": [
+      109
+    ]
   },
   {
-    "id": 108,
+    "id": 109,
     "synopsis": "A series of books by author David Drake. In 1997, Drake began his largest fantasy series, Lord of the Isles, using elements of Sumerian religion and medieval era technology. The series consists of nine books broken into two distinct parts, the Lord of the Isles consisting of the first six books, and a final trilogy dubbed the Crown of the Isles.",
     "title": "Lord of the Isles",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [110]
+    "attribution_ids": [
+      110
+    ]
   },
   {
-    "id": 109,
+    "id": 110,
     "synopsis": "The Time Quintet is a fantasy/science fiction series of five young adult novels written by Madeleine L'Engle. Includes A Wrinkle in Time, A Wind in the Door, A Swiftly Tilting Planet, Many Waters, and An Acceptable Time",
     "title": "Time Quintet",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [111]
+    "attribution_ids": [
+      111
+    ]
   },
   {
-    "id": 110,
+    "id": 111,
     "synopsis": "Witch World is a speculative fiction project of American writer Andre Norton, inaugurated by her 1963 novel Witch World and continuing more than four decades. Beginning in the mid-1980s, when she was about 75 years old, Norton recruited other writers to the project, and some books were published only after her death in 2005. The Witch World setting is one planet in a parallel universe where magic long ago superseded science; early in the fictional history it is performed exclusively by women. The series began as a hybrid of science fiction and sword and sorcery but for the most part it combines the latter with high fantasy.",
     "title": "Witch World",
     "totalBookMembers": 29,
     "totalSubseries": 0,
-    "attribution_ids": [112]
+    "attribution_ids": [
+      112
+    ]
   },
   {
-    "id": 111,
+    "id": 112,
     "synopsis": "Consisting of The Kindling, Penumbras, Luminescence",
     "title": "Middle School Magic",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [113]
-  },
-  {
-    "id": 112,
-    "synopsis": "The Divergent trilogy is a series of young adult science fiction adventure novels by American novelist Veronica Roth set in a post-apocalyptic dystopian Chicago.[1] The trilogy consists of Divergent (2011), Insurgent (2012) and Allegiant (2013).[2][3] A related book, Four (2014), presents a series of short stories told from the perspective of one of the trilogy's characters. A later short story, We Can Be Mended (2018), serves as an epilogue five years after the events of the trilogy from the perspective of the same character as the previous add on.",
-    "title": "Divergent trilogy",
-    "totalBookMembers": 3,
-    "totalSubseries": 0,
-    "attribution_ids": [114]
+    "attribution_ids": [
+      113
+    ]
   },
   {
     "id": 113,
+    "synopsis": "The Divergent trilogy is a series of young adult science fiction adventure novels by American novelist Veronica Roth set in a post-apocalyptic dystopian Chicago. The trilogy consists of Divergent (2011), Insurgent (2012) and Allegiant (2013). A related book, Four (2014), presents a series of short stories told from the perspective of one of the trilogy's characters. A later short story, We Can Be Mended (2018), serves as an epilogue five years after the events of the trilogy from the perspective of the same character as the previous add on.",
+    "title": "Divergent trilogy",
+    "totalBookMembers": 3,
+    "totalSubseries": 0,
+    "attribution_ids": [
+      114
+    ]
+  },
+  {
+    "id": 114,
     "synopsis": "Malazan Book of the Fallen is a high fantasy book series by the Canadian author Steven Erikson. The series, published by Bantam Books in the U.K. and Tor Books in the U.S., consists of ten volumes, beginning with Gardens of the Moon (1999) and concluding with The Crippled God (2011). Erikson's series is extremely complex with a wide scope, and presents the narratives of a large cast of characters spanning thousands of years across multiple continents.",
     "title": "Malazan Book of the Fallen",
     "totalBookMembers": 10,
     "totalSubseries": 0,
-    "attribution_ids": [115]
+    "attribution_ids": [
+      115
+    ]
   },
   {
-    "id": 114,
+    "id": 115,
     "synopsis": "Consists of The Ring of Rocamadour: The Red Blazer Girls, The Vanishing Violin, The Mistaken Masterpiece, The Secret Cellar.",
     "title": "The Red Blazer Girls",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [116]
+    "attribution_ids": [
+      116
+    ]
   },
   {
-    "id": 115,
+    "id": 116,
     "synopsis": "Dirk Pitt is a fictional character created by American novelist Clive Cussler and featured in a series of novels published from 1976 to 2009. Pitt is a larger-than-life hero reminiscent of pulp magazine icon Doc Savage. Pitt is a citizen of the United States, on loan from the United States Air Force with the rank of Lieutenant Colonel, after serving in Vietnam as a pilot. He manages to find adventure with his childhood best friend, Al Giordino, despite ending up with an ostensibly desk-bound role as the head of the National Underwater and Marine Agency. Pitt has a commanding presence, a quick wit, and a considerable collection of classic cars.",
     "title": "Dirk Pitt",
     "totalBookMembers": 25,
     "totalSubseries": 0,
-    "attribution_ids": [117]
+    "attribution_ids": [
+      117
+    ]
   },
   {
-    "id": 116,
+    "id": 117,
     "synopsis": "The Magic Tree House series is a series written by Mary Pope Osborne, which started in 1992. Sal Murdocca illustrated every single book. Since, then, there have been 54 books published. There are seventeen Magic Tree House Research Guides to act as non-fiction companions to only some books. William Osborne, Mary's husband, is a co-author of all the research guides.",
     "title": "Magic Tree House Series",
     "totalBookMembers": 54,
     "totalSubseries": 0,
-    "attribution_ids": [118]
+    "attribution_ids": [
+      118
+    ]
   },
   {
-    "id": 117,
+    "id": 118,
     "synopsis": "Sarah, Plain and Tall is a children's book written by Patricia MacLachlan. The book was followed by four more exploring the Witting family after Sarah's arrival: Skylark, Caleb's Story, More Perfect Than the Moon, and Grandfather's Dance.",
     "title": "Sarah, Plain and Tall Series",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [119]
+    "attribution_ids": [
+      119
+    ]
   },
   {
-    "id": 118,
+    "id": 119,
     "synopsis": "Amelia Bedelia is the protagonist and title character of a series of American children's books written by Peggy Parish until her death in 1988, and by her nephew, Herman Parish, beginning in 1995. They have been illustrated by Wallace Tripp, Fritz Siebel, and the two current illustrators, Lynn Sweat and Lynne Avril. In 1992 HarperCollins republished the three original stories: Amelia Bedelia, Amelia Bedelia and the Surprise Shower, and Thank You, Amelia Bedelia with illustrations by Barbara Siebel Thomas, daughter of the original illustrator Fritz Siebel.",
     "title": "Amelia Bedelia",
     "totalBookMembers": 49,
     "totalSubseries": 0,
-    "attribution_ids": [120]
+    "attribution_ids": [
+      120
+    ]
   },
   {
-    "id": 119,
+    "id": 120,
     "synopsis": "Deltora Quest is the collective title for three distinct series of children's fantasy books, written by Australian author Emily Rodda. It follows the adventures of three companions as they journey across the fictitious land of Deltora, endeavoring to recover the seven gems stolen from the magical Belt of Deltora and defeat allies of the evil Shadow Lord. The series was first published in Australia in 2000, and has since been published in more than 30 countries. As of February 2010, the series has sold over 15 million copies worldwide, including 2 million in Australia. It is published by Scholastic in Australia and the United States. In most countries, the series is illustrated by Marc McBride.\nThe series consists of fifteen books: the first eight comprise the Deltora Quest series, the next three comprise the Deltora Shadowlands series (also known as Deltora Quest 2, Deltora II or Deltora 2) and the final four comprise the Dragons of Deltora series (also known as Deltora Quest 3, Deltora III or Deltora 3).",
     "title": "Deltora Quest",
     "totalBookMembers": 15,
     "totalSubseries": 0,
-    "attribution_ids": [121]
+    "attribution_ids": [
+      121
+    ]
   },
   {
-    "id": 120,
+    "id": 121,
     "synopsis": "Amber Brown is a series of realistic fiction novellas for children created and originally written by Paula Danziger; later written by Elizabeth Levy and Bruce Coville. Early editions are illustrated by Tony Ross and later by Anthony Lewis. The original series is narrated in first person by Amber Brown, starting near the end of her third grade year and through the summer after her fourth grade year. Danziger's balance of humor and real life tribulations are masterfully balanced to reach readers on a deep level throughout the series.",
     "title": "Amber Brown",
     "totalBookMembers": 15,
     "totalSubseries": 0,
-    "attribution_ids": [122]
+    "attribution_ids": [
+      122
+    ]
   },
   {
-    "id": 121,
+    "id": 122,
     "synopsis": "Frog and Toad are the main characters in a series of easy-reader children's books, written and illustrated by Arnold Lobel (who also wrote Mouse Soup).\nEach book contains five simple, often humorous, sometimes poignant, short stories chronicling the exploits of the anthropomorphic frog and his friend, a toad. Some of their adventures include attempting to fly a kite, cleaning Toad's dirty house instead of postponing the chores to the next day, and finding out different reasons for isolation.\nFrog is taller with a green shade, and is more cheery and relaxed than Toad; Toad is shorter and stout with a brown shade, and while just as caring and friendly as Frog, is also the more serious and uptight of the duo.",
     "title": "Frog and Toad",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [123]
+    "attribution_ids": [
+      123
+    ]
   },
   {
-    "id": 122,
+    "id": 123,
     "synopsis": "Shiloh is a media franchise that includes four novels and three films.",
     "title": "Shiloh",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [124]
+    "attribution_ids": [
+      124
+    ]
   },
   {
-    "id": 123,
+    "id": 124,
     "synopsis": "Consists of The Golden Cord (2008), The Dragon Hunters (2009), The Secret Empire (2012), The Crystal Eye (forthcoming), The Iron Brotherhood (forthcoming)",
     "title": "Iron Dragon Series",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [125]
+    "attribution_ids": [
+      125
+    ]
   },
   {
-    "id": 124,
+    "id": 125,
     "synopsis": "The Riyria Revelations is a series of six high fantasy novels (published in three volumes) written by Michael J. Sullivan and published by Orbit Books in 2011 and 2012. The series consists of three original titles, Theft of Swords, Rise of Empire, and Heir of Novron. The books were previously self-published as a six-volume series selling 90,000 copies.",
     "title": "Riyria Revelations",
     "totalBookMembers": 7,
     "totalSubseries": 0,
-    "attribution_ids": [126]
+    "attribution_ids": [
+      126
+    ]
   },
   {
-    "id": 125,
+    "id": 126,
     "synopsis": "The Hunger Games is a series of young adult dystopian novels written by American novelist Suzanne Collins. The series is set in The Hunger Games universe, and follows young Katniss Everdeen.\nThe novels in the trilogy are titled The Hunger Games (2008), Catching Fire (2009), and Mockingjay (2010).",
     "title": "The Hunger Games",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [127]
+    "attribution_ids": [
+      127
+    ]
   },
   {
-    "id": 126,
+    "id": 127,
     "synopsis": "Horatio Hornblower is a fictional Napoleonic Wars–era Royal Navy officer who is the protagonist of a series of novels and stories by C. S. Forester. He was later the subject of films, radio and television programmes, and C. Northcote Parkinson elaborated a definitive biography.\nThe original Hornblower tales began with the 1937 novel The Happy Return (U.S. title Beat to Quarters) with the appearance of a junior Royal Navy captain on independent duty on a secret mission to Central America. Later stories filled out his earlier years, starting with an unpromising beginning as a seasick midshipman. As the Napoleonic Wars progress, he gains promotion steadily as a result of his skill and daring, despite his initial poverty and lack of influential friends. After surviving many adventures in a wide variety of locales, he rises to the pinnacle of his profession, promoted to Admiral of the Fleet.",
     "title": "Horatio Hornblower",
     "totalBookMembers": 17,
     "totalSubseries": 0,
-    "attribution_ids": [128]
+    "attribution_ids": [
+      128
+    ]
   },
   {
-    "id": 127,
+    "id": 128,
     "synopsis": "House of Night is a series of young adult vampire-themed fantasy novels by American author P. C. Cast and her daughter Kristin Cast. It follows the adventures of Zoey Redbird, a sixteen-year-old girl who has just become a \"fledgling vampyre\" and is required to attend the House of Night boarding school in Tulsa, Oklahoma.",
     "title": "House of Night",
     "totalBookMembers": 16,
     "totalSubseries": 0,
-    "attribution_ids": [129]
+    "attribution_ids": [
+      129
+    ]
   },
   {
-    "id": 128,
+    "id": 129,
     "synopsis": "Includes You Wish, Wishful Thinking, Wishing Well, Wish You Were Here",
     "title": "The Misadventures of Benjamin Bartholomew Piff Series",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [130]
+    "attribution_ids": [
+      130
+    ]
   },
   {
-    "id": 129,
+    "id": 130,
     "synopsis": "Includes Dragonlord's Justice (Short Story) (1995), The Last Dragonlord (1998), Dragon and Phoenix (1999), Bard's Oath (November 2012)",
     "title": "Dragonlord",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [131]
+    "attribution_ids": [
+      131
+    ]
   },
   {
-    "id": 130,
+    "id": 131,
     "synopsis": "This biography series examines the lives of individuals who have shaped the course of our nation, including patriots, generals, a spy, and others. The fact-filled books feature historical documents, timelines, maps, and illustrations.",
     "title": "We the People Series",
     "totalBookMembers": 127,
     "totalSubseries": 0,
-    "attribution_ids": [132]
+    "attribution_ids": [
+      132
+    ]
   },
   {
-    "id": 131,
+    "id": 132,
     "synopsis": "Memory, Sorrow, and Thorn is a trilogy of epic fantasy novels by American writer Tad Williams, comprising The Dragonbone Chair (1988), Stone of Farewell (1990), and To Green Angel Tower (1993).\nMemory, Sorrow, and Thorn takes place on the fictional continent of Osten Ard, comprising several united countries. Williams used several characters, both protagonist and antagonist, as point of view characters throughout the novels, presenting the reader with an assortment of disparate and subjective viewpoints.\nA novelette set in the world of Osten Ard, The Burning Man, was released in 1998 and later published as a graphic novel. A sequel trilogy, The Last King of Osten Ard, began publication in 2017, following 2017's The Heart of What Was Lost. A prequel to the entirety of Osten Ard, The Shadow of Things to Come, is also expected to be published.",
     "title": "Memory, Sorrow, and Thorn",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [133]
+    "attribution_ids": [
+      133
+    ]
   },
   {
-    "id": 132,
+    "id": 133,
     "synopsis": "Includes Keeper of the Lost Cities, Exile, Everblaze, Neverseen, Lodestar, Nightfall, Flashback, Legacy, Unlocked",
     "title": "Keeper of the Lost Cities",
     "totalBookMembers": 9,
     "totalSubseries": 0,
-    "attribution_ids": [134]
+    "attribution_ids": [
+      134
+    ]
   },
   {
-    "id": 133,
+    "id": 134,
     "synopsis": "Includes Princess Academy, Princess Academy: Palace of Stone, and Princess Academy: The Forgotten Sisters",
     "title": "Keeper of the Lost Cities",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [135]
+    "attribution_ids": [
+      135
+    ]
   },
   {
-    "id": 134,
+    "id": 135,
     "synopsis": "The Kane Chronicles is a trilogy of adventure and Egyptian mythological fiction books written by American author Rick Riordan. The series is set in the same universe as Riordan's other franchises, Camp Half-Blood Chronicles and Magnus Chase and the Gods of Asgard.\nThe novels are narrated alternately in first-person by the two protagonists, siblings Carter and Sadie Kane. The siblings are powerful magicians descended from the two pharaohs Narmer and Ramses the Great. They and their friends are forced to contend with Egyptian gods and goddesses who still interact with the modern world.",
     "title": "The Kane Chronicles",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [136]
+    "attribution_ids": [
+      136
+    ]
   },
   {
-    "id": 135,
+    "id": 136,
     "synopsis": "Includes Ship of Magic, the Mad Ship, and Ship of Destiny. The Liveship Traders Trilogy is a trilogy of books by Robin Hobb. The trilogy follows the lives of Bingtown Trader families.\nThe Liveship Trader's Trilogy takes place in Jamaillia, Bingtown and the Pirate Isles, on the coast far to the south of the Six Duchies. The war in the north has interrupted the trade that is the lifeblood of Bingtown, and the Liveship Traders have fallen on hard times despite their magic sentient ships. At one time, possession of a Liveship, constructed of magical wizard wood, guaranteed a Trader's family prosperity. Only a Liveship can brave the dangers of the Rain Wild River and trade with the legendary Rain Wild Traders and their mysterious magical goods, plundered from the enigmatic Elderling ruins. Althea Vestrit expects her families to adhere to tradition, and pass the family Liveship on to her when it quickens at the death of her father. Instead, the Vivacia goes to her sister Keffria and her scheming Chalcedean husband Kyle. The proud Liveship becomes a transport vessel for the despised but highly profitable slave trade.",
     "title": "The Liveship Traders Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [137]
+    "attribution_ids": [
+      137
+    ]
   },
   {
-    "id": 136,
+    "id": 137,
     "synopsis": "Includes Pegasus: Flame of Olympus, Pegasus: Olympus at War, Pegasus: The New Olympians, Pegasus: Origins of Olympus, Pegasus: Rise of the Titans, Pegasus: The End of Olympus",
     "title": "Pegasus",
     "totalBookMembers": 6,
     "totalSubseries": 0,
-    "attribution_ids": [138]
+    "attribution_ids": [
+      138
+    ]
   },
   {
-    "id": 137,
+    "id": 138,
     "synopsis": "Includes The Dragon of Trelian, The Princess of Trelian, and The Mage of Trelian.",
     "title": "Trelian Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [139]
+    "attribution_ids": [
+      139
+    ]
   },
   {
-    "id": 138,
+    "id": 139,
     "synopsis": "The Pit Dragon Chronicles is a series of science fiction and fantasy novels by Jane Yolen. The anthology is simply all of the first three books in one. The books are set in the far future, on a desert planet called Austar IV, which has a history and climate similar to that of Australia. The planet was originally a place where convicts would be exiled. For many generations the outcasts had adapted to their new environment and even formed a functioning society, focusing on a caste system of paid bonders and their owners. The amazing feature of the planet is that it does hold life, but very little, and has one species of dragons. The humans eventually managed to tame some of the dragons, and train them. They are bred for food and fighting. The economy on Austar is centered on \"the pit\" where owners bring their dragons in to fight.",
     "title": "The Pit Dragon Chronicles",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [140]
+    "attribution_ids": [
+      140
+    ]
   },
   {
-    "id": 139,
+    "id": 140,
     "synopsis": "Includes Down a Lost Road, Subverter, Prism.",
     "title": "The Lost Road Chronicles",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [141]
+    "attribution_ids": [
+      141
+    ]
   },
   {
-    "id": 140,
+    "id": 141,
     "synopsis": "Uglies is a book series by Scott Westerfeld for young adults. Westerfeld originally intended for Uglies to be a trilogy. However, after publishing the series' first three novels, Uglies, Pretties, and Specials, he ultimately wrote an additional fourth book, Extras. This fourth book is dedicated \"[t]o everyone who wrote to me to reveal the secret definition of the word 'trilogy'.\" On February 2, 2018, Westerfeld announced a continuation of the series consisting of four new novels, the first one being Impostors, that was released in September 2018.",
     "title": "Uglies",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [142]
+    "attribution_ids": [
+      142
+    ]
   },
   {
-    "id": 141,
+    "id": 142,
     "synopsis": "Includes Let the Sky Fall, Let the Storm Break, Let the Wind Rise",
     "title": "Sky Fall Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [143]
+    "attribution_ids": [
+      143
+    ]
   },
   {
-    "id": 142,
+    "id": 143,
     "synopsis": "Includes The Assassin's Blade, Throne of Glass, Crown of Midnight, Heir of Fire, Queen of Shadows, Empire of Storms, Tower of Dawn, and Kingdom of Ash. Throne of Glass is a young adult high fantasy novel series by American author Sarah J. Maas, beginning with the novel of the same name, released in August 2012. The story follows the journey of Celaena Sardothien, a teenage assassin in a corrupt kingdom with a tyrannical ruler. As the tale progresses, Celaena forms unexpected bonds and uncovers a conspiracy amidst her adventures. The series concluded with the eighth book in October 2018.",
     "title": "Throne of Glass",
     "totalBookMembers": 8,
     "totalSubseries": 0,
-    "attribution_ids": [144]
+    "attribution_ids": [
+      144
+    ]
   },
   {
-    "id": 143,
+    "id": 144,
     "synopsis": "Includes Wildwood, Under Wildwood, and Wildwood Imperium",
     "title": "Wildwood Chronicles",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [145]
+    "attribution_ids": [
+      145
+    ]
   },
   {
-    "id": 144,
+    "id": 145,
     "synopsis": "Includes City of Bones, City of Ash, City of Glass, City of Fallen Angels, City of Lost Souls, and City of Heavenly Fire. The Mortal Instruments is a series of six young adult fantasy novels written by Cassandra Clare, the last of which was published on May 27, 2014. The Mortal Instruments is chronologically the third series of a proposed five in The Shadowhunter Chronicles but it was the first one published. It follows Clary Fray (who interacts with a group of Nephilim known as Shadowhunters) while also discovering her own heritage. The Shadowhunters protect the world of mundane people, who are also called mundanes or \"mundies\", from dark forces beyond their world.",
     "title": "The Mortal Instruments",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [146]
+    "attribution_ids": [
+      146
+    ]
   },
   {
-    "id": 145,
+    "id": 146,
     "synopsis": "Includes Clockwork Angel, Clockwork Prince, and Clockwork Princess. The Infernal Devices is a trilogy by author Cassandra Clare, centering on a race called the Shadowhunters introduced in her The Mortal Instruments series. The trilogy is a prequel series to The Mortal Instruments series, and contains some of the character's ancestors.",
     "title": "The Infernal Devices",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [147]
+    "attribution_ids": [
+      147
+    ]
   },
   {
-    "id": 146,
+    "id": 147,
     "synopsis": "Includes Beyonders: A World Without Heroes, Beyonders 2: Seeds of Rebellion, and Beyonders 3: Chasing the Prophecy",
     "title": "Beyonders",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [148]
+    "attribution_ids": [
+      148
+    ]
   },
   {
-    "id": 147,
+    "id": 148,
     "synopsis": "Includes Cinder, Scarlet, Cress, Fairest, and Winter. The Lunar Chronicles is a series of young adult science fiction novels written by American author Marissa Meyer. Each book entails a sci-fi twist on an old fairy tale, including Cinderella, Little Red Riding Hood, Rapunzel, and Snow White. The story takes place in a futuristic world where earthens, cyborgs, androids, and a race of moon colonists all coexist.",
     "title": "The Lunar Chronicles",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [149]
+    "attribution_ids": [
+      149
+    ]
   },
   {
-    "id": 148,
+    "id": 149,
     "synopsis": "Millennium is a series of best-selling and award-winning Swedish crime novels, created by journalist Stieg Larsson. The two primary characters in the saga are Lisbeth Salander, a woman in her 20s with a photographic memory and poor social skills, and Mikael Blomkvist, an investigative journalist and publisher of a magazine called Millennium.",
     "title": "Millenium",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [150]
+    "attribution_ids": [
+      150
+    ]
   },
   {
-    "id": 149,
+    "id": 150,
     "synopsis": "Includes October Sky, The Coalwood Way, Sky of Stone, and We are Not Afraid.",
     "title": "The Coalwood Seres",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [151]
+    "attribution_ids": [
+      151
+    ]
   },
   {
-    "id": 150,
+    "id": 151,
     "synopsis": "Includes The Heart of Myrial, The Spirit of the Stone, and The Eye of Eternity",
     "title": "The Shadowleague",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [152]
+    "attribution_ids": [
+      152
+    ]
   },
   {
-    "id": 151,
+    "id": 152,
     "synopsis": "World of the Five Gods is a fantasy series by American writer Lois McMaster Bujold. It was awarded the Hugo Award for Best Series in 2018. It consists of three novels and eight novellas, with six of the novellas included in the award. All three novels and two of the novellas were nominees for or winners of major awards.\nThe World of the Five Gods was informally called \"the Chalion series\" at first, but the name was abandoned as the series expanded.",
     "title": "World of the Five Gods",
     "totalBookMembers": 11,
     "totalSubseries": 0,
-    "attribution_ids": [153]
+    "attribution_ids": [
+      153
+    ]
   },
   {
-    "id": 152,
+    "id": 153,
     "synopsis": "Includes Aurian, Harp of Winds, Sword of Flame, and Dhiammara",
     "title": "The Artefacts of Power",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [152]
+    "attribution_ids": [
+      152
+    ]
   },
   {
-    "id": 153,
+    "id": 154,
     "synopsis": null,
     "title": "The Mera Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [154]
+    "attribution_ids": [
+      154
+    ]
   },
   {
-    "id": 154,
+    "id": 155,
     "synopsis": "Wicked is a series of young adult novels written by American authors Nancy Holder and Debbie Viguié. The first book, Witch was released in 2002 through Simon Pulse.",
     "title": "Wicked",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [155]
+    "attribution_ids": [
+      155
+    ]
   },
   {
-    "id": 155,
+    "id": 156,
     "synopsis": "The Enchanted Forest Chronicles is a series of four young adult fantasy novels by Patricia C. Wrede titled Dealing with Dragons, Searching for Dragons, Calling on Dragons, and Talking to Dragons. Additionally, the Book of Enchantments includes one short story titled Utensile Strength and also includes a short story titled The Princess, the Cat, and the Unicorn which takes place in the Enchanted Forest universe, but does not involve any of the familiar characters. Patricia C. Wrede does \"hope\" to author a fifth Enchanted Forest novel once her current book contracts have been fulfilled.",
     "title": "Enchanted Forest Chronicles",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [156]
+    "attribution_ids": [
+      156
+    ]
   },
   {
-    "id": 156,
+    "id": 157,
     "synopsis": "Includes Fairy Wings and Fairy Lies.",
     "title": "Fairy Wings",
     "totalBookMembers": 2,
     "totalSubseries": 0,
-    "attribution_ids": [157]
+    "attribution_ids": [
+      157
+    ]
   },
   {
-    "id": 157,
+    "id": 158,
     "synopsis": "The Books of Elsewhere is a series of fantasy novels for kids and young teens by Jacqueline West that centers on the McMartins' house on Linden Street, which has lots of magical paintings. Includes The Shadows (2010), Spellbound (2011), The Second Spy (2012), The Strangers (2013), Still Life (2014)",
     "title": "The Books of Elsewhere",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [158]
+    "attribution_ids": [
+      158
+    ]
   },
   {
-    "id": 158,
+    "id": 159,
     "synopsis": "Includes The Dark Hills Divide (2005), Beyond the Valley of Thorns (2005), The Tenth City (2006), Into the Mist (Prequel) (2007), Stargazer (2008)",
     "title": "The Land of Elyon Series",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [159]
+    "attribution_ids": [
+      159
+    ]
   },
   {
-    "id": 159,
+    "id": 160,
     "synopsis": "Includes Little asshole, The 13½ Lives of Captain Bluebear, A Wild Ride Through the Night, Rumo & His Miraculous Adventures, The City of Dreaming Books, The Alchemaster's Apprentice, The Labyrinth of Dreaming Books",
     "title": "Zamonia Series",
     "totalBookMembers": 7,
     "totalSubseries": 0,
-    "attribution_ids": [160]
+    "attribution_ids": [
+      160
+    ]
   },
   {
-    "id": 160,
+    "id": 161,
     "synopsis": "Includes Anne of Green Gables, Anne of Avonlea, Anne of the Island, Anne of Windy Poplars, Anne's House of Dreams, Anne of Ingleside, Rainbow Valley, Rilla of Ingleside, The Blythes Are Quoted",
     "title": "Anne of Green Gables",
     "totalBookMembers": 9,
     "totalSubseries": 0,
-    "attribution_ids": [161]
+    "attribution_ids": [
+      161
+    ]
   },
   {
-    "id": 161,
+    "id": 162,
     "synopsis": "Includes Five Children and It, The Phoenix and the Carpet, and The Story of the Amulet",
     "title": "Psammead Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [162]
-  },
-  {
-    "id": 162,
-    "synopsis": "The Homecoming Saga is a science fiction series by Orson Scott Card. The series is patterned on the Book of Mormon.[1] Some of the names also come from the Book of Mormon.\nThe series, containing five volumes, is set forty million years in the future, with volumes 1-3 taking place on a planet called Harmony. After the Earth was rendered uninhabitable by human wars, mankind departed for Harmony, as well as at least forty other planets. (Only two of these are named in the series: Ramadan, settled by Arabs; and Harmony, apparently settled by Slavs, as its languages all developed from Russian.)\nOn Harmony, the colonists established the Oversoul - an artificial intelligence, monitoring the planet with a small army of satellites. It also influences the actions of humans. Though it does not prevent them from doing evil, it keeps their destruction limited by suppressing any thoughts that might lead to things like long-distance travel or instant communication. Thus the technology on Harmony includes basic computers, presumably without advanced Internet capabilities, although the Oversoul was used for basic data transfer, and solar-powered handheld energy weapons, but no cars or even wagons.",
-    "title": "Homecoming Saga",
-    "totalBookMembers": 5,
-    "totalSubseries": 0,
-    "attribution_ids": [163]
+    "attribution_ids": [
+      162
+    ]
   },
   {
     "id": 163,
+    "synopsis": "The Homecoming Saga is a science fiction series by Orson Scott Card. The series is patterned on the Book of Mormon. Some of the names also come from the Book of Mormon.\nThe series, containing five volumes, is set forty million years in the future, with volumes 1-3 taking place on a planet called Harmony. After the Earth was rendered uninhabitable by human wars, mankind departed for Harmony, as well as at least forty other planets. (Only two of these are named in the series: Ramadan, settled by Arabs; and Harmony, apparently settled by Slavs, as its languages all developed from Russian.)\nOn Harmony, the colonists established the Oversoul - an artificial intelligence, monitoring the planet with a small army of satellites. It also influences the actions of humans. Though it does not prevent them from doing evil, it keeps their destruction limited by suppressing any thoughts that might lead to things like long-distance travel or instant communication. Thus the technology on Harmony includes basic computers, presumably without advanced Internet capabilities, although the Oversoul was used for basic data transfer, and solar-powered handheld energy weapons, but no cars or even wagons.",
+    "title": "Homecoming Saga",
+    "totalBookMembers": 5,
+    "totalSubseries": 0,
+    "attribution_ids": [
+      163
+    ]
+  },
+  {
+    "id": 164,
     "synopsis": "The Dreamers is the title of a fantasy book series by American writer David Eddings and his wife Leigh Eddings. The story revolves around four beings known as The Elder Gods residing in the land of Dhrall: Dahlaine of the North, Veltan of the South, Zelana of the West and Aracia of the East. They must recruit the help of outlanders to destroy the fiendish Vlagh and prevent its attempt at world conquest. Includes The Elder Gods, The Treasured One, Crystal Gorge, and The Younger Gods.",
     "title": "The Dreamers",
     "totalBookMembers": 4,
     "totalSubseries": 0,
-    "attribution_ids": [164]
+    "attribution_ids": [
+      164
+    ]
   },
   {
-    "id": 164,
+    "id": 165,
     "synopsis": "The Elenium is a series of fantasy novels by American writer David Eddings. The series consists of three volumes: The Diamond Throne, The Ruby Knight, and The Sapphire Rose. The series is followed by The Tamuli. The Elenium is Eddings' third fantasy series.",
     "title": "The Elenium",
     "totalBookMembers": 3,
     "totalSubseries": 0,
-    "attribution_ids": [165]
+    "attribution_ids": [
+      165
+    ]
   },
   {
-    "id": 165,
+    "id": 166,
     "synopsis": "The Malloreon is a five-part fantasy book series written by David Eddings, which follows The Belgariad. The Malloreon is set in the same world as The Belgariad, but expands on several aspects of the setting, especially the eastern continent of Mallorea. Includes Guardians of the West, King of the Murgos, Demon Lord of Karanda, Sorceress of Darshiva, The Seeress of Kell",
     "title": "The Malloreon",
     "totalBookMembers": 5,
     "totalSubseries": 0,
-    "attribution_ids": [166]
+    "attribution_ids": [
+      166
+    ]
   }
 ]

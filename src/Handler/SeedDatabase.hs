@@ -60,6 +60,7 @@ postSeedDatabaseR = do
   hasPrintings <- fmap existy $ runDB $ selectFirst [PrintingPrinting !=. 0] []
   hasManifestations <- fmap existy $ runDB $ selectFirst ([ManifestationCondition !=. BookCondition.BookNew] ||. [ManifestationCondition ==. BookCondition.BookNew]) []
   let needsSeeding = all not [hasAuthors, hasTitles, hasEditions, hasPrintings, hasManifestations]
+  liftIO runImporter
   seedingReturnValue <- (if needsSeeding
                           then runSeeder
                           else return Nothing

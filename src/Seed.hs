@@ -1,14 +1,81 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE DeriveGeneric #-}
 
 module Seed where
+
+import GHC.Generics
+import Data.Aeson
+import qualified Data.ByteString.Lazy as B
 
 import Import
 import BookBinding
 import BookCondition
 import Language
+import System.Environment (getEnvironment)
 
-lotrSeries :: Series
+data ImportedTitle = ImportedTitle
+  String -- title id
+  String -- title
+  (Maybe Int) -- year
+  (Maybe String) -- synopsis
+  (Maybe String) -- seriesPart
+  (Maybe String) -- seriesId
+  (Maybe String) -- subseriesPart
+  (Maybe String) -- subseriesId
+  deriving (Generic, Show)
+
+instance ToJSON ImportedTitle where
+  toJSON (ImportedTitle id title year synopsis seriesPart seriesId subseriesPart subseriesId) =
+    object
+    [ "id" .= id
+    , "title" .= title
+    , "year" .= year
+    , "synopsis" .= synopsis
+    , "seriesPart" .= seriesPart
+    , "seriesId" .= seriesId
+    , "subseriesPart" .= subseriesPart
+    , "subseriesId" .= subseriesId
+    ]
+
+instance FromJSON ImportedTitle where
+  parseJSON (Object v) =
+    ImportedTitle <$> v .: "id"
+                  <*> v .: "title"
+                  <*> v .: "year"
+                  <*> v .: "synopsis"
+                  <*> v .: "seriesPart"
+                  <*> v .: "seriesId"
+                  <*> v .: "subseriesPart"
+                  <*> v .: "subseriesId"
+  parseJSON _ = mzero
+
+findWithDefault :: (a -> Bool) -> a -> [a] -> a
+findWithDefault f z [] = z
+findWithDefault f z (x:xs) =
+  if f x then x else Seed.findWithDefault f z xs
+
+runImporter :: IO ()
+runImporter = do
+  env <- getEnvironment
+  let (_, seed_path) = Seed.findWithDefault (\(k, v) -> k == "ALLREDLIB_SEED_PATH") ("", "") env
+  titlesStr <- B.readFile $ seed_path ++ "/Title.json"
+  creators <- B.readFile $ seed_path ++ "/Creator.json"
+  creatorTitles <- B.readFile $ seed_path ++ "/CreatorTitle.json"
+  attributions <- B.readFile $ seed_path ++ "/Attribution.json"
+  series <- B.readFile $ seed_path ++ "/Series.json"
+  subseries <- B.readFile $ seed_path ++ "/Subseries.json"
+  -- genreTitles genre ids match the ordering of enums, indexed starting with 1
+  genreTitles <- B.readFile $ seed_path ++ "/GenreTitle.json"
+  let eitherTitles = (eitherDecode titlesStr) :: Either String [ImportedTitle]
+  let numTitles = case eitherTitles of
+                    Left _ -> 0
+                    Right titles -> length titles
+  putStrLn "Need to seed:"
+  putStrLn $ (pack . show $ numTitles) ++ " titles"
+  pure ()
+
+lotrSeries :: Import.Series
 lotrSeries =
   Series
     (Just "The bestest fantasy series ever.")
@@ -16,7 +83,7 @@ lotrSeries =
     3
     0
 
-makeFellowship :: Key Series -> Title
+makeFellowship :: Key Import.Series -> Title
 makeFellowship seriesId =
   Title
     (Just seriesId)
@@ -27,7 +94,7 @@ makeFellowship seriesId =
     "The Fellowship of the Ring"
     (Just 1954)
 
-makeTwoTowers :: Key Series -> Title
+makeTwoTowers :: Key Import.Series -> Title
 makeTwoTowers seriesId =
   Title
     (Just seriesId)
@@ -38,7 +105,7 @@ makeTwoTowers seriesId =
     "The Two Towers"
     (Just 1954)
 
-makeReturnOfTheKing :: Key Series -> Title
+makeReturnOfTheKing :: Key Import.Series -> Title
 makeReturnOfTheKing seriesId =
   Title
     (Just seriesId)

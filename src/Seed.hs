@@ -20,8 +20,7 @@ makeFellowship :: Key Series -> Title
 makeFellowship seriesId =
   Title
     (Just seriesId)
-    (Just 1)
-    Nothing
+    (Just "1")
     Nothing
     Nothing
     (Just "Frodo gets the ring and goes on a journey.")
@@ -32,8 +31,7 @@ makeTwoTowers :: Key Series -> Title
 makeTwoTowers seriesId =
   Title
     (Just seriesId)
-    (Just 2)
-    Nothing
+    (Just "2")
     Nothing
     Nothing
     (Just "Frodo journeys the hardest.")
@@ -44,8 +42,7 @@ makeReturnOfTheKing :: Key Series -> Title
 makeReturnOfTheKing seriesId =
   Title
     (Just seriesId)
-    (Just 3)
-    Nothing
+    (Just "3")
     Nothing
     Nothing
     (Just "Frodo's journey ends.")

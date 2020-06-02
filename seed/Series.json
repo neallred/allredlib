@@ -272,7 +272,7 @@
   },
   {
     "id": 28,
-    "synopsis": "The Immortals is a sequence of novels written by Alyson Noël, focusing on psychics and immortals. Since a horrible accident claimed the lives of her family, sixteen-year-old Ever can see auras, hear people’s thoughts, and know a person’s life story by touch. Going out of her way to shield herself from human contact to suppress her abilities has branded her as a freak at her new high school—but everything changes when she meets Damen Auguste.\nDamen is gorgeous, exotic and wealthy, and he holds many secrets. Ever doesn’t know who he really is—or what he is. Damen is equal parts light and dark, and he belongs to an enchanted new world where no one ever dies.",
+    "synopsis": "Includes Evermore, Blue Moon, Shadowland, Dark Flame, Night Star, and Everlasting. The Immortals is a sequence of novels written by Alyson Noël, focusing on psychics and immortals. Since a horrible accident claimed the lives of her family, sixteen-year-old Ever can see auras, hear people’s thoughts, and know a person’s life story by touch. Going out of her way to shield herself from human contact to suppress her abilities has branded her as a freak at her new high school—but everything changes when she meets Damen Auguste.\nDamen is gorgeous, exotic and wealthy, and he holds many secrets. Ever doesn’t know who he really is—or what he is. Damen is equal parts light and dark, and he belongs to an enchanted new world where no one ever dies.",
     "title": "The Immortals",
     "totalBookMembers": 6,
     "totalSubseries": 0,
@@ -592,7 +592,7 @@
   },
   {
     "id": 60,
-    "synopsis": null,
+    "synopsis": "Includes vN, iD, and reV.",
     "title": "Machine Dynasties series",
     "totalBookMembers": 3,
     "totalSubseries": 0,
@@ -682,7 +682,7 @@
   },
   {
     "id": 69,
-    "synopsis": null,
+    "synopsis": "Includes UnEnchanted, Fairest, Fable, Reign, and Forever",
     "title": "An Unfortunate Fairy Tale",
     "totalBookMembers": 5,
     "totalSubseries": 0,
@@ -872,7 +872,7 @@
   },
   {
     "id": 89,
-    "synopsis": "",
+    "synopsis": "Includes Everlast, Evanescent, and Infinity",
     "title": "Chronicles of Nerissette",
     "totalBookMembers": 3,
     "totalSubseries": 0,
@@ -882,7 +882,7 @@
   },
   {
     "id": 90,
-    "synopsis": "",
+    "synopsis": "Includes Labyrinth, Sepulchre, and Citadel",
     "title": "The Languedoc Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
@@ -892,7 +892,7 @@
   },
   {
     "id": 91,
-    "synopsis": "",
+    "synopsis": "Includes Stormwarden, Keeper of the Keys, and Shadowfane",
     "title": "Cycle of Fire",
     "totalBookMembers": 3,
     "totalSubseries": 0,
@@ -1074,7 +1074,7 @@
     "id": 109,
     "synopsis": "A series of books by author David Drake. In 1997, Drake began his largest fantasy series, Lord of the Isles, using elements of Sumerian religion and medieval era technology. The series consists of nine books broken into two distinct parts, the Lord of the Isles consisting of the first six books, and a final trilogy dubbed the Crown of the Isles.",
     "title": "Lord of the Isles",
-    "totalBookMembers": 5,
+    "totalBookMembers": 9,
     "totalSubseries": 0,
     "attribution_ids": [
       110
@@ -1323,7 +1323,7 @@
   {
     "id": 134,
     "synopsis": "Includes Princess Academy, Princess Academy: Palace of Stone, and Princess Academy: The Forgotten Sisters",
-    "title": "Keeper of the Lost Cities",
+    "title": "Princess Academy Series",
     "totalBookMembers": 3,
     "totalSubseries": 0,
     "attribution_ids": [
@@ -1523,7 +1523,7 @@
   {
     "id": 154,
     "synopsis": null,
-    "title": "The Mera Trilogy",
+    "title": "The Meri Trilogy",
     "totalBookMembers": 3,
     "totalSubseries": 0,
     "attribution_ids": [
@@ -1648,6 +1648,46 @@
     "totalSubseries": 0,
     "attribution_ids": [
       166
+    ]
+  },
+  {
+    "id": 167,
+    "synopsis": null,
+    "title": "That's not My series",
+    "totalBookMembers": 88,
+    "totalSubseries": 0,
+    "attribution_ids": [
+      167
+    ]
+  },
+  {
+    "id": 168,
+    "synopsis": null,
+    "title": "Little Critter Series",
+    "totalBookMembers": 88,
+    "totalSubseries": 0,
+    "attribution_ids": [
+      168
+    ]
+  },
+  {
+    "id": 169,
+    "synopsis": null,
+    "title": "The Rainbow Fairies",
+    "totalBookMembers": 7,
+    "totalSubseries": 0,
+    "attribution_ids": [
+      169
+    ]
+  },
+  {
+    "id": 170,
+    "synopsis": "Includes The Fire Within, Icefire, Fire Star, The Fire Eternal, Dark Fire, Rain and Fire, Fire World, and The Fire Ascending",
+    "title": "The Last Dragon Chronicles",
+    "totalBookMembers": 8,
+    "totalSubseries": 0,
+    "attribution_ids": [
+      170
     ]
   }
 ]

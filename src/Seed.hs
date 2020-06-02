@@ -50,6 +50,36 @@ instance FromJSON ImportedTitle where
                   <*> v .: "subseriesId"
   parseJSON _ = mzero
 
+data ImportedCreator = ImportedCreator
+  String -- id
+  (Maybe String) -- bio
+  (Maybe Int) -- birth
+  (Maybe Int) -- death
+  String -- firstName
+  (Maybe String) -- lastName
+  deriving (Generic, Show)
+
+instance FromJSON ImportedCreator where
+  parseJSON (Object v) =
+    ImportedCreator <$> v .: "id"
+                    <*> v .: "bio"
+                    <*> v .: "birth"
+                    <*> v .: "death"
+                    <*> v .: "firstName"
+                    <*> v .: "lastName"
+  parseJSON _ = mzero
+
+instance ToJSON ImportedCreator where
+  toJSON (ImportedCreator id bio birth death firstName lastName) =
+    object
+    [ "id" .= id
+    , "bio" .= bio
+    , "birth" .= birth
+    , "death" .= death
+    , "firstName" .= firstName
+    , "lastName" .= lastName
+    ]
+
 findWithDefault :: (a -> Bool) -> a -> [a] -> a
 findWithDefault f z [] = z
 findWithDefault f z (x:xs) =
@@ -60,19 +90,24 @@ runImporter = do
   env <- getEnvironment
   let (_, seed_path) = Seed.findWithDefault (\(k, v) -> k == "ALLREDLIB_SEED_PATH") ("", "") env
   titlesStr <- B.readFile $ seed_path ++ "/Title.json"
-  creators <- B.readFile $ seed_path ++ "/Creator.json"
-  creatorTitles <- B.readFile $ seed_path ++ "/CreatorTitle.json"
-  attributions <- B.readFile $ seed_path ++ "/Attribution.json"
-  series <- B.readFile $ seed_path ++ "/Series.json"
-  subseries <- B.readFile $ seed_path ++ "/Subseries.json"
+  creatorsStr <- B.readFile $ seed_path ++ "/Creator.json"
+  creatorTitlesStr <- B.readFile $ seed_path ++ "/CreatorTitle.json"
+  attributionsStr <- B.readFile $ seed_path ++ "/Attribution.json"
+  seriesStr <- B.readFile $ seed_path ++ "/Series.json"
+  subseriesStr <- B.readFile $ seed_path ++ "/Subseries.json"
   -- genreTitles genre ids match the ordering of enums, indexed starting with 1
-  genreTitles <- B.readFile $ seed_path ++ "/GenreTitle.json"
+  genreTitlesStr <- B.readFile $ seed_path ++ "/GenreTitle.json"
   let eitherTitles = (eitherDecode titlesStr) :: Either String [ImportedTitle]
   let numTitles = case eitherTitles of
                     Left _ -> 0
                     Right titles -> length titles
+  let eitherCreators = (eitherDecode creatorsStr) :: Either String [ImportedCreator]
+  let numCreators = case eitherCreators of
+                    Left _ -> 0
+                    Right creators -> length creators
   putStrLn "Need to seed:"
   putStrLn $ (pack . show $ numTitles) ++ " titles"
+  putStrLn $ (pack . show $ numCreators) ++ " creators"
   pure ()
 
 lotrSeries :: Import.Series
@@ -157,8 +192,8 @@ jrrTolkien :: Creator
 jrrTolkien =
   Creator 
   (Just "J.R.R. Tolkien grew up in South Africa. He was an air warden in W.W.I.I.")
-  (Just (fromGregorian 1892 1 3))
-  (Just (fromGregorian 1973 9 2))
+  (Just 1892)
+  (Just 1973)
   "J.R.R"
   (Just "Tolkien")
 

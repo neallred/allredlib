@@ -12,8 +12,8 @@ User
   deriving Typeable
 Creator json
   bio Text Maybe
-  birth Day Maybe
-  death Day Maybe
+  birth Int Maybe
+  death Int Maybe
   firstName Text
   lastName Text Maybe
 Genre json

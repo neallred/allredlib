@@ -83,6 +83,19 @@ executables:
     when:
     - condition: flag(library-only)
       buildable: false
+  seeder:
+    main: Main.hs
+    source-dirs: seeder
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - allredlib
+    when:
+    - condition: flag(library-only)
+      buildable: false
+
 
 # Test suite
 tests:

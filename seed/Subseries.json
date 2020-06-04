@@ -1,122 +1,152 @@
 [
   {
     "id": "1",
-    "seriesId": 9,
+    "seriesId": "9",
     "synopsis": "The series primarily takes place in a region called the Final Empire on a world called Scadrial, where the sun and sky are red, vegetation is brown, and the ground is constantly being covered under black volcanic ashfalls. Every night the land becomes covered in an unnatural mist or fog. One thousand years before the story begins, the ruler of the Final Empire, the Lord Ruler, gained access to a divine power at what is called the \"Well of Ascension\", where he is rumored to have defeated the unknown danger called the \"Deepness\". With this power, he remade the world and everything in it into its state at the beginning of the first book. In the Final Empire, a Dominance is a territory within the Lord Ruler's empire.",
     "title": "Mistborn",
     "totalBookMembers": 8,
-    "attribution_ids": [24]
+    "attributionIds": [
+      "24"
+    ]
   },
   {
     "id": "2",
-    "seriesId": 56,
+    "seriesId": "56",
     "synopsis": null,
     "title": "Wars of Light and Shadow Arc I",
     "totalBookMembers": 1,
-    "attribution_ids": [58]
+    "attributionIds": [
+      "58"
+    ]
   },
   {
     "id": "3",
-    "seriesId": 56,
+    "seriesId": "56",
     "synopsis": null,
     "title": "Wars of Light and Shadow Arc II",
     "totalBookMembers": 2,
-    "attribution_ids": [58]
+    "attributionIds": [
+      "58"
+    ]
   },
   {
     "id": "4",
-    "seriesId": 56,
+    "seriesId": "56",
     "synopsis": null,
     "title": "Wars of Light and Shadow Arc III",
     "totalBookMembers": 5,
-    "attribution_ids": [58]
+    "attributionIds": [
+      "58"
+    ]
   },
   {
     "id": "5",
-    "seriesId": 56,
+    "seriesId": "56",
     "synopsis": null,
     "title": "Wars of Light and Shadow Arc IV",
     "totalBookMembers": 2,
-    "attribution_ids": [58]
+    "attributionIds": [
+      "58"
+    ]
   },
   {
     "id": "6",
-    "seriesId": 56,
+    "seriesId": "56",
     "synopsis": null,
     "title": "Wars of Light and Shadow Arc V",
     "totalBookMembers": 1,
-    "attribution_ids": [58]
+    "attributionIds": [
+      "58"
+    ]
   },
   {
     "id": "7",
-    "seriesId": 75,
+    "seriesId": "75",
     "synopsis": null,
     "title": "The Rhapsody Trilogy",
     "totalBookMembers": 3,
-    "attribution_ids": [78]
+    "attributionIds": [
+      "78"
+    ]
   },
   {
     "id": "8",
-    "seriesId": 75,
+    "seriesId": "75",
     "synopsis": null,
     "title": "The Middle Books",
     "totalBookMembers": 2,
-    "attribution_ids": [78]
+    "attributionIds": [
+      "78"
+    ]
   },
   {
     "id": "9",
-    "seriesId": 75,
+    "seriesId": "75",
     "synopsis": null,
     "title": "The War of the Known World",
     "totalBookMembers": 4,
-    "attribution_ids": [78]
+    "attributionIds": [
+      "78"
+    ]
   },
   {
     "id": "10",
-    "seriesId": 9,
+    "seriesId": "9",
     "synopsis": null,
     "title": "Warbreaker Series",
     "totalBookMembers": 1,
-    "attribution_ids": [9]
+    "attributionIds": [
+      "9"
+    ]
   },
   {
     "id": "11",
-    "seriesId": 20,
+    "seriesId": "20",
     "synopsis": "Includes Ender's Game, Speaker for the Dead, Xenocide, Children of the Mind, First Meetings, A War of Gifts: An Ender Story, and Ender in Exile",
     "title": "Ender Series",
     "totalBookMembers": 7,
-    "attribution_ids": [21]
+    "attributionIds": [
+      "21"
+    ]
   },
   {
     "id": "12",
-    "seriesId": 20,
+    "seriesId": "20",
     "synopsis": "Includes Children of the Fleet",
     "title": "Fleet School",
     "totalBookMembers": 1,
-    "attribution_ids": [21]
+    "attributionIds": [
+      "21"
+    ]
   },
   {
     "id": "13",
-    "seriesId": 20,
+    "seriesId": "20",
     "synopsis": "Includes Earth Unaware, Earth Afire, Earth Awakens, The Swarm, The Hive, and The Queens (forthcoming)",
     "title": "Formic Wars",
     "totalBookMembers": 6,
-    "attribution_ids": [21]
+    "attributionIds": [
+      "21"
+    ]
   },
   {
     "id": "14",
-    "seriesId": 20,
+    "seriesId": "20",
     "synopsis": "Includes Ender's Shadow, Shadow of the Hegemon, Shadow Puppets, Shadow of the Giant, Shadows in Flight, Shadows Alive",
     "title": "Shadow Saga",
     "totalBookMembers": 6,
-    "attribution_ids": [21]
+    "attributionIds": [
+      "21"
+    ]
   },
   {
     "id": "15",
-    "seriesId": 9,
+    "seriesId": "9",
     "synopsis": "Includes The Way of Kings, Words of Radiance, Oathbringer, and Rhythm of War (forthcoming)",
     "title": "The Stormlight Archive",
     "totalBookMembers": 10,
-    "attribution_ids": [2]
+    "attributionIds": [
+      "2"
+    ]
   }
 ]

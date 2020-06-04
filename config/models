@@ -20,9 +20,9 @@ Genre json
   genre GenreEnum
 Title json
   seriesId SeriesId Maybe
-  seriesPart String Maybe -- which part is this work in the subseries. String for things like prequels
+  seriesPart Text Maybe -- which part is this work in the subseries. String for things like prequels
   subseriesId SubseriesId Maybe
-  subseriesPart String Maybe -- which part is this work in the subseries.
+  subseriesPart Text Maybe -- which part is this work in the subseries.
   synopsis Text Maybe
   title Text
   year Int Maybe -- first edition copyright year; earlier if title completed years before.

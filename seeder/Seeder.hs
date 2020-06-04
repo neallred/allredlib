@@ -1,5 +1,6 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE TemplateHaskell #-}
 
 module Seeder where
 
@@ -7,6 +8,8 @@ import Import
 import Data.Aeson
 import Data.Either (fromRight)
 import qualified Data.ByteString.Lazy as B
+import Data.ByteString (ByteString)
+import Data.FileEmbed (embedFile, makeRelativeToProject)
 
 import System.Environment (getEnvironment)
 
@@ -219,15 +222,18 @@ countList xs = (pack . show . length) xs
 runImporter :: IO ()
 runImporter = do
   env <- getEnvironment
-  let (_, seed_path) = Seeder.findWithDefault (\(k, _) -> k == "ALLREDLIB_SEED_PATH") ("", "") env
-  titlesStr <- B.readFile $ seed_path ++ "/Title.json"
-  creatorsStr <- B.readFile $ seed_path ++ "/Creator.json"
-  creatorTitlesStr <- B.readFile $ seed_path ++ "/CreatorTitle.json"
-  attributionsStr <- B.readFile $ seed_path ++ "/Attribution.json"
-  seriesStr <- B.readFile $ seed_path ++ "/Series.json"
-  subseriesStr <- B.readFile $ seed_path ++ "/Subseries.json"
+  -- Will connect to database with these and other env info to seed database.
+  -- let (_, pgUser) = Seeder.findWithDefault (\(k, _) -> k == "ALLREDLIB_PGUSER") ("", "") env
+  -- let (_, pgPass) = Seeder.findWithDefault (\(k, _) -> k == "ALLREDLIB_PGPASS") ("", "") env
+  -- let (_, pgDb) = Seeder.findWithDefault (\(k, _) -> k == "ALLREDLIB_DB") ("", "") env
+  let titlesStr = fromStrict $(makeRelativeToProject "seed/Title.json" >>= embedFile)
+  let creatorsStr = fromStrict $(makeRelativeToProject "seed/Creator.json" >>= embedFile)
+  let creatorTitlesStr = fromStrict $(makeRelativeToProject "seed/CreatorTitle.json" >>= embedFile)
+  let attributionsStr = fromStrict $(makeRelativeToProject "seed/Attribution.json" >>= embedFile)
+  let seriesStr = fromStrict $(makeRelativeToProject "seed/Series.json" >>= embedFile)
+  let subseriesStr = fromStrict $(makeRelativeToProject "seed/Subseries.json" >>= embedFile)
   -- genreTitles genre ids match the ordering of enums, indexed starting with 1
-  genreTitlesStr <- B.readFile $ seed_path ++ "/GenreTitle.json"
+  let genreTitlesStr = fromStrict $(makeRelativeToProject "seed/GenreTitle.json" >>= embedFile)
   let eitherTitles = (eitherDecode titlesStr) :: Either String [SeedTitle]
   let eitherCreators = (eitherDecode creatorsStr) :: Either String [SeedCreator]
   let eitherCreatorTitles = (eitherDecode creatorTitlesStr) :: Either String [SeedCreatorTitle]

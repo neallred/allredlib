@@ -10,43 +10,49 @@ import Data.Either (fromRight)
 import qualified Data.ByteString.Lazy as B
 import Data.ByteString (ByteString)
 import Data.FileEmbed (embedFile, makeRelativeToProject)
+import Control.Monad.Logger (runStderrLoggingT)
+import Database.Persist.Postgresql (pgConnStr, withPostgresqlConn, runSqlConn, rawExecute)
 
 import System.Environment (getEnvironment)
 
 data SeedTitle = SeedTitle
   Text -- title id
+  (Maybe Text) -- seriesId
+  (Maybe Text) -- seriesPart
+  (Maybe Text) -- subseriesId
+  (Maybe Text) -- subseriesPart
+  (Maybe Text) -- synopsis
   Text -- title
   (Maybe Int) -- year
-  (Maybe Text) -- synopsis
-  (Maybe Text) -- seriesPart
-  (Maybe Text) -- seriesId
-  (Maybe Text) -- subseriesPart
-  (Maybe Text) -- subseriesId
   deriving (Show)
+
+-- toTitle :: SeedTitle -> Title
+-- toTitle (SeedTitle _ seriesId seriesPart subseriesId subseriesPart synopsis title year) =
+--   Title seriesId seriesPart subseriesId subseriesPart synopsis title year
 
 instance ToJSON SeedTitle where
   toJSON (SeedTitle seedId title year synopsis seriesPart seriesId subseriesPart subseriesId) =
     object
     [ "id" .= seedId
+    , "seriesId" .= seriesId
+    , "seriesPart" .= seriesPart
+    , "subseriesId" .= subseriesId
+    , "subseriesPart" .= subseriesPart
+    , "synopsis" .= synopsis
     , "title" .= title
     , "year" .= year
-    , "synopsis" .= synopsis
-    , "seriesPart" .= seriesPart
-    , "seriesId" .= seriesId
-    , "subseriesPart" .= subseriesPart
-    , "subseriesId" .= subseriesId
     ]
 
 instance FromJSON SeedTitle where
   parseJSON (Object v) =
     SeedTitle <$> v .: "id"
+                  <*> v .: "seriesId"
+                  <*> v .: "seriesPart"
+                  <*> v .: "subseriesId"
+                  <*> v .: "subseriesPart"
+                  <*> v .: "synopsis"
                   <*> v .: "title"
                   <*> v .: "year"
-                  <*> v .: "synopsis"
-                  <*> v .: "seriesPart"
-                  <*> v .: "seriesId"
-                  <*> v .: "subseriesPart"
-                  <*> v .: "subseriesId"
   parseJSON _ = mzero
 
 data SeedCreator = SeedCreator
@@ -123,6 +129,10 @@ data SeedSeries = SeedSeries
   Int -- totalSubseries
   [Text] -- attribution ids
   deriving (Show)
+
+toSeries :: SeedSeries -> Import.Series
+toSeries (SeedSeries _ synopsis title totalBookMembers totalSubseries _) =
+  Series synopsis title totalBookMembers totalSubseries
 
 instance FromJSON SeedSeries where
   parseJSON (Object v) =
@@ -221,11 +231,7 @@ countList xs = (pack . show . length) xs
 
 runImporter :: IO ()
 runImporter = do
-  env <- getEnvironment
-  -- Will connect to database with these and other env info to seed database.
-  -- let (_, pgUser) = Seeder.findWithDefault (\(k, _) -> k == "ALLREDLIB_PGUSER") ("", "") env
-  -- let (_, pgPass) = Seeder.findWithDefault (\(k, _) -> k == "ALLREDLIB_PGPASS") ("", "") env
-  -- let (_, pgDb) = Seeder.findWithDefault (\(k, _) -> k == "ALLREDLIB_DB") ("", "") env
+
   let titlesStr = fromStrict $(makeRelativeToProject "seed/Title.json" >>= embedFile)
   let creatorsStr = fromStrict $(makeRelativeToProject "seed/Creator.json" >>= embedFile)
   let creatorTitlesStr = fromStrict $(makeRelativeToProject "seed/CreatorTitle.json" >>= embedFile)
@@ -249,4 +255,12 @@ runImporter = do
   putStrLn $ (countList $ fromRight [] eitherSeries) ++ " series"
   putStrLn $ (countList $ fromRight [] eitherSubseries) ++ " subseries"
   putStrLn $ (countList $ fromRight [] eitherGenreTitles) ++ " genreTitles"
+
+  env <- getEnvironment
+  settings <- loadYamlSettingsArgs [configSettingsYmlValue] useEnv
+  let conn = (pgConnStr $ appDatabaseConf settings)
+  runStderrLoggingT . withPostgresqlConn conn $ runSqlConn $ do
+    runMigration migrateAll
+    mapM_ (insert_ . toSeries) (fromRight [] eitherSeries)
+
   pure ()

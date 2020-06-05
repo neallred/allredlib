@@ -12,6 +12,7 @@ import Data.ByteString (ByteString)
 import Data.FileEmbed (embedFile, makeRelativeToProject)
 import Control.Monad.Logger (runStderrLoggingT)
 import Database.Persist.Postgresql (pgConnStr, withPostgresqlConn, runSqlConn, rawExecute)
+import qualified Data.Map as Map
 
 import System.Environment (getEnvironment)
 
@@ -130,6 +131,9 @@ data SeedSeries = SeedSeries
   [Text] -- attribution ids
   deriving (Show)
 
+getSeriesId :: SeedSeries -> Text
+getSeriesId (SeedSeries seedId _ _ _ _ _) = seedId
+
 toSeries :: SeedSeries -> Import.Series
 toSeries (SeedSeries _ synopsis title totalBookMembers totalSubseries _) =
   Series synopsis title totalBookMembers totalSubseries
@@ -163,6 +167,10 @@ data SeedSubseries = SeedSubseries
   Int -- totalBookMembers
   [Text] -- attribution ids
   deriving (Show)
+
+toSubseries :: SeedSubseries -> Map Text (Key Import.Series) -> Subseries
+toSubseries (SeedSubseries _ seedSeriesId synopsis title totalBookMembers _) map =
+  Subseries (map Map.! seedSeriesId) synopsis title totalBookMembers
 
 instance FromJSON SeedSubseries where
   parseJSON (Object v) =
@@ -261,6 +269,12 @@ runImporter = do
   let conn = (pgConnStr $ appDatabaseConf settings)
   runStderrLoggingT . withPostgresqlConn conn $ runSqlConn $ do
     runMigration migrateAll
-    mapM_ (insert_ . toSeries) (fromRight [] eitherSeries)
+    let series = (fromRight [] eitherSeries)
+    seriesIds <- mapM (insert . toSeries) series
+    let subseries = (fromRight [] eitherSubseries)
+    let seriesIdsMap = Map.fromList $ zip (map getSeriesId series) seriesIds 
+    subseriesIds <- mapM (\seedSubseries -> insert $ toSubseries seedSubseries seriesIdsMap) subseries
+    putStrLn "series ids"
+    putStrLn $ ( pack . show ) $ subseriesIds
 
   pure ()

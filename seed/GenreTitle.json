@@ -84,10 +84,6 @@
     "titleId": "21"
   },
   {
-    "genreId": "20",
-    "titleId": "22"
-  },
-  {
     "genreId": "18",
     "titleId": "23"
   },
@@ -102,10 +98,6 @@
   {
     "genreId": "17",
     "titleId": "26"
-  },
-  {
-    "genreId": "20",
-    "titleId": "27"
   },
   {
     "genreId": "12",
@@ -130,10 +122,6 @@
   {
     "genreId": "15",
     "titleId": "33"
-  },
-  {
-    "genreId": "20",
-    "titleId": "34"
   },
   {
     "genreId": "6",
@@ -892,10 +880,6 @@
     "titleId": "223"
   },
   {
-    "genreId": "20",
-    "titleId": "224"
-  },
-  {
     "genreId": "3",
     "titleId": "225"
   },
@@ -942,10 +926,6 @@
   {
     "genreId": "6",
     "titleId": "236"
-  },
-  {
-    "genreId": "20",
-    "titleId": "237"
   },
   {
     "genreId": "15",
@@ -1056,14 +1036,6 @@
     "titleId": "264"
   },
   {
-    "genreId": "20",
-    "titleId": "265"
-  },
-  {
-    "genreId": "20",
-    "titleId": "266"
-  },
-  {
     "genreId": "6",
     "titleId": "267"
   },
@@ -1106,10 +1078,6 @@
   {
     "genreId": "6",
     "titleId": "277"
-  },
-  {
-    "genreId": "20",
-    "titleId": "278"
   },
   {
     "genreId": "16",
@@ -1248,14 +1216,6 @@
     "titleId": "312"
   },
   {
-    "genreId": "20",
-    "titleId": "313"
-  },
-  {
-    "genreId": "20",
-    "titleId": "314"
-  },
-  {
     "genreId": "10",
     "titleId": "315"
   },
@@ -1304,18 +1264,6 @@
     "titleId": "326"
   },
   {
-    "genreId": "20",
-    "titleId": "327"
-  },
-  {
-    "genreId": "20",
-    "titleId": "328"
-  },
-  {
-    "genreId": "20",
-    "titleId": "329"
-  },
-  {
     "genreId": "18",
     "titleId": "330"
   },
@@ -1330,10 +1278,6 @@
   {
     "genreId": "6",
     "titleId": "333"
-  },
-  {
-    "genreId": "20",
-    "titleId": "334"
   },
   {
     "genreId": "10",
@@ -1360,16 +1304,8 @@
     "titleId": "340"
   },
   {
-    "genreId": "20",
-    "titleId": "341"
-  },
-  {
     "genreId": "13",
     "titleId": "342"
-  },
-  {
-    "genreId": "20",
-    "titleId": "343"
   },
   {
     "genreId": "15",
@@ -1426,10 +1362,6 @@
   {
     "genreId": "13",
     "titleId": "357"
-  },
-  {
-    "genreId": "20",
-    "titleId": "358"
   },
   {
     "genreId": "6",
@@ -1548,10 +1480,6 @@
     "titleId": "387"
   },
   {
-    "genreId": "20",
-    "titleId": "388"
-  },
-  {
     "genreId": "17",
     "titleId": "389"
   },
@@ -1614,10 +1542,6 @@
   {
     "genreId": "17",
     "titleId": "404"
-  },
-  {
-    "genreId": "20",
-    "titleId": "405"
   },
   {
     "genreId": "6",
@@ -1720,10 +1644,6 @@
     "titleId": "430"
   },
   {
-    "genreId": "20",
-    "titleId": "431"
-  },
-  {
     "genreId": "6",
     "titleId": "432"
   },
@@ -1758,10 +1678,6 @@
   {
     "genreId": "15",
     "titleId": "440"
-  },
-  {
-    "genreId": "20",
-    "titleId": "441"
   },
   {
     "genreId": "15",
@@ -1888,10 +1804,6 @@
     "titleId": "472"
   },
   {
-    "genreId": "20",
-    "titleId": "473"
-  },
-  {
     "genreId": "6",
     "titleId": "474"
   },
@@ -1976,10 +1888,6 @@
     "titleId": "494"
   },
   {
-    "genreId": "20",
-    "titleId": "495"
-  },
-  {
     "genreId": "17",
     "titleId": "496"
   },
@@ -1990,10 +1898,6 @@
   {
     "genreId": "8",
     "titleId": "498"
-  },
-  {
-    "genreId": "20",
-    "titleId": "499"
   },
   {
     "genreId": "17",
@@ -2154,10 +2058,6 @@
   {
     "genreId": "6",
     "titleId": "539"
-  },
-  {
-    "genreId": "20",
-    "titleId": "540"
   },
   {
     "genreId": "18",
@@ -2480,14 +2380,6 @@
     "titleId": "620"
   },
   {
-    "genreId": "20",
-    "titleId": "621"
-  },
-  {
-    "genreId": "20",
-    "titleId": "622"
-  },
-  {
     "genreId": "6",
     "titleId": "623"
   },
@@ -2510,10 +2402,6 @@
   {
     "genreId": "15",
     "titleId": "628"
-  },
-  {
-    "genreId": "20",
-    "titleId": "629"
   },
   {
     "genreId": "6",
@@ -2592,10 +2480,6 @@
     "titleId": "648"
   },
   {
-    "genreId": "20",
-    "titleId": "649"
-  },
-  {
     "genreId": "17",
     "titleId": "650"
   },
@@ -2634,10 +2518,6 @@
   {
     "genreId": "10",
     "titleId": "659"
-  },
-  {
-    "genreId": "20",
-    "titleId": "660"
   },
   {
     "genreId": "6",
@@ -3038,14 +2918,6 @@
   {
     "genreId": "3",
     "titleId": "760"
-  },
-  {
-    "genreId": "20",
-    "titleId": "761"
-  },
-  {
-    "genreId": "20",
-    "titleId": "762"
   },
   {
     "genreId": "10",

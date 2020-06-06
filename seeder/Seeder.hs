@@ -13,6 +13,7 @@ import Data.FileEmbed (embedFile, makeRelativeToProject)
 import Control.Monad.Logger (runStderrLoggingT)
 import Database.Persist.Postgresql (pgConnStr, withPostgresqlConn, runSqlConn, rawExecute)
 import qualified Data.Map as Map
+import Genre
 
 import System.Environment (getEnvironment)
 
@@ -27,9 +28,12 @@ data SeedTitle = SeedTitle
   (Maybe Int) -- year
   deriving (Show)
 
--- toTitle :: SeedTitle -> Title
--- toTitle (SeedTitle _ seriesId seriesPart subseriesId subseriesPart synopsis title year) =
---   Title seriesId seriesPart subseriesId subseriesPart synopsis title year
+toTitle :: SeedTitle -> Map Text (Key Import.Series) -> Map Text (Key Subseries) -> Title
+toTitle (SeedTitle _ seriesId seriesPart subseriesId subseriesPart synopsis title year) mapSeriesIds mapSubseriesIds =
+  Title (Map.lookup (fromMaybe "NO MATCH" seriesId) mapSeriesIds) seriesPart (Map.lookup (fromMaybe "NO MATCH" subseriesId) mapSubseriesIds) subseriesPart synopsis title year
+
+getTitleId :: SeedTitle -> Text
+getTitleId (SeedTitle seedId _ _ _ _ _ _ _) = seedId
 
 instance ToJSON SeedTitle where
   toJSON (SeedTitle seedId title year synopsis seriesPart seriesId subseriesPart subseriesId) =
@@ -168,6 +172,9 @@ data SeedSubseries = SeedSubseries
   [Text] -- attribution ids
   deriving (Show)
 
+getSubseriesId :: SeedSubseries -> Text
+getSubseriesId (SeedSubseries seedId _ _ _ _ _) = seedId
+
 toSubseries :: SeedSubseries -> Map Text (Key Import.Series) -> Subseries
 toSubseries (SeedSubseries _ seedSeriesId synopsis title totalBookMembers _) map =
   Subseries (map Map.! seedSeriesId) synopsis title totalBookMembers
@@ -234,12 +241,36 @@ findWithDefault _ z [] = z
 findWithDefault f z (x:xs) =
   if f x then x else Seeder.findWithDefault f z xs
 
-countList :: [a] -> Text
-countList xs = (pack . show . length) xs
+countList :: Either String [a] -> Text -> Text
+countList xs label = ((pack . show . length) (fromRight [] xs)) ++ " " ++ label
+
+textToGenreId :: Text -> Map GenreEnum (Key Genre) -> Key Genre
+textToGenreId textId map =
+  let genreEnum = case textId of
+                    "1" -> Action
+                    "2" -> Biography
+                    "3" -> Children
+                    "4" -> Classic
+                    "5" -> Dystopia
+                    "6" -> Fantasy
+                    "7" -> HistoricalFiction
+                    "8" -> History
+                    "9" -> Horror
+                    "10" -> Junior
+                    "11" -> Mystery
+                    "12" -> Religion
+                    "13" -> Romance
+                    "14" -> ScienceFiction
+                    "15" -> Textbook
+                    "16" -> Travel
+                    "17" -> WorldLiterature
+                    "18" -> YoungAdult
+                    "_" -> undefined
+  in map Map.! genreEnum
+
 
 runImporter :: IO ()
 runImporter = do
-
   let titlesStr = fromStrict $(makeRelativeToProject "seed/Title.json" >>= embedFile)
   let creatorsStr = fromStrict $(makeRelativeToProject "seed/Creator.json" >>= embedFile)
   let creatorTitlesStr = fromStrict $(makeRelativeToProject "seed/CreatorTitle.json" >>= embedFile)
@@ -256,13 +287,13 @@ runImporter = do
   let eitherSubseries = (eitherDecode subseriesStr) :: Either String [SeedSubseries]
   let eitherGenreTitles = (eitherDecode genreTitlesStr) :: Either String [SeedGenreTitle]
   putStrLn "Need to seed:"
-  putStrLn $ (countList $ fromRight [] eitherTitles) ++ " titles"
-  putStrLn $ (countList $ fromRight [] eitherCreators) ++ " creators"
-  putStrLn $ (countList $ fromRight [] eitherCreatorTitles) ++ " creatorTitles"
-  putStrLn $ (countList $ fromRight [] eitherAttributions) ++ " attributions"
-  putStrLn $ (countList $ fromRight [] eitherSeries) ++ " series"
-  putStrLn $ (countList $ fromRight [] eitherSubseries) ++ " subseries"
-  putStrLn $ (countList $ fromRight [] eitherGenreTitles) ++ " genreTitles"
+  putStrLn $ countList eitherTitles "titles"
+  putStrLn $ countList eitherCreators "creators"
+  putStrLn $ countList eitherCreatorTitles "creatorTitles"
+  putStrLn $ countList eitherAttributions "attributions"
+  putStrLn $ countList eitherSeries "series"
+  putStrLn $ countList eitherSubseries "subseries"
+  putStrLn $ countList eitherGenreTitles "genreTitles"
 
   env <- getEnvironment
   settings <- loadYamlSettingsArgs [configSettingsYmlValue] useEnv
@@ -274,7 +305,15 @@ runImporter = do
     let subseries = (fromRight [] eitherSubseries)
     let seriesIdsMap = Map.fromList $ zip (map getSeriesId series) seriesIds 
     subseriesIds <- mapM (\seedSubseries -> insert $ toSubseries seedSubseries seriesIdsMap) subseries
-    putStrLn "series ids"
-    putStrLn $ ( pack . show ) $ subseriesIds
+    let subseriesIdsMap = Map.fromList $ zip (map getSubseriesId subseries) subseriesIds 
+    let titles = (fromRight [] eitherTitles)
+    titleIds <- mapM (\title -> insert $ toTitle title seriesIdsMap subseriesIdsMap) titles
+    let textAndTitleIds = zip (map getTitleId titles) titleIds
+    let titleIdsMap = Map.fromList textAndTitleIds
+    genreIds <- mapM (\x -> insert $ Genre x) Genre.allGenres
+    let genreIdsMap = (Map.fromList $ zip Genre.allGenres genreIds) :: Map GenreEnum (Key Genre)
+    let genreTitles = fromRight [] eitherGenreTitles 
+    genreTitleIds <- mapM (\(SeedGenreTitle seedGenreId seedTitleId) -> insert $ GenreTitle (textToGenreId seedGenreId genreIdsMap) (titleIdsMap Map.! seedTitleId)) genreTitles
+    pure ()
 
   pure ()

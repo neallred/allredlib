@@ -26,7 +26,7 @@ data GenreEnum = Action
     | WorldLiterature
     | YoungAdult
   
-    deriving (Generic, Show, Read, Eq)
+    deriving (Generic, Show, Read, Eq, Ord)
 derivePersistField "GenreEnum"
 
 allGenres :: [GenreEnum]

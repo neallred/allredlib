@@ -69,6 +69,12 @@ data SeedCreator = SeedCreator
   (Maybe Text) -- lastName
   deriving (Show)
 
+toCreator :: SeedCreator -> Creator
+toCreator (SeedCreator _ bio birth death firstName lastName) = Creator bio birth death firstName lastName
+
+getCreatorId :: SeedCreator -> Text
+getCreatorId (SeedCreator seedId _ _ _ _ _) = seedId
+
 instance FromJSON SeedCreator where
   parseJSON (Object v) =
     SeedCreator <$> v .: "id"
@@ -268,6 +274,8 @@ textToGenreId textId map =
                     "_" -> undefined
   in map Map.! genreEnum
 
+mkMap :: (Ord a) => [a] -> [b] -> Map a b
+mkMap xs ys = Map.fromList $ zip xs ys
 
 runImporter :: IO ()
 runImporter = do
@@ -303,17 +311,21 @@ runImporter = do
     let series = (fromRight [] eitherSeries)
     seriesIds <- mapM (insert . toSeries) series
     let subseries = (fromRight [] eitherSubseries)
-    let seriesIdsMap = Map.fromList $ zip (map getSeriesId series) seriesIds 
+    let seriesIdsMap = mkMap (map getSeriesId series) seriesIds 
     subseriesIds <- mapM (\seedSubseries -> insert $ toSubseries seedSubseries seriesIdsMap) subseries
-    let subseriesIdsMap = Map.fromList $ zip (map getSubseriesId subseries) subseriesIds 
+    let subseriesIdsMap = mkMap (map getSubseriesId subseries) subseriesIds 
     let titles = (fromRight [] eitherTitles)
     titleIds <- mapM (\title -> insert $ toTitle title seriesIdsMap subseriesIdsMap) titles
-    let textAndTitleIds = zip (map getTitleId titles) titleIds
-    let titleIdsMap = Map.fromList textAndTitleIds
+    let titleIdsMap = mkMap (map getTitleId titles) titleIds
     genreIds <- mapM (\x -> insert $ Genre x) Genre.allGenres
-    let genreIdsMap = (Map.fromList $ zip Genre.allGenres genreIds) :: Map GenreEnum (Key Genre)
+    let genreIdsMap = mkMap Genre.allGenres genreIds
     let genreTitles = fromRight [] eitherGenreTitles 
     genreTitleIds <- mapM (\(SeedGenreTitle seedGenreId seedTitleId) -> insert $ GenreTitle (textToGenreId seedGenreId genreIdsMap) (titleIdsMap Map.! seedTitleId)) genreTitles
+    let creators = fromRight [] eitherCreators
+    creatorIds <- mapM (insert . toCreator) creators
+    let creatorIdsMap = mkMap (map getCreatorId creators) creatorIds
+    let creatorTitles = fromRight [] eitherCreatorTitles
+    creatorTitleIds <- mapM (\(SeedCreatorTitle creatorId titleId) -> insert $ CreatorTitle (creatorIdsMap Map.! creatorId) (titleIdsMap Map.! titleId)) creatorTitles
     pure ()
 
   pure ()

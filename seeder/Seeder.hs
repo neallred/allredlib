@@ -217,6 +217,13 @@ data SeedAttribution = SeedAttribution
   (Maybe Text) -- publisher
   deriving (Show)
 
+toAttribution :: SeedAttribution -> Attribution
+toAttribution (SeedAttribution _ title link accessed yearCreated placePublished author publisher) =
+  Attribution title link accessed yearCreated placePublished author publisher
+
+getAttributionId :: SeedAttribution -> Text
+getAttributionId (SeedAttribution seedId _ _ _ _ _ _ _) = seedId
+
 instance FromJSON SeedAttribution where
   parseJSON (Object v) =
     SeedAttribution <$> v .: "id"
@@ -326,6 +333,9 @@ runImporter = do
     let creatorIdsMap = mkMap (map getCreatorId creators) creatorIds
     let creatorTitles = fromRight [] eitherCreatorTitles
     creatorTitleIds <- mapM (\(SeedCreatorTitle creatorId titleId) -> insert $ CreatorTitle (creatorIdsMap Map.! creatorId) (titleIdsMap Map.! titleId)) creatorTitles
+    let attributions = fromRight [] eitherAttributions
+    attributionIds <- mapM (insert . toAttribution) attributions
+    let attributionIdsMap = mkMap (map getAttributionId attributions) attributionIds
     pure ()
 
   pure ()

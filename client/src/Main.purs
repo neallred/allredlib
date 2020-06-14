@@ -4,10 +4,20 @@ import Prelude
 
 import Affjax as AX
 import Affjax.ResponseFormat as AXRF
-import Data.Either (hush)
-import Data.Maybe (Maybe(..))
+import Control.Monad.Except
+import Data.Traversable
+import Data.Either (hush, Either(..))
+import Data.Generic.Rep (class Generic)
+import Data.Generic.Rep.Show (genericShow)
+import Data.Maybe (Maybe(..), fromMaybe)
+-- import Data.Newtype (un)
 import Effect (Effect)
+import Effect.Console (log)
 import Effect.Aff.Class (class MonadAff)
+import Foreign
+import Foreign.Generic
+import Foreign.Class
+import Foreign.JSON
 import Halogen as H
 import Halogen.Aff (awaitBody, runHalogenAff)
 import Halogen.HTML as HH
@@ -22,10 +32,30 @@ main = runHalogenAff do
   body <- awaitBody
   runUI component unit body
 
+newtype Title = Title
+  { seriesId :: Maybe Int
+  , seriesPart :: Maybe String
+  , subseriesId :: Maybe Int
+  , subseriesPart :: Maybe String
+  , synopsis :: Maybe String
+  , title :: String
+  , year :: Maybe Int
+  }
+
+derive instance genericTitle :: Generic Title _
+instance decodeTitle :: Decode Title where
+  decode = genericDecode (defaultOptions { unwrapSingleConstructors = true })
+instance encodeTitle :: Encode Title where
+  encode = genericEncode (defaultOptions { unwrapSingleConstructors = true })
+instance showTitle :: Show Title where
+  show = genericShow
+
+
 type State =
   { loading :: Boolean
   , username :: String
   , result :: Maybe String
+  , titles :: Array Title
   }
 
 data Action
@@ -41,7 +71,7 @@ component =
     }
 
 initialState :: forall i. i -> State
-initialState _ = { loading: false, username: "", result: Nothing }
+initialState _ = { loading: false, username: "", result: Nothing, titles: [] }
 
 render :: forall m. State -> H.ComponentHTML Action () m
 render st =
@@ -71,10 +101,11 @@ render st =
             , HH.pre_
                 [ HH.code_ [ HH.text res ] ]
             ]
+--    ,  HH.ul [] (map (\x -> HH.li [] [HH.text (x title)]) st.titles)
     ]
 
 apiDomain :: String
-apiDomain = "http://localhost:3000/books"
+apiDomain = "http://localhost:3000/titles"
 
 handleAction :: forall o m. MonadAff m => Action -> H.HalogenM State Action () o m Unit
 handleAction = case _ of
@@ -86,4 +117,13 @@ handleAction = case _ of
     username <- H.gets _.username
     H.modify_ _ { loading = true }
     response <- H.liftAff $ AX.get AXRF.string (apiDomain <> "")
-    H.modify_ _ { loading = false, result = map _.body (hush response) }
+    let bodyStr = fromMaybe "" (map _.body (hush response))
+    let possiblyTitles = runExcept (decodeJSON bodyStr :: F (Array Title))
+
+    H.liftEffect $ log $ show possiblyTitles
+    H.modify_ _ { loading = false
+    , result = map _.body (hush response)
+    , titles = case possiblyTitles of
+                    Left _ -> []
+                    Right titles -> titles
+    }

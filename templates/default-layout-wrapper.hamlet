@@ -12,27 +12,12 @@ $newline never
 
     ^{pageHead pc}
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.0.3/js.cookie.min.js">
-    \<!-- Bootstrap-3.3.7 compiled and minified JavaScript -->
-    <script type="text/javascript" src="/static/js/index.js">
     <script>
-      /* The `defaultCsrfMiddleware` Middleware added in Foundation.hs adds a CSRF token to the request cookies. */
-      /* AJAX requests should add that token to a header to be validated by the server. */
-      /* See the CSRF documentation in the Yesod.Core.Handler module of the yesod-core package for details. */
       var csrfHeaderName = "#{TE.decodeUtf8 $ CI.foldedCase defaultCsrfHeaderName}";
 
       var csrfCookieName = "#{TE.decodeUtf8 defaultCsrfCookieName}";
-      var csrfToken = Cookies.get(csrfCookieName);
-
-
-      if (csrfToken) {
-      \  $.ajaxPrefilter(function( options, originalOptions, jqXHR ) {
-      \      if (!options.crossDomain) {
-      \          jqXHR.setRequestHeader(csrfHeaderName, csrfToken);
-      \      }
-      \  });
-      }
-
+      var csrfToken = document.cookie.split('=')[1];
+    <script src="/static/js/index.js">
   <body>
     ^{pageBody pc}
 

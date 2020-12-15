@@ -20,6 +20,7 @@ cabal.sandbox.config
 *~
 \#*
 allredlib.cabal
+.env
 
 # Purescript
 /.psa*
@@ -34,3 +35,8 @@ allredlib.cabal
 /static/
 tmp-*
 tmp
+
+
+# Added by cargo
+
+/target

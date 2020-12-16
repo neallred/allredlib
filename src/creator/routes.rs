@@ -24,7 +24,7 @@ async fn find(id: web::Path<i64>, db_pool: web::Data<PgPool>) -> impl Responder 
     }
 }
 
-#[post("/creator")]
+#[post("/creators")]
 async fn create(creator: web::Json<CreatorRequest>, db_pool: web::Data<PgPool>) -> impl Responder {
     let result = Creator::create(creator.into_inner(), db_pool.get_ref()).await;
     match result {
@@ -33,7 +33,7 @@ async fn create(creator: web::Json<CreatorRequest>, db_pool: web::Data<PgPool>) 
     }
 }
 
-#[put("/creator/{id}")]
+#[put("/creators/{id}")]
 async fn update(id: web::Path<i64>, creator: web::Json<CreatorRequest>, db_pool: web::Data<PgPool>) -> impl Responder {
     let result = Creator::update(id.into_inner(), creator.into_inner(),db_pool.get_ref()).await;
     match result {
@@ -42,7 +42,7 @@ async fn update(id: web::Path<i64>, creator: web::Json<CreatorRequest>, db_pool:
     }
 }
 
-#[delete("/creator/{id}")]
+#[delete("/creators/{id}")]
 async fn delete(id: web::Path<i64>, db_pool: web::Data<PgPool>) -> impl Responder {
     let result = Creator::delete(id.into_inner(), db_pool.get_ref()).await;
     match result {

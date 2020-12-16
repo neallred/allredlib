@@ -1,4 +1,3 @@
--- Add migration script here
 CREATE TABLE IF NOT EXISTS creators
 (
     id          BIGSERIAL PRIMARY KEY,

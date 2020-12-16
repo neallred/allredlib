@@ -7,6 +7,9 @@ use std::env;
 use dotenv::dotenv;
 
 mod creator;
+mod series;
+mod subseries;
+mod attribution;
 
 async fn hi(req: HttpRequest) -> impl Responder {
     let name = req.match_info().get("name").unwrap_or("World");
@@ -36,6 +39,9 @@ async fn main() -> Result<()> {
             .data(db_pool.clone())
             .route("/", web::get().to(hi))
             .configure(creator::init)
+            .configure(series::init)
+            .configure(attribution::init)
+            .configure(subseries::init)
     })
     .bind(format!("{}:{}", host, port))?
     .run()

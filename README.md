@@ -7,15 +7,22 @@ Back end lives in `src/`
 Front end lives in `client/`
 
 ## Local development
+Project related commands all should be run from the repo root.
 * Install [`rust`](https://www.rust-lang.org), perhaps via [rustup](https://rustup.rs/).
 * Install [`sqlx-cli`](https://github.com/launchbadge/sqlx/tree/master/sqlx-cli).
-* Install [rust-musl-builder](https://github.com/emk/rust-musl-builder)
 * Place `ALLREDLIB_PGUSER`, `ALLREDLIB_PGPASS`, and `ALLREDLIB_DB` in an `.env` file in the repo root.
-* Run `docker-compose -f docker-compose-dev-db.yml up`
-* Run `sqlx database create` from the repo root.
-* Run `docker run --rm -it -v "$(pwd)":/home/rust/src --net=host messense/rust-musl-cross:x86_64-musl cargo build`
-* Run `./target/x86_64-unknown-linux-musl/debug/allredlib-server`
+* Run `./x dbup`
+* Run `./x dbcreate`
+* Run `./x mkserve`
+* Run `./x serve`
+
+### Adding to db
+* Add a migration with `./x dbmigrate "name of migration"`
+* If needed, can run `./x dbreset` to drop and re-add db and run all migrations. Note that app server will need to be stopped or this command will fail.
+* Database can be seeded with `./x mkseed && ./x seed` (if db and app are up)
+
+## Prod
+Run `./x buildserve`. If db needs seeding, run `./x buildseed`
 
 ## Notes
-sqlx does validations while compiling rust code against the running database. It needs to be up in local development for those checks to pass.
-
+`sqlx` does validations while compiling rust code against the running database. It needs to be up in local development for those checks to pass.

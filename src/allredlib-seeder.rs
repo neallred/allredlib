@@ -2,23 +2,26 @@ use anyhow::Result;
 use serde::{Serialize, Deserialize};
 use std::collections::HashMap;
 
+mod attribution;
 mod creator;
+mod res;
 mod series;
 mod subseries;
 mod subseries_attribution;
-mod attribution;
-mod res;
+mod title;
 
+use attribution::{Attribution, AttributionRequest};
 use creator::{Creator, CreatorRequest};
 use series::{Series, SeriesRequest};
 use subseries::{Subseries, SubseriesRequest};
-use attribution::{Attribution, AttributionRequest};
 use subseries_attribution::{SubseriesAttribution, SubseriesAttributionRequest};
+use title::{Title, TitleRequest};
 
 static B_CREATORS: &'static [u8] = include_bytes!("../seed/Creator.json");
 static B_SERIES: &'static [u8] = include_bytes!("../seed/Series.json");
 static B_SUBSERIES: &'static [u8] = include_bytes!("../seed/Subseries.json");
 static B_ATTRIBUTIONS: &'static [u8] = include_bytes!("../seed/Attribution.json");
+static B_TITLES: &'static [u8] = include_bytes!("../seed/Title.json");
 
 type IdMap = HashMap<String, i64>;
 
@@ -47,6 +50,19 @@ struct SubseriesSeed {
     attribution_ids: Vec<String>,
 }
 
+#[derive(Serialize, Deserialize, Debug)]
+#[serde(rename_all = "camelCase")]
+struct TitleSeed {
+    id: String,
+    title: String,
+    year: Option<i32>,
+    synopsis: Option<String>,
+    series_part: Option<String>,
+    series_id: Option<String>,
+    subseries_part: Option<String>,
+    subseries_id: Option<String>,
+}
+
 // TODO:
 // support passing address as string, env var, arg, default
 
@@ -58,6 +74,7 @@ async fn main() -> Result<()> {
     let series_ids = seed::<SeriesRequest, Series>(&client, &host, "series", B_SERIES).await?;
     let attribution_ids = seed::<AttributionRequest, Attribution>(&client, &host, "attributions", B_ATTRIBUTIONS).await?;
     let subseries_ids = seed_subseries(&client, &host, B_SUBSERIES, &attribution_ids, &series_ids).await?;
+    let title_ids = seed_titles(&client, &host, B_TITLES, &series_ids, &subseries_ids).await?;
     Ok(())
 }
 
@@ -142,6 +159,58 @@ async fn seed_subseries(client: &reqwest::Client, host: &String, bytes: &[u8], a
                 .await?;
 
         }
+
+        counter = counter + 1;
+    }
+    print!("\n");
+    Ok(idmap)
+}
+
+fn some_to_value<T: Copy>(src: Option<&T>) -> Option<T> {
+    match src {
+        Some(x) => Some(*x),
+        None => None
+    }
+}
+
+async fn seed_titles(client: &reqwest::Client, host: &String, bytes: &[u8], series_ids: &IdMap, subseries_ids: &IdMap) -> Result<IdMap> {
+    let mut idmap: IdMap = HashMap::new();
+    let url: String = format!("{}/titles", host);
+    let has_resource = reqwest::get(&url)
+        .await?
+        .json::<Vec<Title>>()
+        .await?.len() > 0;
+
+    if has_resource {
+        return Ok(idmap)
+    }
+
+    let seed: Vec<TitleSeed> = serde_json::from_slice(bytes)?;
+    print!("\n");
+    let count = seed.len();
+    let mut counter: usize = 1;
+    let seed_ids: Vec<SeedId> = serde_json::from_slice(bytes)?;
+    for x in &seed {
+        print!("\rInserting title {} of {}", counter, count);
+
+        let title_request = TitleRequest {
+            title: x.title.clone(),
+            year: x.year,
+            synopsis: x.synopsis.clone(),
+            series_part: x.series_part.clone(),
+            series_id: some_to_value(series_ids.get(&x.series_id.clone().unwrap_or(String::from("")))),
+            subseries_part: x.subseries_part.clone(),
+            subseries_id: some_to_value(subseries_ids.get(&x.subseries_id.clone().unwrap_or(String::from("")))),
+        };
+        let id = seed_ids[counter - 1].id.clone();
+        let added = client.post(&url)
+            .json(&title_request)
+            .send()
+            .await?
+            .json::<Title>()
+            .await?;
+        let db_id: DbId = serde_json::from_str(&serde_json::to_string(&added)?.to_string())?;
+        idmap.insert(id, db_id.id);
 
         counter = counter + 1;
     }

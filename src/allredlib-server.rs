@@ -7,12 +7,13 @@ use env_logger::Env;
 use std::env;
 use dotenv::dotenv;
 
-mod creator;
-mod series;
-mod subseries_attribution;
-mod subseries;
 mod attribution;
+mod creator;
 mod res;
+mod series;
+mod subseries;
+mod subseries_attribution;
+mod title;
 
 async fn hi(req: HttpRequest) -> impl Responder {
     let name = req.match_info().get("name").unwrap_or("World");
@@ -48,6 +49,7 @@ async fn main() -> Result<()> {
             .configure(attribution::init)
             .configure(subseries::init)
             .configure(subseries_attribution::init)
+            .configure(title::init)
     })
     .bind(format!("{}:{}", host, port))?
     .run()

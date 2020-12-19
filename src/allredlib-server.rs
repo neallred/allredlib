@@ -9,6 +9,7 @@ use dotenv::dotenv;
 
 mod creator;
 mod series;
+mod subseries_attribution;
 mod subseries;
 mod attribution;
 mod res;
@@ -46,6 +47,7 @@ async fn main() -> Result<()> {
             .configure(series::init)
             .configure(attribution::init)
             .configure(subseries::init)
+            .configure(subseries_attribution::init)
     })
     .bind(format!("{}:{}", host, port))?
     .run()

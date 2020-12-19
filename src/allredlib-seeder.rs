@@ -5,6 +5,7 @@ use std::collections::HashMap;
 mod creator;
 mod series;
 mod subseries;
+mod subseries_attribution;
 mod attribution;
 mod res;
 
@@ -12,6 +13,7 @@ use creator::{Creator, CreatorRequest};
 use series::{Series, SeriesRequest};
 use subseries::{Subseries, SubseriesRequest};
 use attribution::{Attribution, AttributionRequest};
+use subseries_attribution::{SubseriesAttribution, SubseriesAttributionRequest};
 
 static B_CREATORS: &'static [u8] = include_bytes!("../seed/Creator.json");
 static B_SERIES: &'static [u8] = include_bytes!("../seed/Series.json");
@@ -94,6 +96,7 @@ async fn seed<T: serde::de::DeserializeOwned + serde::ser::Serialize, U: serde::
 async fn seed_subseries(client: &reqwest::Client, host: &String, bytes: &[u8], attribution_ids: &IdMap, series_ids: &IdMap) -> Result<IdMap> {
     let mut idmap: IdMap = HashMap::new();
     let url: String = format!("{}/subseries", host);
+    let attribution_url: String = format!("{}/subseries_attributions", host);
     let has_resource = reqwest::get(&url)
         .await?
         .json::<Vec<Subseries>>()
@@ -126,6 +129,20 @@ async fn seed_subseries(client: &reqwest::Client, host: &String, bytes: &[u8], a
             .await?;
         let db_id: DbId = serde_json::from_str(&serde_json::to_string(&added)?.to_string())?;
         idmap.insert(id, db_id.id);
+
+        for attribution_id in &x.attribution_ids  {
+            let added = client.post(&attribution_url)
+                .json(&SubseriesAttributionRequest{
+                    subseries_id: db_id.id,
+                    attribution_id: *attribution_ids.get(attribution_id).unwrap(),
+                })
+                .send()
+                .await?
+                .json::<SubseriesAttribution>()
+                .await?;
+
+        }
+
         counter = counter + 1;
     }
     print!("\n");

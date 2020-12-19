@@ -2,6 +2,7 @@ use actix_web::{web, App, HttpRequest, HttpServer, Responder};
 use sqlx::postgres::{PgPoolOptions, Postgres};
 use sqlx::migrate::{MigrateDatabase};
 use anyhow::Result;
+use env_logger::Env;
 
 use std::env;
 use dotenv::dotenv;
@@ -10,6 +11,7 @@ mod creator;
 mod series;
 mod subseries;
 mod attribution;
+mod res;
 
 async fn hi(req: HttpRequest) -> impl Responder {
     let name = req.match_info().get("name").unwrap_or("World");
@@ -19,6 +21,8 @@ async fn hi(req: HttpRequest) -> impl Responder {
 #[actix_web::main]
 async fn main() -> Result<()> {
     dotenv().ok();
+
+    env_logger::Builder::from_env(Env::default().default_filter_or("info")).init();
 
     let database_url = env::var("DATABASE_URL").expect("DATABASE_URL not in .env file");
     let host = env::var("HOST").expect("HOST not in .env file");

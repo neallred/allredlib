@@ -41,19 +41,15 @@ function deps() {
 }
 
 function x() {
-  # TODO: `rust-musl-builder` as currently used downloads the deps on each build, resulting in excessive downloads and slower build times. Find a way to pass in the downloaded deps.
-
-  # from https://github.com/emk/rust-musl-builder
-  local build_tag="messense/rust-musl-cross:x86_64-musl"
   local cmd=$1
   local cmds="buildseed buildserve dbadd dbcreate dbmigrate dbreset dbup deps mkseed mkserve seed serve"
   local tgt_dir="./target/x86_64-unknown-linux-musl/debug"
   case $cmd in
     buildseed)
-      docker run --rm -it -v "$(pwd)":/home/rust/src --net=host $build_tag cargo build --release --bin allredlib-server
+      cargo build --release --bin allredlib-seeder --features vendored --target x86_64-unknown-linux-musl
       ;;
     buildserve)
-      docker run --rm -it -v "$(pwd)":/home/rust/src --net=host $build_tag cargo build --release --bin allredlib-server
+      cargo build --release --bin allredlib-server --features vendored --target x86_64-unknown-linux-musl
       ;;
     dbadd)
       sqlx migrate add "${@:2}"
@@ -74,10 +70,10 @@ function x() {
       deps
       ;;
     mkseed)
-      docker run --rm -it -v "$(pwd)":/home/rust/src --net=host $build_tag cargo build --bin allredlib-seeder
+      cargo build --bin allredlib-seeder --features vendored --target x86_64-unknown-linux-musl
       ;;
     mkserve)
-      docker run --rm -it -v "$(pwd)":/home/rust/src --net=host $build_tag cargo build --bin allredlib-server
+      cargo build --bin allredlib-server --features vendored --target x86_64-unknown-linux-musl
       ;;
     seed)
       if [ -f $tgt_dir/allredlib-seeder ]; then

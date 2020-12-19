@@ -83,12 +83,13 @@ impl Subseries {
         })
     }
 
-    pub async fn create(series: SubseriesRequest, pool: &PgPool) -> Result<Subseries> {
+    pub async fn create(subseries: SubseriesRequest, pool: &PgPool) -> Result<Subseries> {
         let mut tx = pool.begin().await?;
-        let series = sqlx::query("INSERT INTO subseries (synopsis, title, total_book_members, series_id) VALUES ($1, $2, $3, $4, $5) RETURNING id, synopsis, title, total_book_members series_id")
-            .bind(&series.synopsis)
-            .bind(&series.title)
-            .bind(series.total_book_members)
+        let subseries = sqlx::query("INSERT INTO subseries (synopsis, title, total_book_members, series_id) VALUES ($1, $2, $3, $4) RETURNING id, synopsis, title, total_book_members, series_id")
+            .bind(&subseries.synopsis)
+            .bind(&subseries.title)
+            .bind(subseries.total_book_members)
+            .bind(subseries.series_id)
             .map(|row: PgRow| {
                 Subseries {
                     id: row.get(0),
@@ -102,17 +103,17 @@ impl Subseries {
             .await?;
 
         tx.commit().await?;
-        Ok(series)
+        Ok(subseries)
     }
 
-    pub async fn update(id: i64, series: SubseriesRequest, pool: &PgPool) -> Result<Subseries> {
+    pub async fn update(id: i64, subseries: SubseriesRequest, pool: &PgPool) -> Result<Subseries> {
         let mut tx = pool.begin().await.unwrap();
-        let series = sqlx::query("UPDATE subseries SET synopsis = $2, title = $3, total_book_members = $4, series_id = $5 WHERE id = $1 RETURNING id, synopsis, title, total_book_members series_id")
+        let subseries = sqlx::query("UPDATE subseries SET synopsis = $2, title = $3, total_book_members = $4, series_id = $5 WHERE id = $1 RETURNING id, synopsis, title, total_book_members series_id")
             .bind(id)
-            .bind(&series.synopsis)
-            .bind(&series.title)
-            .bind(series.total_book_members)
-            .bind(series.series_id)
+            .bind(&subseries.synopsis)
+            .bind(&subseries.title)
+            .bind(subseries.total_book_members)
+            .bind(subseries.series_id)
             .map(|row: PgRow| {
                 Subseries {
                     id: row.get(0),
@@ -125,7 +126,7 @@ impl Subseries {
             .fetch_one(&mut tx)
             .await?;
 
-        Ok(series)
+        Ok(subseries)
     }
 
     pub async fn delete(id: i64, pool: &PgPool) -> Result<i64> {

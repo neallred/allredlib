@@ -1,17 +1,14 @@
 use crate::subseries::{Subseries, SubseriesRequest};
 use actix_web::{delete, get, post, put, web, HttpResponse, Responder};
 use sqlx::PgPool;
-
-fn r400(x: &'static str) -> HttpResponse {
-    HttpResponse::BadRequest().body(x)
-}
+use crate::res;
 
 #[get("/subseries")]
 async fn find_all(db_pool: web::Data<PgPool>) -> impl Responder {
     let result = Subseries::find_all(db_pool.get_ref()).await;
     match result {
         Ok(xs) => HttpResponse::Ok().json(xs),
-        _ => r400("Error trying to read all subseries from database")
+        _ => res::r500("Error trying to read all subseries from database")
     }
 }
 
@@ -20,7 +17,7 @@ async fn find(id: web::Path<i64>, db_pool: web::Data<PgPool>) -> impl Responder 
     let result = Subseries::find_by_id(id.into_inner(), db_pool.get_ref()).await;
     match result {
         Ok(x) => HttpResponse::Ok().json(x),
-        _ => r400("Subseries not found")
+        _ => res::r404("Subseries not found")
     }
 }
 
@@ -29,7 +26,7 @@ async fn create(subseries: web::Json<SubseriesRequest>, db_pool: web::Data<PgPoo
     let result = Subseries::create(subseries.into_inner(), db_pool.get_ref()).await;
     match result {
         Ok(x) => HttpResponse::Ok().json(x),
-        _ => r400("Error trying to create new subseries")
+        _ => res::r500("Error trying to create new subseries")
     }
 }
 
@@ -38,7 +35,7 @@ async fn update(id: web::Path<i64>, subseries: web::Json<SubseriesRequest>, db_p
     let result = Subseries::update(id.into_inner(), subseries.into_inner(),db_pool.get_ref()).await;
     match result {
         Ok(x) => HttpResponse::Ok().json(x),
-        _ => r400("Subseries not found")
+        _ => res::r404("Subseries not found")
     }
 }
 
@@ -50,10 +47,10 @@ async fn delete(id: web::Path<i64>, db_pool: web::Data<PgPool>) -> impl Responde
             if rows > 0 {
                 HttpResponse::Ok().body(format!("Successfully deleted {} record(s)", rows))
             } else {
-                r400("Subseries not found")
+                res::r404("Subseries not found")
             }
         },
-        _ => r400("Subseries not found")
+        _ => res::r404("Subseries not found")
     }
 }
 

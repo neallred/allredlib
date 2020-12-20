@@ -42,7 +42,7 @@ function deps() {
 
 function x() {
   local cmd=$1
-  local cmds="buildseed buildserve dbadd dbcreate dbmigrate dbreset dbup deps mkseed mkserve seed serve"
+  local cmds="buildseed buildserve checkseed checkserve dbadd dbcreate dbmigrate dbreset dbup deps doc mkseed mkserve seed serve"
   local tgt_dir="./target/x86_64-unknown-linux-musl/debug"
   case $cmd in
     buildseed)
@@ -50,6 +50,12 @@ function x() {
       ;;
     buildserve)
       cargo build --release --bin allredlib-server --features vendored --target x86_64-unknown-linux-musl
+      ;;
+    checkseed)
+      cargo check --bin allredlib-seeder --features vendored --target x86_64-unknown-linux-musl
+      ;;
+    checkserve)
+      cargo check --bin allredlib-server --features vendored --target x86_64-unknown-linux-musl
       ;;
     dbadd)
       sqlx migrate add "${@:2}"
@@ -68,6 +74,9 @@ function x() {
       ;;
     deps)
       deps
+      ;;
+    doc)
+      cargo doc --features vendored "${@:2}"
       ;;
     mkseed)
       cargo build --bin allredlib-seeder --features vendored --target x86_64-unknown-linux-musl

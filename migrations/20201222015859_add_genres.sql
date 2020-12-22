@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS genres
+(
+    id              BIGSERIAL PRIMARY KEY,
+    genre           TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS title_genres
+(
+    id              BIGSERIAL PRIMARY KEY,
+    title_id        BIGINT REFERENCES titles(id) ON UPDATE CASCADE ON DELETE CASCADE NOT NULL,
+    genre_id        BIGINT REFERENCES genres(id) ON UPDATE CASCADE ON DELETE CASCADE NOT NULL
+);

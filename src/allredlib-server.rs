@@ -14,6 +14,8 @@ mod series;
 mod subseries;
 mod subseries_attribution;
 mod title;
+mod title_genre;
+mod genre;
 
 async fn hi(req: HttpRequest) -> impl Responder {
     let name = req.match_info().get("name").unwrap_or("World");
@@ -50,6 +52,8 @@ async fn main() -> Result<()> {
             .configure(subseries::init)
             .configure(subseries_attribution::init)
             .configure(title::init)
+            .configure(genre::init)
+            .configure(title_genre::init)
     })
     .bind(format!("{}:{}", host, port))?
     .run()

@@ -9,6 +9,8 @@ mod series;
 mod subseries;
 mod subseries_attribution;
 mod title;
+mod genre;
+mod title_genre;
 
 use attribution::{Attribution, AttributionRequest};
 use creator::{Creator, CreatorRequest};
@@ -16,12 +18,16 @@ use series::{Series, SeriesRequest};
 use subseries::{Subseries, SubseriesRequest};
 use subseries_attribution::{SubseriesAttribution, SubseriesAttributionRequest};
 use title::{Title, TitleRequest};
+use genre::{Genre, GenreRequest};
+use title_genre::{TitleGenre, TitleGenreRequest};
 
 static B_CREATORS: &'static [u8] = include_bytes!("../seed/Creator.json");
 static B_SERIES: &'static [u8] = include_bytes!("../seed/Series.json");
 static B_SUBSERIES: &'static [u8] = include_bytes!("../seed/Subseries.json");
 static B_ATTRIBUTIONS: &'static [u8] = include_bytes!("../seed/Attribution.json");
 static B_TITLES: &'static [u8] = include_bytes!("../seed/Title.json");
+static B_GENRES: &'static [u8] = include_bytes!("../seed/Genre.json");
+static B_TITLE_GENRES: &'static [u8] = include_bytes!("../seed/TitleGenre.json");
 
 type IdMap = HashMap<String, i64>;
 
@@ -63,6 +69,13 @@ struct TitleSeed {
     subseries_id: Option<String>,
 }
 
+#[derive(Serialize, Deserialize, Debug)]
+#[serde(rename_all = "camelCase")]
+struct TitleGenreSeed {
+    title_id: String,
+    genre_id: String,
+}
+
 // TODO:
 // support passing address as string, env var, arg, default
 
@@ -75,6 +88,7 @@ async fn main() -> Result<()> {
     let attribution_ids = seed::<AttributionRequest, Attribution>(&client, &host, "attributions", B_ATTRIBUTIONS).await?;
     let subseries_ids = seed_subseries(&client, &host, B_SUBSERIES, &attribution_ids, &series_ids).await?;
     let title_ids = seed_titles(&client, &host, B_TITLES, &series_ids, &subseries_ids).await?;
+    let genre_ids = seed_genres(&client, &host, B_GENRES, &title_ids).await?;
     Ok(())
 }
 
@@ -107,6 +121,66 @@ async fn seed<T: serde::de::DeserializeOwned + serde::ser::Serialize, U: serde::
         }
         print!("\n");
     }
+    Ok(idmap)
+}
+
+async fn seed_genres(client: &reqwest::Client, host: &String, bytes: &[u8], title_ids: &IdMap) -> Result<IdMap> {
+    let mut idmap: IdMap = HashMap::new();
+    let url: String = format!("{}/genres", host);
+    let title_genres_url: String = format!("{}/title_genres", host);
+    let has_resource = reqwest::get(&url)
+        .await?
+        .json::<Vec<Genre>>()
+        .await?.len() > 0;
+
+    if has_resource {
+        return Ok(idmap)
+    }
+
+    let genres: Vec<String> = serde_json::from_slice(bytes)?;
+    print!("\n");
+    let count = genres.len();
+    let mut counter: usize = 1;
+    for x in &genres {
+        print!("\rInserting genres {} of {}", counter, count);
+
+        let genre_request = GenreRequest {
+            genre: x.clone(),
+        };
+        let id = counter;
+        let added = client.post(&url)
+            .json(&genre_request)
+            .send()
+            .await?
+            .json::<Genre>()
+            .await?;
+        let db_id: DbId = serde_json::from_str(&serde_json::to_string(&added)?.to_string())?;
+        idmap.insert(id.to_string(), db_id.id);
+
+        counter = counter + 1;
+    }
+    print!("\n");
+
+    let title_genre_requests: Vec<TitleGenreSeed> = serde_json::from_slice(B_TITLE_GENRES)?;
+
+    print!("\n");
+    let mut counter: usize = 1;
+    let title_genre_requests_len = title_genre_requests.len();
+    for title_genre in title_genre_requests {
+        print!("\rInserting title genres {} of {}", counter, title_genre_requests_len);
+        let added = client.post(&title_genres_url)
+            .json(&TitleGenreRequest {
+                title_id: title_genre.title_id.parse().unwrap(),
+                genre_id: title_genre.genre_id.parse().unwrap(),
+            })
+            .send()
+            .await?
+            .json::<TitleGenre>()
+            .await?;
+        counter = counter + 1;
+    }
+    print!("\n");
+
     Ok(idmap)
 }
 

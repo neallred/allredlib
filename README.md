@@ -1,55 +1,29 @@
 # Allredlib
 
-Jenna Allred private library, in Haskell and Purescript.
+Jenna Allred private library
 
 Back end lives in `src/`
 
 Front end lives in `client/`
 
-## Database Setup
+## Local development
+Project related commands all should be run from the repo root.
+* Install [`rust`](https://www.rust-lang.org), perhaps via [rustup](https://rustup.rs/).
+* Install [`sqlx-cli`](https://github.com/launchbadge/sqlx/tree/master/sqlx-cli).
+* Place `ALLREDLIB_PGUSER`, `ALLREDLIB_PGPASS`, and `ALLREDLIB_DB` in an `.env` file in the repo root.
+* Run `./x dbup`
+* Run `./x dbcreate`
+* Run `./x buildfed`
+* Run `./x mkserve`
+* Run `./x serve`
 
-For development, run
-```
-docker-compose -f docker-compose-dev-db.yml up
-```
-Make sure the environment variables specified in docker-compose-dev-db.yml are available in the host.
+### Adding to db
+* Add a migration with `./x dbmigrate "name of migration"`
+* If needed, can run `./x dbreset` to drop and re-add db and run all migrations. Note that app server will need to be stopped or this command will fail.
+* Database can be seeded with `./x mkseed && ./x seed` (if db and app are up)
 
-## Haskell Setup
+## Prod
+Run `./x buildfed && ./x buildserve`. A single, statically linked binary is produced, including all front end assets. If db needs seeding, run `./x buildseed` to create a separate, command line seeder executable.
 
-1. If you haven't already, [install Stack](https://haskell-lang.org/get-started)
-	* On POSIX systems, this is usually `curl -sSL https://get.haskellstack.org/ | sh`
-2. Install the `yesod` command line tool: `stack install yesod-bin --install-ghc`
-3. Build libraries: `stack build`
-
-If you have trouble, refer to the [Yesod Quickstart guide](https://www.yesodweb.com/page/quickstart) for additional detail.
-
-## Development
-
-Start a development server with:
-
-```
-stack exec -- yesod devel
-```
-
-As your code changes, your site will be automatically recompiled and redeployed to localhost.
-
-## Tests
-
-```
-stack test --flag allredlib:library-only --flag allredlib:dev
-```
-
-(Because `yesod devel` passes the `library-only` and `dev` flags, matching those flags means you don't need to recompile between tests and development, and it disables optimization to speed up your test compile times).
-
-## Some resources
-
-* [Yesod Book](https://www.yesodweb.com/book)
-* [Stackage](http://stackage.org/)
-* [Hoogle](https://www.stackage.org/lts/hoogle?q=) (LTS version is in your `stack.yaml`)
-* local docs, use: `stack haddock --open`
-	* `stack hoogle <function, module or type signature>` to generate a Hoogle database and search for your query
-* [Yesod cookbook](https://github.com/yesodweb/yesod-cookbook)
-* [Stack Overflow, Yesod or Haskell tags](https://stackoverflow.com/questions/tagged/yesod+haskell)
-* [Yesod Google Group](https://groups.google.com/forum/#!forum/yesodweb)
-* For IRC, try Freenode#yesod and Freenode#haskell
-* [Functional Programming Slack](https://fpchat-invite.herokuapp.com/), in the #haskell, #haskell-beginners, or #yesod channels.
+## Notes
+`sqlx` does validations while compiling rust code against the running database. It needs to be up in local development for those checks to pass.

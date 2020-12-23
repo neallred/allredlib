@@ -1,0 +1,41 @@
+[package]
+name = "allredlib"
+version = "0.1.0"
+authors = ["Nathaniel <neallred@gmail.com>"]
+edition = "2018"
+default-run = "allredlib-server"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sqlx = { version = "0.4.1", features = [ "runtime-tokio-rustls", "postgres", "chrono", "json" ] }
+actix-web = "3.3.2"
+actix-web-static-files = "3.0"
+dotenv = "0.15.0"
+anyhow = "1.0.28"
+serde = "1.0.106"
+serde_json = "1.0.51"
+futures = "0.3.8"
+chrono = { version = "0.4.19", features = [ "serde" ] }
+tokio = { version = "0.2", features = ["full"] }
+reqwest = { version = "0.10", features = ["json"] }
+env_logger = "0.8.2"
+log = "0.4.11"
+openssl-sys = "*"
+
+[build-dependencies]
+actix-web-static-files = "3.0"
+
+[features]
+# Force openssl-sys to staticly link in the openssl library. Necessary when
+# cross compiling to x86_64-unknown-linux-musl.
+# See https://github.com/sfackler/rust-openssl/issues/980
+vendored = ["openssl-sys/vendored"]
+
+[[bin]]
+name = "allredlib-server"
+path = "src/allredlib-server.rs"
+
+[[bin]]
+name = "allredlib-seeder"
+path = "src/allredlib-seeder.rs"

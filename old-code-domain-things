@@ -1,0 +1,236 @@
+-- See: https://www.designersinsights.com/designer-resources/choosing-the-right-binding-type/
+
+data BookBinding = SaddleStitched
+    | LoopStitched
+    | StabStitched -- also called side stitched
+    | SewnBound
+    | PerfectBound
+    | TapeBound
+    | ScrewBound -- also called stud bound & post bound
+    | HardCover -- also called case bound
+    | PlasticGrip
+    | CombBound -- also called plastic bound
+    | SpiralBound -- also called coil bound
+    | WireOBound -- also called wire bound
+    | ThermalBound
+    | ThreeHolePunch
+    | BradelBound
+    | VeloBind
+
+
+-- By default this file is used by `persistFileWith` in Model.hs (which is imported by Foundation.hs)
+-- Syntax for this file here: https://github.com/yesodweb/persistent/blob/master/docs/Persistent-entity-syntax.md
+
+User
+  email Text
+  password Text Maybe
+  verkey Text Maybe
+  verified Bool
+  displayName Text Maybe
+  role UserRole
+  UniqueUser email
+  deriving Typeable
+Creator json
+  bio Text Maybe
+  birth Int Maybe
+  death Int Maybe
+  firstName Text
+  lastName Text Maybe
+Genre json
+  genre GenreEnum
+Title json
+  seriesId SeriesId Maybe
+  seriesPart Text Maybe -- which part is this work in the subseries. String for things like prequels
+  subseriesId SubseriesId Maybe
+  subseriesPart Text Maybe -- which part is this work in the subseries.
+  synopsis Text Maybe
+  title Text
+  year Int Maybe -- first edition copyright year; earlier if title completed years before.
+  deriving Show
+Series json
+  synopsis Text Maybe
+  title Text
+  totalBookMembers Int
+  totalSubseries Int
+  deriving Show
+Subseries json
+  seriesId SeriesId
+  synopsis Text Maybe
+  title Text
+  totalBookMembers Int
+  deriving Show
+GenreTitle json
+  genreId GenreId
+  titleId TitleId
+  UniqueGenreTitle titleId genreId
+  deriving Show
+CreatorTitle json
+  creatorId CreatorId
+  titleId TitleId
+  UniqueCreatorTitle titleId creatorId
+  deriving Show
+Publisher json
+  name Text
+  deriving Show
+Imprint json
+  imprint Text
+  deriving Show
+ImprintPublisher json
+  imprintId ImprintId
+  publisherId PublisherId
+  UniqueImprintPublisher publisherId imprintId
+  deriving Show
+Edition json
+  binding BookBinding Maybe
+  language Language Maybe
+  name Text
+  publisherImprintId ImprintPublisherId
+  volumes Int Maybe -- Needed?
+  titleId TitleId
+  editionTitle Text Maybe
+    -- for if a certain edition of a book has a different title from other editions.
+    -- e.g. "The Hobbit" vs "There and Back Again"
+  year Int Maybe
+  deriving Show
+EditionIllustrator json
+  editionId EditionId
+  illustratorId CreatorId
+  UniqueEditionIllustrator editionId illustratorId
+  deriving Show
+Printing json
+  editionId EditionId
+  isbn Text Maybe
+  printing Int
+  year Int Maybe
+  pages Int Maybe
+  UniqueEditionPrinting printing editionId
+  deriving Show
+Manifestation json
+  condition BookCondition
+  distinguishingMarks Text Maybe
+  deriving Show
+ManifestationPrinting json -- some manifestations have many printings/titles, like Legion/Emperor's soul
+  manifestationId ManifestationId
+  printingId PrintingId
+  pages Int Maybe -- For multi-title manifestations, what is their cumulative page count?
+  volumeNumber Int Maybe -- for arbitrary numbers of volumes in one manifestation (example?)
+  UniqueManifestationPrinting manifestationId printingId
+CreatorManifestation json
+  creatorId CreatorId
+  manifestationId ManifestationId
+  signed Bool
+  deriving Show
+Checkout json
+  comments Text Maybe -- can add things like "returned with torn pages".
+  inDate UTCTime Maybe
+  manifestationId ManifestationId
+  outDate UTCTime
+  userId UserId
+  deriving Show
+Attribution json
+  title Text
+  link Text Maybe
+  accessed UTCTime Maybe
+  yearCreated UTCTime Maybe
+  placePublished Text Maybe
+  author Text Maybe -- Not going to bother making these into entities
+  publisher Text Maybe -- Not going to bother making these into entities
+  deriving Show
+SeriesAttribution json
+  seriesId SeriesId
+  attributionId AttributionId
+  UniqueSeriesAttribution seriesId attributionId
+  deriving Show
+SubseriesAttribution json
+  subseriesId SubseriesId
+  attributionId AttributionId
+  UniqueSubseriesAttribution subseriesId attributionId
+  deriving Show
+CreatorAttribution json
+  creatorId CreatorId
+  attributionId AttributionId
+  UniqueCreatorAttribution creatorId attributionId
+  deriving Show
+-- TODO: How to handle multiple volumes that are one title?
+-- e.g. Encyclopedias, or The Glory and the Dream
+
+
+data BookCondition = BookNew
+                   | BookLikeNew
+                   | BookGood
+                   | BookUsed
+                   | BookVeryUsed
+                   | BookReplace
+
+passwordResetMessage :: Text
+passwordResetMessage = Data.Text.unlines
+  [ "Looks like you forgot your password! "
+  , "You can reset it by following this link: "
+  , "library.allthings.red/some-reset-token"
+  ]
+
+data GenreEnum = Action
+    | Biography
+    | Children
+    | Classic
+    | Dystopia
+    | Fantasy
+    | HistoricalFiction
+    | History
+    | Horror
+    | Junior
+    | Mystery
+    | Religion
+    | Romance
+    | ScienceFiction
+    | Textbook
+    | Travel
+    | WorldLiterature
+    | YoungAdult
+
+data Language = Arabic
+              | Aramaic
+              | Armenian
+              | Basque
+              | Cantonese
+              | Catalan
+              | Coptic
+              | Danish
+              | Deseret
+              | Dutch
+              | English
+              | Esperanto
+              | Finnish
+              | French
+              | German
+              | Greek
+              | Hebrew
+              | Hindi
+              | Italian
+              | Japanese
+              | Latin
+              | Mandarin
+              | Russian
+              | Tagalog
+
+data UserRole = Anonymous
+                   | Patron
+                   | Admin
+
+postAttributionsR :: Handler Value
+postAttributionsR = do
+  attribution <- parseCheckJsonBody
+  insertResult <- case attribution of
+    Error x -> sendStatusJSON badRequest400 x
+    Success x@(Attribution _ mLink _ _ _ _ _) -> do
+      case mLink of
+        Nothing ->
+          runDB $ insert (x :: Attribution)
+        Just lnk ->
+          case parseURI $ unpack lnk of
+            Nothing ->
+              sendStatusJSON badRequest400 [("Citation link is invalid " :: Text) ++ "\"" ++ lnk ++ "\""]
+            Just _ ->
+              runDB $ insert (x :: Attribution)
+
+  returnJson insertResult

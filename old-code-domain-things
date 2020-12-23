@@ -1,3 +1,23 @@
+-- See: https://www.designersinsights.com/designer-resources/choosing-the-right-binding-type/
+
+data BookBinding = SaddleStitched
+    | LoopStitched
+    | StabStitched -- also called side stitched
+    | SewnBound
+    | PerfectBound
+    | TapeBound
+    | ScrewBound -- also called stud bound & post bound
+    | HardCover -- also called case bound
+    | PlasticGrip
+    | CombBound -- also called plastic bound
+    | SpiralBound -- also called coil bound
+    | WireOBound -- also called wire bound
+    | ThermalBound
+    | ThreeHolePunch
+    | BradelBound
+    | VeloBind
+
+
 -- By default this file is used by `persistFileWith` in Model.hs (which is imported by Foundation.hs)
 -- Syntax for this file here: https://github.com/yesodweb/persistent/blob/master/docs/Persistent-entity-syntax.md
 
@@ -133,3 +153,84 @@ CreatorAttribution json
   deriving Show
 -- TODO: How to handle multiple volumes that are one title?
 -- e.g. Encyclopedias, or The Glory and the Dream
+
+
+data BookCondition = BookNew
+                   | BookLikeNew
+                   | BookGood
+                   | BookUsed
+                   | BookVeryUsed
+                   | BookReplace
+
+passwordResetMessage :: Text
+passwordResetMessage = Data.Text.unlines
+  [ "Looks like you forgot your password! "
+  , "You can reset it by following this link: "
+  , "library.allthings.red/some-reset-token"
+  ]
+
+data GenreEnum = Action
+    | Biography
+    | Children
+    | Classic
+    | Dystopia
+    | Fantasy
+    | HistoricalFiction
+    | History
+    | Horror
+    | Junior
+    | Mystery
+    | Religion
+    | Romance
+    | ScienceFiction
+    | Textbook
+    | Travel
+    | WorldLiterature
+    | YoungAdult
+
+data Language = Arabic
+              | Aramaic
+              | Armenian
+              | Basque
+              | Cantonese
+              | Catalan
+              | Coptic
+              | Danish
+              | Deseret
+              | Dutch
+              | English
+              | Esperanto
+              | Finnish
+              | French
+              | German
+              | Greek
+              | Hebrew
+              | Hindi
+              | Italian
+              | Japanese
+              | Latin
+              | Mandarin
+              | Russian
+              | Tagalog
+
+data UserRole = Anonymous
+                   | Patron
+                   | Admin
+
+postAttributionsR :: Handler Value
+postAttributionsR = do
+  attribution <- parseCheckJsonBody
+  insertResult <- case attribution of
+    Error x -> sendStatusJSON badRequest400 x
+    Success x@(Attribution _ mLink _ _ _ _ _) -> do
+      case mLink of
+        Nothing ->
+          runDB $ insert (x :: Attribution)
+        Just lnk ->
+          case parseURI $ unpack lnk of
+            Nothing ->
+              sendStatusJSON badRequest400 [("Citation link is invalid " :: Text) ++ "\"" ++ lnk ++ "\""]
+            Just _ ->
+              runDB $ insert (x :: Attribution)
+
+  returnJson insertResult

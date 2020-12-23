@@ -42,9 +42,14 @@ function deps() {
 
 function x() {
   local cmd=$1
-  local cmds="buildseed buildserve checkseed checkserve dbadd dbcli dbcreate dbmigrate dbreset dbup deps doc mkseed mkserve seed serve"
+  local cmds="buildfed buildseed buildserve checkseed checkserve dbadd dbcli dbcreate dbmigrate dbreset dbup deps doc mkseed mkserve seed serve"
   local tgt_dir="./target/x86_64-unknown-linux-musl/debug"
   case $cmd in
+    buildfed)
+      pushd client
+      yarn && yarn build
+      popd
+      ;;
     buildseed)
       cargo build --release --bin allredlib-seeder --features vendored --target x86_64-unknown-linux-musl
       ;;

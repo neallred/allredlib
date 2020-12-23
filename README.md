@@ -13,6 +13,7 @@ Project related commands all should be run from the repo root.
 * Place `ALLREDLIB_PGUSER`, `ALLREDLIB_PGPASS`, and `ALLREDLIB_DB` in an `.env` file in the repo root.
 * Run `./x dbup`
 * Run `./x dbcreate`
+* Run `./x buildfed`
 * Run `./x mkserve`
 * Run `./x serve`
 
@@ -22,7 +23,7 @@ Project related commands all should be run from the repo root.
 * Database can be seeded with `./x mkseed && ./x seed` (if db and app are up)
 
 ## Prod
-Run `./x buildserve`. If db needs seeding, run `./x buildseed`
+Run `./x buildfed && ./x buildserve`. A single, statically linked binary is produced, including all front end assets. If db needs seeding, run `./x buildseed` to create a separate, command line seeder executable.
 
 ## Notes
 `sqlx` does validations while compiling rust code against the running database. It needs to be up in local development for those checks to pass.

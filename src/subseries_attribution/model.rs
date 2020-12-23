@@ -104,7 +104,7 @@ impl SubseriesAttribution {
                 SubseriesAttribution {
                     id: row.get(0),
                     subseries_id: row.get(1),
-                    attribution_id: row.get(1),
+                    attribution_id: row.get(2),
                 }
             })
             .fetch_one(&mut tx)

@@ -4,6 +4,7 @@ use std::collections::HashMap;
 
 mod attribution;
 mod creator;
+mod creator_title;
 mod res;
 mod series;
 mod subseries;
@@ -20,6 +21,7 @@ use subseries_attribution::{SubseriesAttribution, SubseriesAttributionRequest};
 use title::{Title, TitleRequest};
 use genre::{Genre, GenreRequest};
 use title_genre::{TitleGenre, TitleGenreRequest};
+use creator_title::{CreatorTitle, CreatorTitleRequest};
 
 static B_CREATORS: &'static [u8] = include_bytes!("../seed/Creator.json");
 static B_SERIES: &'static [u8] = include_bytes!("../seed/Series.json");
@@ -28,6 +30,7 @@ static B_ATTRIBUTIONS: &'static [u8] = include_bytes!("../seed/Attribution.json"
 static B_TITLES: &'static [u8] = include_bytes!("../seed/Title.json");
 static B_GENRES: &'static [u8] = include_bytes!("../seed/Genre.json");
 static B_TITLE_GENRES: &'static [u8] = include_bytes!("../seed/TitleGenre.json");
+static B_CREATOR_TITLES: &'static [u8] = include_bytes!("../seed/CreatorTitle.json");
 
 type IdMap = HashMap<String, i64>;
 
@@ -76,19 +79,27 @@ struct TitleGenreSeed {
     genre_id: String,
 }
 
+#[derive(Serialize, Deserialize, Debug)]
+#[serde(rename_all = "camelCase")]
+struct CreatorTitleSeed {
+    creator_id: String,
+    title_id: String,
+}
+
 // TODO:
 // support passing address as string, env var, arg, default
 
 #[tokio::main]
 async fn main() -> Result<()> {
     let client = reqwest::Client::new();
-    let host = String::from("http://localhost:5000");
-    let creator_ids = seed::<CreatorRequest, Creator>(&client, &host, "creators", B_CREATORS).await?;
-    let series_ids = seed::<SeriesRequest, Series>(&client, &host, "series", B_SERIES).await?;
-    let attribution_ids = seed::<AttributionRequest, Attribution>(&client, &host, "attributions", B_ATTRIBUTIONS).await?;
-    let subseries_ids = seed_subseries(&client, &host, B_SUBSERIES, &attribution_ids, &series_ids).await?;
-    let title_ids = seed_titles(&client, &host, B_TITLES, &series_ids, &subseries_ids).await?;
-    let genre_ids = seed_genres(&client, &host, B_GENRES, &title_ids).await?;
+    let api_root = String::from("http://localhost:5000/api");
+    let creator_ids = seed::<CreatorRequest, Creator>(&client, &api_root, "creators", B_CREATORS).await?;
+    let series_ids = seed::<SeriesRequest, Series>(&client, &api_root, "series", B_SERIES).await?;
+    let attribution_ids = seed::<AttributionRequest, Attribution>(&client, &api_root, "attributions", B_ATTRIBUTIONS).await?;
+    let subseries_ids = seed_subseries(&client, &api_root, B_SUBSERIES, &attribution_ids, &series_ids).await?;
+    let title_ids = seed_titles(&client, &api_root, B_TITLES, &series_ids, &subseries_ids).await?;
+    let genre_ids = seed_genres(&client, &api_root, B_GENRES, &title_ids).await?;
+    let creator_title_ids = seed_creator_titles(&client, &api_root, B_CREATOR_TITLES,).await?;
     Ok(())
 }
 
@@ -237,6 +248,32 @@ async fn seed_subseries(client: &reqwest::Client, host: &String, bytes: &[u8], a
         counter = counter + 1;
     }
     print!("\n");
+    Ok(idmap)
+}
+
+async fn seed_creator_titles(client: &reqwest::Client, host: &String, bytes: &[u8]) -> Result<IdMap> {
+    let idmap: IdMap = HashMap::new();
+    let creator_title_requests: Vec<CreatorTitleSeed> = serde_json::from_slice(B_CREATOR_TITLES)?;
+    let creator_titles_url: String = format!("{}/creator_titles", host);
+
+    print!("\n");
+    let mut counter: usize = 1;
+    let creator_title_requests_len = creator_title_requests.len();
+    for creator_title in creator_title_requests {
+        print!("\rInserting creator titles {} of {}", counter, creator_title_requests_len);
+        let added = client.post(&creator_titles_url)
+            .json(&CreatorTitleRequest {
+                title_id: creator_title.title_id.parse().unwrap(),
+                creator_id: creator_title.creator_id.parse().unwrap(),
+            })
+            .send()
+            .await?
+            .json::<CreatorTitle>()
+            .await?;
+        counter = counter + 1;
+    }
+    print!("\n");
+
     Ok(idmap)
 }
 

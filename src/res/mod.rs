@@ -1,5 +1,5 @@
 use actix_web::{HttpResponse};
-use log::{warn, error};
+use log::{error};
 
 pub fn r404(x: &'static str) -> HttpResponse {
     HttpResponse::NotFound().body(x)

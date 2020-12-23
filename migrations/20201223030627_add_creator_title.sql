@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS creator_titles
+(
+    id                   BIGSERIAL PRIMARY KEY,
+    creator_id         BIGINT NOT NULL REFERENCES creators(id) ON UPDATE CASCADE ON DELETE CASCADE,
+    title_id       BIGINT NOT NULL REFERENCES titles(id) ON UPDATE CASCADE ON DELETE CASCADE
+);
+

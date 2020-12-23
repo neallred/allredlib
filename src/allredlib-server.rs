@@ -9,13 +9,16 @@ use dotenv::dotenv;
 
 mod attribution;
 mod creator;
+mod creator_title;
+mod genre;
 mod res;
 mod series;
 mod subseries;
 mod subseries_attribution;
 mod title;
 mod title_genre;
-mod genre;
+
+include!(concat!(env!("OUT_DIR"), "/generated.rs"));
 
 async fn hi(req: HttpRequest) -> impl Responder {
     let name = req.match_info().get("name").unwrap_or("World");
@@ -43,7 +46,9 @@ async fn main() -> Result<()> {
         .connect(&database_url).await?;
 
     HttpServer::new(move || {
+        let generated = generate();
         App::new()
+            .service(web::scope("/api")
             .data(db_pool.clone())
             .route("/", web::get().to(hi))
             .configure(creator::init)
@@ -54,6 +59,9 @@ async fn main() -> Result<()> {
             .configure(title::init)
             .configure(genre::init)
             .configure(title_genre::init)
+            .configure(creator_title::init)
+            )
+            .service(actix_web_static_files::ResourceFiles::new("/", generated))
     })
     .bind(format!("{}:{}", host, port))?
     .run()

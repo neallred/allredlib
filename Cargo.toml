@@ -10,6 +10,7 @@ default-run = "allredlib-server"
 [dependencies]
 sqlx = { version = "0.4.1", features = [ "runtime-tokio-rustls", "postgres", "chrono", "json" ] }
 actix-web = "3.3.2"
+actix-web-static-files = "3.0"
 dotenv = "0.15.0"
 anyhow = "1.0.28"
 serde = "1.0.106"
@@ -21,6 +22,9 @@ reqwest = { version = "0.10", features = ["json"] }
 env_logger = "0.8.2"
 log = "0.4.11"
 openssl-sys = "*"
+
+[build-dependencies]
+actix-web-static-files = "3.0"
 
 [features]
 # Force openssl-sys to staticly link in the openssl library. Necessary when

@@ -42,7 +42,7 @@ function deps() {
 
 function x() {
   local cmd=$1
-  local cmds="buildseed buildserve checkseed checkserve dbadd dbcreate dbmigrate dbreset dbup deps doc mkseed mkserve seed serve"
+  local cmds="buildseed buildserve checkseed checkserve dbadd dbcli dbcreate dbmigrate dbreset dbup deps doc mkseed mkserve seed serve"
   local tgt_dir="./target/x86_64-unknown-linux-musl/debug"
   case $cmd in
     buildseed)
@@ -59,6 +59,15 @@ function x() {
       ;;
     dbadd)
       sqlx migrate add "${@:2}"
+      ;;
+    dbcli)
+      if command -v cargo >/dev/null 2>&1; then
+        psql -h 127.0.0.1 --password "$ALLREDLIB_DB" "$ALLREDLIB_PGUSER"
+      else
+        echo "install psql, then rerun this command"
+        echo "on Debian, that could look like:"
+        echo "sudo apt update && sudo apt install postgresql-client-common postgresql-client-12"
+      fi
       ;;
     dbcreate)
       sqlx database create

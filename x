@@ -66,7 +66,7 @@ function x() {
       sqlx migrate add "${@:2}"
       ;;
     dbcli)
-      if command -v cargo >/dev/null 2>&1; then
+      if command -v psql >/dev/null 2>&1; then
         psql -h 127.0.0.1 --password "$ALLREDLIB_DB" "$ALLREDLIB_PGUSER"
       else
         echo "install psql, then rerun this command"

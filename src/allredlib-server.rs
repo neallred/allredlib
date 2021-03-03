@@ -17,6 +17,7 @@ mod subseries;
 mod subseries_attribution;
 mod title;
 mod title_genre;
+mod user;
 
 include!(concat!(env!("OUT_DIR"), "/generated.rs"));
 
@@ -60,6 +61,7 @@ async fn main() -> Result<()> {
             .configure(genre::init)
             .configure(title_genre::init)
             .configure(creator_title::init)
+            .configure(user::init)
             )
             .service(actix_web_static_files::ResourceFiles::new("/", generated))
     })

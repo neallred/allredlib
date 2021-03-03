@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS tokens
+(
+  id           BIGSERIAL PRIMARY KEY,
+  token        TEXT NOT NULL,
+  user_id      BIGINT NOT NULL REFERENCES series(id) ON UPDATE CASCADE ON DELETE CASCADE,
+  issued       TIMESTAMP WITH TIME ZONE,
+  UNIQUE(token)
+);
